@@ -24,7 +24,7 @@ http://brythonserver.github.io/ggame/
 for detailed information on ggame.
 
 """
-from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
+from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset, TriangleAsset
 
 # add your code here \/  \/  \/
 red=Color(0xff0000,1.0)
@@ -35,8 +35,8 @@ brown=Color(0x8b4513,1.0)
 thinline=LineStyle(1,brown)
 rectangle=RectangleAsset(500,300,thinline,brown)
 Sprite(rectangle,(650,400))
-thinline=Linestyle(1,black)
-triangle=Triangleasset
+thinline=LineStyle(1,black)
+triangle=TriangleAsset
 # add your code here /\  /\  /\
 
 
