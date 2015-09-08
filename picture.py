@@ -34,7 +34,9 @@ black=Color(0x000000,1.0)
 brown=Color(0x8b4513,1.0)
 thinline=LineStyle(1,brown)
 rectangle=RectangleAsset(500,300,thinline,brown)
-Sprite(rectangle,(750,200))
+Sprite(rectangle,(650,400))
+thinline=Linestyle(1,black)
+triangle=Triangleasset
 # add your code here /\  /\  /\
 
 
