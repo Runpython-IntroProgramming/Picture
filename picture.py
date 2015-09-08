@@ -33,8 +33,8 @@ blue=Color(0x0000ff,1.0)
 black=Color(0x000000,1.0)
 brown=Color(0x8b4513,1.0)
 thinline=LineStyle(1,brown)
-rectangle=RectangleAsset(50,20,thinline,brown)
-Sprite(rectangle,(200,50))
+rectangle=RectangleAsset(500,300,thinline,brown)
+Sprite(rectangle,(750,200))
 # add your code here /\  /\  /\
 
 
