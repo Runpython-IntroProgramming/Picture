@@ -40,12 +40,14 @@ line=LineStyle(3,black)
 rectangle=RectangleAsset(500, 500, line, green)
 eye=CircleAsset(50, line, green)
 mouth=EllipseAsset(150,50,line,red)
+nose=PolygonAsset([(25,0), (50,50), (0,50)], line, blue)
 
 #Sprite
 Sprite(rectangle, (100,100))
 Sprite(eye, (250,200))
 Sprite(eye, (450,200))
 Sprite(mouth, (350,400))
+Sprite(nose, (320,250))
 
 # add your code here /\  /\  /\
 
