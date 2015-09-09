@@ -32,6 +32,7 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+white = Color(0xffffff, 1.0)
 
 #linestyle
 line=LineStyle(3,black)
@@ -41,6 +42,8 @@ rectangle=RectangleAsset(500, 500, line, green)
 eye=CircleAsset(50, line, green)
 mouth=EllipseAsset(150,50,line,red)
 nose=PolygonAsset([(25,0), (50,50), (0,50)], line, blue)
+body=RectangleAsset(100, 300, line, green)
+smalleye=CircleAsset(25, line, white)
 
 #Sprite
 Sprite(rectangle, (100,100))
@@ -48,6 +51,8 @@ Sprite(eye, (250,200))
 Sprite(eye, (450,200))
 Sprite(mouth, (350,400))
 Sprite(nose, (320,250))
+Sprite(body, (300,600))
+Sprite(eye, (250,200))
 
 # add your code here /\  /\  /\
 
