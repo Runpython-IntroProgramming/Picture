@@ -34,7 +34,7 @@ black=Color(0x000000,1.0)
 yellow=Color(0xFF9900, 0.75)
 linea=LineStyle(1,yellow)
 sun=CircleAsset(750,linea,yellow)
-Sprite(sun,(750,800))
+Sprite(sun,(760,800))
 
 # add your code here /\  /\  /\
 
