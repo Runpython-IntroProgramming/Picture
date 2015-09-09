@@ -37,7 +37,13 @@ black = Color(0x000000, 1.0)
 line=LineStyle(3,black)
 
 #graphics asset
-rectangle=RectangleAsset(50, 50, line, green)
+rectangle=RectangleAsset(500, 500, line, green)
+eye=CircleAsset(50, line, green)
+
+#Sprite
+Sprite(rectangle, (100,100))
+Sprite(eye, (200,300))
+Sprite(eye, (400,300))
 
 # add your code here /\  /\  /\
 
