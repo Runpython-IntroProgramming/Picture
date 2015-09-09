@@ -1,6 +1,6 @@
 """
 picture.py
-Author: <your name here>
+Author: Adam Pikielny
 Credit: <list sources used, if any>
 
 Assignment:
@@ -27,7 +27,17 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+# Three primary colors with no transparency (alpha = 1.0)
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
 
+#linestyle
+line=LineStyle(3,black)
+
+#graphics asset
+rectangle=RectangleAsset(50, 50, line, green)
 
 # add your code here /\  /\  /\
 
