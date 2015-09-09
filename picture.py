@@ -60,6 +60,5 @@ Sprite(minieye, (450,200))
 
 # add your code here /\  /\  /\
 
-
 myapp = App()
 myapp.run()
