@@ -32,9 +32,11 @@ green=Color(0x00ff00,1.0)
 blue=Color(0x0000ff,1.0)
 black=Color(0x000000,1.0)
 brown=Color(0x8b4513,1.0)
-thinline=LineStyle(1,brown)
-rectangle=RectangleAsset(500,300,thinline,brown)
-Sprite(rectangle,(650,400))
+linea=LineStyle(1,brown)
+house=RectangleAsset(500,300,linea,brown)
+Sprite(house,(650,400))
+
+
 # add your code here /\  /\  /\
 
 
