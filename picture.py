@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Adam Pikielny
-Credit: <list sources used, if any>
+Credit: Used the tutorial and ggame API documentation
 
 Assignment:
 
@@ -44,6 +44,7 @@ mouth=EllipseAsset(150,50,line,red)
 nose=PolygonAsset([(25,0), (50,50), (0,50)], line, blue)
 body=RectangleAsset(100, 300, line, green)
 smalleye=CircleAsset(25, line, white)
+minieye=CircleAsset(12.5, line, black)
 
 #Sprite
 Sprite(rectangle, (100,100))
@@ -52,7 +53,10 @@ Sprite(eye, (450,200))
 Sprite(mouth, (350,400))
 Sprite(nose, (320,250))
 Sprite(body, (300,600))
-Sprite(eye, (250,200))
+Sprite(smalleye, (250,200))
+Sprite(smalleye, (450,200))
+Sprite(minieye, (250,200))
+Sprite(minieye, (450,200))
 
 # add your code here /\  /\  /\
 
