@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Milo Wilcox
-Credit: https://github.com/olimmilo/Picture/blob/master/picture.py
+Credit: http://www.w3schools.com/tags/ref_colorpicker.asp
 
 Assignment:
 
@@ -29,12 +29,14 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # add your code here \/  \/  \/
 red=Color(0xff0000,1.0)
 green=Color(0x00ff00,1.0)
-blue=Color(0x0000ff,1.0)
+blue=Color(0x006699,1.0)
 black=Color(0x000000,1.0)
 yellow=Color(0xFF9900, 0.75)
 linea=LineStyle(1,yellow)
 sun=CircleAsset(750,linea,yellow)
 Sprite(sun,(760,800))
+lineb=LineStyle(1,blue)
+ocean=
 
 # add your code here /\  /\  /\
 
