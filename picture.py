@@ -39,11 +39,13 @@ line=LineStyle(3,black)
 #graphics asset
 rectangle=RectangleAsset(500, 500, line, green)
 eye=CircleAsset(50, line, green)
+mouth=EllipseAsset(150,50,line,red)
 
 #Sprite
 Sprite(rectangle, (100,100))
-Sprite(eye, (200,300))
-Sprite(eye, (400,300))
+Sprite(eye, (250,200))
+Sprite(eye, (450,200))
+Sprite(mouth, (350,400))
 
 # add your code here /\  /\  /\
 
