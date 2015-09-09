@@ -33,8 +33,8 @@ blue=Color(0x0000ff,1.0)
 black=Color(0x000000,1.0)
 yellow=Color(0xFF9900, 0.75)
 linea=LineStyle(1,yellow)
-sun=CircleAsset(1000,linea,yellow)
-Sprite(sun(500,1000))
+sun=CircleAsset(750,linea,yellow)
+Sprite(sun,(700,800))
 
 # add your code here /\  /\  /\
 
