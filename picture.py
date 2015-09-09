@@ -32,11 +32,19 @@ green=Color(0x00ff00,1.0)
 blue=Color(0x0000ff,1.0)
 black=Color(0x000000,1.0)
 brown=Color(0x8b4513,1.0)
-linea=Color(0.5, blue)
-sky=RectangleAsset(2000,0)
-linec=LineStyle(1,brown)
-house=RectangleAsset(500,300,linec,brown)
+linea=LineStyle(0.5, blue)
+sky=RectangleAsset(2000,350, linea, blue)
+Sprite=(sky (0,0))
+lineb=LineStyle(0.5,brown)
+ground=RectangleAsset(2000,1000,lineb,brown)
+Sprite=(ground,(0,350))
+linec=LineStyle(1, red)
+roof=CircleAsset(250, red)
+Sprite=(roof, (650,400))
+lined=LineStyle(1,brown)
+house=RectangleAsset(500,300,lined,brown)
 Sprite(house,(650,400))
+
 
 
 # add your code here /\  /\  /\
