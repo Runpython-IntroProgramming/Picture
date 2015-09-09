@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Milo Wilcox
-Credit: None
+Credit: https://github.com/olimmilo/Picture/blob/master/picture.py
 
 Assignment:
 
@@ -31,21 +31,10 @@ red=Color(0xff0000,1.0)
 green=Color(0x00ff00,1.0)
 blue=Color(0x0000ff,1.0)
 black=Color(0x000000,1.0)
-brown=Color(0x8b4513,1.0)
-linea=LineStyle(1, blue)
-sky=RectangleAsset(500,350, linea, blue)
-Sprite=(sky, (0,0))
-lineb=LineStyle(1,brown)
-ground=RectangleAsset(500,350,lineb,brown)
-Sprite=(ground,(0,350))
-linec=LineStyle(1, red)
-roof=CircleAsset(250,linec, red)
-Sprite=(roof, (650,400))
-lined=LineStyle(1,brown)
-house=RectangleAsset(500,300,lined,brown)
-Sprite=(house, (650,400))
-
-
+yellow=Color(0xFF9900, 0.75)
+linea=LineStyle(1,yellow)
+sun=CircleAsset(1000,linea,yellow)
+Sprite(sun(500,1000))
 
 # add your code here /\  /\  /\
 
