@@ -46,11 +46,11 @@ linec=LineStyle(1,lbrown)
 hull=PolygonAsset([(703,680),(723,640),(643,640),(663,680),(703,680)],linec,lbrown)
 Sprite(hull)
 lined=LineStyle(1,dbrown)
-mast=RectangleAsset(7,30,lined,dbrown)
-Sprite=(mast,(756,610))
+mast=RectangleAsset(2,50,lined,dbrown)
+Sprite(mast,(756,610))
 linee=LineStyle(1,white)
 sail=EllipseAsset(50,5,linee,white)
-Sprite=(sail,(783,620))
+Sprite(sail,(783,620))
 
 #add location
 # add your code here /\  /\  /\
