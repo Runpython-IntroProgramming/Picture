@@ -16,7 +16,7 @@ Use at least:
 6. One (or more) PolygonAsset objects.
 
 See:
-https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/TUTORIAL:-Displaying-Graphics
+http://www.w3schools.com/tags/ref_colorpicker.asp
 for general information on how to use ggame.
 
 See:
@@ -29,19 +29,16 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # add your code here \/  \/  \/
 red=Color(0xff0000,1.0)
 green=Color(0x00ff00,1.0)
-blue=Color(0x006699,0.5)
-black=Color(0x000000,1.0)
-brown= #insert brown hexadecimal here
+blue=Color(0x006699,1.0)
+black=Color(0x331A00,1.0)
 yellow=Color(0xFF9900, 0.75)
 linea=LineStyle(1,yellow)
 sun=CircleAsset(750,linea,yellow)
 Sprite(sun,(760,800))
 lineb=LineStyle(1,blue)
 ocean=RectangleAsset(1500,200,lineb,blue) 
-Sprite(ocean,(0,1000)
-linec=(1,black)
-hull+PolygonAsset(760,100,500,760,linec,brown) #fix size
-Sprite(hull,()) #add location
+Sprite(ocean,(0,500))
+#add location
 # add your code here /\  /\  /\
 
 
