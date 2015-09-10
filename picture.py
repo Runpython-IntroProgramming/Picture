@@ -55,7 +55,10 @@ Sprite(hull)
 linef=LineStyle(2,black)
 cloud=CircleAsset(20,linef,white)
 Sprite(cloud,(70,70))
-Sprite(cloud,(50,60))
+Sprite(cloud,(70,70))
+Sprite(cloud,(70,70))
+Sprite(cloud,(70,70))
+Sprite(cloud,(70,70))
 #add location
 # add your code here /\  /\  /\
 
