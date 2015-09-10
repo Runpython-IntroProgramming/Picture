@@ -32,9 +32,11 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
-
-circle=CircleAsset(200,thinline,green)
-sp=Sprite(circle, (50,50))
+Circle=CircleAsset(100, thinline, black)
+circle=CircleAsset(385,thinline,green)
+sp=Sprite(circle, (900,395))
+Sprite(Circle, (700, 395))
+Sprite(Circle, (1100, 395))
 # add your code here /\  /\  /\
 
 
