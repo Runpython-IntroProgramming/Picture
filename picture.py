@@ -53,8 +53,9 @@ linec=LineStyle(1,lbrown)
 hull=PolygonAsset([(703,680),(723,640),(643,640),(663,680),(703,680)],linec,lbrown)
 Sprite(hull)
 linef=LineStyle(2,black)
-cloud=CircleAsset(60,linef,white)
+cloud=CircleAsset(20,linef,white)
 Sprite(cloud,(70,70))
+Sprite(cloud,(50,60))
 #add location
 # add your code here /\  /\  /\
 
