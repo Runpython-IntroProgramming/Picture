@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Sarah Dunbar
+Credit: none
 
 Assignment:
 
@@ -27,6 +27,17 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+bluedark = Color(0x0000ff, 1.0)
+bluelight = Color(0x0000ff, 0.5)
+greendark = Color(0x00ff00, 1.0)
+greenlight = Color(0x00ff00, 0.5)
+black = Color(0x000000, 1.0)
+grey = Color(0x000000, 0.5)
+white = Color(0x000000, 0.0)
+
+thinlineblack = LineStyle (1, black)
+thinlinegrey = LineStyle (1, grey)
+
 
 
 # add your code here /\  /\  /\
