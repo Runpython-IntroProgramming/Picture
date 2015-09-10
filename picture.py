@@ -35,6 +35,7 @@ blue=Color(0x006699,1.0)
 lbrown=Color(0x996633,1.0)
 dbrown=Color(0x1F0F00,1.0)
 yellow=Color(0xFF9900,0.75)
+white=Color(0xFFFFFF,1.0)
 linea=LineStyle(1,yellow)
 sun=CircleAsset(600,linea,yellow)
 Sprite(sun,(592,600))
@@ -46,7 +47,10 @@ hull=PolygonAsset([(703,680),(723,640),(643,640),(663,680),(703,680)],linec,lbro
 Sprite(hull)
 lined=LineStyle(1,dbrown)
 mast=RectangleAsset(7,30,lined,dbrown)
-sprite=((756,610),mast)
+Sprite=(mast,(756,610))
+linee=LineStyle(1,white)
+sail=EllipseAsset(50,5,linee,white)
+Sprite(sail,(783,620))
 
 #add location
 # add your code here /\  /\  /\
