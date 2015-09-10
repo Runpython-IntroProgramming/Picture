@@ -33,11 +33,12 @@ blue=Color(0x006699,1.0)
 black=Color(0x331A00,1.0)
 yellow=Color(0xFF9900, 0.75)
 linea=LineStyle(1,yellow)
-sun=CircleAsset(750,linea,yellow)
-Sprite(sun,(760,800))
+sun=CircleAsset(600,linea,yellow)
+Sprite(sun,(590,600))
 lineb=LineStyle(1,blue)
 ocean=RectangleAsset(1500,200,lineb,blue) 
 Sprite(ocean,(0,500))
+
 #add location
 # add your code here /\  /\  /\
 
