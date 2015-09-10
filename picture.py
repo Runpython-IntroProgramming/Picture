@@ -54,11 +54,13 @@ hull=PolygonAsset([(703,680),(723,640),(643,640),(663,680),(703,680)],linec,lbro
 Sprite(hull)
 linef=LineStyle(2,black)
 cloud=CircleAsset(20,linef,white)
-Sprite(cloud,(70,70))
-Sprite(cloud,(70,70))
-Sprite(cloud,(70,70))
-Sprite(cloud,(70,70))
-Sprite(cloud,(70,70))
+Sprite(cloud,(60,70))
+Sprite(cloud,(60,50))
+Sprite(cloud,(50,60))
+Sprite(cloud,(70,60))
+Sprite(cloud,(60,60))
+line=PolygonAsset([(60,95),(50,200),(60,95)],linef,black)
+Sprite(line)
 #add location
 # add your code here /\  /\  /\
 
