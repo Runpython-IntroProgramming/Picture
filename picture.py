@@ -33,7 +33,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 
-circle=CircleAsset(50,thinline,green)
+circle=CircleAsset(200,thinline,green)
 sp=Sprite(circle, (50,50))
 # add your code here /\  /\  /\
 
