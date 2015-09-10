@@ -27,17 +27,21 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+x=1366
+y=768
 red=Color(0xff0000,1.0)
 green=Color(0x00ff00,1.0)
 blue=Color(0x006699,1.0)
-black=Color(0x331A00,1.0)
+lbrown=Color(0x996633,1.0)
+dbrown=Color(0x1F0FF00,1.0)
 yellow=Color(0xFF9900, 0.75)
 linea=LineStyle(1,yellow)
 sun=CircleAsset(600,linea,yellow)
-Sprite(sun,(590,600))
+Sprite(sun,(592,600))
 lineb=LineStyle(1,blue)
 ocean=RectangleAsset(1500,200,lineb,blue) 
 Sprite(ocean,(0,500))
+linec=(1,black)
 
 #add location
 # add your code here /\  /\  /\
