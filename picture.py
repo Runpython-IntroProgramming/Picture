@@ -50,7 +50,7 @@ mast=RectangleAsset(7,30,lined,dbrown)
 Sprite=(mast,(756,610))
 linee=LineStyle(1,white)
 sail=EllipseAsset(50,5,linee,white)
-Sprite(sail,(783,620))
+Sprite=(sail,(783,620))
 
 #add location
 # add your code here /\  /\  /\
