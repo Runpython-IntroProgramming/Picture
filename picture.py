@@ -47,6 +47,7 @@ Sprite(hull)
 lined=LineStyle(1,dbrown)
 mast=RectangleAsset(7,30,lined,dbrown)
 sprite=((756,610),mast)
+
 #add location
 # add your code here /\  /\  /\
 
