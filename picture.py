@@ -34,7 +34,7 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 
 circle=CircleAsset(50,thinline,green)
-Sprite=(circle, (50,50))
+sp=Sprite(circle, (50,50))
 # add your code here /\  /\  /\
 
 
