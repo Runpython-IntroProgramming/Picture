@@ -42,16 +42,15 @@ Sprite(sun,(592,600))
 lineb=LineStyle(1,blue)
 ocean=RectangleAsset(1500,500,lineb,blue) 
 Sprite(ocean,(0,500))
+linee=LineStyle(1,white)
+sail=EllipseAsset(50,5,linee,white)
+Sprite(sail,(680,605))
+lined=LineStyle(1,dbrown)
+mast=RectangleAsset(2,50,lined,dbrown)
+Sprite(mast,(680,595))
 linec=LineStyle(1,lbrown)
 hull=PolygonAsset([(703,680),(723,640),(643,640),(663,680),(703,680)],linec,lbrown)
 Sprite(hull)
-lined=LineStyle(1,dbrown)
-mast=RectangleAsset(2,50,lined,dbrown)
-Sprite(mast,(756,610))
-linee=LineStyle(1,white)
-sail=EllipseAsset(50,5,linee,white)
-Sprite(sail,(783,620))
-
 #add location
 # add your code here /\  /\  /\
 
