@@ -61,6 +61,9 @@ Sprite(cloud,(70,60))
 Sprite(cloud,(60,60))
 line=PolygonAsset([(60,95),(50,200),(60,95)],linef,black)
 Sprite(line)
+text=("That's a cloud")
+ctext=TextAsset(text)
+Sprite(ctext,(20,205))
 #add location
 # add your code here /\  /\  /\
 
