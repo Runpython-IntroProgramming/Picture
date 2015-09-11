@@ -41,7 +41,7 @@ Sprite(circle1, (700, 395))
 Sprite(circle1, (1100, 395))
 Sprite(ellipse, (900, 630))
 Sprite(eyebrow, (600, 250))
-Sprite(eyebrow, (900, 250))
+Sprite(eyebrow, (1000, 250))
 # add your code here /\  /\  /\
 
 
