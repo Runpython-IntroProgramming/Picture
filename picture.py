@@ -40,7 +40,7 @@ sp=Sprite(circle, (900,395))
 Sprite(circle1, (700, 395))
 Sprite(circle1, (1100, 395))
 Sprite(ellipse, (900, 630))
-Sprite(eyebrow, (600, 175))
+Sprite(eyebrow, (600, 190))
 # add your code here /\  /\  /\
 
 
