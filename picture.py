@@ -65,7 +65,7 @@ circle1 = CircleAsset(200, thickline, green)
 
 
 Sprite(rectangle1)
-Sprite(circle1, (300, 300))
+Sprite(circle1, (80, 80))
 #Sprite()
 #Sprite()
 #Sprite()
