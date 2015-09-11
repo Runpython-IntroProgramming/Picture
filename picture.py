@@ -67,6 +67,13 @@ Sprite(windowline3)
 
 windowline4 = PolygonAsset ([(299, 200), (300, 200), (299, 300), (300, 300)], thinline, black)
 Sprite(windowline4)
+
+
+
+
+
+
+
 # add your code here /\  /\  /\
 
 
