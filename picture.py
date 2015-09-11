@@ -33,6 +33,10 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
+thickline = LineStyle(2, black)
+blueline = LineStyle(1, blue)
+redline = LineStyle(1, red)
+greenline = LineStyle(1, green)
 
 rectangle = RectangleAsset(50, 20, thinline, red)
 circle = CircleAsset(200, thinline, green)
@@ -41,6 +45,16 @@ circle = CircleAsset(200, thinline, green)
 
 Sprite(rectangle, (300, 450))
 Sprite(circle, (400, 30))
+#Sprite()
+#Sprite()
+#Sprite()
+#Sprite()
+#Sprite()
+#Sprite()
+#Sprite()
+#Sprite()
+#Sprite()
+
 # add your code here /\  /\  /\
 
 
