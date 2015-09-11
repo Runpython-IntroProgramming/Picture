@@ -38,7 +38,8 @@ circle=CircleAsset(385,thinline,green)
 iris=CircleAsset(40, thinline2, blue)
 ellipse=EllipseAsset(200,75, thinline, red)
 eyebrow=RectangleAsset(200, 20, thinline, black)
-poly=PolygonAsset([(680, 410), (715, 410), (700, 380), (680, 410)], thinline, red)
+poly=PolygonAsset([(685, 410), (715, 410), (700, 380), (685, 410)], thinline, red)
+poly2=PolygonAsset([(1085, 410), (1115, 410), (1100, 380), 1085, 410)], thinline, red) 
 sp=Sprite(circle, (900,395))
 Sprite(circle1, (700, 395))
 Sprite(circle1, (1100, 395))
@@ -48,6 +49,7 @@ Sprite(eyebrow, (1000, 250))
 Sprite(iris, (700, 395))
 Sprite(iris, (1100, 395))
 Sprite(poly, (0,0))
+Sprite(poly2, (0,0,))
 # add your code here /\  /\  /\
 
 
