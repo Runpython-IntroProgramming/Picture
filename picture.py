@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Sarah Dunbar
-Credit: none
+Credit: http://cloford.com/resources/colours/500col.htm
 
 Assignment:
 
