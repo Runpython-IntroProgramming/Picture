@@ -44,11 +44,11 @@ Pupil= EllipseAsset(5,75,thinline,black)
 Mouth= EllipseAsset(75,20,thinline,red)
 ring1= CircleAsset(30, thinline, white)
 ring2= CircleAsset(40, thinline, gold)
-face2= CircleAsset(
-Geyes= CircleAsset(
-Gmouth= EllipseAsset(
-WierdEar= PolygonAsset(
-Ground= RectangleAsset(
+face2= CircleAsset(100, thinline, pale)
+Geyes= CircleAsset(35, thinline, blue)
+Gmouth= EllipseAsset(100,30,thinline, red)
+WierdEar= PolygonAsset([(0,0),(50,50), (100,50)], 
+Ground= RectangleAsset(1000,5,thinline, green)
 
 """ Frodo"""
 Sprite(face, (400,400))
@@ -62,9 +62,9 @@ Sprite(ring1, (900,150))
 
 """gollum"""
 Sprite(face2, (850,850))
-Sprite(Geyes, (750,
-Sprite(Geyes, (850,
-Sprite(Gmouth, (800,
+Sprite(Geyes, (750, 700))
+Sprite(Geyes, (850, 700))
+Sprite(Gmouth, (800, 900))
 Sprite(Nose, (750, 600))
 
 Sprite(Ground,
