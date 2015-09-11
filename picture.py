@@ -38,7 +38,7 @@ ellipse=EllipseAsset(200,50, thinline, red)
 sp=Sprite(circle, (900,395))
 Sprite(circle1, (700, 395))
 Sprite(circle1, (1100, 395))
-Sprite(ellipse, (900, 700))
+Sprite(ellipse, (900, 630))
 # add your code here /\  /\  /\
 
 
