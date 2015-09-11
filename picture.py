@@ -31,9 +31,11 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+thinline2=LineStyle(1, blue)
 thinline = LineStyle(1, black)
 circle1=CircleAsset(100, thinline, black)
 circle=CircleAsset(385,thinline,green)
+iris=CircleAsset(50, thinline2, blue)
 ellipse=EllipseAsset(200,75, thinline, red)
 eyebrow=RectangleAsset(200, 20, thinline, black)
 sp=Sprite(circle, (900,395))
@@ -42,6 +44,8 @@ Sprite(circle1, (1100, 395))
 Sprite(ellipse, (900, 630))
 Sprite(eyebrow, (600, 250))
 Sprite(eyebrow, (1000, 250))
+Sprite(iris, (900, 395))
+
 # add your code here /\  /\  /\
 
 
