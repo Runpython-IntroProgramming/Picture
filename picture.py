@@ -57,7 +57,7 @@ Sprite(poly2, (0,0,))
 Sprite(tri1, (0,0))
 Sprite(tri2, (0,0))
 Sprite(tri3, (0,0))
-Sprite(tri4, (0,))
+Sprite(tri4, (0,0))
 # add your code here /\  /\  /\
 
 
