@@ -34,11 +34,13 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 circle1=CircleAsset(100, thinline, black)
 circle=CircleAsset(385,thinline,green)
-ellipse=EllipseAsset(200,50, thinline, red)
+ellipse=EllipseAsset(200,75, thinline, red)
+eyebrow=RectangleAsset(200, 20, thinline, black)
 sp=Sprite(circle, (900,395))
 Sprite(circle1, (700, 395))
 Sprite(circle1, (1100, 395))
 Sprite(ellipse, (900, 630))
+Sprite(eyebrow, (600, 150))
 # add your code here /\  /\  /\
 
 
