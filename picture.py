@@ -43,7 +43,8 @@ Sprite(door, (225, 400))
 SecondHouse = RectangleAsset (275, 275, thinline, black)
 Sprite(SecondHouse, (400, 225))
 
-DoorHandle = CircleAsse
+DoorHandle = CircleAsset (3, thinline, red)
+Sprite(DoorHandle, (260, 445))
 
 
 # add your code here /\  /\  /\
