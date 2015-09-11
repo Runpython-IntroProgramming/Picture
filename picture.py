@@ -43,7 +43,7 @@ fishscale = Color(0xEE1289, 1.0)
 thinlineblack = LineStyle (1, black)
 thinlinegrey = LineStyle (1, grey)
 
-fishhead = EllipseAsset (
+fishhead = EllipseAsset (35, 15, thinlinegrey, fishscale)
 fishtail = PolygonAsset ([(0, 0), (0, 30), (50, 15), (0, 0)], thinlinegrey, fishscale)
 ocean = RectangleAsset (600, 1600, thinlineblack, water)
 land = EllipseAsset (100, 75, thinlinegrey, grassy)
@@ -55,6 +55,7 @@ ship2 = PolygonAsset ([(0, 0), (100, 0), (75, 20), (25, 20), (0, 0)], thinlinebl
 personhead = EllipseAsset (5, 5, thinlinegrey, skinwhite)
 personbody = RectangleAsset (10, 15, thinlineblack, tunic)
 
+Sprite (fishhead, (385, 662.5))
 Sprite (fishtail, (300, 650))
 Sprite (land, (650, 500))
 Sprite(ocean, (200, 500))
