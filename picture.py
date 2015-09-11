@@ -52,6 +52,9 @@ Sprite(roof1)
 roof2 = PolygonAsset ([(400, 300), (400, 175), (680, 300)],  thinline, green)
 Sprite(roof2)
 
+windowellipse = EllipseAsset (75, 30, thinline, red)
+Sprite(windowellipse, (250, 250))
+
 # add your code here /\  /\  /\
 
 
