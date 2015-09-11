@@ -40,16 +40,16 @@ Sprite(MainHouse, (100,175))
 door = RectangleAsset (50, 100, thinline, blue)
 Sprite(door, (225, 400))
 
-SecondHouse = RectangleAsset (275, 275, thinline, black)
-Sprite(SecondHouse, (400, 225))
+SecondHouse = RectangleAsset (275, 250, thinline, black)
+Sprite(SecondHouse, (400, 250))
 
 DoorHandle = CircleAsset (3, thinline, red)
 Sprite(DoorHandle, (260, 445))
  
-roof1 = PolygonAsset ([(100, 175), (250, 100), (400, 175)],  thinline, black)
+roof1 = PolygonAsset ([(100, 175), (250, 100), (400, 175)],  thinline, green)
 Sprite(roof1)
 
-roof2 = PolygonAsset ([(400, 225), (400, 175), (675, 225)],  thinline, black)
+roof2 = PolygonAsset ([(400, 250), (400, 175), (675, 250)],  thinline, green)
 Sprite(roof2)
 
 # add your code here /\  /\  /\
