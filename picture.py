@@ -45,7 +45,9 @@ Sprite(SecondHouse, (400, 225))
 
 DoorHandle = CircleAsset (3, thinline, red)
 Sprite(DoorHandle, (260, 445))
-
+ 
+a = PolygonAsset ((100, 325), (200, 100), (400, 325),  thinline, green)
+Sprite(a)
 
 # add your code here /\  /\  /\
 
