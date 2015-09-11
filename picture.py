@@ -47,13 +47,13 @@ ring2= CircleAsset(40, thinline, gold)
 face2= CircleAsset(150, thinline, pale)
 Geyes= CircleAsset(35, thinline, blue)
 Gmouth= EllipseAsset(100,30,thinline, red)
-Nose= PolygonAsset([(100,0),(50,50), (100,50)], thinline, skin)
+Nose= PolygonAsset([(120,0),(50,50), (100,50)], thinline, skin)
 Ground= RectangleAsset(1100,5,thinline, green)
 
 """ Frodo"""
 Sprite(face, (300,250))
 Sprite(Pupil, (450,180))
-Sprite(Pupil, (350,180))
+Sprite(Pupil, (350,200))
 Sprite(Mouth, (350,400))
 
 """ring"""
@@ -63,9 +63,9 @@ Sprite(ring1, (650,100))
 """gollum"""
 Sprite(face2, (850,350))
 Sprite(Geyes, (750, 250))
-Sprite(Geyes, (850, 250))
+Sprite(Geyes, (850, 270))
 Sprite(Gmouth, (800, 400))
-Sprite(Nose, (750, 400))
+Sprite(Nose, (630, 300))
 
 Sprite(Ground,(0,500))
 # add your code here /\  /\  /\
