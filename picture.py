@@ -62,8 +62,11 @@ Sprite(windowline)
 windowline2 = PolygonAsset ([(200, 225), (201, 225), (200, 275), (201, 275)], thinline, black)
 Sprite(windowline2)
 
-windowline3 = PolygonAsset ([(220, 225), (221, 225), (220, 275), (221, 275)], thinline, black)
+windowline3 = PolygonAsset ([(249, 200), (250, 200), (249, 300), (250, 300)], thinline, black)
 Sprite(windowline3)
+
+windowline4 = PolygonAsset ([(299, 200), (300, 200), (299, 300), (300, 300)], thinline, black)
+Sprite(windowline4)
 # add your code here /\  /\  /\
 
 
