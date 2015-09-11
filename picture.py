@@ -39,38 +39,35 @@ pale=
 
 thinline = LineStyle(2, black)
 
-face= CircleAsset(300, thinline, skin)
-Pupil= EllipseAsset(10,100,thinline,black)
-Mouth= EllipseAsset(100,30,thinline,red)
-ring1= CircleAsset(50, thinline, white)
-ring2= CircleAsset(60, thinline, gold)
-face2= CircleAsset
-Geyes= EllipseAsset
-Gpupil= 
-Gmouth= 
-WierdEar= PolygonAsset
-Ground= RectangleAsset
+face= CircleAsset(200, thinline, skin)
+Pupil= EllipseAsset(5,75,thinline,black)
+Mouth= EllipseAsset(75,20,thinline,red)
+ring1= CircleAsset(30, thinline, white)
+ring2= CircleAsset(40, thinline, gold)
+face2= CircleAsset(
+Geyes= CircleAsset(
+Gmouth= EllipseAsset(
+WierdEar= PolygonAsset(
+Ground= RectangleAsset(
 
 """ Frodo"""
 Sprite(face, (400,400))
 Sprite(Pupil, (600,350))
 Sprite(Pupil, (500,350))
 Sprite(Mouth, (550,600))
-Sprite(WierdEar,
 
 """ring"""
 Sprite(ring2, (900,150))
 Sprite(ring1, (900,150))
 
 """gollum"""
-sprite(face2,
-sprite(Geyes,
-sprite(Geyes,
-sprite(Gpupil,
-sprite(Gpupil,
-sprite(Gmouth,
+Sprite(face2, (850,850))
+Sprite(Geyes,
+Sprite(Geyes,
+Sprite(Gmouth,
+Sprite(Nose,
 
-sprite(Ground
+Sprite(Ground,
 # add your code here /\  /\  /\
 
 
