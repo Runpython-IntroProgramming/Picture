@@ -59,7 +59,7 @@ Sprite(hexagon, (400,300))
 Sprite(triangle, (725,500))
 Sprite(triangle, (300, 300))
 Sprite(shape4, (700, 450))
-Sprite(shape5, (600, 750))
+Sprite(shape5, (600, 600))
 
 
 # add your code here /\  /\  /\
