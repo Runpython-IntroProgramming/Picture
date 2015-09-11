@@ -59,7 +59,11 @@ Sprite(windowellipse, (250, 250))
 windowline = PolygonAsset ([(175, 251), (175, 250), (325, 251), (325, 250)], thinline, black)
 Sprite(windowline)
 
-windowline2 = PolygonA
+windowline2 = PolygonAsset ([(200, 225), (201, 225), (200, 275), (201, 275)], thinline, black)
+Sprite(windowline2)
+
+windowline3 = PolygonAsset ([(220, 225), (221, 225), (220, 275), (221, 275)], thinline, black)
+Sprite(windowline3)
 # add your code here /\  /\  /\
 
 
