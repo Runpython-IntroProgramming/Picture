@@ -47,7 +47,7 @@ rectangle1 = RectangleAsset(25000, 15000, thinline, red)
 #rectangle3 = RectangleAsset(50, 20, thinline, red)
 #rectangle4 = RectangleAsset(50, 20, thinline, red)
 
-#circle1 = CircleAsset(200, thinline, green)
+circle1 = CircleAsset(200, thinline, green)
 #circle2 = CircleAsset(200, thinline, green)
 #circle3 = CircleAsset(200, thinline, green)
 #circle4 = CircleAsset(200, thinline, green)
@@ -65,7 +65,7 @@ rectangle1 = RectangleAsset(25000, 15000, thinline, red)
 
 
 Sprite(rectangle1)
-#Sprite(circle1, (400, 30))
+Sprite(circle1, (400, 30))
 #Sprite()
 #Sprite()
 #Sprite()
