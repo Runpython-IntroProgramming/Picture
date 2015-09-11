@@ -33,10 +33,15 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 Sawyer = Color(0x9e0000, 1.0)
 thinline=LineStyle(1, black)
+elipse=EllipseAsset(200, 75, thinline, Sawyer)
+Sprite(elipse, (600, 700))
 rectangle=RectangleAsset(100200, 500, thinline, blue)
 Sprite(rectangle, (10, 700))
-elipse=EllipseAsset(200, 75, thinline, Sawyer)
-Sprite(elipse, (200, 600))
+mast=RectangleAsset(15, 450, thinline, Sawyer)
+Sprite(mast, (600, 200))
+sail=PolygonAsset([(600,200), (850,150), (600,100) (600,200)], thinline, red)
+Sprite(sail, (0,0))
+
 
 # add your code here /\  /\  /\
 
