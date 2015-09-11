@@ -33,9 +33,9 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 white= Color(0xfffffff, 1.0)
 gold= Color(0xffd700, 1.0)
-skin= Color(0xffefdb, 1.0)
-blue=
-pale=
+skin= Color(0xffeead, 1.0)
+blue= Color(0x63ace5, 1.0)
+pale= Color(0xa2a2a2, 1.0)
 
 thinline = LineStyle(2, black)
 
@@ -62,10 +62,10 @@ Sprite(ring1, (900,150))
 
 """gollum"""
 Sprite(face2, (850,850))
-Sprite(Geyes,
-Sprite(Geyes,
-Sprite(Gmouth,
-Sprite(Nose,
+Sprite(Geyes, (750,
+Sprite(Geyes, (850,
+Sprite(Gmouth, (800,
+Sprite(Nose, (750, 600))
 
 Sprite(Ground,
 # add your code here /\  /\  /\
