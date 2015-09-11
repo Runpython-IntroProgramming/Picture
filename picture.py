@@ -31,6 +31,7 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+aqua = Color(0x00ffff, .70)
 
 thinline = LineStyle(1, black)
 
@@ -52,9 +53,13 @@ Sprite(roof1)
 roof2 = PolygonAsset ([(400, 300), (400, 175), (680, 300)],  thinline, green)
 Sprite(roof2)
 
-windowellipse = EllipseAsset (75, 30, thinline, red)
+windowellipse = EllipseAsset (75, 30, thinline, aqua)
 Sprite(windowellipse, (250, 250))
 
+windowline = PolygonAsset ([(175, 251), (175, 250), (325, 251), (325, 250)], thinline, black)
+Sprite(windowline)
+
+windowline2 = PolygonA
 # add your code here /\  /\  /\
 
 
