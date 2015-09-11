@@ -45,13 +45,17 @@ shape2 = CircleAsset(100, thinline, greenT)
 shape3 = CircleAsset(100, thinline, blueT)
 oval = EllipseAsset(50, 80, thinline, greenT)
 rectangle = RectangleAsset(120, 120, thinline, redT)
-hexagon = PolygonAsset(
+hexagon = PolygonAsset([(50,0), (150,0), (200,85), (150,170), (50,170), (0,85)], thinline, blueT)
+triangle = PolygonAsset([(0,85), (100,85), (50,0)], thinline, greenT)
 
 Sprite(shape1, (650,300))
 Sprite(shape2, (575,430))
 Sprite(shape3, (725,430))
 Sprite(oval, (725,250))
 Sprite(rectangle, (575,500))
+Sprite(hexagon, (400,300))
+Sprite(triangle, (725,500))
+Sprite(triangle, (300, 300))
 
 # add your code here /\  /\  /\
 
