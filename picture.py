@@ -41,6 +41,7 @@ eyebrow=RectangleAsset(200, 20, thinline, black)
 poly=PolygonAsset([(685, 410), (715, 410), (700, 380), (685, 410)], thinline, red)
 poly2=PolygonAsset([(1085, 410), (1115, 410), (1100, 380), (1085, 410)], thinline, red) 
 tri1=PolygonAsset([(800, 230), (1000, 230), (900, 70), (800, 230)], thinline, blue)
+tri2=PolygonAsset([(800, 230), (900, 230), (850, 150), (800, 230)], thinline, black)
 sp=Sprite(circle, (900,395))
 Sprite(circle1, (700, 395))
 Sprite(circle1, (1100, 395))
@@ -52,6 +53,7 @@ Sprite(iris, (1100, 395))
 Sprite(poly, (0,0))
 Sprite(poly2, (0,0,))
 Sprite(tri1, (0,0))
+Sprite(tri2, (0,0))
 # add your code here /\  /\  /\
 
 
