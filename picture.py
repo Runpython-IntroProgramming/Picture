@@ -32,11 +32,13 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
-Circle=CircleAsset(100, thinline, black)
+circle1=CircleAsset(100, thinline, black)
 circle=CircleAsset(385,thinline,green)
+ellipse=EllipseAsset(200,50, thinline, red)
 sp=Sprite(circle, (900,395))
-Sprite(Circle, (700, 395))
-Sprite(Circle, (1100, 395))
+Sprite(circle1, (700, 395))
+Sprite(circle1, (1100, 395))
+Sprite(ellipse, (900, 700))
 # add your code here /\  /\  /\
 
 
