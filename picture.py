@@ -42,7 +42,7 @@ greenline = LineStyle(1, green)
 
 
 
-rectangle1 = RectangleAsset(50, 20, thinline, red)
+rectangle1 = RectangleAsset(2400, 1200, thinline, red)
 #rectangle2 = RectangleAsset(50, 20, thinline, red)
 #rectangle3 = RectangleAsset(50, 20, thinline, red)
 #rectangle4 = RectangleAsset(50, 20, thinline, red)
@@ -64,8 +64,8 @@ polygon1 = PolygonAsset()
 
 
 
-Sprite(rectangle, (300, 450))
-Sprite(circle, (400, 30))
+Sprite(rectangle1)
+Sprite(circle1, (400, 30))
 #Sprite()
 #Sprite()
 #Sprite()
