@@ -46,10 +46,10 @@ Sprite(SecondHouse, (400, 300))
 DoorHandle = CircleAsset (3, thinline, red)
 Sprite(DoorHandle, (260, 445))
  
-roof1 = PolygonAsset ([(100, 175), (250, 110), (400, 175)],  thinline, green)
+roof1 = PolygonAsset ([(95, 175), (250, 110), (400, 175)],  thinline, green)
 Sprite(roof1)
 
-roof2 = PolygonAsset ([(400, 300), (400, 175), (675, 300)],  thinline, green)
+roof2 = PolygonAsset ([(400, 300), (400, 175), (680, 300)],  thinline, green)
 Sprite(roof2)
 
 # add your code here /\  /\  /\
