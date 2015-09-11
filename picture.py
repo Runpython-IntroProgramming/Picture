@@ -40,13 +40,16 @@ thinline = LineStyle(1, black)
 thickline = LineStyle(4, black)
 noline = LineStyle(1, white)
 
-rectangle1 = RectangleAsset(600, 400, thinline, yellow)
+rectangle1 = RectangleAsset(600, 400, thinline, skin)
 rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse1 = EllipseAsset(200, 250, thinline, skin)
 triangle = PolygonAsset([(450, 500), (550, 550), (550, 400), (450,500)], thinline, green)
 circle = CircleAsset(50, noline, hair)
+ellipse2 = EllipseAsset(100, 50, thinline, red)
 
-Sprite(ellipse, (550,300))
+#head
+Sprite(ellipse1, (550,300))
+#hair
 Sprite(circle, (550,100))
 Sprite(circle, (475,100))
 Sprite(circle, (625,125))
@@ -56,7 +59,8 @@ Sprite(circle, (550,100))
 Sprite(circle, (550,100))
 Sprite(circle, (550,100))
 #Sprite(rectangle2, (250, 250))
-Sprite(ellipse,(500, 500))
+#mouth
+Sprite(ellipse2,(550, 450))
 #Sprite(triangle)
 
 # add your code here /\  /\  /\
