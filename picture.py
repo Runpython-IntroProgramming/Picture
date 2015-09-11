@@ -47,6 +47,7 @@ Sprite(eyebrow, (600, 250))
 Sprite(eyebrow, (1000, 250))
 Sprite(iris, (700, 395))
 Sprite(iris, (1100, 395))
+Sprite(poly(700, 395))
 # add your code here /\  /\  /\
 
 
