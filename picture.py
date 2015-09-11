@@ -37,8 +37,9 @@ thinline = LineStyle(1, black)
 rectangle = RectangleAsset(50, 20, thinline, red)
 circle = CircleAsset(200, thinline, green)
 #ellipse = EllipseAsset()
+#polygon = PolygonAsser()
 
-#Sprite(rectangle, (300, 450))
+Sprite(rectangle, (300, 450))
 Sprite(circle, (400, 30))
 # add your code here /\  /\  /\
 
