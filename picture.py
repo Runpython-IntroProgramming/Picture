@@ -39,7 +39,7 @@ rectangle=RectangleAsset(100200, 500, thinline, blue)
 Sprite(rectangle, (10, 700))
 mast=RectangleAsset(15, 450, thinline, Sawyer)
 Sprite(mast, (600, 200))
-sail=PolygonAsset([(600,200), (850,150), (600,100) (600,200)], thinline, red)
+sail=PolygonAsset([(600,200), (850,150), (600,100), (600,200)], thinline, red)
 Sprite(sail, (0,0))
 
 
