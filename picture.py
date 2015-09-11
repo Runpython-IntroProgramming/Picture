@@ -27,7 +27,16 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
-
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
+Sawyer = Color(0x9e0000, 1.0)
+thinline=LineStyle(1, black)
+rectangle=RectangleAsset(100200, 500, thinline, blue)
+Sprite(rectangle, (10, 700))
+elipse=EllipseAsset(200, 75, thinline, Sawyer)
+Sprite(elipse, (200, 600))
 
 # add your code here /\  /\  /\
 
