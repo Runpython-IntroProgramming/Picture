@@ -44,7 +44,7 @@ rectangle1 = RectangleAsset(600, 400, thinline, skin)
 rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse1 = EllipseAsset(200, 250, thinline, skin)
 triangle = PolygonAsset([(450, 500), (550, 550), (550, 400), (450,500)], thinline, green)
-circle = CircleAsset(50, noline, hair)
+circle = CircleAsset(50, thinline, hair)
 ellipse2 = EllipseAsset(100, 50, thinline, red)
 
 #head
@@ -52,7 +52,7 @@ Sprite(ellipse1, (550,300))
 #hair
 Sprite(circle, (550, 90))
 Sprite(circle, (490,100))
-Sprite(circle, (625,125))
+Sprite(circle, (620,95))
 #Sprite(circle, (550,100))
 #Sprite(circle, (550,100))
 #Sprite(circle, (550,100))
