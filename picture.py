@@ -34,7 +34,8 @@ blue = Color(0x0000ff, 1.0)
 skin = Color(0xffffee,1.0)
 black = Color(0x000000, 1.0)
 white = Color(0xffffff, 1.0)
-hair = Color(0x551000, 1.0)
+hair1 = Color(0x551000, 1.0)
+hair2 = Color(0x551010, 1.0)
 
 thinline = LineStyle(1, black)
 thickline = LineStyle(4, black)
@@ -44,13 +45,13 @@ rectangle1 = RectangleAsset(600, 400, thinline, skin)
 rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse1 = EllipseAsset(200, 250, thinline, skin)
 triangle = PolygonAsset([(450, 500), (550, 550), (550, 400), (450,500)], thinline, green)
-circle = CircleAsset(50, thinline, hair)
+circle1 = CircleAsset(50, thinline, hair1)
+circle2 = CircleAsstet(55, thinine, hair2)
 ellipse2 = EllipseAsset(100, 50, thinline, red)
 
 #head
 Sprite(ellipse1, (550,300))
 #hair
-Sprite(circle, (550, 90))
 Sprite(circle, (490,100))
 Sprite(circle, (620,95))
 #Sprite(circle, (550,100))
@@ -58,6 +59,8 @@ Sprite(circle, (620,95))
 #Sprite(circle, (550,100))
 #Sprite(circle, (550,100))
 #Sprite(circle, (550,100))
+#dark hair
+Sprite(circle, (550, 90)) #
 #Sprite(rectangle2, (250, 250))
 #mouth
 Sprite(ellipse2,(550, 450))
