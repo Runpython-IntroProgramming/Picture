@@ -46,21 +46,22 @@ rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse1 = EllipseAsset(200, 250, thinline, skin)
 triangle = PolygonAsset([(450, 500), (550, 550), (550, 400), (450,500)], thinline, green)
 circle1 = CircleAsset(50, thinline, hair1)
-circle2 = CircleAsstet(55, thinine, hair2)
+circle2 = CircleAsset(55, thinline, hair2)
 ellipse2 = EllipseAsset(100, 50, thinline, red)
 
 #head
 Sprite(ellipse1, (550,300))
 #hair
-Sprite(circle, (490,100))
-Sprite(circle, (620,95))
-#Sprite(circle, (550,100))
+Sprite(circle2, (490, 100)) #left1
+Sprite(circle2, (620, 95)) #right1
 #Sprite(circle, (550,100))
 #Sprite(circle, (550,100))
 #Sprite(circle, (550,100))
 #Sprite(circle, (550,100))
 #dark hair
-Sprite(circle, (550, 90)) #
+Sprite(circle1, (550, 90)) #top
+Sprite(circle1, (440, 130)) #left2
+Sprite(circle1, (680, 130)) #right2
 #Sprite(rectangle2, (250, 250))
 #mouth
 Sprite(ellipse2,(550, 450))
