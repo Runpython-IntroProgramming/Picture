@@ -36,25 +36,28 @@ seafoam = Color(0x58FAD0, 1.0)
 navy = Color(0x08088A, 1.0)
 gray = Color(0xA4A4A4, 1.0)
 darkgray = Color(0x585858, 1.0)
+white = Color(0xffffff, 1.0)
 
-# Define a line style that is a thin (1 pixel) wide black line
+
 thinline = LineStyle(1, black)
 mediumline = LineStyle(3, black)
 thickline = LineStyle(5, black)
 redline = LineStyle(3, red)
 noline = LineStyle(0, red)
-# A graphics asset that represents a rectangle
+
 rectangle = RectangleAsset(500, 200, noline, navy)
 circle = CircleAsset(30, noline, darkgray)
-road = RectangleAsset(2000, 100, noline, gray)
-cartriangle1 = PolygonAsset(
+road = RectangleAsset(2000, 30, noline, gray)
+cartriangle1 = PolygonAsset([(0, 0), (0, 125), (175, 0)], noline, white)
+cartriangle2 = PolygonAsset([(0, 100), (0, 0), (-30, 0)], noline, white)
 
 # Now display a rectangle
 Sprite(rectangle, (100, 200))
-Sprite(circle, (500, 400))
-Sprite(circle, (200, 400))
+Sprite(circle, (475, 400))
+Sprite(circle, (225, 400))
 Sprite(road, (0, 430))
-
+Sprite(cartriangle1, (100, 200))
+Sprite(cartriangle2, (600, 200))
 
 myapp = App()
 myapp.run()
