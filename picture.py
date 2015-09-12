@@ -55,13 +55,14 @@ Sprite(ellipse1, (550,300))
 Sprite(circle2, (490, 100)) #left1
 Sprite(circle2, (620, 95)) #right1
 Sprite(circle2, (390, 170)) #left3
-Sprite(circle2, (715, 170)) #right3
+Sprite(circle2, (715, 180)) #right3
 #Sprite(circle, (550,100))
 #Sprite(circle, (550,100))
 #dark hair
 Sprite(circle1, (550, 90)) #top
 Sprite(circle1, (440, 130)) #left2
 Sprite(circle1, (680, 130)) #right2
+Sprite(circle1, (400, 200)) #left4
 #Sprite(rectangle2, (250, 250))
 #mouth
 Sprite(ellipse2,(550, 450))
