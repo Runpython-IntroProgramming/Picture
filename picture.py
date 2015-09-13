@@ -29,7 +29,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # add your code here \/  \/  \/
 
 red= Color(0xff0000, 1.0)
-green = Color(0x00ff00, 0.5)
+pink = Color(0xff55f0, 1.0)
 blue = Color(0x0000ff, 1.0)
 skin = Color(0xffffee,1.0)
 black = Color(0x000000, 1.0)
@@ -44,7 +44,7 @@ noline = LineStyle(0, white)
 rectangle1 = RectangleAsset(600, 400, thinline, skin)
 rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse1 = EllipseAsset(200, 250, thinline, skin)
-triangle = PolygonAsset([(450, 500), (550, 550), (550, 400), (450,500)], thinline, green)
+triangle = PolygonAsset([(440, 300), (550, 550), (550, 400), (440,300)], thinline, pink)
 circle1 = CircleAsset(50, thinline, hair1)
 circle2 = CircleAsset(55, thinline, hair2)
 ellipse2 = EllipseAsset(100, 50, thinline, red)
@@ -57,7 +57,7 @@ Sprite(circle2, (500, 20)) #2left1
 Sprite(circle2, (600, 25)) #2right1
 Sprite(circle2, (720, 90)) #2right3
 #level 2 dark hair
-Sprite(circle1, (370, 120)) #2left4
+Sprite(circle1, (350, 130)) #2left4
 Sprite(circle1, (420, 40)) #2left2
 Sprite(circle1, (550, 10)) #2top
 Sprite(circle1, (670, 50)) #2right2
@@ -73,6 +73,9 @@ Sprite(circle1, (440, 130)) #left2
 Sprite(circle1, (680, 130)) #right2
 Sprite(circle1, (350, 220)) #left4
 Sprite(circle1, (750, 230)) #right4
+#eyes
+Sprite(triangle)
+
 
 #Sprite(rectangle2, (250, 250))
 #mouth
