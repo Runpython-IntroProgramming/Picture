@@ -65,10 +65,11 @@ Sprite(circle1, (750, 230)) #right4
 #level 2 light hair
 Sprite(circle2, (390, 80)) #2left3
 Sprite(circle2, (500, 20)) #2left1
+Sprite(circle2, (600, 30)) #2right1
 #level 2 dark hair
 Sprite(circle1, (370, 140)) #2left4
 Sprite(circle1, (420, 40)) #2left2
-Sprite(circle1, (
+Sprite(circle1, (550, 10)) #2top
     
 #Sprite(rectangle2, (250, 250))
 #mouth
