@@ -43,11 +43,20 @@ noline = LineStyle(0, white)
 
 corner1= 440
 corner2= 250
+corner3= 250
+corner4= 250
+corner5= 250
+corner6= 250
+corner7= 250
+corner8= 250
 
 rectangle1 = RectangleAsset(600, 400, thinline, skin)
 rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse1 = EllipseAsset(200, 250, thinline, skin)
-triangle = PolygonAsset([(corner1, corner2), (460, 230), (460, 270), (corner1, corner2)], thinline, pink)
+triangle1 = PolygonAsset([(corner1, corner2), (460, 230), (460, 270), (corner1, corner2)], thinline, pink)
+triangle2 = PolygonAsset([(corner3, corner4), (460, 230), (460, 270), (corner3, corner4)], thinline, pink)
+triangle3 = PolygonAsset([(corner5, corner6), (460, 230), (460, 270), (corner5, corner6)], thinline, pink)
+triangle4 = PolygonAsset([(corner7, corner8), (460, 230), (460, 270), (corner7, corner8)], thinline, pink)
 circle1 = CircleAsset(50, thinline, hair1)
 circle2 = CircleAsset(55, thinline, hair2)
 ellipse2 = EllipseAsset(100, 50, thinline, red)
