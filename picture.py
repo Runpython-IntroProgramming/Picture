@@ -43,9 +43,9 @@ noline = LineStyle(0, white)
 
 corner1= 440
 corner2= 250
-corner3= 250
+corner3= 480
 corner4= 250
-corner5= 250
+corner5= 550
 corner6= 250
 corner7= 250
 corner8= 250
