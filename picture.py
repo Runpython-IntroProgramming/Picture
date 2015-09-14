@@ -32,7 +32,8 @@ black= Color(0x000000, 1.0)
 redroof= Color(0xff0000, 1.0)
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(500, 500, thinline, white)
-Sprite(rectangle, (1000,250))
+Sprite(rectangle, (550,250))
+triangle= TriangleAsset([(
 
 # add your code here /\  /\  /\
 
