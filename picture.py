@@ -41,17 +41,11 @@ thinline = LineStyle(1, black)
 thickline = LineStyle(4, black)
 noline = LineStyle(0, white)
 
-corner1= 435
-corner2= 250
-corner3= 560
-corner4= 250
-
-
 rectangle1 = RectangleAsset(600, 400, thinline, skin)
 rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse1 = EllipseAsset(200, 250, thinline, skin)
-triangle1 = PolygonAsset([(corner1, corner2), (460, 230), (460, 270), (corner1, corner2)], thinline, white)
-triangle2 = PolygonAsset([(corner3, corner4), (460, 230), (460, 270), (corner3, corner4)], thinline, pink)
+triangle1 = PolygonAsset([(430, 250), (460, 230), (460, 270)], thinline, white)
+triangle2 = PolygonAsset([(650, 250), (620, 230), (620, 270)], thinline, white)
 circle1 = CircleAsset(50, thinline, hair1)
 circle2 = CircleAsset(55, thinline, hair2)
 circle3 = CircleAsset(22, thinline, blue)
