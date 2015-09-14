@@ -30,7 +30,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 red= Color(0xff0000, 1.0)
 pink = Color(0xff55f0, 1.0)
-blue = Color(0x1010ff, 1.0)
+blue = Color(0x5090ff, 1.0)
 skin = Color(0xffffee,1.0)
 black = Color(0x000000, 1.0)
 white = Color(0xffffff, 1.0)
@@ -53,10 +53,8 @@ corner8= 250
 rectangle1 = RectangleAsset(600, 400, thinline, skin)
 rectangle2 = RectangleAsset(100, 100, thinline, white)
 ellipse1 = EllipseAsset(200, 250, thinline, skin)
-triangle1 = PolygonAsset([(corner1, corner2), (460, 230), (460, 270), (corner1, corner2)], thinline, pink)
+triangle1 = PolygonAsset([(corner1, corner2), (460, 230), (460, 270), (corner1, corner2)], thinline, white)
 triangle2 = PolygonAsset([(corner3, corner4), (460, 230), (460, 270), (corner3, corner4)], thinline, pink)
-triangle3 = PolygonAsset([(corner5, corner6), (460, 230), (460, 270), (corner5, corner6)], thinline, pink)
-triangle4 = PolygonAsset([(corner7, corner8), (460, 230), (460, 270), (corner7, corner8)], thinline, pink)
 circle1 = CircleAsset(50, thinline, hair1)
 circle2 = CircleAsset(55, thinline, hair2)
 circle3 = CircleAsset(20, thinline, blue)
@@ -88,7 +86,7 @@ Sprite(circle1, (350, 220)) #left4
 Sprite(circle1, (750, 230)) #right4
 #eyes
 Sprite(triangle1)
-Sprite(circle3, (450, 250))
+Sprite(circle3, (470, 250))
 
 
 #Sprite(rectangle2, (250, 250))
