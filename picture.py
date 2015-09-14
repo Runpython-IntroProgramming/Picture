@@ -80,7 +80,7 @@ Sprite(triangle1)
 Sprite(circle3, (470, 250))
 #right eye
 Sprite(triangle2)
-Sprite(circle3, (500, 250))
+Sprite(circle3, (600, 250))
 
 #Sprite(rectangle2, (250, 250))
 #mouth
