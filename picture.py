@@ -1,7 +1,7 @@
 """
 picture.py
 Author: <Suhan Gui>
-Credit: <http://www.color-hex.com/>
+Credit: <None>
 
 Assignment: Picture
 
