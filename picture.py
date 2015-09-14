@@ -35,8 +35,8 @@ rectanglehouse = RectangleAsset(500, 500, thinline, white)
 Sprite(rectanglehouse, (550,250))
 triangle= PolygonAsset([(550, 250), (1050, 250), (800, 50)], thinline, redroof)
 Sprite(triangle)
-chimney= RectangleAsset(50, 100, thinline, redroof)
-Sprite(chimney, (550, 250))
+chimney= RectangleAsset(80, 150, thinline, redroof)
+Sprite(chimney, (550, 100))
 
 # add your code here /\  /\  /\
 
