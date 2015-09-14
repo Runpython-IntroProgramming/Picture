@@ -37,6 +37,8 @@ navy = Color(0x08088A, 1.0)
 gray = Color(0xA4A4A4, 1.0)
 darkgray = Color(0x585858, 1.0)
 white = Color(0xffffff, 1.0)
+translucent = Color(0xffffff, 0.5)
+yellow = Color(0xF7FE2E, 1.0)
 
 
 thinline = LineStyle(1, black)
@@ -51,19 +53,30 @@ circle = CircleAsset(30, noline, darkgray)
 road = RectangleAsset(2000, 30, noline, gray)
 cartriangle1 = PolygonAsset([(0, 0), (0, 125), (175, 0)], noline, white)
 cartriangle2 = PolygonAsset([(0, 100), (0, 0), (-30, 0)], noline, white)
+window1 = EllipseAsset(55, 35, noline, translucent)
+lights = RectangleAsset(10, 30, noline, yellow)
 
 # Now display a rectangle
+
+#Car one
 Sprite(rectangle, (100, 200))
 Sprite(circle, (475, 400))
 Sprite(circle, (225, 400))
 Sprite(cartriangle1, (100, 200))
 Sprite(cartriangle2, (600, 200))
+Sprite(window1, (330, 275))
+Sprite(window1, (495, 275))
+Sprite(lights, (100, 360))
 
+#Car two
 Sprite(rectangle2, (700, 200))
 Sprite(circle, (1075, 400))
 Sprite(circle, (825, 400))
 Sprite(cartriangle1, (700, 200))
 Sprite(cartriangle2, (1200, 200))
+Sprite(window1, (930, 275))
+Sprite(window1, (1095, 275))
+Sprite(lights, (700, 360))
 
 Sprite(road, (0, 430))
 
