@@ -8,11 +8,11 @@ Assignment:
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
 Use at least:
-x 1. Three different Color objects.    
+1. Three different Color objects.    
 2. Ten different Sprite objects.
-x 3. One (or more) RectangleAsset objects.
-x 4. One (or more) CircleAsset objects.
-x 5. One (or more) EllipseAsset objects.
+3. One (or more) RectangleAsset objects.
+4. One (or more) CircleAsset objects.
+5. One (or more) EllipseAsset objects.
 6. One (or more) PolygonAsset objects.
 
 See:
@@ -60,8 +60,8 @@ ellipse2 = EllipseAsset(20,40, blueline, black)
 #ellipse4 = EllipseAsset()
 
 polygon1 = PolygonAsset([(900,350), (850, 400), (950, 400)],thickline, red)
-#polygon2 = PolygonAsset()
-#polygon3 = PolygonAsset()
+polygon2 = PolygonAsset([(600,200), (550, 225), (550, 225)],thinline, red)
+#polygon3 = PolygonAsset([(900,350), (850, 400), (950, 400)],thinline, red)
 #polygon4 = PolygonAsset()
 
 
@@ -75,7 +75,7 @@ Sprite(rectangle2, (570, 500))
 Sprite(polygon1)
 Sprite(circle3, (600,300))
 Sprite(circle4, (1200,300))
-#Sprite()
+Sprite(polygon2)
 #Sprite()
 
 
