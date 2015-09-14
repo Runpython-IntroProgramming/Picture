@@ -47,6 +47,7 @@ ellipse1 = EllipseAsset(200, 250, thinline, skin)
 triangle1 = PolygonAsset([(430, 250), (460, 230), (460, 270)], thickline, white)
 triangle2 = PolygonAsset([(650, 250), (620, 230), (620, 270)], thickline, white)
 triangle3 = PolygonAsset([(520, 250), (480, 230), (480, 270)], thickline, white)
+#move this to the other eye
 triangle3 = PolygonAsset([(520, 250), (480, 230), (480, 270)], thickline, white)
 circle1 = CircleAsset(50, thinline, hair1)
 circle2 = CircleAsset(55, thinline, hair2)
