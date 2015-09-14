@@ -27,14 +27,12 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
-from ggame import App
-myapp = App()
-myapp.run()
-from ggame import App, Color, LineStyle, Sprite
-from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 white= Color(0xffffff, 1.0)
+black= Color(0x000000, 1.0)
+redroof= Color(0xff0000, 1.0)
 thinline = LineStyle(1, black)
-rectangle = RectangleAsset(200, 200, thinline, white)
+rectangle = RectangleAsset(500, 500, thinline, white)
+Sprite(rectangle, (1000,250))
 
 # add your code here /\  /\  /\
 
