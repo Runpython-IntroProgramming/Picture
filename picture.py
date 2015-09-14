@@ -33,12 +33,14 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+yellow = Color(0xe5e500, 1.0)
 
 thinline = LineStyle(1, black)
 thickline = LineStyle(5, black)
 blueline = LineStyle(1, blue)
 redline = LineStyle(1, red)
 greenline = LineStyle(1, green)
+yellowline = LineStyle(1, yellow)
 
 
 
@@ -47,12 +49,12 @@ rectangle1 = RectangleAsset(25000, 15000, thinline, red)
 #rectangle3 = RectangleAsset(50, 20, thinline, red)
 #rectangle4 = RectangleAsset(50, 20, thinline, red)
 
-circle1 = CircleAsset(200, thickline, green)
+circle1 = CircleAsset(100, thickline, yellow)
 #circle2 = CircleAsset(200, thinline, green)
 #circle3 = CircleAsset(200, thinline, green)
 #circle4 = CircleAsset(200, thinline, green)
 
-#ellipse1 = EllipseAsset()
+ellipse1 = EllipseAsset(20,40, blueline, black)
 #ellipse2 = EllipseAsset()
 #ellipse3 = EllipseAsset()
 #ellipse4 = EllipseAsset()
@@ -65,8 +67,8 @@ circle1 = CircleAsset(200, thickline, green)
 
 
 Sprite(rectangle1)
-Sprite(circle1, (80, 80))
-#Sprite()
+Sprite(circle1, (400, 300))
+Sprite(ellipse1, (300, 320))
 #Sprite()
 #Sprite()
 #Sprite()
