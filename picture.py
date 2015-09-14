@@ -50,17 +50,14 @@ Gmouth= EllipseAsset(100,30,thinline, red)
 Nose= PolygonAsset([(120,0),(50,50), (100,50)], thinline, skin)
 Ground= RectangleAsset(1100,5,thinline, green)
 
-""" Frodo"""
 Sprite(face, (300,250))
 Sprite(Pupil, (450,180))
 Sprite(Pupil, (350,200))
 Sprite(Mouth, (350,400))
 
-"""ring"""
 Sprite(ring2, (650,100))
 Sprite(ring1, (650,100))
 
-"""gollum"""
 Sprite(face2, (850,350))
 Sprite(Geyes, (750, 250))
 Sprite(Geyes, (850, 270))
