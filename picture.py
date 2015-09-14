@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Sawyer Hanlon
-Credit: <list sources used, if any>
+Credit: J.C.
 
 Assignment:
 
