@@ -27,6 +27,8 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+white= Color(0xffffff, 1.0)
+thinline = LineStyle(1, black)
 
 
 # add your code here /\  /\  /\
