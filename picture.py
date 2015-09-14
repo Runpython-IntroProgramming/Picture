@@ -60,7 +60,7 @@ ellipse2 = EllipseAsset(20,40, blueline, black)
 #ellipse4 = EllipseAsset()
 
 polygon1 = PolygonAsset([(900,350), (850, 400), (950, 400)],thickline, red)
-polygon2 = PolygonAsset([(600,200), (550, 225), (550, 225)],thinline, red)
+#polygon2 = PolygonAsset()
 #polygon3 = PolygonAsset()
 #polygon4 = PolygonAsset()
 
