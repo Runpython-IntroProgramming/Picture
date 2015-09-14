@@ -55,6 +55,7 @@ cartriangle1 = PolygonAsset([(0, 0), (0, 125), (175, 0)], noline, white)
 cartriangle2 = PolygonAsset([(0, 100), (0, 0), (-30, 0)], noline, white)
 window1 = EllipseAsset(55, 35, noline, translucent)
 lights = RectangleAsset(10, 30, noline, yellow)
+winshield = RectangleAsset(30, 130, noline, black)
 
 # Now display a rectangle
 
