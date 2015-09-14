@@ -61,7 +61,7 @@ ellipse2 = EllipseAsset(20,40, blueline, black)
 
 polygon1 = PolygonAsset([(900,350), (850, 400), (950, 400)],thickline, red)
 polygon2 = PolygonAsset([(600,200), (550, 225), (550, 225)],thinline, red)
-#polygon3 = PolygonAsset([(900,350), (850, 400), (950, 400)],thinline, red)
+#polygon3 = PolygonAsset()
 #polygon4 = PolygonAsset()
 
 
@@ -75,7 +75,7 @@ Sprite(rectangle2, (570, 500))
 Sprite(polygon1)
 Sprite(circle3, (600,300))
 Sprite(circle4, (1200,300))
-Sprite(polygon2)
+#Sprite()
 #Sprite()
 
 
