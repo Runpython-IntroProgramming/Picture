@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <Suhan Gui>
-Credit: <None>
+Author: Suhan Gui
+Credit: None
 
 Assignment: Picture
 
