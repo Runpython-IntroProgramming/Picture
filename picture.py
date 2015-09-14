@@ -48,7 +48,9 @@ Sprite(windowvertline1, (659, 300))
 windowvertline2= RectangleAsset(7, 125, thinline, white)
 Sprite(windowvertline2, (934, 300))
 windowhorizline1= RectangleAsset(125, 7, thinline, white)
-Sprite(windowhorizline1, (459, 600))
+Sprite(windowhorizline1, (600, 359))
+windowhorizline2= RectangleAsset(125, 7, thinline, white)
+Sprite(windowhorizline1, (875, 359))
 
 
 # add your code here /\  /\  /\
