@@ -34,6 +34,7 @@ black = Color(0x000000, 1.0)
 Sawyer = Color(0x9e0000, 1.0)
 yellow = Color(0Xffff00, 1.0)
 background = Color(0xafeeee, 1.0)
+clouds = Color(0xf5f5f5, 1.0)
 
 thinline=LineStyle(1, black)
 
@@ -63,6 +64,9 @@ Sprite(float2, (0,0))
 
 float3=CircleAsset(25, thinline, green)
 Sprite(float3, (80, 600))
+
+cloud=EllipseAsset(200, 75, thinline, clouds)
+Sprite(cloud, (200, 100))
 
 
 
