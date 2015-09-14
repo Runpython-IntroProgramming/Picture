@@ -68,6 +68,8 @@ Sprite(cartriangle2, (600, 200))
 Sprite(window1, (330, 275))
 Sprite(window1, (495, 275))
 Sprite(lights, (100, 360))
+s1 = Sprite(windshield, (110, 200))
+s1.rotation = -0.4
 
 #Car two
 Sprite(rectangle2, (700, 200))
