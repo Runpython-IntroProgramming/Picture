@@ -27,9 +27,14 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+from ggame import App
+myapp = App()
+myapp.run()
+from ggame import App, Color, LineStyle, Sprite
+from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 white= Color(0xffffff, 1.0)
 thinline = LineStyle(1, black)
-
+rectangle = RectangleAsset(200, 200, thinline, white)
 
 # add your code here /\  /\  /\
 
