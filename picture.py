@@ -31,10 +31,12 @@ white= Color(0xffffff, 1.0)
 black= Color(0x000000, 1.0)
 redroof= Color(0xff0000, 1.0)
 thinline = LineStyle(1, black)
-rectangle = RectangleAsset(500, 500, thinline, white)
-Sprite(rectangle, (550,250))
+rectanglehouse = RectangleAsset(500, 500, thinline, white)
+Sprite(rectanglehouse, (550,250))
 triangle= PolygonAsset([(550, 250), (1050, 250), (800, 50)], thinline, redroof)
-Sprite(triangle) 
+Sprite(triangle)
+chimney= RectangleAsset(50, 100, thinline, redroof)
+
 
 # add your code here /\  /\  /\
 
