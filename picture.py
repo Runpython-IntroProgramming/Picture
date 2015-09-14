@@ -43,6 +43,12 @@ window1= RectangleAsset(125, 125, thinline, windowblue)
 Sprite(window1, (600, 300))
 window2= RectangleAsset(125, 125, thinline, windowblue)
 Sprite(window2, (875, 300))
+windowvertline1= RectangleAsset(7, 125, thinline, white)
+Sprite(windowvertline1, (659, 300))
+windowvertline2= RectangleAsset(7, 125, thinline, white)
+Sprite(windowvertline2, (934, 300))
+
+
 # add your code here /\  /\  /\
 
 
