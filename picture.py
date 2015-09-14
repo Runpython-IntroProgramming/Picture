@@ -1,6 +1,6 @@
 """
 picture.py
-Author: <your name here>
+Author: Sawyer Hanlon
 Credit: <list sources used, if any>
 
 Assignment:
