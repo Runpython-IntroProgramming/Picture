@@ -56,6 +56,7 @@ cartriangle2 = PolygonAsset([(0, 100), (0, 0), (-30, 0)], noline, white)
 window1 = EllipseAsset(55, 35, noline, translucent)
 lights = RectangleAsset(10, 30, noline, yellow)
 windshield = RectangleAsset(30, 140, noline, translucent)
+handle = RectangleAsset(20, 5, noline, white)
 
 # Now display a rectangle
 
@@ -70,6 +71,8 @@ Sprite(window1, (495, 275))
 Sprite(lights, (100, 360))
 s1 = Sprite(windshield, (237, 220))
 s1.rotation = -0.9
+Sprite(handle, (320, 325))
+Sprite(handle, (485, 325))
 
 #Car two
 Sprite(rectangle2, (700, 200))
@@ -82,6 +85,8 @@ Sprite(window1, (1095, 275))
 Sprite(lights, (700, 360))
 s2 = Sprite(windshield, (837, 220))
 s2.rotation = -0.9
+Sprite(handle, (920, 325))
+Sprite(handle, (1085, 325))
 
 Sprite(road, (0, 430))
 
