@@ -85,7 +85,6 @@ Sprite(circle3, (500, 250))
 #Sprite(rectangle2, (250, 250))
 #mouth
 Sprite(ellipse2,(550, 450))
-#Sprite(triangle)
 
 # add your code here /\  /\  /\
 
