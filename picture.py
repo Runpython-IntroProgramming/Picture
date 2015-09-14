@@ -38,7 +38,7 @@ thinline=LineStyle(1, black)
 
 elipse=EllipseAsset(200, 75, thinline, Sawyer)
 Sprite(elipse, (600, 700))
-bouy=ElipseAsset(75, 14, thinline, red)
+float=EllipseAsset(75, 14, thinline, red)
 Sprite(float, (80, 500))
 rectangle=RectangleAsset(100200, 500, thinline, blue)
 Sprite(rectangle, (10, 700))
@@ -49,7 +49,7 @@ Sprite(sail, (0,0))
 sun=CircleAsset(80, thinline, yellow)
 Sprite(sun, (900, 20))
 float=ElipseAsset(75, 14, thinline, red)
-Sprite(bouy, 
+
 
 
 # add your code here /\  /\  /\
