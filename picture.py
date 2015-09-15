@@ -46,7 +46,7 @@ yellowline = LineStyle(1, yellow)
 
 rectangle1 = RectangleAsset(25000, 15000, thinline, blue)
 rectangle2 = RectangleAsset(700, 20, blueline, green)
-rectangle3 = RectangleAsset(60, 20, thinline, red)
+rectangle3 = RectangleAsset(90, 18, thinline, red)
 #rectangle4 = RectangleAsset(50, 20, thinline, red)
 
 circle1 = CircleAsset(100, thickline, yellow)
@@ -75,8 +75,8 @@ Sprite(rectangle2, (570, 500))
 Sprite(polygon1)
 Sprite(circle3, (600,300))
 Sprite(circle4, (1200,300))
-Sprite(rectangle3, (570, 180))
-Sprite(rectangle3, (1170, 180))
+Sprite(rectangle3, (555, 170))
+Sprite(rectangle3, (1155, 170))
 
 
 
