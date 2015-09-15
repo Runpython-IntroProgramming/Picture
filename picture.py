@@ -52,7 +52,7 @@ sailboat = PolygonAsset ([(0, 0), (50, 25), (0, 50), (0, 0)], thinlinegrey, whit
 roof1 = PolygonAsset ([(25, 0), (50, 50), (0, 50), (25, 0)], thinlinegrey, brown)
 ship = PolygonAsset ([(0, 0), (100, 0), (75, 20), (25, 20), (0, 0)], thinlineblack, makebrown)
 ship2 = PolygonAsset ([(0, 0), (100, 0), (75, 20), (25, 20), (0, 0)], thinlineblack, makebrown2)
-personhead = EllipseAsset (5, 5, thinlinegrey, skinwhite)
+personhead = CircleAsset (5, thinlinegrey, skinwhite)
 personbody = RectangleAsset (10, 15, thinlineblack, tunic)
 
 Sprite (fishhead, (385, 662.5))
