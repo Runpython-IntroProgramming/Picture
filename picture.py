@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Sarah Dunbar
+Credit: http://cloford.com/resources/colours/500col.htm
 
 Assignment:
 
@@ -27,6 +27,45 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+makebrown = Color(0xff0000, 1.0)
+plum = Color(0xcc00ff, 1.0)
+water = Color(0x0000ff, 0.5)
+grassy = Color(0xeeff00, 1.0)
+makebrown2 = Color(0x00ff00, 0.5)
+black = Color(0x000000, 1.0)
+grey = Color(0x000000, 0.5)
+white = Color(0x000000, 0.0)
+brown = Color(0xA0522D, 1.0)
+skinwhite = Color(0xFFE7BA, 1.0)
+tunic = Color(0x872657, 1.0)
+fishscale = Color(0xEE1289, 1.0)
+
+thinlineblack = LineStyle (1, black)
+thinlinegrey = LineStyle (1, grey)
+
+fishhead = EllipseAsset (35, 15, thinlinegrey, fishscale)
+fishtail = PolygonAsset ([(0, 0), (0, 30), (50, 15), (0, 0)], thinlinegrey, fishscale)
+ocean = RectangleAsset (600, 1600, thinlineblack, water)
+land = EllipseAsset (100, 75, thinlinegrey, grassy)
+house1 = RectangleAsset (50, 50, thinlineblack, plum)
+sailboat = PolygonAsset ([(0, 0), (50, 25), (0, 50), (0, 0)], thinlinegrey, white)
+roof1 = PolygonAsset ([(25, 0), (50, 50), (0, 50), (25, 0)], thinlinegrey, brown)
+ship = PolygonAsset ([(0, 0), (100, 0), (75, 20), (25, 20), (0, 0)], thinlineblack, makebrown)
+ship2 = PolygonAsset ([(0, 0), (100, 0), (75, 20), (25, 20), (0, 0)], thinlineblack, makebrown2)
+personhead = CircleAsset (5, thinlinegrey, skinwhite)
+personbody = RectangleAsset (10, 15, thinlineblack, tunic)
+
+Sprite (fishhead, (385, 662.5))
+Sprite (fishtail, (300, 650))
+Sprite (land, (650, 500))
+Sprite(ocean, (200, 500))
+Sprite(house1, (650, 400))
+Sprite(roof1, (650, 350))
+Sprite(ship, (400, 480))
+Sprite(ship2, (400, 480))
+Sprite(sailboat, (450, 430))
+Sprite(personbody, (420, 465))
+Sprite(personhead, (425, 458))
 
 
 # add your code here /\  /\  /\
