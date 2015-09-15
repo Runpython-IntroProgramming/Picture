@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Ryan Kynor
-Credit: <list sources used, if any>
+Credit: none
 
 Assignment:
 
