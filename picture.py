@@ -75,8 +75,8 @@ Sprite(rectangle2, (570, 500))
 Sprite(polygon1)
 Sprite(circle3, (600,300))
 Sprite(circle4, (1200,300))
-Sprite(rectangle3, (600, 250))
-Sprite(rectangle3, (1200, 250))
+Sprite(rectangle3, (570, 275))
+Sprite(rectangle3, (1170, 275))
 
 
 
