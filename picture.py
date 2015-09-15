@@ -63,6 +63,8 @@ Sprite(smoke, (555, 58))
 Sprite(smoke, (555, 40))
 Sprite(smoke, (540, 40))
 Sprite(smoke, (500, 60))
+Sprite(smoke, (480, 40))
+Sprite(smoke, (465, 70))
 
 
 # add your code here /\  /\  /\
