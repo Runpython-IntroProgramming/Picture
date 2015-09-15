@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Anoushka Alavilli
+Credit: html website, Sarah Dunbar, Dina
 
 Assignment:
 
@@ -31,8 +31,10 @@ white= Color(0xffffff, 1.0)
 black= Color(0x000000, 1.0)
 blackroof= Color(0x000000, 1.0)
 redchimney= Color (0xB40404,1.0)
-windowblue= Color(0xCEE3F6, 1.0)
+windowblue= Color(0xCEE3F6, 0.5)
+gray= Color(0xD8D8D8, 1.0)
 thinline = LineStyle(1, black)
+noline= LineStyle(0, black)
 rectanglehouse = RectangleAsset(500, 500, thinline, white)
 Sprite(rectanglehouse, (550,250))
 triangle= PolygonAsset([(550, 250), (1050, 250), (800, 50)], thinline, blackroof)
@@ -53,7 +55,11 @@ windowhorizline2= RectangleAsset(125, 7, thinline, white)
 Sprite(windowhorizline2, (875, 359))
 door= RectangleAsset(125, 200, thinline, redchimney)
 Sprite(door, (738, 550))
-doorknob
+doorknob= EllipseAsset(8, 8, thinline, black)
+Sprite(doorknob, (842, 650))
+smoke= CircleAsset(30, noline, gray)
+Sprite(smoke, (584, 65))
+Sprite(smoke, (565, 58))
 
 
 # add your code here /\  /\  /\
