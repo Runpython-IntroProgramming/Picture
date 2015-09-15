@@ -28,7 +28,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
-red= Color(0xff0000, 1.0)
+lips= Color(0xff90d0, 1.0)
 pink = Color(0xff55f0, 1.0)
 blue = Color(0x1090ff, 1.0)
 skin = Color(0xffffee,1.0)
@@ -36,23 +36,24 @@ black = Color(0x000000, 1.0)
 white = Color(0xffffff, 1.0)
 hair1 = Color(0x551000, 1.0)
 hair2 = Color(0x5512020, 1.0)
+shadowedSkin = Color(0xeeeedd, 1.0)
 
 thinline = LineStyle(1, black)
 thickline = LineStyle(2, black)
 noline = LineStyle(0, white)
 
 rectangle1 = RectangleAsset(600, 400, thinline, skin)
-rectangle2 = RectangleAsset(100, 100, thinline, white)
+rectangle2 = RectangleAsset(210, 50, noline, skin)
 ellipse1 = EllipseAsset(200, 250, thinline, skin)
 triangle1 = PolygonAsset([(430, 250), (460, 230), (460, 270)], thickline, white)
 triangle2 = PolygonAsset([(650, 250), (620, 230), (620, 270)], thickline, white)
 triangle3 = PolygonAsset([(520, 250), (480, 230), (480, 270)], thickline, white)
-#move this to the other eye
-triangle3 = PolygonAsset([(520, 250), (480, 230), (480, 270)], thickline, white)
+triangle4 = PolygonAsset([(560, 250), (600, 230), (600, 270)], thickline, white)
+triangle5 = PolygonAsset([(540, 250), (520, 375), (600, 375)], thickline, shadowedSkin) 
 circle1 = CircleAsset(50, thinline, hair1)
 circle2 = CircleAsset(55, thinline, hair2)
 circle3 = CircleAsset(22, thinline, blue)
-ellipse2 = EllipseAsset(100, 50, thinline, red)
+ellipse2 = EllipseAsset(100, 50, thinline, lips)
 
 #head
 Sprite(ellipse1, (550,300))
@@ -84,12 +85,14 @@ Sprite(triangle3)
 Sprite(circle3, (470, 250))
 #right eye
 Sprite(triangle2)
+Sprite(triangle4)
 Sprite(circle3, (610, 250))
-
-
-#Sprite(rectangle2, (250, 250))
+#nose
+Sprite(triangle5)
 #mouth
 Sprite(ellipse2,(550, 450))
+#half mouth cover
+Sprite(rectangle2, (450, 400))
 
 # add your code here /\  /\  /\
 
