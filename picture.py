@@ -59,7 +59,10 @@ doorknob= EllipseAsset(8, 8, thinline, black)
 Sprite(doorknob, (842, 650))
 smoke= CircleAsset(30, noline, gray)
 Sprite(smoke, (584, 65))
-Sprite(smoke, (565, 58))
+Sprite(smoke, (555, 58))
+Sprite(smoke, (555, 40))
+Sprite(smoke, (540, 40))
+Sprite(smoke, (500, 60))
 
 
 # add your code here /\  /\  /\
