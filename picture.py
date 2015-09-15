@@ -51,8 +51,9 @@ windowhorizline1= RectangleAsset(125, 7, thinline, white)
 Sprite(windowhorizline1, (600, 359))
 windowhorizline2= RectangleAsset(125, 7, thinline, white)
 Sprite(windowhorizline2, (875, 359))
-door= RectangleAsset(120, 45, thinline, redchimney)
-Sprite(door, (700, 630))
+door= RectangleAsset(125, 200, thinline, redchimney)
+Sprite(door, (738, 550))
+doorknob
 
 
 # add your code here /\  /\  /\
