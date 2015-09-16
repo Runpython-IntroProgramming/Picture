@@ -51,7 +51,7 @@ Sprite(ellipse,(665,400))
 rectangle = RectangleAsset(300, 75, noline, lightgrey)
 Sprite(rectangle,(515,560))
 polygon = PolygonAsset([(0,0),(0,60),(60,70),(80,0)], noline, red)
-Sprite(polygon,(515,300))
+Sprite(polygon,(550,200))
 
 myapp = App()
 myapp.run()
