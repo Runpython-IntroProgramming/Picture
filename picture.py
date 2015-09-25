@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Morgan Meliment
+Credit: http://brythonserver.github.io/ggame/#ggame.EllipseAsset
 
 Assignment:
 
