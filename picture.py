@@ -26,10 +26,30 @@ for detailed information on ggame.
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
-# add your code here \/  \/  \/
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+brown = Color(0xd38d5f, 1.0)
+yellow = Color(0xffd42a, 1.0)
+black = Color(0x000000, 1.0)
 
+stroke = LineStyle(2, black)
+nostroke = LineStyle(0, black)
+base = RectangleAsset(150, 120, stroke, red)
+door = RectangleAsset(40, 60, stroke, brown)
+top = PolygonAsset([(90,120), (260,120), (175,50)], stroke, black)
+handle = CircleAsset(5, nostroke , black)
+floor = EllipseAsset(150, 50, nostroke, green)
+sun = CircleAsset(30, nostroke, yellow)
+bg = RectangleAsset(350, 350, nostroke, blue)
 
-# add your code here /\  /\  /\
+Sprite(bg)
+Sprite(floor, (170, 230))
+Sprite(body, (100, 120))
+Sprite(top)
+Sprite(door, (155, 180))
+Sprite(handle, (185, 210))
+Sprite(sun, (50, 50))
 
 
 myapp = App()
