@@ -31,18 +31,21 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+brown = Color(0x77583A, 1.0)
+white = Color(0xfffff, 1.0)
 
 thinline = LineStyle(1, black)
+whiteline = LineStyle(1, white)
 
 background = RectangleAsset(500, 500, thinline, green)
-circle = 
-ellipse = 
-polygon = 
+ground = RectangleAsset(500, 200, thinline, brown)
+sky = RectangleAsset(500, 250, thinline, blue)
+clouds = CircleAsset(20, whiteline, white)
 
 Sprite(background)
-
-
-
+Sprite(ground, (0, 300))
+Sprite(sky)
+Sprite(clouds, (50, 50))
 
 
 
