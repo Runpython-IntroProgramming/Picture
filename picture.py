@@ -42,7 +42,7 @@ ground = RectangleAsset(500, 200, thinline, brown)
 sky = RectangleAsset(500, 250, thinline, blue)
 clouds = CircleAsset(30, whiteline, white)
 cloud = EllipseAsset(50, 20, whiteline, white)
-bush = PolygonAsset([0,60], [
+bush = PolygonAsset(([0, 60], [75, 0], [150, 60]), thinline, red)
 
 Sprite(background)
 Sprite(ground, (0, 300))
@@ -51,6 +51,7 @@ Sprite(clouds, (50, 50))
 Sprite(clouds, (75, 75))
 Sprite(cloud, (100, 50))
 Sprite(clouds, (150, 75))
+Sprite(bush, (350, 100))
 
 
 
