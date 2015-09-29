@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Dimitri
+Credit: Mr. Dennison
 
 Assignment:
 
@@ -33,6 +33,21 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
+
+background = RectangleAsset(500, 500, thinline, green)
+circle = 
+ellipse = 
+polygon = 
+
+Sprite(background)
+
+
+
+
+
+
+
+
 
 
 
