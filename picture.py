@@ -32,7 +32,7 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 brown = Color(0x77583A, 1.0)
-white = Color(0xfffff, 1.0)
+white = Color(0xFFFFFF, 1.0)
 
 thinline = LineStyle(1, black)
 whiteline = LineStyle(1, white)
@@ -40,16 +40,17 @@ whiteline = LineStyle(1, white)
 background = RectangleAsset(500, 500, thinline, green)
 ground = RectangleAsset(500, 200, thinline, brown)
 sky = RectangleAsset(500, 250, thinline, blue)
-clouds = CircleAsset(20, whiteline, white)
+clouds = CircleAsset(30, whiteline, white)
+cloud = EllipseAsset(50, 20, whiteline, white)
+bush = PolygonAsset([0,60], [
 
 Sprite(background)
 Sprite(ground, (0, 300))
 Sprite(sky)
 Sprite(clouds, (50, 50))
-
-
-
-
+Sprite(clouds, (75, 75))
+Sprite(cloud, (100, 50))
+Sprite(clouds, (150, 75))
 
 
 
