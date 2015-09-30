@@ -53,7 +53,7 @@ Sprite(clouds, (50, 50))
 Sprite(clouds, (75, 75))
 Sprite(cloud, (100, 50))
 Sprite(clouds, (150, 75))
-Sprite(bush, (350, 100))
+Sprite(tree, (350, 100))
 Sprite(trunk, (415, 159))
 Sprite(rock, (250, 240))
 
