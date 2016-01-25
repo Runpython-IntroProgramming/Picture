@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Funjando
+Credit: tiggerntatie
 
 Assignment:
 
@@ -28,6 +28,19 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+#Colors
+red=Color(0x910101, 1.0)
+green=Color(0x79E310, 1.0)
+blue=Color(0x0B1ABF, 1.0)
+orange=
+purple=Color(0x8209AB, 1.0)
+
+#colored lines
+redline
+greenline
+blueline
+orangeline
+purpleline
 
 # add your code here /\  /\  /\
 
