@@ -41,7 +41,7 @@ sky = RectangleAsset(300, 250, thinline, lightblue)
 ground = RectangleAsset(300, 50, thinline, green)
 sun = CircleAsset(20, thinline, yellow)
 trunk = RectangleAsset(20, 40, thinline, brown)
-tree = PolygonAsset([(180,30),(150,90),(210,90)], thinline, darkgreen)
+tree = PolygonAsset([(180,10),(140,90),(220,90)], thinline, darkgreen)
 
 Sprite(sky)
 Sprite(ground, (0, 200))
