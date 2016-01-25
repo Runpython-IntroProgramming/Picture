@@ -26,7 +26,7 @@ for detailed information on ggame.
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 x=10
-    while(x<=300):
+while(x<=300):
     # add your code here \/  \/  \/
     red = Color(0xff0000, 1.0)
     green = Color(0x00ff00, 1.0)
