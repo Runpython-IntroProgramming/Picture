@@ -35,7 +35,7 @@ black = Color(0x000000, 1.0)
 
 steve = RectangleAsset( 50, 30, blue)
 
-Sprite(rectangle, (200, 300))
+Sprite(steve, (200, 300))
 # add your code here /\  /\  /\
 
 
