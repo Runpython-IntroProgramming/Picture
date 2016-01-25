@@ -32,15 +32,20 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 red=Color(0x910101, 1.0)
 green=Color(0x79E310, 1.0)
 blue=Color(0x0B1ABF, 1.0)
-orange=
+orange=Color(0xE35D09, 1.0)
 purple=Color(0x8209AB, 1.0)
 
 #colored lines
-redline
-greenline
-blueline
-orangeline
-purpleline
+redline=LineStyle(1, red)
+greenline=LineStyle(1, green)
+blueline=LineStyle(1, blue)
+orangeline=LineStyle(1, orange)
+purpleline=LineStyle(1, purple)
+
+#shapes
+grasshill=
+
+
 
 # add your code here /\  /\  /\
 
