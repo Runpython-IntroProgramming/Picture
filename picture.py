@@ -33,8 +33,17 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 yellow = Color(0xF2EC41, 1.0)
 darkgreen = Color(0x278F28, 1.0)
+brown = Color(0x693C0E, 1.0)
 thinline = LineStyle(1, black)
 
+ground = RectangleAsset(300, 50, thinline, green)
+sun = CircleAsset(30, thinline, yellow)
+trunk = RectangleAsset(20, 40, thinline, brown)
+tree = Polygon Asset([(180,30)(150,90)(210, 90)], thinline, darkgreen)
+
+Sprite(ground, (0, 300))
+Sprite(sun, (20,20))
+Sprite(trunk, (180, 
 
 # add your code here /\  /\  /\
 
