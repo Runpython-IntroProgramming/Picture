@@ -40,7 +40,7 @@ circle =CircleAsset(200, thinline, skin)
 
 
 Sprite(circle, (200, 200))
-Sprite(rectangle, (100, 100))
+Sprite(rectangle, (100, 200))
 
 
 
