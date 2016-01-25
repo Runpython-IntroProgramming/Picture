@@ -37,7 +37,7 @@ rectangle = RectangleAsset(50, 20, thinline, orange)
 poly = PolygonAsset([(10,10), (20,20), (30,30), (40,40)], thinline, orange)
 
 Sprite(rectangle, (100, 20))
-Sprite(triangle, (10, 20))
+Sprite(poly, (10, 20))
 
 
 
