@@ -39,10 +39,11 @@ poly = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, orange)
 circle =CircleAsset(200, thinline, skin)
 
 
+
 Sprite(circle, (200, 200))
-Sprite(rectangle, (100, 200))
+a =Sprite(rectangle, (100, 200))
 
-
+a.rotation(pi/2)
 
 
 
