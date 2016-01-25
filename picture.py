@@ -32,7 +32,7 @@ thinline= LineStyle(1, black)
 thickline= LineStyle(5, black)
 thickishline= LineStyle(2.5, black)
 
-rectangle = RectangleAsset(50, 20, thickline, orange)
+rectangle = RectangleAsset(50, 20, thinline, orange)
 
 Sprite(rectangle, (10, 20))
 
