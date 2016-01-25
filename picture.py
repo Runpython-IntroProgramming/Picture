@@ -33,7 +33,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 
 thickline = LineStyle(5 , red)
-cirlce = CircleAsset(500, thickline, red)
+circle = CircleAsset(500, thickline, red)
 Sprite(circle, (500, 500)) 
 
 # add your code here /\  /\  /\
