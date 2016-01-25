@@ -34,7 +34,7 @@ thickline= LineStyle(5, black)
 thickishline= LineStyle(2.5, black)
 
 rectangle = RectangleAsset(50, 20, thinline, orange)
-poly = PolygonAsset([(10,10), (20,20), (30,30), (40,40)], thinline, orange)
+poly = PolygonAsset([(1,1), (20,2), (30,3), (40,4)], thinline, orange)
 
 Sprite(rectangle, (100, 20))
 Sprite(poly, (10, 20))
