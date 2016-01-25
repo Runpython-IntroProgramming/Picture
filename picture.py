@@ -43,4 +43,4 @@ while(x<=300):
     
     myapp = App()
     myapp.run()
-    x=x+1
+    x=x+5
