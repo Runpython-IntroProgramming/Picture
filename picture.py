@@ -41,11 +41,11 @@ circle =CircleAsset(200, thinline, skin)
 
 
 Sprite(circle, (200, 200))
-a =Sprite(rectangle, (100, 200))
+a = Sprite(rectangle, (100, 200))
 
-a.rotation(pi/2)
+a.rotation(3.14159265358979323/2)
 
-
+Sprite(a, (100,200
 
 myapp = App()
 myapp.run()
