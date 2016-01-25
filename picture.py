@@ -41,11 +41,13 @@ black = Color(0x000000, 1.0)
 #line style
 thinline = LineStyle(1, black)
 
-# rectangles
-rectangle = RectangleAsset(50, 20, thinline, blue)
-rectangle2 = RectangleAsset(50, 20, thinline, green)
+# initialize shapes
+    #house rectangle
+    rectangle = RectangleAsset(5000, 2000, thinline, redd)
+    #house roof
+    rectangle2 = RectangleAsset(5000, 500, thinline, black)
 
-#display the rectangles
+#display the shapes
 Sprite(rectangle, (200, 50))
 Sprite(rectangle2, (225, 40))
 
