@@ -36,12 +36,13 @@ white = Color(0xFFFFFF, 1.0)
 
 thinline = LineStyle(1, black)
 
-sky = RectangleAsset(800, 800, thinline, black)
 moon = CircleAsset(40, thinline, white)
+water = RectangleAsset(800, 400, thinline, blue)
 
+Sprite(water, (0, 400))
 Sprite(moon, (200, 50))
 
-Sprite(sky, (0, 0))
+
 
 # add your code here /\  /\  /\
 
