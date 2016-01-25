@@ -1,6 +1,6 @@
 """
 picture.py
-Author: <your name here>
+Author: Billy B
 Credit: <list sources used, if any>
 
 Assignment:
@@ -27,6 +27,30 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+
+from ggame import App, Color, LineStyle, Sprite
+from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
+
+# Three primary colors with no transparency (alpha = 1.0)
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
+
+# Define a line style that is a thin (1 pixel) wide black line
+thinline = LineStyle(1, black)
+# A graphics asset that represents a rectangle
+rectangle = RectangleAsset(50, 20, thinline, blue)
+
+# Now display a rectangle
+Sprite(rectangle, (800, 300))
+
+circle =  CircleAsset
+
+myapp = App()
+myapp.run()
+from ggame import App
+myapp = App()
 
 
 # add your code here /\  /\  /\
