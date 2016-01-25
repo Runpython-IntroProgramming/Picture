@@ -37,7 +37,7 @@ brown = Color(0x693C0E, 1.0)
 lightblue = Color(0x7EE7F2, 1.0)
 thinline = LineStyle(1, black)
 
-sky = Rectangle(300, 250, thinline, lightblue)
+sky = RectangleAsset(300, 250, thinline, lightblue)
 ground = RectangleAsset(300, 50, thinline, green)
 sun = CircleAsset(20, thinline, yellow)
 trunk = RectangleAsset(20, 40, thinline, brown)
