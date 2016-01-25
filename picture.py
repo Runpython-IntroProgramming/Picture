@@ -39,7 +39,7 @@ thinline = LineStyle(1, black)
 ground = RectangleAsset(300, 50, thinline, green)
 sun = CircleAsset(30, thinline, yellow)
 trunk = RectangleAsset(20, 40, thinline, brown)
-tree = Polygon Asset([(180,30)(150,90)(210, 90)], thinline, darkgreen)
+tree = PolygonAsset([(180,30)(150,90)(210, 90)], thinline, darkgreen)
 
 Sprite(ground, (0, 300))
 Sprite(sun, (20,20))
