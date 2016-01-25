@@ -33,13 +33,12 @@ thinline= LineStyle(1, black)
 thickline= LineStyle(5, black)
 thickishline= LineStyle(2.5, black)
 
-rectangle = RectangleAsset(50, 20, thinline, orange)
+rectangle = RectangleAsset(500, 200, thinline, orange)
 poly = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, orange)
 circle =CircleAsset([(0,0), (500, 500), (540, 160), (0,60)], thinline, green)
 
-Sprite(rectangle, (100, 20))
-Sprite(poly, (10, 20))
-Sprite(circle, (50, 50))
+Sprite(rectangle, (100, 200))
+
 
 
 
