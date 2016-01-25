@@ -45,7 +45,9 @@ rectangle = RectangleAsset(50, 20, thinline, blue)
 # Now display a rectangle
 Sprite(rectangle, (800, 300))
 
-circle =  CircleAsset(50, 50, thinline,  
+circle =  CircleAsset(50, 50, thinline, blue)
+
+Sprite(circle, (800,250))
 
 myapp = App()
 myapp.run()
