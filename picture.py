@@ -43,11 +43,15 @@ thinline = LineStyle(1, black)
 rectangle = RectangleAsset(300, 60, thinline, blue)
 
 # Now display a rectangle
-Sprite(rectangle, (700, 300))
+Sprite(rectangle, (650, 300))
 
 circle =  CircleAsset(50, thinline, blue)
 
 Sprite(circle, (800,250))
+
+rectangle2 = RectangleAsset(100, 60, thinline, blue)
+
+Sprite(rectangle2, (750, 360))
 
 myapp = App()
 myapp.run()
