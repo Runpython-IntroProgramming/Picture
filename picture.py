@@ -33,7 +33,7 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 
-steve = RectangleAsset( 50, 30, blue)
+steve = RectangleAsset( 50, 30, blue, linethin )
 
 Sprite(steve, (200, 300))
 # add your code here /\  /\  /\
