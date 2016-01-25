@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Tess Snyder
-Credit: <list sources used, if any>
+Credit: http://www.colorpicker.com/ , 
 
 Assignment:
 
@@ -30,12 +30,18 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
-black = Color(0x000000, 1.0)
-purple = Color(0xA642C9)
-
+black = Color(0x000000, .5)
+purple = Color(0xA642C9, 1.0)
+white = Color(0xFFFFFF, 1.0)
 
 thinline = LineStyle(1, black)
 
+sky = RectangleAsset(800, 800, thinline, black)
+moon = CircleAsset(40, thinline, white)
+
+Sprite(moon, (200, 50))
+
+Sprite(sky, (0, 0))
 
 # add your code here /\  /\  /\
 
