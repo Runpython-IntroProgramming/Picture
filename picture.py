@@ -37,7 +37,7 @@ rectangle = RectangleAsset(500, 200, thinline, orange)
 poly = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, orange)
 circle =CircleAsset(200, thinline, green)
 
-Sprite(circle, (100, 200))
+Sprite(circle, (200, 200))
 
 
 
