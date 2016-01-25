@@ -33,15 +33,20 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, .5)
 purple = Color(0xA642C9, 1.0)
 white = Color(0xFFFFFF, 1.0)
+yellowish = Color(0xF1F2D5, 1.0)
 
 thinline = LineStyle(1, black)
 
-moon = CircleAsset(40, thinline, white)
+sky = RectangleAsset(800,400, thinline, black)
+moon = CircleAsset(40, thinline, yellowish)
 water = RectangleAsset(800, 400, thinline, blue)
+fish = EllipseAsset(50,20, thinline, red)
+fin = PolygonAsset(
 
+Sprite(sky, (0,0))
 Sprite(water, (0, 400))
 Sprite(moon, (200, 50))
-
+Sprite(fish, (40, 480))
 
 
 # add your code here /\  /\  /\
