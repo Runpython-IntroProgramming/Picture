@@ -43,7 +43,8 @@ moon = CircleAsset(40, thinline, yellowish)
 water = RectangleAsset(800, 400, thinline, blue)
 fish = EllipseAsset(50,20, thinline, red)
 fin = PolygonAsset([(40,470),(50,440),(60,470)], thinline, red)
-eye = CircleAsset(5, thinline, black2)
+eye = CircleAsset(2, thinline, black2)
+star = CircleAsset(2, thinline, white)
 
 Sprite(sky, (0,0))
 Sprite(water, (0, 400))
@@ -51,8 +52,9 @@ Sprite(moon, (200, 50))
 Sprite(fish, (50, 480))
 Sprite(fin, (0,0))
 Sprite(eye, (80, 480))
-
-
+Sprite(star, (400, 40))
+Sprite(star, (100, 80))
+Sprite(star, (50, 200))
 # add your code here /\  /\  /\
 
 
