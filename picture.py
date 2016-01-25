@@ -34,13 +34,16 @@ black = Color(0x000000, 1.0)
 yellow = Color(0xF2EC41, 1.0)
 darkgreen = Color(0x278F28, 1.0)
 brown = Color(0x693C0E, 1.0)
+lightblue = Color(0x7EE7F2, 1.0)
 thinline = LineStyle(1, black)
 
+sky = Rectangle(300, 250, thinline, lightblue)
 ground = RectangleAsset(300, 50, thinline, green)
 sun = CircleAsset(20, thinline, yellow)
 trunk = RectangleAsset(20, 40, thinline, brown)
 tree = PolygonAsset([(180,30),(150,90),(210,90)], thinline, darkgreen)
 
+Sprite
 Sprite(ground, (0, 200))
 Sprite(sun, (30,30))
 Sprite(trunk, (170, 170))
