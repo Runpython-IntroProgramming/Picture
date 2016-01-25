@@ -47,8 +47,8 @@ Sprite(sky)
 Sprite(ground, (0, 200))
 Sprite(sun, (30,30))
 Sprite(trunk, (170, 170))
-Sprite(tree, (0, 85))
-Sprite(tree, (0, 40))
+Sprite(tree, (0, 90))
+Sprite(tree, (0, 45))
 
 # add your code here /\  /\  /\
 
