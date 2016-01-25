@@ -43,7 +43,7 @@ tree = PolygonAsset([(180,30),(150,90),(210,90)], thinline, darkgreen)
 
 Sprite(ground, (0, 200))
 Sprite(sun, (30,30))
-Sprite(trunk, (180, 250))
+Sprite(trunk, (180, 200))
 Sprite(tree, (0, 200))
 Sprite(tree, (0,150))
 
