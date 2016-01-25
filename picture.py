@@ -25,19 +25,22 @@ for detailed information on ggame.
 
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
-
-# add your code here \/  \/  \/
-red = Color(0xff0000, 1.0)
-green = Color(0x00ff00, 1.0)
-blue = Color(0x0000ff, 1.0)
-black = Color(0x000000, 1.0)
-
-thickline = LineStyle(5 , red)
-circle = CircleAsset(500, thickline, red)
-Sprite(circle, (500, 500)) 
-
-# add your code here /\  /\  /\
-
-
-myapp = App()
-myapp.run()
+x=10
+    while(x<=300):
+    # add your code here \/  \/  \/
+    red = Color(0xff0000, 1.0)
+    green = Color(0x00ff00, 1.0)
+    blue = Color(0x0000ff, 1.0)
+    black = Color(0x000000, 1.0)
+    
+    
+    thickline = LineStyle(5 , red)
+    circle = CircleAsset(x, thickline, red)
+    Sprite(circle, (500, 500)) 
+    
+    # add your code here /\  /\  /\
+    
+    
+    myapp = App()
+    myapp.run()
+    x=x+1
