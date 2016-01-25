@@ -28,6 +28,7 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 orange = Color(0xffa500, 1.0)
+skin =Color(0xFCD15B, 1.0)
 
 thinline= LineStyle(1, black)
 thickline= LineStyle(5, black)
@@ -35,7 +36,7 @@ thickishline= LineStyle(2.5, black)
 
 rectangle = RectangleAsset(500, 200, thinline, orange)
 poly = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, orange)
-circle =CircleAsset(200, thinline, green)
+circle =CircleAsset(200, thinline, skin)
 
 Sprite(circle, (200, 200))
 
