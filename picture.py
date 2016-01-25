@@ -34,7 +34,7 @@ black = Color(0x000000, 1.0)
 
 thickline = LineStyle(1 , red)
 CircleAsset = (500, thickline, red)
-Sprite(CircleAsset, 500, 500) 
+Sprite(CircleAsset, (500, 500)) 
 
 # add your code here /\  /\  /\
 
