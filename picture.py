@@ -34,7 +34,7 @@ thickishline= LineStyle(2.5, black)
 
 rectangle = RectangleAsset(50, 20, thinline, blue)
 
-Sprite(rectangle, (10, 20))
+Sprite(rectangle, (100, 20))
 
 
 
