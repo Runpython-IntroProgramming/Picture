@@ -35,7 +35,7 @@ thickishline= LineStyle(2.5, black)
 
 rectangle = RectangleAsset(500, 200, thinline, orange)
 poly = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, orange)
-circle =CircleAsset([(0,0), (500, 500), (540, 160), (0,60)], thinline, green)
+circle =CircleAsset((0,0), thinline, green)
 
 Sprite(rectangle, (100, 200))
 
