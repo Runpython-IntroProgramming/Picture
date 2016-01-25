@@ -35,7 +35,7 @@ while(x<=300):
     
     
     thickline = LineStyle(5 , red)
-    circle = CircleAsset(x, thickline, red)
+    circle = CircleAsset(10, thickline, red)
     Sprite(circle, (500, 500)) 
     
     # add your code here /\  /\  /\
