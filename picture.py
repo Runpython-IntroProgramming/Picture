@@ -45,7 +45,7 @@ a = Sprite(rectangle, (100, 200))
 
 a.rotation(3.14159265358979323/2)
 
-Sprite(a, (100,200
+Sprite(a, (100,200))
 
 myapp = App()
 myapp.run()
