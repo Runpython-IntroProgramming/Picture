@@ -40,10 +40,10 @@ black = Color(0x000000, 1.0)
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
-rectangle = RectangleAsset(200, 80, thinline, blue)
+rectangle = RectangleAsset(300, 60, thinline, blue)
 
 # Now display a rectangle
-Sprite(rectangle, (800, 300))
+Sprite(rectangle, (700, 300))
 
 circle =  CircleAsset(50, thinline, blue)
 
