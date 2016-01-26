@@ -35,6 +35,7 @@ blue=Color(0x0B1ABF, 1.0)
 orange=Color(0xE35D09, 1.0)
 purple=Color(0x8209AB, 1.0)
 windowsheen=Color(0x74E3E3, 1.0)
+hobbitgreen=Color(0x09B31D, 1.0)
 
 #colored lines
 redline=LineStyle(1, red)
@@ -49,8 +50,8 @@ house=RectangleAsset(200, 390, blueline, blue)
 windowa=EllipseAsset(25, 35, purpleline, windowsheen)
 windowb=EllipseAsset(25, 35, redline, windowsheen)
 windowg=EllipseAsset(25, 35, greenline, windowsheen)
-door=PolygonAsset([(500,500),(600,500), (650, 1000), (450, 1200), (350, 800)], orangeline, green)
-#pos 1, 2
+door=PolygonAsset([(500,500),(550,500), (580, 550), (550, 600), (500, 600), (470, 550)], orangeline, hobbitgreen)
+doorknob=CircleAsset(100, 0, )
 
 #Sprites
 Sprite(grasshill, (680, 1000))
@@ -58,7 +59,7 @@ Sprite(house, (585, 220))
 Sprite(windowa, (632, 300))
 Sprite(windowb, (730, 390))
 Sprite(windowg, (632, 480))
-Sprite(door, (100, 0))
+Sprite(door, (200, 0))
 
 
 
