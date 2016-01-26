@@ -28,7 +28,10 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
-red = Color(
+Black = Color(0x000000, 1.0)
+MountCol = Color(0xFAEBD7, 1.0)
+
+ThinLine = LineStyle(1, Black)
 
 # add your code here /\  /\  /\
 
