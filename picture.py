@@ -44,9 +44,9 @@ portal2 = EllipseAsset(40, 10, thickline, orange)
 Sprite(circle, (70, 500)) 
 Sprite(poly, (90, 530))
 Sprite(portal1, (80, 150))
-Sprite(portal2, (80, 550))
-Sprite(rectum, (60, 490))
 
+Sprite(rectum, (60, 490))
+Sprite(portal2, (80, 550))
 
 # add your code here /\  /\  /\
 
