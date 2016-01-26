@@ -73,7 +73,9 @@ Sprite(eyes, (815, 240))
 
 Sprite(mouth, (800, 275))
 
-hat=PolygonAsset([(775, 210),(825, 210),(775, 190),(825, 
+hat=PolygonAsset([(750, 210),(850, 210),(850, 190), (825, 190), (825, 50), (775, 50), (775, 190), (750, 190)], thinline, black)
+
+Sprite(hat, (0,0))
 myapp = App()
 myapp.run()
 from ggame import App
