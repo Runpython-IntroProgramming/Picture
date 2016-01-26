@@ -36,6 +36,7 @@ orange=Color(0xE35D09, 1.0)
 purple=Color(0x8209AB, 1.0)
 windowsheen=Color(0x74E3E3, 1.0)
 hobbitgreen=Color(0x09B31D, 1.0)
+leprechaungold=Color(0xD4BA15, 1.0)
 
 #colored lines
 redline=LineStyle(1, red)
