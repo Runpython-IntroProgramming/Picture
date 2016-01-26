@@ -43,6 +43,7 @@ sun = CircleAsset(20, thinline, yellow)
 trunk = RectangleAsset(20, 40, thinline, brown)
 tree = PolygonAsset([(180,10),(140,90),(220,90)], thinline, darkgreen)
 tree2 = PolygonAsset([(180,10),(135,90),(225,90)], thinline, darkgreen)
+stem = RectangleAsset(5,15, thinline, green)
 
 Sprite(sky)
 Sprite(ground, (0, 200))
@@ -50,6 +51,7 @@ Sprite(sun, (30,30))
 Sprite(trunk, (170, 170))
 Sprite(tree2, (0, 90))
 Sprite(tree, (0, 45))
+Sprite(stem, (80, 205))
 
 # add your code here /\  /\  /\
 
