@@ -41,16 +41,20 @@ thinline = LineStyle(1, black)
 thickline = LineStyle (2, green)
 
 # A graphics asset that represents a rectangle
-rectangle = RectangleAsset(5, 4,thinline, blue)
+rectangle = RectangleAsset(500, 400,thinline, blue)
 circle = CircleAsset(4, thinline, red)
 ellipse = EllipseAsset(5, 4, thinline, green)
-polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thickline, black)
+polygon = PolygonAsset([(0,0), (-100,-100), (500,100), (0,0)], thickline, black)
+window1 = RectangleAsset(50, 50, thinline, black)
+
+
 
 # Now display a rectangle
-Sprite(rectangle, (200, 50))
+Sprite(rectangle, (200, 150))
 Sprite(circle, (50, 30))
 Sprite(ellipse, (80, 210))
-Sprite(polygon, (90, 370))
+Sprite(polygon, (200, 150))
+Sprite(window1, (285, 200))
 
 myapp = App()
 myapp.run()
