@@ -38,8 +38,9 @@ MountCol = Color(0xD2B48C, 1.0)
 ThinLine = LineStyle(1, Black)
 
 Mount = PolygonAsset([((MountWidth/2), 0), (0, (MountWidth*1.6)), (MountWidth, (MountWidth*1.6))], ThinLine, MountCol)
-SkyBack = 
+SkyBack = RectangleAsset((Size*90), (Size*40), ThinLine, SkyBlue)
 
+Sprite(SkyBack)
 Sprite(Mount)
 
 # add your code here /\  /\  /\
