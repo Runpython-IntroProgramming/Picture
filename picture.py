@@ -71,9 +71,10 @@ mountaincap5 =PolygonAsset([(865,495), (915,495,), (890,420)], thinlinewhite, wh
 Sprite(mountain5)
 Sprite(mountaincap5)
 mountain6 =PolygonAsset([(900,720), (1400,720,), (1150,360)], thinlinegrey, grey)
-mountaincap6 =PolygonAsset([(1200,420), (1100,420,), (1150,360)], thinlinewhite, white)
+mountaincap6 =PolygonAsset([(1200,430), (1100,430,), (1150,360)], thinlinewhite, white)
 Sprite(mountain6)
 Sprite(mountaincap6)
+whiteness =RectangleAsset(1280, 720, thinlinegreen, blue)
 # add your code here /\  /\  /\
 
 
