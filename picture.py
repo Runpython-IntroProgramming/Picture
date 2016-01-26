@@ -44,7 +44,7 @@ ThinLine = LineStyle(1, Black)
 
 Back = RectangleAsset(BackWidth, BackHeight, ThinLine, SkyBlue)
 Ground = RectangleAsset(BackWidth, GroundHeight, ThinLine, GroundCol)
-Mount = PolygonAsset([((MountWidth/2), (BackHeight-MountHeight-GroundHeight), (0, (BackHeight-GroundHeight), (MountWidth, BackHeight-GroundHeight))], ThinLine, MountCol)
+Mount = PolygonAsset([((MountWidth/2), (BackHeight-MountHeight-GroundHeight)), (0, (BackHeight-GroundHeight)), (MountWidth, BackHeight-GroundHeight)], ThinLine, MountCol)
 
 Sprite(Back)
 Sprite(Ground, (0, BackHeight))
