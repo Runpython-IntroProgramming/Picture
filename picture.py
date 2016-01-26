@@ -42,10 +42,11 @@ MountCol = Color(0xD2B48C, 1.0)
 ThinLine = LineStyle(1, Black)
 
 Back = RectangleAsset(BackWidth, BackHeight, ThinLine, SkyBlue)
-Ground = RectangleAsset(BackWidth, BackHeight, ThinLine, GroundCol)
+Ground = RectangleAsset(BackWidth, GroundHeight, ThinLine, GroundCol)
 Mount = PolygonAsset([((MountWidth/2), 0), (0, (MountWidth*1.6)), (MountWidth, (MountWidth*1.6))], ThinLine, MountCol)
 
 Sprite(Back)
+Sprite(Ground, (0, BackHeight))
 Sprite(Mount)
 
 # add your code here /\  /\  /\
