@@ -53,6 +53,27 @@ rectangle2 = RectangleAsset(100, 60, thinline, blue)
 
 Sprite(rectangle2, (750, 360))
 
+rectangle3=RectangleAsset(150, 60, thinline, blue)
+
+Sprite(rectangle3, (725, 420))
+
+rectangle4=RectangleAsset(50, 100, thinline, blue)
+
+Sprite(rectangle4, (725, 480))
+
+Sprite(rectangle4, (825, 480))
+
+mouth=EllipseAsset(20, 10, thinline, green)
+
+eyes=CircleAsset(5, thinline, green)
+
+Sprite(eyes, (785, 240))
+
+Sprite(eyes, (815, 240))
+
+Sprite(mouth, (800, 275))
+
+hat=PolygonAsset([(775, 210),(825, 210),(775, 190),(825, 
 myapp = App()
 myapp.run()
 from ggame import App
