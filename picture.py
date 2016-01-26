@@ -31,7 +31,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 MountWidth = 150
 
 Black = Color(0x000000, 1.0)
-MountCol = Color(0xFAEBD7, 1.0)
+MountCol = Color(0xD2B48C, 1.0)
 
 ThinLine = LineStyle(1, Black)
 
