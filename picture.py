@@ -46,7 +46,7 @@ thinlinegrey = LineStyle(1, grey)
 thinlinedarkgrey = LineStyle(1, darkgrey)
 bluesky = RectangleAsset(1280, 720, thinlinegreen, blue)
 Sprite(bluesky)
-mountain =PolygonAsset([(0,720), (200,720,), (100,520)], thinlinegrey, grey)
+mountain =PolygonAsset([(0,720), (200,720,), (100,520)], thinlinegreen, green)
 mountaincap =PolygonAsset([(75,570), (125,570,), (100,520)], thinlinewhite, white)
 Sprite(mountain)
 Sprite(mountaincap)
@@ -59,9 +59,13 @@ mountaincap2 =PolygonAsset([(375,570), (425,570,), (400,520)], thinlinewhite, wh
 Sprite(mountain2)
 Sprite(mountaincap2)
 mountain3 =PolygonAsset([(490,720), (690,720,), (590,420)], thinlinedarkgrey, darkgrey)
-mountaincap3 =PolygonAsset([(2565,495), (615,495,), (590,420)], thinlinewhite, white)
+mountaincap3 =PolygonAsset([(565,495), (615,495,), (590,420)], thinlinewhite, white)
 Sprite(mountain3)
 Sprite(mountaincap3)
+mountain4 =PolygonAsset([(650,720), (850,720,), (750,520)], thinlinegrey, grey)
+mountaincap4 =PolygonAsset([(725,570), (775,570,), (750,520)], thinlinewhite, white)
+Sprite(mountain4)
+Sprite(mountaincap4)
 # add your code here /\  /\  /\
 
 
