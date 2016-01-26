@@ -37,7 +37,7 @@ ThinLine = LineStyle(1, Black)
 
 Mount = PolygonAsset([((MountWidth/2), 0), (0, (MountWidth*(9/4))), (MountWidth, (MountWidth*(9/4)))], ThinLine, MountCol)
 
-Sprite(polygon)
+Sprite(Mount)
 
 # add your code here /\  /\  /\
 
