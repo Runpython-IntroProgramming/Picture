@@ -50,7 +50,7 @@ Sprite(poly, (90, 530))
 Sprite(portal1, (80, 150))
 Sprite(portal2, (80, 550))
 Sprite(rectum, (60, 490))
-sprite
+Sprite(rectum2, (60, 200))
 
 
 # add your code here /\  /\  /\
