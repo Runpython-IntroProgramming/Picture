@@ -34,6 +34,7 @@ black = Color(0x000000, 1.0)
 yellow = Color(0xF2EC41, 1.0)
 darkgreen = Color(0x278F28, 1.0)
 brown = Color(0x693C0E, 1.0)
+pink = Color(0xF573DD, 1.0)
 lightblue = Color(0x7EE7F2, 1.0)
 thinline = LineStyle(1, black)
 
@@ -43,7 +44,8 @@ sun = CircleAsset(20, thinline, yellow)
 trunk = RectangleAsset(20, 40, thinline, brown)
 tree = PolygonAsset([(180,10),(140,90),(220,90)], thinline, darkgreen)
 tree2 = PolygonAsset([(180,10),(135,90),(225,90)], thinline, darkgreen)
-stem = RectangleAsset(5,20, thinline, green)
+stem = RectangleAsset(7,30, thinline, green)
+flower = CircleAsset(4, thinline, 
 
 Sprite(sky)
 Sprite(ground, (0, 200))
