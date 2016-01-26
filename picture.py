@@ -44,7 +44,7 @@ thickline = LineStyle (2, green)
 rectangle = RectangleAsset(500, 400,thinline, blue)
 circle = CircleAsset(4, thinline, red)
 ellipse = EllipseAsset(5, 4, thinline, green)
-polygon = PolygonAsset([(0,0), (-100,-100), (500,100), (0,0)], thickline, black)
+polygon = PolygonAsset([(0,0), (-100,-100), (-500,-100), (0,0)], thickline, black)
 window1 = RectangleAsset(50, 50, thinline, black)
 
 
