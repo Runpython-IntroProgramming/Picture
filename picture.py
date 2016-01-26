@@ -50,4 +50,4 @@ Sprite(rectum, (123, 68))
 
 myapp = App()
 myapp.run()
-x=x+5
+
