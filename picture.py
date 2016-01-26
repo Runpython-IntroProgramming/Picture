@@ -54,6 +54,10 @@ mountain1 =PolygonAsset([(190,720), (390,720,), (290,420)], thinlinedarkgrey, da
 mountaincap1 =PolygonAsset([(265,495), (315,495,), (290,420)], thinlinewhite, white)
 Sprite(mountain1)
 Sprite(mountaincap1)
+mountain2 =PolygonAsset([(300,720), (500,720,), (400,520)], thinlinegrey, grey)
+mountaincap2 =PolygonAsset([(375,570), (425,570,), (400,520)], thinlinewhite, white)
+Sprite(mountain2)
+Sprite(mountaincap2)
 # add your code here /\  /\  /\
 
 
