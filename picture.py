@@ -28,6 +28,8 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+# https://www.mathsisfun.com/numbers/hexadecimal-color-names.html
+
 Size = 15
 SkyWidth = Size*90
 SkyHeight = Size*40
