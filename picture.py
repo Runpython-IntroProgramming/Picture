@@ -36,7 +36,7 @@ darkgreen = Color(0x26632e, 1.0)
 line = LineStyle(1, green)
 
 shape = RectangleAsset( 50, 30, line, darkgreen )
-tri = PolygonAsset([(20,34)(12,17)(37,10)], line, green)
+tri = PolygonAsset([(20,34),(12,17),(37,10)], line, green)
 
 
 Sprite(tri, (200, 300))
