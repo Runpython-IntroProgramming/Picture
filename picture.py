@@ -48,7 +48,8 @@ fin = PolygonAsset([(40,470),(50,440),(60,470)], thinlinered, red)
 eye = CircleAsset(2, thinline, black2)
 star = CircleAsset(2, thinline, white)
 boat = EllipseAsset(60,20, thinline, brown)
-mast = RectangleAsset(3,40, thinline, brown)
+mast = RectangleAsset(4,60, thinline, brown)
+sail = PolygonAsset([(0,0), (0, 40), (30, 40)], thinline, white)
 
 Sprite(sky, (0,0))
 Sprite(water, (0, 400))
@@ -61,6 +62,8 @@ Sprite(star, (100, 80))
 Sprite(star, (50, 200))
 Sprite(star, (750, 250))
 Sprite(boat, (600,400))
+Sprite(mast, (600, 330))
+Sprite(sail, (600, 330))
 # add your code here /\  /\  /\
 
 
