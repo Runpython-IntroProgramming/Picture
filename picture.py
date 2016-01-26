@@ -35,16 +35,20 @@ black2 = Color(0x000000, 1.0)
 purple = Color(0xA642C9, 1.0)
 white = Color(0xFFFFFF, 1.0)
 yellowish = Color(0xF1F2D5, 1.0)
+brown = Color(0x915643,1.0)
 
-thinline = LineStyle(1, black)
+thinline = LineStyle(1, black2)
+thinlinered = LineStyle(1, red)
 
 sky = RectangleAsset(800,400, thinline, black1)
 moon = CircleAsset(40, thinline, yellowish)
 water = RectangleAsset(800, 400, thinline, blue)
-fish = EllipseAsset(50,20, thinline, red)
-fin = PolygonAsset([(40,470),(50,440),(60,470)], thinline, red)
+fish = EllipseAsset(50,20, thinlinered, red)
+fin = PolygonAsset([(40,470),(50,440),(60,470)], thinlinered, red)
 eye = CircleAsset(2, thinline, black2)
 star = CircleAsset(2, thinline, white)
+boat = EllipseAsset(60,20, thinline, brown)
+mast = RectangleAsset(3,40, thinline, brown)
 
 Sprite(sky, (0,0))
 Sprite(water, (0, 400))
@@ -56,6 +60,7 @@ Sprite(star, (400, 40))
 Sprite(star, (100, 80))
 Sprite(star, (50, 200))
 Sprite(star, (750, 250))
+Sprite(boat, (600,400))
 # add your code here /\  /\  /\
 
 
