@@ -31,7 +31,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 Size = 15
 SkyWidth = Size*90
 SkyHeight = Size*40
-GroundHeight = BackHeight/10
+GroundHeight = SkyHeight/10
 MountWidth = Size*20
 MountHeight = MountWidth*1.6
 OffSide = SkyWidth/20
