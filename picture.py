@@ -34,7 +34,7 @@ black = Color(0x000000, 1.0)
 orange = Color(0xff7400, 1.0)
 beige = Color(0xffffd8, 1.0)
 
-noline = LineStyle(0 , beige)
+noline = LineStyle(2 , black)
 thickline = LineStyle(5 , red)
 thickline2 = LineStyle(5, orange)
 circle = CircleAsset(10, noline, beige)
