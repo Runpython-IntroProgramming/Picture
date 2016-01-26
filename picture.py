@@ -29,7 +29,9 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # add your code here \/  \/  \/
 
 Size = 5
-MountWidth = 20
+BackWidth = Size*90
+BackHeight = Size*40
+MountWidth = Size*20
 
 SkyBlue = Color(0x87CEFA, 1.0)
 Black = Color(0x000000, 1.0)
@@ -38,9 +40,9 @@ MountCol = Color(0xD2B48C, 1.0)
 ThinLine = LineStyle(1, Black)
 
 Mount = PolygonAsset([((MountWidth/2), 0), (0, (MountWidth*1.6)), (MountWidth, (MountWidth*1.6))], ThinLine, MountCol)
-SkyBack = RectangleAsset((Size*90), (Size*40), ThinLine, SkyBlue)
+Back = RectangleAsset(BackWidth, BackHeight, ThinLine, SkyBlue)
 
-Sprite(SkyBack)
+Sprite(Back)
 Sprite(Mount)
 
 # add your code here /\  /\  /\
