@@ -58,7 +58,7 @@ Sprite(flower, (60, 182))
 Sprite(flower, (57, 172))
 Sprite(flower, (70, 182))
 Sprite(flower, (75, 172))
-Sprite(flower, (67, 165))
+Sprite(flower, (65, 165))
 
 # add your code here /\  /\  /\
 
