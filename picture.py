@@ -35,6 +35,7 @@ yellow = Color(0xF2EC41, 1.0)
 darkgreen = Color(0x278F28, 1.0)
 brown = Color(0x693C0E, 1.0)
 pink = Color(0xF573DD, 1.0)
+white = Color(0xffffff, 0.9)
 lightblue = Color(0x7EE7F2, 1.0)
 thinline = LineStyle(1, black)
 
@@ -46,6 +47,7 @@ tree = PolygonAsset([(180,10),(140,90),(220,90)], thinline, darkgreen)
 tree2 = PolygonAsset([(180,10),(135,90),(225,90)], thinline, darkgreen)
 stem = RectangleAsset(7,20, thinline, green)
 flower = CircleAsset(6, thinline, pink)
+cloud = elipseasset(10, 15, thinline, white)
 
 Sprite(sky)
 Sprite(ground, (0, 200))
@@ -59,6 +61,7 @@ Sprite(flower, (57, 172))
 Sprite(flower, (70, 182))
 Sprite(flower, (74, 172))
 Sprite(flower, (65, 165))
+Sprite(cloud, (200, 35))
 
 # add your code here /\  /\  /\
 
