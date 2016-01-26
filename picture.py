@@ -28,7 +28,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
-Size = 10
+Size = 15
 SkyWidth = Size*90
 SkyHeight = Size*40
 GroundHeight = BackHeight/10
