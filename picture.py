@@ -35,6 +35,7 @@ orange = Color(0xff7400, 1.0)
 beige = Color(0xffffd8, 1.0)
 
 noline = LineStyle(2 , black)
+nlu = LineStyle(5 , blue)
 thickline = LineStyle(5 , red)
 thickline2 = LineStyle(5, orange)
 circle = CircleAsset(10, noline, beige)
@@ -42,12 +43,14 @@ poly = PolygonAsset([(20,20), (30,40), (50,160), (20,100)], thickline, red)
 portal1 = EllipseAsset(40, 10, thickline, blue)
 rectum = RectangleAsset(40, 60, thickline2, orange)
 portal2 = EllipseAsset(40, 10, thickline, orange)
+rectum2 = RectangleAsset(40, 60, thickline2, nlu)
 
 Sprite(circle, (80, 478)) 
 Sprite(poly, (90, 530))
 Sprite(portal1, (80, 150))
 Sprite(portal2, (80, 550))
 Sprite(rectum, (60, 490))
+sprite
 
 
 # add your code here /\  /\  /\
