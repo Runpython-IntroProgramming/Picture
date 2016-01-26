@@ -36,8 +36,8 @@ black = Color(0x000000, 1.0)
 thickline = LineStyle(5 , red)
 circle = CircleAsset(10, thickline, red)
 poly=PolygonAsset([(20,20), (30,40), (50,80), (20,20)], thickline, red)
-Sprite(circle, (20, 500)), (poly, (50,60))) 
-
+Sprite(circle, (20, 500)) 
+Sprite(poly, (60, 200))
 
 
 # add your code here /\  /\  /\
