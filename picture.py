@@ -55,10 +55,10 @@ Sprite(tree2, (0, 90))
 Sprite(tree, (0, 45))
 Sprite(stem, (62, 186))
 Sprite(flower, (60, 182))
-Sprite(flower, (55, 172))
+Sprite(flower, (53, 172))
 Sprite(flower, (70, 182))
 Sprite(flower, (75, 172))
-Sprite(flower, (65, 165))
+Sprite(flower, (67, 165))
 
 # add your code here /\  /\  /\
 
