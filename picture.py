@@ -47,7 +47,7 @@ tree = PolygonAsset([(180,10),(140,90),(220,90)], thinline, darkgreen)
 tree2 = PolygonAsset([(180,10),(135,90),(225,90)], thinline, darkgreen)
 stem = RectangleAsset(7,20, thinline, green)
 flower = CircleAsset(6, thinline, pink)
-cloud = EllipseAsset(10, 15, thinline, white)
+cloud = EllipseAsset(40, 10, thinline, white)
 
 Sprite(sky)
 Sprite(ground, (0, 200))
