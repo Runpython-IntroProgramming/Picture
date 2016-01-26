@@ -36,6 +36,7 @@ MountWidth = Size*20
 MountHeight = MountWidth*1.6
 OffSide = SkyWidth/20
 
+Yellow = Color(0xFFFF00, 1.0)
 Black = Color(0x000000, 1.0)
 SkyBlue = Color(0x87CEFA, 1.0)
 GroundCol = Color(0x556B2F, 1.0)
@@ -45,11 +46,13 @@ ThinLine = LineStyle(1, Black)
 
 Back = RectangleAsset(SkyWidth, SkyHeight, ThinLine, SkyBlue)
 Ground = RectangleAsset(SkyWidth, GroundHeight, ThinLine, GroundCol)
+Sun = CircleAsset(SkyWidth/15, ThinLine, Yellow)
 Mount = PolygonAsset([(SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight), (SkyWidth-MountWidth-OffSide, SkyHeight), (SkyWidth-OffSide, SkyHeight)], ThinLine, MountCol)
 # Snow = PolygonAsset([(SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight), (
 
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
+Sprite(Sun, (SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight))
 Sprite(Mount)
 
 # add your code here /\  /\  /\
