@@ -28,14 +28,14 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
-MountWidth = 1
+MountWidth = 50
 
 Black = Color(0x000000, 1.0)
 MountCol = Color(0xFAEBD7, 1.0)
 
 ThinLine = LineStyle(1, Black)
 
-Mount = PolygonAsset([((MountWidth/2), 0), (0, (MountWidth*(9/4))), (MountWidth, (MountWidth*(9/4)))], ThinLine, MountCol)
+Mount = PolygonAsset([((MountWidth/2), 0), (0, (MountWidth*(1.6/1))), (MountWidth, (MountWidth*(1.6/1)))], ThinLine, MountCol)
 
 Sprite(Mount)
 
