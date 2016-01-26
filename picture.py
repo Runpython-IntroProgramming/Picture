@@ -42,7 +42,7 @@ portal1 = EllipseAsset(40, 10, thickline, blue)
 rectum = RectangleAsset(40, 60, thickline2, orange)
 portal2 = EllipseAsset(40, 10, thickline, orange)
 
-Sprite(circle, (80, 480)) 
+Sprite(circle, (80, 475)) 
 Sprite(poly, (90, 530))
 Sprite(portal1, (80, 150))
 Sprite(portal2, (80, 550))
