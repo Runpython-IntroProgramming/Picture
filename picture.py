@@ -38,15 +38,15 @@ thickline = LineStyle(5 , red)
 circle = CircleAsset(10, thickline, red)
 poly = PolygonAsset([(20,20), (30,40), (50,160), (20,100)], thickline, red)
 portal1 = EllipseAsset(40, 10, thickline, blue)
-rectum = RectangleAsset(40, 60, thickline, green)
+rectum = RectangleAsset(40, 60, thickline, orange)
 portal2 = EllipseAsset(40, 10, thickline, orange)
 
 Sprite(circle, (70, 500)) 
 Sprite(poly, (90, 530))
 Sprite(portal1, (80, 150))
-
-Sprite(rectum, (60, 490))
 Sprite(portal2, (80, 550))
+Sprite(rectum, (60, 490))
+
 
 # add your code here /\  /\  /\
 
