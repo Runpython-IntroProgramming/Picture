@@ -43,7 +43,7 @@ orangeline=LineStyle(1, orange)
 purpleline=LineStyle(1, purple)
 
 #shapes
-grasshill=CircleAsset(100, greenline, green)
+grasshill=CircleAsset(550, greenline, green)
 
 #Sprites
 Sprite(grasshill)
