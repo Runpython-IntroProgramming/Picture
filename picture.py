@@ -46,14 +46,20 @@ purpleline=LineStyle(1, purple)
 #shapes
 grasshill=CircleAsset(550, greenline, green)
 house=RectangleAsset(200, 390, blueline, blue)
-window=EllipseAsset(25, 35, blueline, windowsheen)
+windowa=EllipseAsset(25, 35, purpleline, windowsheen)
+windowb=EllipseAsset(25, 35, redline, windowsheen)
+windowg=EllipseAsset(25, 35, greenline, windowsheen)
+door=PolygonAsset([(500,500),(600,500), (650, 1000), (450, 1200), (350, 800)], orangeline, green)
+#pos 1, 2
 
 #Sprites
 Sprite(grasshill, (680, 1000))
 Sprite(house, (585, 220))
-Sprite(window, (632, 300))
-Sprite(window, (730, 390))
-Sprite(window, (632, 480))
+Sprite(windowa, (632, 300))
+Sprite(windowb, (730, 390))
+Sprite(windowg, (632, 480))
+Sprite(door, (100, 0))
+
 
 
 
