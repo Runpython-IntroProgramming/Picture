@@ -36,7 +36,7 @@ orange = Color(0xff7400, 1.0)
 
 thickline = LineStyle(5 , red)
 circle = CircleAsset(10, thickline, red)
-poly = PolygonAsset([(20,20), (30,100), (50,80), (20,80)], thickline, red)
+poly = PolygonAsset([(20,20), (30,40), (50,160), (20,100)], thickline, red)
 portal1 = EllipseAsset(40, 10, thickline, blue)
 rectum = RectangleAsset(40, 60, thickline, green)
 portal2 = EllipseAsset(40, 10, thickline, orange)
