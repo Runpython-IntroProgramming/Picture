@@ -53,12 +53,12 @@ door = RectangleAsset(100, 200, thinline, turqoise)
 
 # Now display a rectangle
 Sprite(rectangle, (200, 150))
-Sprite(circle, (50, 30))
+Sprite(circle, (500, 350))
 Sprite(ellipse, (80, 210))
 Sprite(polygon, (200, 150))
 Sprite(window1, (285, 200))
 Sprite(window2, (485, 200))
-Sprite(door, (485, 375))
+Sprite(door, (485, 350))
 
 
 myapp = App()
