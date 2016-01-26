@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Billy B
-Credit: <list sources used, if any>
+Credit: Mr. Dennison
 
 Assignment:
 
