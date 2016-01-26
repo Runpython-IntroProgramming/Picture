@@ -45,7 +45,7 @@ trunk = RectangleAsset(20, 40, thinline, brown)
 tree = PolygonAsset([(180,10),(140,90),(220,90)], thinline, darkgreen)
 tree2 = PolygonAsset([(180,10),(135,90),(225,90)], thinline, darkgreen)
 stem = RectangleAsset(7,30, thinline, green)
-flower = CircleAsset(4, thinline, 
+flower = CircleAsset(4, thinline, pink)
 
 Sprite(sky)
 Sprite(ground, (0, 200))
@@ -54,6 +54,7 @@ Sprite(trunk, (170, 170))
 Sprite(tree2, (0, 90))
 Sprite(tree, (0, 45))
 Sprite(stem, (60, 186))
+Sprite(flower
 
 # add your code here /\  /\  /\
 
