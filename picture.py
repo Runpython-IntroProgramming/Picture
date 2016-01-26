@@ -35,6 +35,7 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+turqoise = Color(0x00e5ee, 1.0)
 
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
@@ -44,9 +45,10 @@ thickline = LineStyle (2, green)
 rectangle = RectangleAsset(500, 400,thinline, blue)
 circle = CircleAsset(4, thinline, red)
 ellipse = EllipseAsset(5, 4, thinline, green)
-polygon = PolygonAsset([(0,0), (100,100), (500,100), (0,0)], thickline, black)
-window1 = RectangleAsset(50, 50, thinline, black)
-
+polygon = PolygonAsset([(500,0), (250,-150), (0,0)], thickline, black)
+window1 = RectangleAsset(100, 100, thinline, black)
+window2 = RectangleAsset(100,100, thinline, red)
+door = RectangleAsset(100, 200, thinline, turqoise)
 
 
 # Now display a rectangle
@@ -55,6 +57,9 @@ Sprite(circle, (50, 30))
 Sprite(ellipse, (80, 210))
 Sprite(polygon, (200, 150))
 Sprite(window1, (285, 200))
+Sprite(window2, (485, 200))
+Sprite(door, (485, 375))
+
 
 myapp = App()
 myapp.run()
