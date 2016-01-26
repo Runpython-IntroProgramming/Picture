@@ -34,6 +34,7 @@ green=Color(0x79E310, 1.0)
 blue=Color(0x0B1ABF, 1.0)
 orange=Color(0xE35D09, 1.0)
 purple=Color(0x8209AB, 1.0)
+windowsheen=Color(0x74E3E3, 1.0)
 
 #colored lines
 redline=LineStyle(1, red)
@@ -44,9 +45,15 @@ purpleline=LineStyle(1, purple)
 
 #shapes
 grasshill=CircleAsset(550, greenline, green)
+house=RectangleAsset(200, 390, blueline, blue)
+window=EllipseAsset(25, 35, blueline, windowsheen)
 
 #Sprites
-Sprite(grasshill)
+Sprite(grasshill, (680, 1000))
+Sprite(house, (585, 220))
+Sprite(window, (632, 300))
+Sprite(window, (730, 390))
+Sprite(window, (632, 480))
 
 
 
