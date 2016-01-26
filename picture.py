@@ -34,6 +34,7 @@ SkyHeight = Size*40
 GroundHeight = BackHeight/10
 MountWidth = Size*20
 MountHeight = MountWidth*1.6
+OffSide = SkyWidth/20
 
 Black = Color(0x000000, 1.0)
 SkyBlue = Color(0x87CEFA, 1.0)
@@ -44,7 +45,7 @@ ThinLine = LineStyle(1, Black)
 
 Back = RectangleAsset(SkyWidth, SkyHeight, ThinLine, SkyBlue)
 Ground = RectangleAsset(SkyWidth, GroundHeight, ThinLine, GroundCol)
-Mount = PolygonAsset([((MountWidth/2), (SkyHeight-MountHeight)), (0, SkyHeight), (MountWidth, SkyHeight)], ThinLine, MountCol)
+Mount = PolygonAsset([((SkyWidth-(MountWidth/2)-OffSide), (SkyHeight-MountHeight)), ((SkyWidth-MountWidth-OffSide), SkyHeight), (SkyWidth-OffSide, SkyHeight)], ThinLine, MountCol)
 
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
