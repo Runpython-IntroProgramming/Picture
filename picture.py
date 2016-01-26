@@ -38,11 +38,19 @@ black = Color(0x000000, 1.0)
 
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
+thickline = LineStyle (2, green)
+
 # A graphics asset that represents a rectangle
-rectangle = RectangleAsset(50, 20, thinline, blue)
+rectangle = RectangleAsset(5, 4,thinline, blue)
+circle = CircleAsset(4, thinline, red)
+ellipse = EllipseAsset(5, 4, thinline, green)
+polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thickline, black)
 
 # Now display a rectangle
-Sprite(rectangle)
+Sprite(rectangle, (200, 50))
+Sprite(circle, (50, 30))
+Sprite(ellipse, (80, 210))
+Sprite(polygon, (90, 370))
 
 myapp = App()
 myapp.run()
