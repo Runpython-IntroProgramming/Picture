@@ -44,7 +44,7 @@ sun = CircleAsset(20, thinline, yellow)
 trunk = RectangleAsset(20, 40, thinline, brown)
 tree = PolygonAsset([(180,10),(140,90),(220,90)], thinline, darkgreen)
 tree2 = PolygonAsset([(180,10),(135,90),(225,90)], thinline, darkgreen)
-stem = RectangleAsset(7,30, thinline, green)
+stem = RectangleAsset(7,25, thinline, green)
 flower = CircleAsset(6, thinline, pink)
 
 Sprite(sky)
