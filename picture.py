@@ -52,7 +52,7 @@ legs = RectangleAsset(5, 30, thickline2, orange)
 
 arm1 = Sprite(legs, (150, 150))
 arm1.rotation=-1
-arm1.roation=.5
+#arm1.roation=.5
 
 Sprite(circle, (80, 478)) 
 Sprite(poly, (90, 530))
