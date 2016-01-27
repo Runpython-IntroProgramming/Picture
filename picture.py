@@ -42,14 +42,14 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 
 # initialize shapes
-    #house rectangle
-    rectangle = RectangleAsset(5000, 2000, thinline, redd)
-    #house roof
-    rectangle2 = RectangleAsset(5000, 500, thinline, black)
+#house rectangle
+rectangle = RectangleAsset(1000, 600, thinline, blue)
+#triangles
+circle = CircleAsset(100, thinline, green)
 
 #display the shapes
 Sprite(rectangle, (200, 50))
-Sprite(rectangle2, (225, 40))
+Sprite(circle, (800, 300))
 
 myapp = App()
 myapp.run()
