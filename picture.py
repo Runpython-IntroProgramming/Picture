@@ -27,32 +27,30 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
-from ggame import App, Color, LineStyle, Sprite
-from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
-myapp = App()
-myapp.run()
 
 #colors
 red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+#yellow = Color(0Xffff00, 1.0)
 
 #line style
 thinline = LineStyle(1, black)
 
-# initialize shapes
-#house rectangle
+
+
 rectangle = RectangleAsset(1000, 600, thinline, blue)
-#triangles
-circle = CircleAsset(100, thinline, green)
+circle = CircleAsset(50, thinline, red)
+ellipse = EllipseAsset(60, 100, thinline, red)
+triangle = PolygonAsset([(50,50),(60,50),(80,80)], thinline, green)
 
 #display the shapes
 Sprite(rectangle, (200, 50))
-Sprite(circle, (800, 300))
+Sprite(circle, (900, 150))
+Sprite(ellipse, (400, 400))
+Sprite(triangle, (600,600))
 
-myapp = App()
-myapp.run()
 
 # add your code here /\  /\  /\
 
