@@ -89,7 +89,7 @@ windowd = RectangleAsset(85, 85, thinline, blue)
 door = RectangleAsset(70, 90, thinline, red)
 knob = CircleAsset(10, thinline, black)
 sandyhill = CircleAsset(600, orangeline, orange)
-moon = CircleAsset(150, thinline, white)
+moon = EllipseAsset(150, 150, thinline, white)
 
 
 #sprites
