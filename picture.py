@@ -33,7 +33,7 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 darkgreen = Color(0x26632e, 1.0)
-nightsky = Color(0x2e2c65, 1.0)
+nightsky = Color(0x25244b, 1.0)
 line = LineStyle(1, black)
 
 tri = PolygonAsset([(19,72),(29,72),(25,42)], line, darkgreen )
