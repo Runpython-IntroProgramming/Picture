@@ -37,7 +37,7 @@ thickline= LineStyle(5, black)
 thickishline= LineStyle(2.5, black)
 noline=LineStyle(0, black)
 
-linedivide=LineAsset ([(250,20), (250,750)], thinline, black)
+
 wall=RectangleAsset(500,500, noline, wall)
 blueportal=ElllipseAsset(20, 60, thinline, black)
 
