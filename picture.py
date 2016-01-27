@@ -58,7 +58,7 @@ Sprite(portal2, (80, 550))
 Sprite(rectum, (60, 490))
 Sprite(rectum2, (60, 150))
 Sprite(legs, (60, 180))
-Sprite(legs, (100, 180))
+Sprite(legs, (90, 180))
 
 
 # add your code here /\  /\  /\
