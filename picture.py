@@ -35,6 +35,7 @@ wall=Color(0xC4CACC, 1.0)
 thinline= LineStyle(1, black)
 thickline= LineStyle(5, black)
 thickishline= LineStyle(2.5, black)
+noline=LineStyle(0, black)
 
 wall=RectangleAsset(500,500, thinline, wall)
 
