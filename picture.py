@@ -40,7 +40,7 @@ line = LineStyle(1, black)
 
 tri = PolygonAsset([(19,72),(29,72),(25,42)], line, darkgreen )
 background = RectangleAsset( 1000, 1000, line, nightsky )
-ground = RectangleAsset( 100, 1000, line, nightsky )
+ground = RectangleAsset( 1000, 30, line, ground )
 
 Sprite(background, (0, 0))
 Sprite(tri, (20, 20))
