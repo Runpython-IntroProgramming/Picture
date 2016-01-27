@@ -32,6 +32,7 @@ skin =Color(0xFCD15B, 1.0)
 wall=Color(0xE8E8E8, 1.0)
 orange=Color(0xFFa500,1.0)
 plat=Color(0xB9BDBB,1.0)
+gooy=Color(0xCDF238,1.0)
 
 
 thinline= LineStyle(1, black)
@@ -49,7 +50,7 @@ exit=CircleAsset(70, thinline, plat)
 exit2=CircleAsset(20, thinline, plat)
 plat=RectangleAsset(250, 50, noline, plat)
 doorline=LineAsset(0, 120, thinline)
-goo=PolygonAsset([(0,500),(800,500),(800,600,),(0,600)],noline,blue)
+goo=PolygonAsset([(0,500),(800,500),(800,600,),(0,600)],noline,gooy)
 
 Sprite(wall, (400,20))
 Sprite(wall, (100,20))
