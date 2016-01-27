@@ -20,7 +20,7 @@ http://brythonserver.github.io/ggame/
 for detailed information on ggame.
 """
 
-from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, LineAssetPolygonAsset
+from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, LineAsset, PolygonAsset
 
 
 red = Color(0xff0000, 1.0)
