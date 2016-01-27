@@ -54,7 +54,7 @@ Sprite(exit, (800,100))
 Sprite(plat, (100,400))
 Sprite(plat, (650, 150))
 Sprite(orangeportal, (700,90))
-Sprite(blueportal, (200,325))
+Sprite(blueportal, (200,340))
 
 myapp = App()
 myapp.run()
