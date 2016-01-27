@@ -50,7 +50,7 @@ legs = RectangleAsset(5, 30, thickline2, orange)
 #arm1 =
 #arm2 = 
 
-arm1 = Sprite(legs, (150, 500))
+arm1 = Sprite(legs, (150, 480))
 arm1.rotation=-1
 #arm1.roation=.5
 
