@@ -56,14 +56,17 @@ Ground = RectangleAsset(SkyWidth, GroundHeight, ThinLine, GroundCol)
 Sun = CircleAsset(SkyWidth/15, ThinLine, Yellow)
 Mount = PolygonAsset([(SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight), (SkyWidth-MountWidth-OffSide, SkyHeight), (SkyWidth-OffSide, SkyHeight)], ThinLine, MountCol)
 Snow = PolygonAsset([(SnowWidth/2, 0), (0, SnowHeight), (SnowWidth, SnowHeight)], ThinLine, White)
-Cloud = EllipseAsset(CloudWidth, CloudHeight, ThinLine, White)
+Cloud1 = EllipseAsset(CloudWidth, CloudHeight, ThinLine, White)
+Cloud2 = EllipseAsset(CloudWidth/2, CloudHeight, ThinLine, White)
+Cloud3 = EllipseAsset(CloudWidth, CloudHeight*2, ThinLine, White)
 
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
 Sprite(Sun, (SkyWidth-3*OffSide, SkyHeight-MountHeight))
 Sprite(Mount)
 Sprite(Snow, (SkyWidth-(MountWidth/2)-(SnowWidth/2)-OffSide, SkyHeight-MountHeight))
-Sprite(Cloud, (CloudWidth*1.5, CloudHeight*2))
+Sprite(Cloud1, (CloudWidth*1.25, CloudHeight*2))
+Sprite(Cloud2, (CloudWidth*2.5, CloudHeight*4))
 
 # add your code here /\  /\  /\
 
