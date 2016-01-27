@@ -1,6 +1,6 @@
 """
 picture.py
-Author: <your name here>
+Author: Payton
 Credit: Andreas and colorpicker.com
 
 Assignment:
