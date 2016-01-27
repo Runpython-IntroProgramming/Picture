@@ -39,7 +39,7 @@ noline=LineStyle(0, black)
 
 
 wall=RectangleAsset(500,500, noline, wall)
-blueportal=ElllipseAsset(20, 60, thinline, black)
+blueportal=EllipseAsset(20, 60, thinline, black)
 
 
 Sprite(wall, (400,20))
