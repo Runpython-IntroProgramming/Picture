@@ -54,7 +54,7 @@ Mount = PolygonAsset([(SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight), 
 
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
-Sprite(Sun, (SkyWidth-OffSide, SkyHeight-MountHeight))
+Sprite(Sun, (SkyWidth-3*OffSide, SkyHeight-MountHeight))
 Sprite(Mount)
 
 # add your code here /\  /\  /\
