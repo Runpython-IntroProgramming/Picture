@@ -49,6 +49,9 @@ polygon = PolygonAsset([(500,0), (250,-150), (0,0)], thickline, black)
 window1 = RectangleAsset(100, 100, thinline, black)
 window2 = RectangleAsset(100,100, thinline, red)
 door = RectangleAsset(100, 200, thinline, turqoise)
+pane1 = RectangleAsset(10, 100, thinline, turqoise)
+pane2 = RectangleAsset(100, 10, thinline, turqoise)
+window3 = CircleAsset(40, thinline, black)
 
 
 # Now display a rectangle
@@ -59,6 +62,10 @@ Sprite(window2, (485, 200))
 Sprite(door, (485, 350))
 Sprite(circle, (565, 450))
 Sprite(ellipse, (325, 440))
+Sprite(pane1, (330, 200))
+Sprite(pane2, (285, 245))
+Sprite(window3, (535, 250))
+
 
 
 
