@@ -45,7 +45,7 @@ portalline2=LineStyle(1, orange)
 wall=RectangleAsset(500,500, noline, wall)
 blueportal=EllipseAsset(27, 60, portalline, blue)
 orangeportal=EllipseAsset(27, 60, portalline2, orange)
-exit=CircleAsset(30, noline, plat)
+exit=CircleAsset(40, noline, plat)
 start=RectangleAsset(200, 50, noline, plat)
 
 Sprite(wall, (400,20))
