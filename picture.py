@@ -63,7 +63,7 @@ Sprite(Ground, (0, SkyHeight))
 Sprite(Sun, (SkyWidth-3*OffSide, SkyHeight-MountHeight))
 Sprite(Mount)
 Sprite(Snow, (SkyWidth-(MountWidth/2)-(SnowWidth/2)-OffSide, SkyHeight-MountHeight))
-Sprite(Cloud, (CloudWidth/2, CloudHeight/2))
+Sprite(Cloud, (CloudWidth*1.5, CloudHeight*2))
 
 # add your code here /\  /\  /\
 
