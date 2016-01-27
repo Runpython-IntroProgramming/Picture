@@ -37,7 +37,10 @@ GroundHeight = SkyHeight/10
 MountWidth = Size*20
 MountHeight = MountWidth*1.6
 OffSide = SkyWidth/20
+SnowWidth = MountWidth/3
+SnowHeight = SnowWidth*1.6
 
+White = Color(0xFFFFFFF, 1.0)
 Yellow = Color(0xFFFF00, 1.0)
 Black = Color(0x000000, 1.0)
 SkyBlue = Color(0x87CEFA, 1.0)
@@ -50,7 +53,7 @@ Back = RectangleAsset(SkyWidth, SkyHeight, ThinLine, SkyBlue)
 Ground = RectangleAsset(SkyWidth, GroundHeight, ThinLine, GroundCol)
 Sun = CircleAsset(SkyWidth/15, ThinLine, Yellow)
 Mount = PolygonAsset([(SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight), (SkyWidth-MountWidth-OffSide, SkyHeight), (SkyWidth-OffSide, SkyHeight)], ThinLine, MountCol)
-# Snow = PolygonAsset([(SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight), (
+Snow = PolygonAsset([(SnowWidth/2, 0), (0, SnowHeight), (SnowWidth, SnowHeight)], ThinLine, White)
 
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
