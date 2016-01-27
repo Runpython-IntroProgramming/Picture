@@ -38,7 +38,7 @@ thickishline= LineStyle(2.5, black)
 
 wall=RectangleAsset(500,500, thinline, wall)
 
-Sprite(wall, (250, 250))
+Sprite(wall, (250, 20))
 
 
 
