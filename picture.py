@@ -44,7 +44,6 @@ blueportal=ElllipseAsset(20,60,thinline,blue))
 
 Sprite(wall, (400,20))
 Sprite(wall, (100,20))
-Sprite(linedivide, (0,0))
 Sprite(blueportal, (200,200))
 
 
