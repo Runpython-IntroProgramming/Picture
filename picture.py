@@ -43,7 +43,7 @@ poly = PolygonAsset([(20,20), (30,40), (50,160), (20,100)], thickline, red)
 portal1 = EllipseAsset(40, 10, thickline, blue)
 rectum = RectangleAsset(40, 60, thickline2, orange)
 portal2 = EllipseAsset(40, 10, thickline, orange)
-rectum2 = RectangleAsset(40, 60, nlu, orange)
+rectum2 = RectangleAsset(40, 60, thickline2, orange)
 
 Sprite(circle, (80, 478)) 
 Sprite(poly, (90, 530))
