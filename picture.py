@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Funjando
-Credit: tiggerntatie
+Credit: tiggerntatie, Colorpicker.com
 
 Assignment:
 
@@ -30,7 +30,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 #Colors
 red=Color(0x910101, 1.0)
-green=Color(0x79E310, 1.0)
+green=Color(0x9DE63E, 1.0)
 blue=Color(0x0B1ABF, 1.0)
 orange=Color(0xE35D09, 1.0)
 purple=Color(0x8209AB, 1.0)
@@ -40,11 +40,11 @@ leprechaungold=Color(0xD4BA15, 1.0)
 black=Color(0x000000, 1.0)
 
 #colored lines
-redline=LineStyle(1, red)
-greenline=LineStyle(1, green)
+redline=LineStyle(4, red)
+greenline=LineStyle(4, green)
 blueline=LineStyle(1, blue)
-orangeline=LineStyle(1, orange)
-purpleline=LineStyle(1, purple)
+orangeline=LineStyle(7, orange)
+purpleline=LineStyle(4, purple)
 blackline=LineStyle(1, black)
 noline=LineStyle(0, black)
 
@@ -56,6 +56,8 @@ windowb=EllipseAsset(25, 35, redline, windowsheen)
 windowg=EllipseAsset(25, 35, greenline, windowsheen)
 door=PolygonAsset([(500,500),(550,500), (580, 550), (550, 600), (500, 600), (470, 550)], orangeline, hobbitgreen)
 doorknob=CircleAsset(10, noline, leprechaungold)
+roof=PolygonAsset([(87, 200), (189, 100), (283, 200)], redline, red )
+
 
 #Sprites
 Sprite(grasshill, (680, 1000))
@@ -64,7 +66,9 @@ Sprite(windowa, (632, 300))
 Sprite(windowb, (730, 390))
 Sprite(windowg, (632, 480))
 Sprite(door, (200, 0))
-Sprite(doorknob, (580, 550))
+Sprite(doorknob, (740, 550))
+Sprite(roof, (500, 20))
+
 
 
 
