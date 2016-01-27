@@ -46,7 +46,7 @@ portal1 = EllipseAsset(40, 10, thickline, blue)
 rectum = RectangleAsset(40, 60, thickline2, orange)
 portal2 = EllipseAsset(40, 10, thickline, orange)
 rectum2 = RectangleAsset(40, 30, thickline2, orange)
-legs = RectangleAsset(10, 15, thickline2, orange)
+legs = RectangleAsset(5, 30, thickline2, orange)
 #arm1 =
 #arm2 = 
 
