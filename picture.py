@@ -30,6 +30,7 @@ black = Color(0x000000, 1.0)
 orange = Color(0xffa500, 1.0)
 skin =Color(0xFCD15B, 1.0)
 wall=Color(0xC4CACC, 1.0)
+orange=Color(0xFFa500,1.0)
 
 
 thinline= LineStyle(1, black)
@@ -39,7 +40,7 @@ noline=LineStyle(0, black)
 
 
 wall=RectangleAsset(500,500, noline, wall)
-blueportal=EllipseAsset(20, 60, thinline, black)
+blueportal=EllipseAsset(20, 60, thinline, orange)
 
 
 Sprite(wall, (400,20))
