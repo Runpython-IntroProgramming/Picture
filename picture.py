@@ -33,6 +33,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 orange = Color(0xff7400, 1.0)
 beige = Color(0xffffd8, 1.0)
+white = Color(0xffffff. 1.0)
 
 noline = LineStyle(2 , black)
 nlu = LineStyle(5 , blue)
@@ -42,9 +43,9 @@ circle = CircleAsset(10, noline, beige)
 
 
 poly = PolygonAsset([(20,20), (30,40), (50,160), (20,100)], thickline, red)
-portal1 = EllipseAsset(40, 10, thickline, blue)
+portal1 = EllipseAsset(40, 10, nlu, white)
 rectum = RectangleAsset(40, 60, thickline2, orange)
-portal2 = EllipseAsset(40, 10, thickline, orange)
+portal2 = EllipseAsset(40, 10, thickline2, white)
 rectum2 = RectangleAsset(40, 30, thickline2, orange)
 legs = RectangleAsset(5, 30, thickline2, orange)
 #arm1 =
