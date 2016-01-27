@@ -37,10 +37,13 @@ thinline= LineStyle(1, black)
 thickline= LineStyle(5, black)
 thickishline= LineStyle(2.5, black)
 noline=LineStyle(0, black)
+portalline=LineStyle(1, blue)
+portallline2=LineStyle(1, orange)
 
 
 wall=RectangleAsset(500,500, noline, wall)
-blueportal=EllipseAsset(20, 60, thinline, orange)
+blueportal=EllipseAsset(27, 60, portalline, blue)
+orangeportal=EllipseAsset(27, 60, portalline2, orange) 
 
 
 Sprite(wall, (400,20))
