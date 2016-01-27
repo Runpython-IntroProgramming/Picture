@@ -47,8 +47,8 @@ rectum = RectangleAsset(40, 60, thickline2, orange)
 portal2 = EllipseAsset(40, 10, thickline, orange)
 rectum2 = RectangleAsset(40, 30, thickline2, orange)
 legs = RectangleAsset(10, 15, thickline2, orange)
-arm1 =
-arm2 = 
+#arm1 =
+#arm2 = 
 
 
 Sprite(circle, (80, 478)) 
@@ -58,7 +58,7 @@ Sprite(portal2, (80, 550))
 Sprite(rectum, (60, 490))
 Sprite(rectum2, (60, 150))
 Sprite(legs, (40, 200))
-Sprite(legs. (80, 200))
+Sprite(legs, (80, 200))
 
 
 # add your code here /\  /\  /\
