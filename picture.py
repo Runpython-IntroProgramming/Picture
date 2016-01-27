@@ -58,7 +58,7 @@ Mount = PolygonAsset([(SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight), 
 Snow = PolygonAsset([(SnowWidth/2, 0), (0, SnowHeight), (SnowWidth, SnowHeight)], ThinLine, White)
 Cloud1 = EllipseAsset(CloudWidth, CloudHeight, ThinLine, White)
 Cloud2 = EllipseAsset(CloudWidth/2, CloudHeight, ThinLine, White)
-Cloud3 = EllipseAsset(CloudWidth, CloudHeight*2, ThinLine, White)
+Cloud3 = EllipseAsset(CloudWidth*0.75, CloudHeight*1.5, ThinLine, White)
 
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
@@ -67,6 +67,7 @@ Sprite(Mount)
 Sprite(Snow, (SkyWidth-(MountWidth/2)-(SnowWidth/2)-OffSide, SkyHeight-MountHeight))
 Sprite(Cloud1, (CloudWidth*1.25, CloudHeight*2))
 Sprite(Cloud2, (CloudWidth*2.5, CloudHeight*4))
+Sprite(Cloud3, (CloudWidth*3.75, CloudHeight*2))
 
 # add your code here /\  /\  /\
 
