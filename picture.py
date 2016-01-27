@@ -20,7 +20,7 @@ http://brythonserver.github.io/ggame/
 for detailed information on ggame.
 """
 
-from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset, LineAsset
+from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 
 red = Color(0xff0000, 1.0)
@@ -44,16 +44,14 @@ portalline2=LineStyle(1, orange)
 wall=RectangleAsset(500,500, noline, wall)
 blueportal=EllipseAsset(27, 60, portalline, blue)
 orangeportal=EllipseAsset(27, 60, portalline2, orange)
-wallline=LineAsset(0, 500, thinline)
-head=CircleAsset(15, thinline,skin)
+exit=CircleAsset(15, thinline,skin)
 
 
 Sprite(wall, (400,20))
 Sprite(wall, (100,20))
 Sprite(blueportal, (200,200))
 Sprite(orangeportal, (300,100))
-Sprite(wallline, (500,20))
-Sprite(head, (50,50))
+Sprite(exti, (50,50))
 
 
 myapp = App()
