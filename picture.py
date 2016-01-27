@@ -41,6 +41,7 @@ SnowWidth = MountWidth/3
 SnowHeight = SnowWidth*1.6
 CloudWidth = SkyWidth/6
 CloudHeight = SkyHeight/20
+PersonHeight = SkyHeight/4
 
 White = Color(0xFFFFFFF, 1.0)
 Yellow = Color(0xFFFF00, 1.0)
@@ -59,6 +60,7 @@ Snow = PolygonAsset([(SnowWidth/2, 0), (0, SnowHeight), (SnowWidth, SnowHeight)]
 Cloud1 = EllipseAsset(CloudWidth, CloudHeight, ThinLine, White)
 Cloud2 = EllipseAsset(CloudWidth/2, CloudHeight, ThinLine, White)
 Cloud3 = EllipseAsset(CloudWidth*0.75, CloudHeight*1.5, ThinLine, White)
+Torso = RectangleAsset(PersonHeight/10, PersonHeight/2, ThinLine, Black)
 
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
@@ -68,6 +70,7 @@ Sprite(Snow, (SkyWidth-(MountWidth/2)-(SnowWidth/2)-OffSide, SkyHeight-MountHeig
 Sprite(Cloud1, (CloudWidth*1.25, CloudHeight*2))
 Sprite(Cloud2, (CloudWidth*2.5, CloudHeight*4))
 Sprite(Cloud3, (CloudWidth*3.75, CloudHeight*2))
+Sprite(Torso, (SkyWidth/3, SkyHeight-GroundHeight-PersonHeight/2))
 
 # add your code here /\  /\  /\
 
