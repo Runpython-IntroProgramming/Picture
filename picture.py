@@ -55,10 +55,13 @@ Sun = CircleAsset(SkyWidth/15, ThinLine, Yellow)
 Mount = PolygonAsset([(SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight), (SkyWidth-MountWidth-OffSide, SkyHeight), (SkyWidth-OffSide, SkyHeight)], ThinLine, MountCol)
 Snow = PolygonAsset([(SnowWidth/2, 0), (0, SnowHeight), (SnowWidth, SnowHeight)], ThinLine, White)
 
+Snow.fxcenter = 0.5
+
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
 Sprite(Sun, (SkyWidth-3*OffSide, SkyHeight-MountHeight))
 Sprite(Mount)
+Sprite(Snow, (SkyWidth-(MountWidth/2)-OffSide, SkyHeight-MountHeight))
 
 # add your code here /\  /\  /\
 
