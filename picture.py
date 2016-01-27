@@ -56,7 +56,7 @@ windowb=EllipseAsset(25, 35, redline, windowsheen)
 windowg=EllipseAsset(25, 35, greenline, windowsheen)
 door=PolygonAsset([(500,500),(550,500), (580, 550), (550, 600), (500, 600), (470, 550)], orangeline, hobbitgreen)
 doorknob=CircleAsset(10, noline, leprechaungold)
-roof=PolygonAsset([(87, 200), (189, 100), (283, 200)], redline, red )
+roof=PolygonAsset([(87, 200), (189, 100), (283, 200)], orangeline, red )
 
 
 #Sprites
