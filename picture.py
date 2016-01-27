@@ -31,6 +31,7 @@ orange = Color(0xffa500, 1.0)
 skin =Color(0xFCD15B, 1.0)
 wall=Color(0xE8E8E8, 1.0)
 orange=Color(0xFFa500,1.0)
+plat=Color(0xB9BDBB,1.0)
 
 
 thinline= LineStyle(1, black)
@@ -45,13 +46,14 @@ wall=RectangleAsset(500,500, noline, wall)
 blueportal=EllipseAsset(27, 60, portalline, blue)
 orangeportal=EllipseAsset(27, 60, portalline2, orange)
 exit=CircleAsset(15, thinline,skin)
-
+start=RectangeAsset(50, 10, noline, plat)
 
 Sprite(wall, (400,20))
 Sprite(wall, (100,20))
 Sprite(blueportal, (200,200))
 Sprite(orangeportal, (300,100))
-Sprite(exti, (50,50))
+Sprite(exit, (50,50))
+Sprite(start, (100,100))
 
 
 myapp = App()
