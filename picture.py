@@ -50,12 +50,11 @@ plat=RectangleAsset(250, 50, noline, plat)
 
 Sprite(wall, (400,20))
 Sprite(wall, (100,20))
-Sprite(blueportal, (200,200))
-Sprite(orangeportal, (300,100))
 Sprite(exit, (800,100))
 Sprite(plat, (100,400))
-Sprite(plat, (675, 150))
-
+Sprite(plat, (650, 150))
+Sprite(orangeportal, (700,100))
+Sprite(blueportal, (200,200))
 
 myapp = App()
 myapp.run()
