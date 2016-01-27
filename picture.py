@@ -33,7 +33,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 orange = Color(0xff7400, 1.0)
 beige = Color(0xffffd8, 1.0)
-white = Color(0xffffff. 1.0)
+white = Color(0xffffff, 1.0)
 
 noline = LineStyle(2 , black)
 nlu = LineStyle(5 , blue)
