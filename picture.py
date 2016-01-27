@@ -46,7 +46,7 @@ wall=RectangleAsset(500,500, noline, wall)
 blueportal=EllipseAsset(27, 60, portalline, blue)
 orangeportal=EllipseAsset(27, 60, portalline2, orange)
 exit=CircleAsset(70, noline, plat)
-plat=RectangleAsset(200, 50, noline, plat)
+plat=RectangleAsset(250, 50, noline, plat)
 
 Sprite(wall, (400,20))
 Sprite(wall, (100,20))
