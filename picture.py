@@ -48,7 +48,7 @@ orangeportal=EllipseAsset(27, 60, portalline2, orange)
 exit=CircleAsset(70, thinline, plat)
 exit2=CircleAsset(20, thinline, plat)
 plat=RectangleAsset(250, 50, noline, plat)
-doorline=LineAsset(0, 140, black)
+doorline=LineAsset(0, 140, thinline)
 
 Sprite(wall, (400,20))
 Sprite(wall, (100,20))
