@@ -29,7 +29,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 orange = Color(0xffa500, 1.0)
 skin =Color(0xFCD15B, 1.0)
-wall=Color(0xC4CACC, 1.0)
+wall=Color(0xFCFBF7, 1.0)
 orange=Color(0xFFa500,1.0)
 
 
