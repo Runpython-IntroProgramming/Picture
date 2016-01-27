@@ -37,10 +37,13 @@ thickline= LineStyle(5, black)
 thickishline= LineStyle(2.5, black)
 noline=LineStyle(0, black)
 
-wall=RectangleAsset(500,500, thinline, wall)
+linedivide=LineAsset ((250,20), (250,750), thinline, black)
+wall=RectangleAsset(500,500, noline, wall)
 
-Sprite(wall, (400, 20))
-Sprite(wall, (100, 20))
+
+Sprite(wall, (400,20))
+Sprite(wall, (100,20))
+Sprite(linedivide, (0,0))
 
 
 myapp = App()
