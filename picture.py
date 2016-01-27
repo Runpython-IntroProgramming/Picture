@@ -44,7 +44,7 @@ thickline = LineStyle (2, green)
 # A graphics asset that represents a rectangle
 rectangle = RectangleAsset(500, 400,thinline, blue)
 circle = CircleAsset(4, thinline, red)
-ellipse = EllipseAsset(5, 4, thinline, green)
+ellipse = EllipseAsset(40, 70, thinline, green)
 polygon = PolygonAsset([(500,0), (250,-150), (0,0)], thickline, black)
 window1 = RectangleAsset(100, 100, thinline, black)
 window2 = RectangleAsset(100,100, thinline, red)
@@ -53,12 +53,13 @@ door = RectangleAsset(100, 200, thinline, turqoise)
 
 # Now display a rectangle
 Sprite(rectangle, (200, 150))
-Sprite(circle, (500, 350))
-Sprite(ellipse, (80, 210))
 Sprite(polygon, (200, 150))
 Sprite(window1, (285, 200))
 Sprite(window2, (485, 200))
 Sprite(door, (485, 350))
+Sprite(circle, (565, 450))
+Sprite(ellipse, (325, 440))
+
 
 
 myapp = App()
