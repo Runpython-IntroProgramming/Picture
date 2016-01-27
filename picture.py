@@ -28,6 +28,26 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+#Colors
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
+yellow = Color(0xFFFF00, 1.0)
+
+#line style
+thinline = LineStyle(1, black)
+
+#shape assets
+rectangle = RectangleAsset(50, 20, thinline, blue)
+Circle = CircleAsset(50, thinline, yellow)
+triangle = PolygonAsset([(50, 20), (40, 10), (10, 40)], thinline, green)
+#display the shapes 
+
+Sprite(rectangle, (50, 20))
+Sprite(Circle, (50, 20))
+Sprite(triangle, (506, 450))
+
 
 # add your code here /\  /\  /\
 
