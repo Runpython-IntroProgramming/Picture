@@ -37,13 +37,15 @@ thickline= LineStyle(5, black)
 thickishline= LineStyle(2.5, black)
 noline=LineStyle(0, black)
 
-linedivide=LineAsset (((250,20), (250,750)), thinline, black)
+linedivide=LineAsset ([(250,20), (250,750)], thinline, black)
 wall=RectangleAsset(500,500, noline, wall)
+blueportal=ElllipseAsset(20,60,thinline,blue))
 
 
 Sprite(wall, (400,20))
 Sprite(wall, (100,20))
 Sprite(linedivide, (0,0))
+Sprite(blueportal, (200,200))
 
 
 myapp = App()
