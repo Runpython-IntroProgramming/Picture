@@ -53,7 +53,7 @@ Sprite(wall, (100,20))
 Sprite(blueportal, (200,200))
 Sprite(orangeportal, (300,100))
 Sprite(exit, (50,50))
-Sprite(start, (100,100))
+Sprite(start, (100,400))
 
 
 myapp = App()
