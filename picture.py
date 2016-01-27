@@ -39,7 +39,7 @@ thickishline= LineStyle(2.5, black)
 wall=RectangleAsset(500,500, thinline, wall)
 
 Sprite(wall, (400, 20))
-
+Sprite(wall, (100, 20))
 
 
 myapp = App()
