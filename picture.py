@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Eli Woloshin
+Credit: none
 
 Assignment:
 
@@ -65,7 +65,6 @@ Sprite(ellipse, (325, 440))
 Sprite(pane1, (330, 200))
 Sprite(pane2, (285, 245))
 Sprite(window3, (535, 250))
-
 
 
 
