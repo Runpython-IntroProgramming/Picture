@@ -36,12 +36,12 @@ darkgreen = Color(0x26632e, 1.0)
 nightsky = Color(0x2e2c65, 1.0)
 line = LineStyle(1, black)
 
-shape = RectangleAsset( 1000, 1000, line, darkgreen )
 tri = PolygonAsset([(19,72),(29,72),(25,42)], line, green)
+shape = RectangleAsset( 1000, 1000, line, darkgreen )
 
 
-Sprite(tri, (0, 0))
-Sprite(shape, (200, 300))
+Sprite(tri, (200, 300))
+Sprite(shape, (0, 0))
 # add your code here /\  /\  /\
 
 
