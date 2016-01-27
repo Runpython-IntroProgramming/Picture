@@ -29,23 +29,18 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 orange = Color(0xffa500, 1.0)
 skin =Color(0xFCD15B, 1.0)
+wall=Color(0xC4CACC, 1.0)
+
 
 thinline= LineStyle(1, black)
 thickline= LineStyle(5, black)
 thickishline= LineStyle(2.5, black)
 
-rectangle = RectangleAsset(250, 50, thinline, red)
-poly = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, orange)
-circle =CircleAsset(200, thinline, skin)
+wall=RectangleAsset(500,500, thinline, wall)
+
+Sprite(wall, (50, 50))
 
 
-
-Sprite(circle, (200, 200))
-a = Sprite(rectangle, (100, 200))
-
-a.rotation(3.14159265358979323/2)
-
-Sprite(a, (100,200))
 
 myapp = App()
 myapp.run()
