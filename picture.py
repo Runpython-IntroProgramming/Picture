@@ -27,6 +27,8 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+purple = Color(0x9000C9, 1.0)
+beautiful = Color(0xFF00A6, 1.0)
 red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x00BFFF, 1.0)
@@ -81,7 +83,7 @@ ground =PolygonAsset([(1280,720,), (0,720,), (0,700,), (1280,700,)], thinlinegre
 Sprite(ground)
 coicle =CircleAsset(70, thinlineyellow, yellow)
 Sprite(coicle,(250,250))
-Boird =PolygonAsset([(0,0,),(10,5,),(15,5),(10,-10),(20,-5,),(25,5,),(30,5,),(30,0,),(32.5,-3,),(35,-5,),(37.5,-3,),(40,0),(45,2.5),(35,7.5,),(30,15,),(20,15,),(10,12.5,)],thinlineblack, red)
+Boird =PolygonAsset([(0,0,),(10,5,),(15,5),(10,-10),(20,-5,),(25,5,),(30,5,),(30,0,),(32.5,-3,),(35,-5,),(37.5,-3,),(40,0),(45,2.5),(35,7.5,),(30,15,),(20,15,),(10,12.5,)],thinlineblack, beautiful)
 ellipse=EllipseAsset(1.2,1.0, thinlineblack, black)
 Sprite(Boird, (100,100))
 Sprite(ellipse, (137,101))
