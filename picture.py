@@ -44,8 +44,9 @@ portalline2=LineStyle(1, orange)
 
 
 wall=RectangleAsset(500,500, noline, wall)
-blueportal=EllipseAsset(27, 60, portalline, blue)
-orangeportal=EllipseAsset(27, 60, portalline2, orange)
+blueportal=EllipseAsset(27, 60, noline, blue)
+orangeportal=EllipseAsset(27, 60, noline, orange)
+innerportal=EllipseAsset(24, 57, noline, orange)
 exit=CircleAsset(70, thinline, plat)
 exit2=CircleAsset(20, thinline, plat)
 plat=RectangleAsset(250, 50, noline, plat)
