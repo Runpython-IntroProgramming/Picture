@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Adam Glueck
+Credit: Asked Avery for some help on CircleAsset Notation and looked at http://brythonserver.github.io/ggame/ for notation help
 
 Assignment:
 
