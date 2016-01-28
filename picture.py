@@ -38,6 +38,8 @@ windowsheen=Color(0x74E3E3, 1.0)
 hobbitgreen=Color(0x09B31D, 1.0)
 leprechaungold=Color(0xD4BA15, 1.0)
 black=Color(0x000000, 1.0)
+yellow=Color(0xF5FC26, 1.0)
+whitish=Color(0xC0EDEC, 1.0)
 
 #colored lines
 redline=LineStyle(4, red)
@@ -57,6 +59,8 @@ windowg=EllipseAsset(25, 35, greenline, windowsheen)
 door=PolygonAsset([(500,500),(550,500), (580, 550), (550, 600), (500, 600), (470, 550)], orangeline, hobbitgreen)
 doorknob=CircleAsset(10, noline, leprechaungold)
 roof=PolygonAsset([(87, 200), (189, 100), (283, 200)], orangeline, red )
+sun=CircleAsset(200, noline, yellow)
+moon=CircleAsset(100, noline, whitish)
 
 
 #Sprites
@@ -68,6 +72,8 @@ Sprite(windowg, (632, 480))
 Sprite(door, (200, 0))
 Sprite(doorknob, (740, 550))
 Sprite(roof, (500, 20))
+Sprite(sun)
+Sprite(moon, (1300, 0))
 
 
 
