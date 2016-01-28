@@ -83,6 +83,10 @@ coicle =CircleAsset(70, thinlineyellow, yellow)
 Sprite(coicle,(250,250))
 Boird =PolygonAsset([(0,0,),(10,5,),(15,5),(10,-10),(20,-5,),(25,5,),(30,5,),(30,0,),(32.5,-3,),(35,-5,),(37.5,-3,),(40,0),(45,2.5),(35,7.5,),(30,15,),(20,15,),(10,12.5,)],thinlineblack, red)
 Sprite(Boird, (100,100))
+Sprite(Boird, (250,120))
+Sprite(Boird, (300,370))
+Sprite(Boird, (370,200))
+
 # add your code here /\  /\  /\
 
 
