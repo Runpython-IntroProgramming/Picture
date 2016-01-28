@@ -86,7 +86,7 @@ Sprite(Boird, (100,100))
 Sprite(Boird, (250,120))
 Sprite(Boird, (300,370))
 Sprite(Boird, (370,200))
-
+Sprite(Boird, (150,420))
 # add your code here /\  /\  /\
 
 
