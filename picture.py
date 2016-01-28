@@ -34,6 +34,7 @@ orange=Color(0xFFa500,1.0)
 plat=Color(0xB9BDBB,1.0)
 gooy=Color(0xCDF238,1.0)
 white=Color(0xFFFFFF,1.0)
+darkblue=Color(0x052099,1.0)
 
 
 thinline= LineStyle(1, black)
