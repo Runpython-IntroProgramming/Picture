@@ -64,6 +64,7 @@ Cloud3 = EllipseAsset(CloudWidth*0.75, CloudHeight*1.5, ThinLine, White)
 BirdBody = PolygonAsset([(0, 0), (SkyWidth/20, SkyHeight/30), (0, SkyHeight/15)], ThinLine, BirdCol)
 BirdHead = CircleAsset(SkyHeight/30, ThinLine, BirdCol)
 BirdBeak = PolygonAsset([(0, 0), (SkyWidth/100, SkyHeight/150), (0, SkyHeight/75)], ThinLine, Orange)
+BirdEye = CircleAsset(SkyHeight/250, ThinLine, Black)
 
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
@@ -76,7 +77,7 @@ Sprite(Cloud3, (CloudWidth*3.75, CloudHeight*2))
 Sprite(BirdBody, (SkyWidth/3, SkyHeight/3))
 Sprite(BirdBeak, (SkyWidth/3+SkyWidth/20+SkyWidth/100, SkyHeight/3+SkyHeight/30-SkyHeight/150))
 Sprite(BirdHead, (SkyWidth/3+SkyWidth/20, SkyHeight/3+SkyHeight/30))
-
+Sprite(BirdEye, (SkyWidth/3+SkyWidth/19, SkyHeight/3+SkyHeight/30))
 
 # add your code here /\  /\  /\
 
