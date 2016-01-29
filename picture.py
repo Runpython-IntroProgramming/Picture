@@ -43,7 +43,8 @@ rectangle = RectangleAsset(50, 20, thinline, blue)
 Circle = CircleAsset(50, thinline, yellow)
 triangle = PolygonAsset([(0, 0), (100, -200), (200, 0)], thinline, green)
 rectangle1 = RectangleAsset(200, 300, thinline, green)
-ellipse = EllipseAsset(40, thinline, red)
+ellipse = EllipseAsset(40,20, thinline, red)
+
 #display the shapes 
 
 Sprite(rectangle, (50, 20))
@@ -52,7 +53,10 @@ Sprite(triangle, (506, 450))
 Sprite(rectangle1, (200, 200))
 Sprite(rectangle, (400, 500))
 Sprite(ellipse, (40, 70))
-
+Sprite(ellipse, (500, 630))
+Sprite(rectangle, (60, 84))
+Sprite(triangle, (500, 320))
+Sprite(rectangle, (500,320))
 
 # add your code here /\  /\  /\
 
