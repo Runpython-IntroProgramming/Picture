@@ -47,6 +47,7 @@ triangle = PolygonAsset([(50, 20), (40, 10), (10, 40)], thinline, green)
 Sprite(rectangle, (50, 20))
 Sprite(Circle, (500, 500))
 Sprite(triangle, (506, 450))
+Sprite(rectangle, (200, 200))
 
 
 # add your code here /\  /\  /\
