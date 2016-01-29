@@ -41,7 +41,6 @@ SnowWidth = MountWidth/3
 SnowHeight = SnowWidth*1.6
 CloudWidth = SkyWidth/6
 CloudHeight = SkyHeight/20
-PersonHeight = SkyHeight/4
 
 White = Color(0xFFFFFFF, 1.0)
 Yellow = Color(0xFFFF00, 1.0)
@@ -49,6 +48,7 @@ Black = Color(0x000000, 1.0)
 SkyBlue = Color(0x87CEFA, 1.0)
 GroundCol = Color(0x556B2F, 1.0)
 MountCol = Color(0xD2B48C, 1.0)
+BirdCol = Color(0x
 
 ThinLine = LineStyle(1, Black)
 
@@ -60,8 +60,9 @@ Snow = PolygonAsset([(SnowWidth/2, 0), (0, SnowHeight), (SnowWidth, SnowHeight)]
 Cloud1 = EllipseAsset(CloudWidth, CloudHeight, ThinLine, White)
 Cloud2 = EllipseAsset(CloudWidth/2, CloudHeight, ThinLine, White)
 Cloud3 = EllipseAsset(CloudWidth*0.75, CloudHeight*1.5, ThinLine, White)
-Torso = RectangleAsset(PersonHeight/10, PersonHeight/2, ThinLine, Black)
-Head = CircleAsset(PersonHeight/5, ThinLine, Black)
+BirdBody = PolygonAsset([(0, 0), (SkyWidth/20, SkyHeight/30), (0, SkyHeight/15)], ThinLine, BirdCol)
+BirdHead = CircleAsset(SkyHeight/50, ThinLine, BirdCol)
+BirdBeak = PolygonAsset([(0, 0), (SkyWidth/100, SkyHeight/150), (0, SkyHeight/75)], ThinLine, Orange)
 
 Sprite(Back)
 Sprite(Ground, (0, SkyHeight))
@@ -71,8 +72,6 @@ Sprite(Snow, (SkyWidth-(MountWidth/2)-(SnowWidth/2)-OffSide, SkyHeight-MountHeig
 Sprite(Cloud1, (CloudWidth*1.25, CloudHeight*2))
 Sprite(Cloud2, (CloudWidth*2.5, CloudHeight*4))
 Sprite(Cloud3, (CloudWidth*3.75, CloudHeight*2))
-Sprite(Torso, (SkyWidth/3, SkyHeight-GroundHeight-PersonHeight/2))
-Sprite(Head, (SkyWidth/3, SkyHeight-GroundHeight-PersonHeight))
 
 # add your code here /\  /\  /\
 
