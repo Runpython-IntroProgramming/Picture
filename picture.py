@@ -74,6 +74,7 @@ Sprite(Cloud1, (CloudWidth*1.25, CloudHeight*2))
 Sprite(Cloud2, (CloudWidth*2.5, CloudHeight*4))
 Sprite(Cloud3, (CloudWidth*3.75, CloudHeight*2))
 Sprite(BirdBody, (SkyWidth/3, SkyHeight/3))
+Sprite(BirdHead, (SkyWidth/3+SkyWidth/20, SkyHeight/3+SkyHeight/30))
 
 # add your code here /\  /\  /\
 
