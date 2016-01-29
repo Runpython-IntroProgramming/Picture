@@ -44,7 +44,7 @@ ground = RectangleAsset( 1000, 30, line, ground )
 
 Sprite(background, (0, 0))
 Sprite(tri, (20, 20))
-Sprite(ground, (0, 1000))
+Sprite(ground, (0, 750))
 # add your code here /\  /\  /\
 
 
