@@ -57,7 +57,7 @@ Sprite(ellipse, (400, 400))
 Sprite(triangle, (500,600))
 Sprite(rectangle2, (200, 50))
 Sprite(rectangle3, (500, 50))
-Sprite(ellipse, (400, 0))
+Sprite(ellipse2, (400, 0))
 
 # add your code here /\  /\  /\
 
