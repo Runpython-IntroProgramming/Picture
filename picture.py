@@ -40,17 +40,24 @@ thinline = LineStyle(1, black)
 
 
 
-rectangle = RectangleAsset(1000, 600, thinline, blue)
+rectangle = RectangleAsset(500, 600, thinline, blue)
 circle = CircleAsset(50, thinline, red)
 ellipse = EllipseAsset(60, 100, thinline, red)
-triangle = PolygonAsset([(50,50),(60,50),(80,80)], thinline, green)
+triangle = PolygonAsset([(50,50),(100,200),(0,80)], thinline, green)
+rectangle2 = RectangleAsset(100, 100, thinline, blue)
+circle2 = CircleAsset(250, thinline, black)
+rectangle3 = RectangleAsset(50, 600, thinline, red)
+ellipse2 = EllipseAsset(300, 100, thinline, blue)
 
 #display the shapes
-Sprite(rectangle, (200, 50))
+Sprite(rectangle, (600, 50))
+Sprite(circle2, (900, 150))
 Sprite(circle, (900, 150))
 Sprite(ellipse, (400, 400))
-Sprite(triangle, (600,600))
-
+Sprite(triangle, (500,600))
+Sprite(rectangle2, (200, 50))
+Sprite(rectangle3, (500, 50))
+Sprite(ellipse, (400, 0))
 
 # add your code here /\  /\  /\
 
