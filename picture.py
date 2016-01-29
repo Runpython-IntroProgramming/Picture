@@ -1,7 +1,7 @@
 """
 picture.py
 Author: David Wilson
-Credit: <list sources used, if any>
+Credit: None
 
 Assignment:
 
