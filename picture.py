@@ -30,7 +30,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # https://www.mathsisfun.com/numbers/hexadecimal-color-names.html
 
-Size = 15
+Size = float(input("Set Size"))
 SkyWidth = Size*90
 SkyHeight = Size*40
 GroundHeight = SkyHeight/10
