@@ -48,7 +48,8 @@ Black = Color(0x000000, 1.0)
 SkyBlue = Color(0x87CEFA, 1.0)
 GroundCol = Color(0x556B2F, 1.0)
 MountCol = Color(0xD2B48C, 1.0)
-BirdCol = Color(0x
+BirdCol = Color(0xF4A460, 1.0)
+Orange = Color(0xFFA500, 1.0)
 
 ThinLine = LineStyle(1, Black)
 
@@ -72,6 +73,7 @@ Sprite(Snow, (SkyWidth-(MountWidth/2)-(SnowWidth/2)-OffSide, SkyHeight-MountHeig
 Sprite(Cloud1, (CloudWidth*1.25, CloudHeight*2))
 Sprite(Cloud2, (CloudWidth*2.5, CloudHeight*4))
 Sprite(Cloud3, (CloudWidth*3.75, CloudHeight*2))
+Sprite(BirdBody, (SkyWidth/3, SkyHeight/3))
 
 # add your code here /\  /\  /\
 
