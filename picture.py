@@ -40,7 +40,7 @@ line = LineStyle(2, black)
 
 
 
-
+trunk = RectangleAsset( 20, 20, line wood)
 tri1 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 tri2 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 tri3 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
@@ -53,6 +53,7 @@ Sprite(tri1, (20, 550))
 Sprite(tri2, (20, 500))
 Sprite(tri3, (20, 450))
 Sprite(tri4, (20, 400))
+sprite(trunk, (20, 600))
 Sprite(ground, (0, 700))
 # add your code here /\  /\  /\
 
