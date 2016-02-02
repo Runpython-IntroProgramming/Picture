@@ -36,7 +36,7 @@ darkgreen = Color(0x0e270f, 1.0)
 nightsky = Color(0x16152b, 1.0)
 ground = Color(0x06471a, 1.0)
 wood = Color(0x542a0c, 1.0)
-line = LineStyle(1, black)
+line = LineStyle(2, black)
 
 
 tri = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
