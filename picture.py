@@ -39,7 +39,7 @@ wood = Color(0x542a0c, 1.0)
 line = LineStyle(1, black)
 
 
-tri = PolygonAsset([(19,72),(29,72),(25,42)], line, darkgreen )
+tri = PolygonAsset([(19,72),(49,72),(29,42)], line, darkgreen )
 background = RectangleAsset( 1000, 1000, line, nightsky )
 ground = RectangleAsset( 1000, 100, line, ground )
 
