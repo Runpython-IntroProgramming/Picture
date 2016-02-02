@@ -44,7 +44,7 @@ background = RectangleAsset( 1000, 1000, line, nightsky )
 ground = RectangleAsset( 1000, 100, line, ground )
 
 Sprite(background, (0, 0))
-Sprite(tri, (20, 700))
+Sprite(tri, (20, 70))
 Sprite(ground, (0, 700))
 # add your code here /\  /\  /\
 
