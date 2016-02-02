@@ -53,7 +53,7 @@ Sprite(tri1, (20, 550))
 Sprite(tri2, (20, 500))
 Sprite(tri3, (20, 450))
 Sprite(tri4, (20, 400))
-sprite(trunk, (20, 600))
+Sprite(trunk, (20, 600))
 Sprite(ground, (0, 700))
 # add your code here /\  /\  /\
 
