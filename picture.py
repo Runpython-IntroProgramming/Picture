@@ -40,18 +40,19 @@ line = LineStyle(2, black)
 
 
 
-tri4 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
-tri3 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
-tri2 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
+
 tri1 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
+tri2 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
+tri3 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
+tri4 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 background = RectangleAsset( 1000, 1000, line, nightsky )
 ground = RectangleAsset( 1000, 100, line, ground )
 
 Sprite(background, (0, 0))
-Sprite(tri4, (20, 400))
-Sprite(tri3, (20, 450))
-Sprite(tri2, (20, 500))
 Sprite(tri1, (20, 550))
+Sprite(tri2, (20, 500))
+Sprite(tri3, (20, 450))
+Sprite(tri4, (20, 400))
 Sprite(ground, (0, 700))
 # add your code here /\  /\  /\
 
