@@ -73,7 +73,7 @@ Sprite(tri13, (220, 550))
 Sprite(tri14, (220, 500))
 Sprite(tri15, (220, 450))
 Sprite(tri16, (220, 400))
-Sprite(trunk, (110, 650))
+Sprite(trunk, (310, 650))
 
 Sprite(tri5, (150, 575))
 Sprite(tri6, (150, 525))
