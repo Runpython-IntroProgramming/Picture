@@ -40,7 +40,7 @@ line = LineStyle(2, black)
 
 
 
-trunk = RectangleAsset( 20, 20, line, wood )
+trunk = RectangleAsset( 20, 50, line, wood )
 tri1 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 tri2 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 tri3 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
