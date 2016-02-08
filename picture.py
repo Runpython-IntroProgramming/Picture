@@ -61,6 +61,7 @@ tri2 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 tri3 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 tri4 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 moon = EllipseAsset(40, 40, line, moonwhite )
+cliff = RectangleAsset(100, 750, line, grey)
 background = RectangleAsset( 1000, 1000, line, nightsky )
 ground = RectangleAsset( 1000, 100, line, ground )
 
@@ -89,6 +90,7 @@ Sprite(tri3, (20, 450))
 Sprite(tri4, (20, 400))
 Sprite(trunk, (110, 650))
 Sprite(moon, (900, 50))
+Sprite(cliff, (500, 500))
 Sprite(ground, (0, 700))
 # add your code here /\  /\  /\
 
