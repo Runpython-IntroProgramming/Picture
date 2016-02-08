@@ -91,7 +91,7 @@ Sprite(tri3, (20, 450))
 Sprite(tri4, (20, 400))
 Sprite(trunk, (110, 650))
 Sprite(moon, (900, 50))
-Sprite(cliff, (1000, 500))
+Sprite(cliff, (900, 500))
 Sprite(ground, (0, 700))
 # add your code here /\  /\  /\
 
