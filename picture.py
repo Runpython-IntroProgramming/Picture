@@ -37,6 +37,7 @@ nightsky = Color(0x16152b, 1.0)
 ground = Color(0x06471a, 1.0)
 wood = Color(0x542a0c, 1.0)
 moonwhite = Color(0xfff3aa, 1.0)
+grey = Color(0x818181, 1.0)
 line = LineStyle(2, black)
 
 
