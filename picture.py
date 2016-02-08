@@ -60,7 +60,7 @@ tri1 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 tri2 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 tri3 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
 tri4 = PolygonAsset([(0,100),(200,100),(100,0)], line, darkgreen )
-moon = ElipseAsset(20, 20, line, moonwhite )
+moon = EllipseAsset(20, 20, line, moonwhite )
 background = RectangleAsset( 1000, 1000, line, nightsky )
 ground = RectangleAsset( 1000, 100, line, ground )
 
