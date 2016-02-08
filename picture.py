@@ -65,7 +65,6 @@ background = RectangleAsset( 1000, 1000, line, nightsky )
 ground = RectangleAsset( 1000, 100, line, ground )
 
 Sprite(background, (0, 0))
-Sprite(moon, (500, 500))
 Sprite(tri9, (450, 575))
 Sprite(tri10, (450, 525))
 Sprite(tri11, (450, 475))
@@ -89,6 +88,7 @@ Sprite(tri2, (20, 500))
 Sprite(tri3, (20, 450))
 Sprite(tri4, (20, 400))
 Sprite(trunk, (110, 650))
+Sprite(moon, (500, 500))
 Sprite(ground, (0, 700))
 # add your code here /\  /\  /\
 
