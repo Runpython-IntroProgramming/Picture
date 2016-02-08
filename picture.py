@@ -1,9 +1,9 @@
 """
 picture.py
-Author: <your name here>
+Author: <Hayden Hatfield>
 Credit: <list sources used, if any>
 
-Assignment:
+Assignment:Picture
 
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
