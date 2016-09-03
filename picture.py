@@ -40,15 +40,27 @@ reflectionyellow = Color(0xFFC107, 1.0)
 noline = LineStyle(0, greywhite)
 thinline = LineStyle(1, greywhite)
 
-background = RectangleAsset(10, 10, thinline, lightblue)
-sun = CircleAsset(180, thinline, darkoragne)
+background = RectangleAsset(25, 25, thinline, lightblue)
+sun = RectangleAsset(25, 25, thinline, darkoragne)
 ocean = RectangleAsset(1920, 1000, thinline, oceanblue)
 beach = RectangleAsset(1920, 1000, thinline, beachyellow)
 reflection = RectangleAsset(30, 30, noline, reflectionyellow)
 
-for x in range(500):
-
-    Sprite(background, (0, 0))
+y=0
+while(y<601):
+    for x in range(0,1001, 25):
+        Sprite(background, (x, y))
+    y=y+25
+for b in range(800, 900, 25):
+    Sprite(sun, (b, 300))
+for b in range(750, 930, 25):
+    Sprite(sun, (b, 325))
+for b in range(725, 951, 25):
+    Sprite(sun, (b, 350))
+for b in range(725, 951, 25):
+    Sprite(sun, (b, 375))
+for b in range(700, 976, 25):
+    Sprite(sun, (b, 400))
 
 """
 Sprite(background, (0, 0))
