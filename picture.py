@@ -42,8 +42,8 @@ thinline = LineStyle(1, greywhite)
 
 background = RectangleAsset(25, 25, thinline, lightblue)
 sun = RectangleAsset(25, 25, thinline, darkoragne)
-ocean = RectangleAsset(1920, 1000, thinline, oceanblue)
-beach = RectangleAsset(1920, 1000, thinline, beachyellow)
+ocean = RectangleAsset(25, 25, thinline, oceanblue)
+beach = RectangleAsset(25, 25, thinline, beachyellow)
 reflection = RectangleAsset(30, 30, noline, reflectionyellow)
 
 #make a 1000px * 600px backgound
@@ -66,9 +66,18 @@ for b in range(700, 976, 25):
     Sprite(sun, (b, 400))
 for b in range(700, 976, 25):
     Sprite(sun, (b, 425))
-    
-
-
+# make the ocean
+y=450
+while(y<601):
+    for x in range(0,1001, 25):
+        Sprite(ocean, (x, y))
+    y=y+25
+#make the beach
+y=500
+while(y<601):
+    for x in range(0,1001, 25):
+        Sprite(background, (x, y))
+    y=y+25
 # add your code here /\  /\  /\
 
 
