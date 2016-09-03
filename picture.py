@@ -37,6 +37,7 @@ oceanblue = Color(0x283593, 1.0)
 beachyellow = Color(0xFFD54F, 1.0)
 reflectionyellow = Color(0xE65100, 0.7)
 palmbrown = Color(0x6D4C41, 1.0)
+palmgreen = Color(0x4CAF50, 1.0)
 
 noline = LineStyle(0, greywhite)
 thinline = LineStyle(1, greywhite)
@@ -47,6 +48,7 @@ ocean = RectangleAsset(25, 25, thinline, oceanblue)
 beach = RectangleAsset(25, 25, thinline, beachyellow)
 reflection = RectangleAsset(25, 25, thinline, reflectionyellow)
 palm = RectangleAsset(25, 25, thinline, palmbrown)
+green = RectangleAsset(25, 25, thinline, palmgreen)
 
 #make a 1000px * 600px backgound
 y=0
@@ -93,10 +95,15 @@ for b in range(600, 876, 25):
     Sprite(reflection, (b, 550))
 #make the palm
 for b in range(300, 576, 25):
-    Sprite(palm, (50, b))
-for b in range(300, 576, 25):
     Sprite(palm, (75, b))
-
+Sprite(green, (75, 275))
+Sprite(green, (75, 250))
+Sprite(green, (50, 275))
+Sprite(green, (25, 275))
+Sprite(green, (0, 300))
+Sprite(green, (100, 275))
+Sprite(green, (125, 275))
+Sprite(green, (150, 300))
 # add your code here /\  /\  /\
 
 
