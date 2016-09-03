@@ -8,12 +8,12 @@ Assignment:
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
 Use at least:
-1. Three different Color objects.
-2. Ten different Sprite objects.
+1. Three different Color objects. DONE
+2. Ten different Sprite objects. DONE
 3. One (or more) RectangleAsset objects. DONE
-4. One (or more) CircleAsset objects.
-5. One (or more) EllipseAsset objects.
-6. One (or more) PolygonAsset objects.
+4. One (or more) CircleAsset objects. DONE
+5. One (or more) EllipseAsset objects. DONE
+6. One (or more) PolygonAsset objects. DOne
 
 See:
 https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Displaying-Graphics
@@ -51,7 +51,7 @@ palm = RectangleAsset(25, 25, thinline, palmbrown)
 green = RectangleAsset(25, 25, thinline, palmgreen)
 polygon = PolygonAsset([(1100,40), (1090,200), (1150,100), (1160,90)], thinline, oceanblue)
 circle = CircleAsset(30, thinline, reflectionyellow)
-
+ellipse = EllipseAsset(50, 70, thinline, palmgreen)
 
 #make a 1000px * 600px backgound
 y=0
@@ -108,7 +108,8 @@ Sprite(green, (100, 275))
 Sprite(green, (125, 275))
 Sprite(green, (150, 300))
 
-
+#do the other stuff
+Sprite(ellipse, (1200, 10))
 Sprite(circle, (1100, 50))
 Sprite(polygon)
 # add your code here /\  /\  /\
