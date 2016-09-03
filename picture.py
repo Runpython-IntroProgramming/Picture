@@ -48,7 +48,7 @@ reflection = RectangleAsset(30, 30, noline, reflectionyellow)
 
 #make a 1000px * 600px backgound
 y=0
-while(y<601):
+while(y<451):
     for x in range(0,1001, 25):
         Sprite(background, (x, y))
     y=y+25
@@ -73,10 +73,10 @@ while(y<601):
         Sprite(ocean, (x, y))
     y=y+25
 #make the beach
-y=500
+y=575
 while(y<601):
     for x in range(0,1001, 25):
-        Sprite(background, (x, y))
+        Sprite(beach, (x, y))
     y=y+25
 # add your code here /\  /\  /\
 
