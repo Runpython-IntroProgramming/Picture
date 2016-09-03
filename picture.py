@@ -35,7 +35,7 @@ greywhite = Color(0xF5F5F5, 1.0)
 lightblue = Color(0x03A9F4, 1.0)
 oceanblue = Color(0x283593, 1.0)
 beachyellow = Color(0xFFD54F, 1.0)
-reflectionyellow = Color(0xFFC107, 1.0)
+reflectionyellow = Color(0xE65100, 0.7)
 
 noline = LineStyle(0, greywhite)
 thinline = LineStyle(1, greywhite)
@@ -81,6 +81,14 @@ while(y<601):
 #make the reflection
 for b in range(700, 976, 25):
     Sprite(reflection, (b, 450))
+for b in range(675, 951, 25):
+    Sprite(reflection, (b, 475))
+for b in range(650, 926, 25):
+    Sprite(reflection, (b, 500))
+for b in range(625, 901, 25):
+    Sprite(reflection, (b, 525))
+for b in range(600, 876, 25):
+    Sprite(reflection, (b, 550))
 
 # add your code here /\  /\  /\
 
