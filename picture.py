@@ -49,7 +49,7 @@ beach = RectangleAsset(25, 25, thinline, beachyellow)
 reflection = RectangleAsset(25, 25, thinline, reflectionyellow)
 palm = RectangleAsset(25, 25, thinline, palmbrown)
 green = RectangleAsset(25, 25, thinline, palmgreen)
-polygon = PolygonAsset([(1100,40), (1600,200), (1150,100), (1160,90)], thinline, oceanblue)
+polygon = PolygonAsset([(1100,40), (1090,200), (1150,100), (1160,90)], thinline, oceanblue)
 circle = CircleAsset(30, thinline, reflectionyellow)
 
 
@@ -109,7 +109,7 @@ Sprite(green, (125, 275))
 Sprite(green, (150, 300))
 
 
-Sprite(circle, (1100,100))
+Sprite(circle, (1100, 50))
 Sprite(polygon)
 # add your code here /\  /\  /\
 
