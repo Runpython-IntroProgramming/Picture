@@ -44,7 +44,7 @@ background = RectangleAsset(25, 25, thinline, lightblue)
 sun = RectangleAsset(25, 25, thinline, darkoragne)
 ocean = RectangleAsset(25, 25, thinline, oceanblue)
 beach = RectangleAsset(25, 25, thinline, beachyellow)
-reflection = RectangleAsset(30, 30, noline, reflectionyellow)
+reflection = RectangleAsset(25, 25, thinline, reflectionyellow)
 
 #make a 1000px * 600px backgound
 y=0
@@ -78,6 +78,10 @@ while(y<601):
     for x in range(0,1001, 25):
         Sprite(beach, (x, y))
     y=y+25
+#make the reflection
+for b in range(700, 976, 25):
+    Sprite(reflection, (b, 450))
+
 # add your code here /\  /\  /\
 
 
