@@ -10,7 +10,7 @@ Use the ggame library to "paint" a graphical picture of something (e.g. a house,
 Use at least:
 1. Three different Color objects.
 2. Ten different Sprite objects.
-3. One (or more) RectangleAsset objects.
+3. One (or more) RectangleAsset objects. DONE
 4. One (or more) CircleAsset objects.
 5. One (or more) EllipseAsset objects.
 6. One (or more) PolygonAsset objects.
@@ -49,6 +49,11 @@ beach = RectangleAsset(25, 25, thinline, beachyellow)
 reflection = RectangleAsset(25, 25, thinline, reflectionyellow)
 palm = RectangleAsset(25, 25, thinline, palmbrown)
 green = RectangleAsset(25, 25, thinline, palmgreen)
+polygon = PolygonAsset([(1100,40), (1600,200), (1150,100), (1160,90)], thinline, oceanblue)
+
+
+
+
 
 #make a 1000px * 600px backgound
 y=0
@@ -104,6 +109,8 @@ Sprite(green, (0, 300))
 Sprite(green, (100, 275))
 Sprite(green, (125, 275))
 Sprite(green, (150, 300))
+
+Sprite(polygon)
 # add your code here /\  /\  /\
 
 
