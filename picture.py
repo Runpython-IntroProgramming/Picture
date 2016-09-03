@@ -50,9 +50,7 @@ reflection = RectangleAsset(25, 25, thinline, reflectionyellow)
 palm = RectangleAsset(25, 25, thinline, palmbrown)
 green = RectangleAsset(25, 25, thinline, palmgreen)
 polygon = PolygonAsset([(1100,40), (1600,200), (1150,100), (1160,90)], thinline, oceanblue)
-
-
-
+circle = CircleAsset(30, thinline, reflectionyellow)
 
 
 #make a 1000px * 600px backgound
@@ -110,6 +108,8 @@ Sprite(green, (100, 275))
 Sprite(green, (125, 275))
 Sprite(green, (150, 300))
 
+
+Sprite(circle, (1100,100))
 Sprite(polygon)
 # add your code here /\  /\  /\
 
