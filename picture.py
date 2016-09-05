@@ -42,8 +42,8 @@ flutehole3 = CircleAsset(5, line, black)
 flutehole4 = CircleAsset(5, line, black)
 flutehole5 = CircleAsset(5, line, black)
 flutehole6 = CircleAsset(5, line, black)
+notebody = PolygonAsset([(800, 100), (840,100), (840, 150), (838, 150), (838, 110), (802, 110), (802, 150), (800, 150)], line, black)
 
-notebody
 notehead1
 notehead2
 """
@@ -59,6 +59,9 @@ Sprite(flutehole3, (705, 386))
 Sprite(flutehole4, (745, 386))
 Sprite(flutehole5, (785, 386))
 Sprite(flutehole6, (825, 386))
+Sprite(notebody, (100,120))
+Sprite(notehead1, (100,120))
+Sprite(notehead2, (100, 120))
 
 myapp = App()
 myapp.run()
