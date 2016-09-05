@@ -36,13 +36,13 @@ background = RectangleAsset(888, 500, line, background)
 flutebody = RectangleAsset(350, 25, line, flute)
 fluteheadjoint = RectangleAsset(150, 25, line, flute)
 fluteembrochure = EllipseAsset(9, 5, line, black)
-"""
-flutehole1
-flutehole1
-flutehole1
-flutehole1
-flutehole1
-flutehole1
+flutehole1 = CircleAsset(5, line, black)
+flutehole2 = CircleAsset(5, line, black)
+flutehole3 = CircleAsset(5, line, black)
+flutehole4 = CircleAsset(5, line, black)
+flutehole5 = CircleAsset(5, line, black)
+flutehole6 = CircleAsset(5, line, black)
+
 notebody
 notehead1
 notehead2
@@ -53,7 +53,12 @@ Sprite(background, (225, 50))
 Sprite(flutebody, (520, 375))
 Sprite(fluteheadjoint, (370, 375))
 Sprite(fluteembrochure, (420,386))
-Sprite(flutehole1, (600, 386
+Sprite(flutehole1, (625, 386))
+Sprite(flutehole2, (665, 386))
+Sprite(flutehole3, (705, 386))
+Sprite(flutehole4, (745, 386))
+Sprite(flutehole5, (785, 386))
+Sprite(flutehole6, (825, 386))
 
 myapp = App()
 myapp.run()
