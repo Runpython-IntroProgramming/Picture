@@ -34,9 +34,9 @@ line = LineStyle(1, black)
 
 background = RectangleAsset(888, 500, line, background)
 flutebody = RectangleAsset(350, 25, line, flute)
+fluteheadjoint = RectangleAsset(150, 25, line, flute)
+fluteembrochure = EllipseAsset(9, 5, line, black)
 """
-fluteheadjoint
-fluteembrochure
 flutehole1
 flutehole1
 flutehole1
@@ -51,7 +51,9 @@ notehead2
 
 Sprite(background, (225, 50))
 Sprite(flutebody, (520, 375))
-Sprite(fluteheadjoint
+Sprite(fluteheadjoint, (370, 375))
+Sprite(fluteembrochure, (420,386))
+Sprite(flutehole1, (600, 386
 
 myapp = App()
 myapp.run()
