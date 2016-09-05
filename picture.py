@@ -26,11 +26,10 @@ for detailed information on ggame.
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
-# add your code here \/  \/  \/
-
-
-# add your code here /\  /\  /\
-
+black = Color(0x000000, 1.0)
+flute = Color(0xffe6b3, 0.85)
+background = 
+line = LineStyle(1, black)
 
 myapp = App()
 myapp.run()
