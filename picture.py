@@ -1,7 +1,7 @@
 """
 picture.py
 Author: <Vinzent>
-Credit: <list sources used, if any>
+Credit: google color & http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/ifstatements.html
 
 Assignment:
 
