@@ -37,7 +37,7 @@ yellow=Color(0xffff00, 1.0)
 thinline = LineStyle(1, black)
 
 sky=RectangleAsset(100000000000000,1000000000000, thinline ,blue)
-sun=RectangleAsset(1000,1000, thinline, yellow)
+sun=CircleAsset9[(1000,1000),(1000,0),(0,0) ,(0,1000)], thinline, yellow)
 Sprite(sky)
 Sprite(sun)
 # add your code here /\  /\  /\
