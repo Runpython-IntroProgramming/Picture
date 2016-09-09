@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Bauti Gallino
-Credit: <list sources used, if any>
+Credit: Liam S.
 
 Assignment:
 
@@ -35,8 +35,11 @@ black = Color(0x000000, 1.0)
 thickline=LineStyle(3,black)
 
 rectangle=RectangleAsset(100,70,thickline,red)
+circle=CircleAsset(50, thickline, green)
 
+Sprite(circle, (500, 100))
 Sprite(rectangle)
+
 # add your code here /\  /\  /\
 
 
