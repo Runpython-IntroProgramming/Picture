@@ -49,6 +49,7 @@ Sprite(circle, (300, 600))
 Sprite(ellipse, (700, 700))
 Sprite(polygon, (60, 60))
 Sprite(rectangle,(200, 260))
+Sprite(cow, (500, 200))
 
 # add your code here /\  /\  /\
 
