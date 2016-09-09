@@ -28,10 +28,10 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
-red = Color
-green = Color
-blue = Color
-black = Color
+red = Color(
+green = Color(
+blue = Color(
+black = Color(
 
 # add your code here /\  /\  /\
 
