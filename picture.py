@@ -1,9 +1,9 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Andy Kotz
+Credit: Kezar will probably do something
 
-Assignment:
+Assignment: 
 
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
@@ -28,6 +28,10 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+red =
+green =
+blue =
+black = 
 
 # add your code here /\  /\  /\
 
