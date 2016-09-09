@@ -34,13 +34,13 @@ black = Color(0x000000, 1.0)
 
 thickline=LineStyle(3,black)
 
-rectangle=RectangleAsset(100,70,thickline,red)
+rectangle=RectangleAsset(200,140,thickline,red)
 circle=CircleAsset(50, thickline, green)
 ellipse=EllipseAsset(100,70,thickline,blue)
 
 Sprite(circle, (500, 100))
-Sprite(rectangle,(200, 50))
-Sprite(ellipse, (200, 50))
+Sprite(rectangle,(100, 100))
+Sprite(ellipse, (200, 200))
 
 # add your code here /\  /\  /\
 
