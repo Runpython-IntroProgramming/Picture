@@ -35,7 +35,7 @@ black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
 
-sky=RectangleAsset(1000000000,10000000000, thinline ,blue)
+sky=RectangleAsset(100000000000000,1000000000000, thinline ,blue)
 Sprite(sky)
 # add your code here /\  /\  /\
 
