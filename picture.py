@@ -32,6 +32,7 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+yellow=Color(0xffff00, 1.0
 
 thinline = LineStyle(1, black)
 
