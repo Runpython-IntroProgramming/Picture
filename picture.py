@@ -40,7 +40,7 @@ cloudwhite=Color(0xf5f5f5,1.0)
 thinline = LineStyle(1, black)
 
 rectangleBlue = RectangleAsset(50, 50, thinline, green)
-rectangleRed = RectangleAsset(110, 100, thinline, red)
+rectangleRed = RectangleAsset(110, 110, thinline, red)
 cloud=EllipseAsset(60,40,thinline,cloudwhite)
 sun=CircleAsset(100,thinline,yellow)
 borders=RectangleAsset(1200,565,thinline,white)
