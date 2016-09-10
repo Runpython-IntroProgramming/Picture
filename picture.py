@@ -44,14 +44,14 @@ rectangleRed = RectangleAsset(120, 120, thinline, red)
 cloud=EllipseAsset(60,40,thinline,cloudwhite)
 sun=CircleAsset(100,thinline,yellow)
 borders=RectangleAsset(1200,565,thinline,white)
-roof=PolygonAsset([(540,450),(610,450),(500,365),(540,450)],thinline,blue)
+roof=PolygonAsset([(500,450),(610,450),(500,365),(500,450)],thinline,blue)
 
 Sprite(cloud,(200,150))
 Sprite(cloud,(700,100))
 Sprite(cloud,(400,250))
 Sprite(sun,(0,0))
 Sprite(borders,(0,0))
-Sprite(rectangleRed,(500,465))
+Sprite(rectangleRed,(500,450))
 Sprite(roof)
 # add your code here /\  /\  /\
 
