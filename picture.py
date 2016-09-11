@@ -32,25 +32,32 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 yellow=Color(0xffff00,1.0)
-green=Color(0x32cd32,1.0)
-white=Color(0xfffafa,0)
+white=Color(0xffffff,1.0)
 brown=Color(0x8b4513,1.0)
 cloudwhite=Color(0xf5f5f5,1.0)
+glassblue=Color(0xe0ffff,1.0)
 
 thinline = LineStyle(1, black)
 
-rectangleBlue = RectangleAsset(50, 50, thinline, green)
-rectangleRed = RectangleAsset(120, 120, thinline, red)
+rectangleRed = RectangleAsset(170, 170, thinline, red)
 cloud=EllipseAsset(60,40,thinline,cloudwhite)
 sun=CircleAsset(100,thinline,yellow)
 borders=RectangleAsset(1200,565,thinline,white)
 roof=PolygonAsset([(500,450),(610,450),(500,365),(500,450)],thinline,blue)
+#window=RectangleAsset(60,
+#door=RectangleAsset(
+#rainbowBase=EllipseAssset(
+#rBlue=EllipseAssset(
+#rRed=EllipseAssset(
+#rGreen=EllipseAssset(
+#rYellow=EllipseAssset(
+#rPurple=EllipseAssset(
 
+Sprite(borders,(0,0))
 Sprite(cloud,(200,150))
 Sprite(cloud,(700,100))
 Sprite(cloud,(400,250))
 Sprite(sun,(0,0))
-Sprite(borders,(0,0))
 Sprite(rectangleRed,(500,450))
 Sprite(roof)
 # add your code here /\  /\  /\
