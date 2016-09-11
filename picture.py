@@ -47,8 +47,19 @@ rectangle = RectangleAsset(1500, 35, thinline, white)
 Sprite(rectangle, (0, 510))
 polygon = PolygonAsset([(400,175), (600,175), (500,240), (400,175)], thinline, tan)
 Sprite(polygon)
-polygon = PolygonAsset([(400,175), (600,175), (500,120), (400,175)], thinline, tan)
+polygon = PolygonAsset([(400,125), (600,125), (500,60), (400,125)], thinline, tan)
 Sprite(polygon)
+rectangle = RectangleAsset(5000, 5000, thinline, blue)
+Sprite(rectangle, (0, 600))
+polygon = PolygonAsset([(400,640), (420,660), (440,640), (400,640)], thinline, tan)
+Sprite(polygon)
+circle = CircleAsset(3, thinline, white)
+Sprite(circle, (460, 110))
+
+
+
+
+
 
 
 
