@@ -31,9 +31,14 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+lightblue = Color(0x00ffff, 1.0)
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(5000, 5000, thinline, green)
 Sprite(rectangle)
+ellipse = EllipseAsset(200, 400, thinline, blue)
+Sprite(ellipse)
+circle = CircleAsset(40, thinline, lightblue)
+Sprite(circle, (1100, 100))
 
 
 
