@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Andy Kotz
-Credit: Kezar will probably do something
+Credit: Kezar helped me kn
 
 Assignment: 
 
@@ -28,11 +28,22 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
-red = Color(
-green = Color(
-blue = Color(
-black = Color(
+red = Color(0xff0000, 1.0)
+yellow = Color(0xdbd20f, 1.0)
+gray = Color(0xa7a7a7, 1.0)
+black = Color(0x000000, 1.0)
 
+thinline = LineStyle(1, black)
+
+rectanglesand = RectangleAsset (500, 500, thinline, yellow)
+polygonhouse = PolygonAsset ([(450,450), (475,450), (475,425), (462,410), (450,425)], thinline, red)
+ellipsecaveentr = EllipseAsset (50, 20, thinline, black)
+circlecaverock = CircleAsset (50, thinline, gray)
+
+Sprite (rectanglesand, (300, 450))
+Sprite (polygonhouse)
+Sprite (ellipsecaveentr)
+Sprite (circlecaverock)
 # add your code here /\  /\  /\
 
 
