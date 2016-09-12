@@ -29,21 +29,21 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # add your code here \/  \/  \/
 
 red = Color(0xff0000, 1.0)
-yellow = Color(0xdbd20f, 1.0)
+yellow = Color(0xdbd781, 1.0)
 gray = Color(0xa7a7a7, 1.0)
 black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
 
-rectanglesand = RectangleAsset (500, 500, thinline, yellow)
-polygonhouse = PolygonAsset ([(450,450), (475,450), (475,425), (462,410), (450,425)], thinline, red)
+rectanglesand = RectangleAsset (1000, 1000, thinline, yellow)
+polygonhouse = PolygonAsset ([(450,450), (500,450), (500,400), (475,375), (450,400)], thinline, red)
 ellipsecaveentr = EllipseAsset (50, 20, thinline, black)
-circlecaverock = CircleAsset (50, thinline, gray)
+circlecaverock = CircleAsset (150, thinline, gray)
 
 Sprite (rectanglesand, (300, 450))
 Sprite (polygonhouse)
-Sprite (ellipsecaveentr)
-Sprite (circlecaverock)
+Sprite (ellipsecaveentr, (900, 450))
+Sprite (circlecaverock, (900, 450))
 # add your code here /\  /\  /\
 
 
