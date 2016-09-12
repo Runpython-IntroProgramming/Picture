@@ -49,10 +49,10 @@ Sprite(grass, (0,600))
 Sprite(pond, (500, 750))
 Sprite(Fish)
 Sprite(Smoke, (500,600))
-Sprite(Smoke, (500,1000))
-Sprite(Smoke, (500,900))
-Sprite(Smoke, (500,800))
-Sprite(Smoke, (500,700))
+Sprite(Smoke, (500,400))
+Sprite(Smoke, (500,500))
+Sprite(Smoke, (500,300))
+Sprite(Smoke, (500,200))
 # add your code here /\  /\  /\
 
 
