@@ -42,7 +42,7 @@ sun=CircleAsset(500, thinline, yellow)
 grass= RectangleAsset(100000000,1000, thinline ,green)  
 Sprite(sky)
 Sprite(sun)
-Sprite(grass, (0,500))
+Sprite(grass, (0,600))
 # add your code here /\  /\  /\
 
 
