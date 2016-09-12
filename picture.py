@@ -39,10 +39,10 @@ thinline = LineStyle(1, black)
 
 sky=RectangleAsset(100000000000000,1000000000000, thinline ,blue)
 sun=CircleAsset(500, thinline, yellow)
-grass= RectangleAsset(1000000,100, thinline ,green)  
+grass= RectangleAsset(100000000,1000, thinline ,green)  
 Sprite(sky)
 Sprite(sun)
-Sprite(grass, (200,200))
+Sprite(grass, (0,500))
 # add your code here /\  /\  /\
 
 
