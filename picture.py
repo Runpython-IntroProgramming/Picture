@@ -42,10 +42,10 @@ thinline = LineStyle(1, black)
 rectangleRed = RectangleAsset(170, 170, thinline, red)
 cloud=EllipseAsset(60,40,thinline,cloudwhite)
 sun=CircleAsset(100,thinline,yellow)
-borders=RectangleAsset(1200,565,thinline,white)
-roof=PolygonAsset([(500,450),(610,450),(500,365),(500,450)],thinline,blue)
-#window=RectangleAsset(60,
-#door=RectangleAsset(
+roof=PolygonAsset([(490,450),(680,450),(585,365),(490,450)],thinline,blue)
+window=RectangleAsset(50,50,thinline,glassblue)
+door=RectangleAsset(40,80,thinline,brown)
+
 #rainbowBase=EllipseAssset(
 #rBlue=EllipseAssset(
 #rRed=EllipseAssset(
@@ -53,13 +53,14 @@ roof=PolygonAsset([(500,450),(610,450),(500,365),(500,450)],thinline,blue)
 #rYellow=EllipseAssset(
 #rPurple=EllipseAssset(
 
-Sprite(borders,(0,0))
 Sprite(cloud,(200,150))
 Sprite(cloud,(700,100))
 Sprite(cloud,(400,250))
 Sprite(sun,(0,0))
 Sprite(rectangleRed,(500,450))
 Sprite(roof)
+Sprite(window,(520,470))
+Sprite(window,(600,470))
 # add your code here /\  /\  /\
 
 
