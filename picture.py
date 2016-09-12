@@ -1,6 +1,6 @@
 """
 picture.py
-Author: <your name here>
+Author: John Warhold
 Credit: <list sources used, if any>
 
 Assignment:
@@ -27,7 +27,16 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+blueviolet = Color(0x8a2be2, 1.0)
+hotpink = Color(0xff69b4, 1.0)
+Aquamarine =Color(0x7fffd4, 1.0)
 
+thinline = LineStyle(1, hotpink)
+
+rec = RectangleAsset(169,169, thinline, Aquamarine)
+#poly = PolygonAsset([
+Sprite(rec, (500, 400))
+#Sprite(
 
 # add your code here /\  /\  /\
 
