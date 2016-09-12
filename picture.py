@@ -41,10 +41,12 @@ sky=RectangleAsset(100000000000000,1000000000000, thinline ,blue)
 sun=CircleAsset(500, thinline, yellow)
 grass= RectangleAsset(100000000,1000, thinline ,green)  
 pond= EllipseAsset(200,100,thinline, blue)
+Fish= PolygonAsset([50,50,50,50],thinline,black)
 Sprite(sky)
 Sprite(sun)
 Sprite(grass, (0,600))
 Sprite(pond, (500, 750))
+Sprite(Fish)
 # add your code here /\  /\  /\
 
 
