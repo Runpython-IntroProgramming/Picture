@@ -40,11 +40,11 @@ thinline = LineStyle(1, black)
 sky=RectangleAsset(100000000000000,1000000000000, thinline ,blue)
 sun=CircleAsset(500, thinline, yellow)
 grass= RectangleAsset(100000000,1000, thinline ,green)  
-pond= EllipseAsset(100,100,100,thinline, blue)
+pond= EllipseAsset(200,100,thinline, blue)
 Sprite(sky)
 Sprite(sun)
 Sprite(grass, (0,600))
-Sprite(pond, (100, 700))
+Sprite(pond, (200, 750))
 # add your code here /\  /\  /\
 
 
