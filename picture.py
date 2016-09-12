@@ -44,7 +44,7 @@ pond= EllipseAsset(200,100,thinline, blue)
 Sprite(sky)
 Sprite(sun)
 Sprite(grass, (0,600))
-Sprite(pond, (200, 750))
+Sprite(pond, (500, 750))
 # add your code here /\  /\  /\
 
 
