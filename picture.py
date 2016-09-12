@@ -42,12 +42,13 @@ sun=CircleAsset(500, thinline, yellow)
 grass= RectangleAsset(100000000,1000, thinline ,green)  
 pond= EllipseAsset(200,100,thinline, blue)
 Fish= PolygonAsset([(500,700),(550,750),(580,700)],thinline,black)
-Smoke= CircleAsset(
+Smoke= CircleAsset(100,thinline,black)
 Sprite(sky)
 Sprite(sun)
 Sprite(grass, (0,600))
 Sprite(pond, (500, 750))
 Sprite(Fish)
+Sprite(smoke, (200,600))
 # add your code here /\  /\  /\
 
 
