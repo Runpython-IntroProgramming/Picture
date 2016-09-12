@@ -48,7 +48,7 @@ Sprite(sun)
 Sprite(grass, (0,600))
 Sprite(pond, (500, 750))
 Sprite(Fish)
-Sprite(smoke, (200,600))
+Sprite(Smoke, (200,600))
 # add your code here /\  /\  /\
 
 
