@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Andy Kotz
-Credit: Kezar helped me kn
+Credit: Kezar, Dan
 
 Assignment: 
 
@@ -34,6 +34,10 @@ gray = Color(0xa7a7a7, 1.0)
 black = Color(0x000000, 1.0)
 green = Color(0x82DA30, 1.0)
 brown = Color(0x977200, 1.0)
+orange = Color(0xE47B03, 1.0)
+blue = Color(0x00B9FF, 1.0)
+indigo = Color(0x0042FF, 1.0)
+violet = Color(0x6400FF, 1.0)
 
 thinline = LineStyle(1, black)
 
@@ -42,12 +46,25 @@ rectanglesand = RectangleAsset (3000, 4000, thinline, yellow)
 polygonhouse = PolygonAsset ([(450,450), (500,450), (500,400), (475,375), (450,400)], thinline, red)
 ellipsecaveentr = EllipseAsset (75, 125, thinline, black)
 ellipsetrunk = EllipseAsset(10, 100, thinline, brown)
+ellipseleaf = EllipseAsset(40, 12, thinline, green)
+circleleaf = CircleAsset(8, thinline, brown)
+rectangledoor = RectangleAsset(15, 30, thinline, black)
+rectanglewindow = RectangleAsset(12, 12, thinline, black)
 
 Sprite (ellipsetrunk, (575, 450))
+Sprite (ellipsetrunk, (1400, 450))
 Sprite (circlecaverock, (900, 450))
 Sprite (polygonhouse)
 Sprite (ellipsecaveentr, (900, 450))
 Sprite (rectanglesand, (300, 450))
+Sprite (ellipseleaf, (610, 360))
+Sprite (ellipseleaf, (540, 360))
+Sprite (ellipseleaf, (1435, 360))
+Sprite (ellipseleaf, (1365, 360))
+Sprite (circleleaf, (575, 360))
+Sprite (circleleaf, (1400, 360))
+Sprite (rectangledoor, (455, 420))
+Sprite (rectanglewindow, (480, 425))
 
 # add your code here /\  /\  /\
 
