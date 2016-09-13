@@ -32,18 +32,23 @@ red = Color(0xff0000, 1.0)
 yellow = Color(0xdbd781, 1.0)
 gray = Color(0xa7a7a7, 1.0)
 black = Color(0x000000, 1.0)
+green = Color(0x82DA30, 1.0)
+brown = Color(0x977200, 1.0)
 
 thinline = LineStyle(1, black)
 
 circlecaverock = CircleAsset (150, thinline, gray)
-rectanglesand = RectangleAsset (1000, 1000, thinline, yellow)
+rectanglesand = RectangleAsset (3000, 4000, thinline, yellow)
 polygonhouse = PolygonAsset ([(450,450), (500,450), (500,400), (475,375), (450,400)], thinline, red)
 ellipsecaveentr = EllipseAsset (75, 125, thinline, black)
+ellipsetrunk = EllipseAsset(10, 100, thinline, brown)
 
+Sprite (ellipsetrunk, (575, 450))
 Sprite (circlecaverock, (900, 450))
 Sprite (polygonhouse)
 Sprite (ellipsecaveentr, (900, 450))
 Sprite (rectanglesand, (300, 450))
+
 # add your code here /\  /\  /\
 
 
