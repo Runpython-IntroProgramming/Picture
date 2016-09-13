@@ -34,9 +34,9 @@ Aquamarine =Color(0x7fffd4, 1.0)
 thinline = LineStyle(1, hotpink)
 
 rec = RectangleAsset(169,169, thinline, Aquamarine)
-#poly = PolygonAsset([
+poly = PolygonAsset([(500,400), (669,400), (584.5, 350), (500, 400)], thinline, blueviolet)
 Sprite(rec, (500, 400))
-#Sprite(
+Sprite(poly)
 
 # add your code here /\  /\  /\
 
