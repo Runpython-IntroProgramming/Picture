@@ -1,9 +1,9 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Andy Kotz
+Credit: Kezar, Dan
 
-Assignment:
+Assignment: 
 
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
@@ -28,6 +28,60 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+red = Color(0xff0000, 1.0)
+yellow = Color(0xdbd781, 1.0)
+gray = Color(0xa7a7a7, 1.0)
+black = Color(0x000000, 1.0)
+green = Color(0x82DA30, 1.0)
+brown = Color(0x977200, 1.0)
+orange = Color(0xE47B03, 1.0)
+blue = Color(0x00B9FF, 1.0)
+indigo = Color(0x0042FF, 1.0)
+violet = Color(0x6400FF, 1.0)
+white = Color(0xffffff, 1.0)
+
+thinline = LineStyle(1, black)
+
+circlecaverock = CircleAsset (150, thinline, gray)
+rectanglesand = RectangleAsset (3000, 4000, thinline, yellow)
+polygonhouse = PolygonAsset ([(450,450), (500,450), (500,400), (475,375), (450,400)], thinline, red)
+ellipsecaveentr = EllipseAsset (75, 125, thinline, black)
+ellipsetrunk = EllipseAsset(10, 100, thinline, brown)
+ellipseleaf = EllipseAsset(40, 12, thinline, green)
+circleleaf = CircleAsset(8, thinline, brown)
+rectangledoor = RectangleAsset(15, 30, thinline, black)
+rectanglewindow = RectangleAsset(12, 12, thinline, black)
+redrainbow = CircleAsset(460, thinline, red)
+orangerainbow = CircleAsset(440, thinline, orange)
+yellowrainbow = CircleAsset(420, thinline, yellow)
+greenrainbow = CircleAsset(400, thinline, green)
+bluerainbow = CircleAsset(380, thinline, blue)
+indigorainbow = CircleAsset(360, thinline, indigo)
+violetrainbow = CircleAsset(340, thinline, violet)
+whiterainbow = CircleAsset(320, thinline, white)
+
+Sprite (redrainbow, (775, 500))
+Sprite (orangerainbow, (775, 500))
+Sprite (yellowrainbow, (775, 500))
+Sprite (greenrainbow, (775, 500))
+Sprite (bluerainbow, (775, 500))
+Sprite (indigorainbow, (775, 500))
+Sprite (violetrainbow, (775, 500))
+Sprite (whiterainbow, (775, 500))
+Sprite (ellipsetrunk, (575, 450))
+Sprite (ellipsetrunk, (1400, 450))
+Sprite (circlecaverock, (900, 450))
+Sprite (polygonhouse)
+Sprite (ellipsecaveentr, (900, 450))
+Sprite (rectanglesand, (200, 450))
+Sprite (ellipseleaf, (610, 360))
+Sprite (ellipseleaf, (540, 360))
+Sprite (ellipseleaf, (1435, 360))
+Sprite (ellipseleaf, (1365, 360))
+Sprite (circleleaf, (575, 360))
+Sprite (circleleaf, (1400, 360))
+Sprite (rectangledoor, (455, 420))
+Sprite (rectanglewindow, (480, 425))
 
 # add your code here /\  /\  /\
 
