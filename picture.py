@@ -43,6 +43,8 @@ lol = CircleAsset(100, thinline, green)
 rrr = EllipseAsset(75,25, thinline, thist)
 rekt = RectangleAsset(50,100, thinline, brown)
 sup = EllipseAsset(50,25, thinline, thist)
+we = EllipseAsset(75,50, thinline, thist)
+rtr = EllipseAsset(75,25, thinline, thist)
 Sprite(rec, (500, 400))
 Sprite(poly)
 Sprite(circ, (67,67))
@@ -51,6 +53,8 @@ Sprite(lol, (825,390))
 Sprite(rrr, (500,200))
 Sprite(rekt, (559,468))
 Sprite(sup, (700, 130))
+Sprite(we, (900, 200))
+Sprite(rtr, (200,169))
 # add your code here /\  /\  /\
 
 
