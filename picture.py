@@ -36,12 +36,15 @@ white = Color(0xffffff, 1.0)
 
 thinline = LineStyle(5, black)
 
-rectangle = RectangleAsset(500, 500, thinline, green)
-
+eye1 = EllipseAsset(60, 30, thinline, white)
+rectangleface = RectangleAsset(500, 500, thinline, green)
+lip = RectangleAsset(266, 50, thinline, red)
 rectangel = RectangleAsset(50, 30, thinline, white)
-Sprite(rectangle, (600, 300))
-Sprite(rectangel, (900, 444))
 
+Sprite(rectangleface, (600, 300))
+Sprite(eye1, (900, 444))
+Sprite(eye1, (1030, 444))
+Sprite(lip, (833, 600))
 
 
 
