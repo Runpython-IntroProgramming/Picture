@@ -43,7 +43,7 @@ rectangleface = RectangleAsset(500, 500, mediumline, green)
 lip = RectangleAsset(366, 40, mediumline, red)
 rectangel = RectangleAsset(50, 30, mediumline, white)
 pupil = CircleAsset(30, mediumline, black)
-top = PolygonAsset([(308, 96), (425, 10), (550, 60), (675, 10), (792, 96)], mediumline, green)
+top = PolygonAsset([(308, 100), (425, 10), (550, 60), (675, 10), (792, 100)], mediumline, green)
 chin = PolygonAsset([(700, 600), (900, 600), (900, 500)], eraserline, white)
 
 Sprite(rectangleface, (400, 100))
