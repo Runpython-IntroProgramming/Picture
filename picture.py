@@ -34,17 +34,17 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 white = Color(0xffffff, 1.0)
 
-thinline = LineStyle(5, black)
+mediumline = LineStyle(5, black)
 
-eye1 = EllipseAsset(60, 30, thinline, white)
-rectangleface = RectangleAsset(500, 500, thinline, green)
-lip = RectangleAsset(266, 50, thinline, red)
-rectangel = RectangleAsset(50, 30, thinline, white)
+eye1 = EllipseAsset(80, 50, mediumline, white)
+rectangleface = RectangleAsset(500, 500, mediumline, green)
+lip = RectangleAsset(266, 50, mediumline, red)
+rectangel = RectangleAsset(50, 30, mediumline, white)
 
-Sprite(rectangleface, (600, 300))
-Sprite(eye1, (900, 444))
-Sprite(eye1, (1030, 444))
-Sprite(lip, (833, 600))
+Sprite(rectangleface, (400, 200))
+Sprite(eye1, (830, 344))
+Sprite(eye1, (700, 344))
+Sprite(lip, (633, 500))
 
 
 
