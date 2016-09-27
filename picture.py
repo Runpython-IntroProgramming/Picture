@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <xNimbleNavigatorx>
-Credit: <notkezar>
+Author: xNimbleNavigatorx
+Credit: notkezar
 
 Assignment:
 
