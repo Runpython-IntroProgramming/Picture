@@ -35,7 +35,9 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 white = Color(0xf8f8ff, 1.0)
+pwhite = Color(0xfffafa,1.0) 
 thinline = LineStyle(1, black)
+thinline1 = LineStyle(1, pwhite)
 
 circle = CircleAsset(50, thinline, red)
 Sprite(circle, (50, 50))
@@ -55,8 +57,8 @@ Sprite(window2, (1030, 430))
 door = CircleAsset(50, thinline, green)
 Sprite(door, (1000, 600))
 
-door1 = RectangleAsset(200, 200, thinline, white)
-Sprite(door1, (1000, 600))
+door1 = RectangleAsset(200, 200, thinline1, white)
+Sprite(door1, (899, 600))
 
 
 
