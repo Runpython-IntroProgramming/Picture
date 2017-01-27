@@ -37,8 +37,8 @@ black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
 
-circle = CircleAsset(30, thinline, red)
-Sprite(circle, (100,100))
+circle = CircleAsset(50, thinline, red)
+Sprite(circle)
 
 rectangle = RectangleAsset(50, 20, thinline, blue)
 Sprite(rectangle)
