@@ -60,8 +60,8 @@ Sprite(door, (1000, 600))
 door1 = RectangleAsset(200, 200, thinline1, white)
 Sprite(door1, (899, 600))
 
-floor = PolygonAsset([(0,0), (200,0), (200, 1), (0,1)], thinline, green)
-Sprite(floor, (0, 400))
+floor = PolygonAsset([(0,0), (900,0), (900, 1), (0,1)], thinline, green)
+Sprite(floor, (0, 600))
 # add your code here /\  /\  /\
 
 
