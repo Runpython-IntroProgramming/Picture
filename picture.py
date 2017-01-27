@@ -41,7 +41,7 @@ circle = CircleAsset(50, thinline, red)
 Sprite(circle)
 
 rectangle = RectangleAsset(50, 50, thinline, blue)
-Sprite(rectangle, (400, 400)
+Sprite(rectangle, (400, 400))
 
 
 # add your code here /\  /\  /\
