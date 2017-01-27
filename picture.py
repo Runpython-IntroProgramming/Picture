@@ -47,8 +47,10 @@ roof = PolygonAsset([(0,0), (200,0), (100, -120)], thinline, black)
 Sprite(roof, (900, 400))
 
 window1 = RectangleAsset(50, 80, thinline, white)
-Sprite(window1, (940, 430))
+Sprite(window1, (930, 430))
 
+window2 = RectangleAsset(50, 80, thinline, white)
+Sprite(window2, (1030, 430))
 
 
 
