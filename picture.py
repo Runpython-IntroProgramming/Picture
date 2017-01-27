@@ -40,10 +40,10 @@ thinline = LineStyle(1, black)
 circle = CircleAsset(50, thinline, red)
 Sprite(circle, (50, 50))
 
-base = RectangleAsset(50, 50, thinline, blue)
+base = RectangleAsset(200, 200, thinline, blue)
 Sprite(base, (900, 400))
 
-roof = PolygonAsset([(0,0), (50,0), (25, -30)], thinline, black)
+roof = PolygonAsset([(0,0), (200,0), (100, -120)], thinline, black)
 Sprite(roof, (900, 400))
 
 
