@@ -65,7 +65,7 @@ Sprite(floor, (0, 599))
 # add your code here /\  /\  /\
 
 roof1 = PolygonAsset([(0,0), (66,0), (33, -56)], thinline1, pwhite)
-Sprite(roof1, (990, 350))
+Sprite(roof1, (965, 350))
 
 myapp = App()
 myapp.run()
