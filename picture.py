@@ -43,7 +43,7 @@ Sprite(circle, (50, 50))
 base = RectangleAsset(50, 50, thinline, blue)
 Sprite(base, (900, 400))
 
-roof = PolyAsset([(0,0), (50,0), (25, 30)], thinline, black)
+roof = PolygonAsset([(0,0), (50,0), (25, 30)], thinline, black)
 Sprite(roof, (900, 400))
 
 
