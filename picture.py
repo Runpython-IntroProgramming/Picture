@@ -38,10 +38,15 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 
 circle = CircleAsset(50, thinline, red)
-Sprite(circle)
+Sprite(circle, (50, 50))
 
-rectangle = RectangleAsset(50, 50, thinline, blue)
-Sprite(rectangle, (400, 400))
+base = RectangleAsset(50, 50, thinline, blue)
+Sprite(base, (900, 400))
+
+roof = PolyAsset([(0,0), (50,0), (25, 30)], thinline, black)
+Sprite(roof, (900, 400))
+
+
 
 
 # add your code here /\  /\  /\
