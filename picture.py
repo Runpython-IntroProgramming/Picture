@@ -52,6 +52,9 @@ Sprite(window1, (920, 430))
 window2 = RectangleAsset(50, 80, thinline, white)
 Sprite(window2, (1030, 430))
 
+door = CircleAsset(50, thinline, green)
+Sprite(door, (800, 300))
+
 
 
 # add your code here /\  /\  /\
