@@ -38,8 +38,8 @@ black = Color(0x000000, 1.0)
 
 line=LineStyle(1,black)
 
-Petal=ElipseAsset(50,line, lightblue)
-Sprite(Petal)
+Petal=EllipseAsset(50,20,line, lightblue)
+Sprite(Petal, (300,300))
 
 # add your code here /\  /\  /\
 
