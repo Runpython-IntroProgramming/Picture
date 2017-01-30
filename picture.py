@@ -30,15 +30,15 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 from ggame import App, Color, LineStyle, Sprite
 from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
-lightblue= color(1e90ff, 1.0)
-green=color(2e8b57,1.0)
-brown=color(8b4513, .8)
-purple=color(9370db, 1.0)
+lightblue= Color(0x00bfff, 1.0)
+green=Color(0x2e8b57,1.0)
+brown=Color(0x8b4513, .8)
+purple=Color(0x9370db, 1.0)
 black = Color(0x000000, 1.0)
 
-line=linestyle(1,black)
+line=LineStyle(1,black)
 
-Petal=EllipseAsset(50,20,thinline, lightblue)
+Petal=CircleAsset(50,20,line, lightblue)
 
 
 # add your code here /\  /\  /\
