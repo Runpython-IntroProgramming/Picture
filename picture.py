@@ -39,7 +39,10 @@ black = Color(0x000000, 1.0)
 line=LineStyle(1,black)
 
 Petal=EllipseAsset(50,20,line, lightblue)
+Circle=CircleAsset(30, line, purple)
+Sprite(Circle, (350,300))
 Sprite(Petal, (300,300))
+
 
 # add your code here /\  /\  /\
 
