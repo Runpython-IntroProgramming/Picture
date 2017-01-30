@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Abby
+Credit: None
 
 Assignment:
 
@@ -44,8 +44,12 @@ stem=RectangleAsset(5,100,line,green)
 
 Sprite(Circle, (375,300))
 Sprite(Petal, (300,300))
+var Rotation(pi)
 Sprite(Petal, (450,300))
-Sprite(stem, (375,375))
+Sprite(stem, (375,325))
+
+
+
 # add your code here /\  /\  /\
 
 
