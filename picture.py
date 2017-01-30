@@ -40,10 +40,12 @@ line=LineStyle(1,black)
 
 Petal=EllipseAsset(50,20,line, lightblue)
 Circle=CircleAsset(30, line, purple)
-Sprite(Circle, (350,300))
+stem=RectangleAsset(5,100,line,green)
+
+Sprite(Circle, (375,300))
 Sprite(Petal, (300,300))
-
-
+Sprite(Petal, (450,300))
+Sprite(petal, (375,250)
 # add your code here /\  /\  /\
 
 
