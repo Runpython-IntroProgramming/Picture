@@ -35,6 +35,7 @@ lolrundiscircle = CircleAsset(68, porklein, orange) #face
 lolelipticalpooltable = EllipseAsset(65, 20, porklein, gelb)
 eyes = CircleAsset(10, porklein, schwartz) #eyes
 mouth = CircleAsset(13, porklein, rot)
+suit = PolygonAsset([(7,1), (5, 1), (60, 1)], porklein, schwartz)
 
 Sprite(brick, (300, 300))
 Sprite(brick, (490, 300))
@@ -47,6 +48,7 @@ Sprite(lolelipticalpooltable, (175, 126))
 Sprite(eyes, (170, 170))
 Sprite(eyes, (210, 170))
 Sprite(mouth, (190, 210))
+Sprite(haircurl, (150, 126))
 
 
 
@@ -58,4 +60,3 @@ Sprite(mouth, (190, 210))
 
 myapp = App()
 myapp.run()
-Contact GitHub API Training Shop Blog About
