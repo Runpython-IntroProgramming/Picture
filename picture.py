@@ -28,6 +28,22 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+# Defining colors
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
+
+# Defining Lines
+thinline = LineStyle(1, black)
+# Creating Blueprint for each sprite
+rectangle = RectangleAsset(50, 200, thinline, blue)
+circle = CircleAsset(100, thinline, red)
+
+# Creating sprites
+Sprite(rectangle)
+Sprite(rectangle, (200, 600))
+Sprite(circle, (400, 300))
 
 # add your code here /\  /\  /\
 
