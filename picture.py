@@ -46,9 +46,9 @@ stem=RectangleAsset(5,100,line,green)
 Sprite(Circle, (375,300))
 Sprite(Petal, (300,300))
 Sprite(Petal, (450,300))
-sprite(petal2, (400,200))
-Sprite(stem, (375,325))
-
+Sprite(petal2, (380,225))
+Sprite(stem, (380,325))
+Sprite(petal2, (380,325))
 
 
 
