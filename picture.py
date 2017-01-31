@@ -39,12 +39,14 @@ black = Color(0x000000, 1.0)
 line=LineStyle(1,black)
 
 Petal=EllipseAsset(50,20,line, lightblue)
+petal2=EllipseAsset(20,50,line, lightblue)
 Circle=CircleAsset(30, line, purple)
 stem=RectangleAsset(5,100,line,green)
 
 Sprite(Circle, (375,300))
 Sprite(Petal, (300,300))
 Sprite(Petal, (450,300))
+sprite(petal2, (400,200))
 Sprite(stem, (375,325))
 
 
