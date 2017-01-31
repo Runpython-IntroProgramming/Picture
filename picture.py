@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Jasper Meyer
+Credit: Brendan helped me figure out what a sprite is
 
 Assignment:
 
