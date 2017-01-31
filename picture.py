@@ -39,11 +39,13 @@ thinline = LineStyle(1, black)
 # Creating Blueprint for each sprite
 rectangle = RectangleAsset(50, 200, thinline, blue)
 circle = CircleAsset(100, thinline, red)
+polygon = PolygonAsset([(300, 200), (350, 200), (350, 350) , (300, 200)], thinline, green)
 
 # Creating sprites
 Sprite(rectangle)
 Sprite(rectangle, (200, 600))
 Sprite(circle, (400, 300))
+Sprite(polygon, (200, 300))
 
 # add your code here /\  /\  /\
 
