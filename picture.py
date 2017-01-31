@@ -37,11 +37,13 @@ thinline = LineStyle(1, black)
 rectangle1 = RectangleAsset(300, 250, thinline, red)
 rectangle2 = RectangleAsset(50,100, thinline, black)
 poly = PolygonAsset([(400,200), (550,50), (700, 200)], thinline, black)
+square = RectangleAsset(50,50, thinline, yellow)
 
 Sprite(rectangle1, (400,200))
 Sprite(rectangle2, (525,350))
 Sprite(rectangle2, (625,100))
 Sprite(poly)
+Sprite(square, (375,300))
 # add your code here /\  /\  /\
 
 
