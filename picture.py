@@ -38,6 +38,7 @@ rectangle1 = RectangleAsset(300, 250, thinline, red)
 rectangle2 = RectangleAsset(50,100, thinline, black)
 poly = PolygonAsset([(400,200), (550,50), (700, 200)], thinline, black)
 square = RectangleAsset(50,50, thinline, yellow)
+ellipse = EllipseAsset(50,25, thinline, yellow)
 
 Sprite(rectangle1, (400,200))
 Sprite(rectangle2, (525,350))
@@ -48,6 +49,7 @@ Sprite(square, (437.5,250))
 Sprite(square, (525,250))
 Sprite(square, (612.5,350))
 Sprite(square, (612.5,250))
+Sprite(ellipse, (525,250))
 # add your code here /\  /\  /\
 
 
