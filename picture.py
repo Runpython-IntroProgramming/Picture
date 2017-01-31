@@ -55,10 +55,11 @@ petal3=Sprite(petal2,(315,245))
 petal3.rotation=3.14/4
 petal4=Sprite(petal2,(430,355))
 petal4.rotation=3.14/4
-petal5=Sprite(petal,(430,245))
+petal5=Sprite(Petal,(430,245))
 petal5.rotation=3.14/4
-petal6=Sprite(petal,(315,355))
-petal6.rotation=3.14/4
+petal5=Sprite(Petal,(315,355))
+petal5.rotation=3.14/4
+Sprite(pot)
 
 # add your code here /\  /\  /\
 
