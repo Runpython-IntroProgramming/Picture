@@ -40,7 +40,7 @@ circle=CircleAsset(200, thinline, blue)
 Sprite(circle, (200, 200))
 ellipse=EllipseAsset(50, 100, thinline, black)
 Sprite(ellipse, (800, 800))
-polygon=PolygonAsset([(300, 300),(400, 400),(400, 600),(300, 300)], thinline, green)
+polygon=PolygonAsset([(300, 300),(500, 300),(500, 700),(300, 300)], thinline, green)
 Sprite(polygon)
 # add your code here /\  /\  /\
 
