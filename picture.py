@@ -36,8 +36,12 @@ thinline=LineStyle(1, black)
 
 rectangle=RectangleAsset(400, 250, thinline, red)
 Sprite(rectangle, (780, 600))
-Circle=CircleAsset(200, thinline, blue)
-Sprite(Circle, (200, 200))
+circle=CircleAsset(200, thinline, blue)
+Sprite(circle, (200, 200))
+ellipse=EllipseAsset(50, 100, thinline, black)
+Sprite(ellipse, (300, 400))
+polygon=PolygonAsset(50, 50, 50, 50, thinline, green)
+Sprite=polygon
 # add your code here /\  /\  /\
 
 
