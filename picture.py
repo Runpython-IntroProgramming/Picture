@@ -28,14 +28,19 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 black = Color(0x000000, 1.0)
-red = Color(0xff0000, 0.6)
+red = Color(0xff0000, 1.0)
 white = Color(0xff0000, 1.0)
 yellow = Color(0xffff00, 1.0)
+
 thinline = LineStyle(1, black)
+
 rectangle1 = RectangleAsset(300, 250, thinline, red)
 rectangle2 = RectangleAsset(50,100, thinline, black)
-Sprite(rectangle2, (525,350))
+poly = PolygonAsset([(400,200), (550,50), (700, 200)], thinline, black)
+
 Sprite(rectangle1, (400,200))
+Sprite(rectangle2, (525,350))
+Sprite(poly)
 # add your code here /\  /\  /\
 
 
