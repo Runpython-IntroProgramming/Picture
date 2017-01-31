@@ -51,7 +51,7 @@ Sprite(square, (525,250))
 Sprite(square, (612.5,350))
 Sprite(square, (612.5,250))
 Sprite(ellipse, (550,225))
-Sprite(circle, (560,225))
+Sprite(circle, (560,397.5))
 # add your code here /\  /\  /\
 
 
