@@ -44,6 +44,7 @@ Sprite(rectangle2, (525,350))
 Sprite(rectangle2, (625,100))
 Sprite(poly)
 Sprite(square, (437.5,350))
+Sprite(square, (437.5,250))
 # add your code here /\  /\  /\
 
 
