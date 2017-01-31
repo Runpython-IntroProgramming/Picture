@@ -31,20 +31,24 @@ gelb = Color(0xffff00, 0.7)
 porklein = LineStyle (1, schwartz)
 
 brick = RectangleAsset(190, 68, porklein, rot) #brick
-face = CircleAsset(68, porklein, orange) #face
-hair = EllipseAsset(65, 20, porklein, gelb)
+face = EllipseAsset(68,76, porklein, gelb) #face
+hair = EllipseAsset(65, 20, porklein, orange)
 eyes = CircleAsset(10, porklein, schwartz) #eyes
 mouth = CircleAsset(13, porklein, rot)
 haircurl = PolygonAsset([(7,1), (5, 1), (60, 1)], porklein, schwartz)
 
-Sprite(brick, (300, 300))
-Sprite(brick, (490, 300))
-Sprite(brick, (680, 300))
-Sprite(brick, (290, 368))
-Sprite(brick, (480, 368))
-Sprite(brick, (670, 368))
-Sprite(face, (190, 190))
-Sprite(hair, (175, 126))
+
+Sprite(brick, (100, 265))
+Sprite(brick, (290, 265))
+Sprite(brick, (480, 265))
+Sprite(brick, (670, 265))
+
+Sprite(brick, (90,333))
+Sprite(brick, (280, 333))
+Sprite(brick, (470, 333))
+Sprite(brick, (660, 333))
+Sprite(face, (180, 190))
+#Sprite(hair, (175, 126))
 Sprite(eyes, (170, 170))
 Sprite(eyes, (210, 170))
 Sprite(mouth, (190, 210))
