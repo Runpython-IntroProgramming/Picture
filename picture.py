@@ -40,6 +40,7 @@ poly = PolygonAsset([(400,200), (550,50), (700, 200)], thinline, black)
 
 Sprite(rectangle1, (400,200))
 Sprite(rectangle2, (525,350))
+Sprite(rectangle2, (625,100))
 Sprite(poly)
 # add your code here /\  /\  /\
 
