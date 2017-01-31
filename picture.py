@@ -35,13 +35,13 @@ black = Color(0x000000, 1.0)
 thinline=LineStyle(1, black)
 
 rectangle=RectangleAsset(400, 250, thinline, red)
-Sprite(rectangle, (780, 600))
+Sprite(rectangle, (500, 500))
 circle=CircleAsset(200, thinline, blue)
 Sprite(circle, (200, 200))
 ellipse=EllipseAsset(50, 100, thinline, black)
-Sprite(ellipse, (300, 400))
-polygon=PolygonAsset(50, 50, 50, 50, thinline, green)
-Sprite=polygon
+Sprite(ellipse, (800, 800))
+polygon=PolygonAsset([(300, 300),(400, 400),(400, 600),(300, 300)], thinline, green)
+Sprite(polygon)
 # add your code here /\  /\  /\
 
 
