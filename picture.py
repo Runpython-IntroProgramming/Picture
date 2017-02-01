@@ -47,7 +47,11 @@ ellipse=EllipseAsset(20, 50, thinline, blue)
 Sprite(ellipse, (700, 600))
 Sprite(ellipse, (1000, 600))
 circle=CircleAsset(3, thinline, brown)
-Sprite(circle, (500, 500))
+Sprite(circle, (830, 720))
+rectangle=RectangleAsset(60, 40, thinline, blue)
+Sprite(rectangle, (670, 450))
+Sprite(rectangle, (970, 450))
+Sprite(rectangle, (820, 450))
 # add your code here /\  /\  /\
 
 
