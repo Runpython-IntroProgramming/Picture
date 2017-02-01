@@ -38,13 +38,22 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 # Creating Blueprint for each sprite
 rectangle = RectangleAsset(400, 30, thinline, red)
+rectangle2 = RectangleAsset(600, 30, thinline, red)
+rectangle3 = RectangleAsset(200, 210, thinline, blue)
+rectangle4 = RectangleAsset(20, 800, thinline, red)
 circle = CircleAsset(100, thinline, red)
 polygon = PolygonAsset([(300, 200), (350, 200), (350, 350) , (300, 200)], thinline, green)
 
 # Creating sprites
-Sprite(rectangle, (100, 100))
+Sprite(rectangle, (300, 100))
+Sprite(rectangle, (300, 170))
+Sprite(rectangle, (300, 240))
 Sprite(rectangle, (200, 600))
-Sprite(circle, (400, 300))
+Sprite(rectangle2, (100, 310))
+Sprite(rectangle2, (100, 380))
+Sprite(rectangle2, (100, 450))
+Sprite(rectangle3,(100,100))
+Sprite(circle, (900, 300))
 Sprite(polygon, (200, 300))
 
 # add your code here /\  /\  /\
