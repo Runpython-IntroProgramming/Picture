@@ -43,7 +43,7 @@ window= RectangleAsset(100,100, thinline, white)
 ellipse=EllipseAsset(30, 20, thinline, white)
 polygon=PolygonAsset([(0,0), (700,0), (350,-300), (0,0)], thinline, black)
 door= RectangleAsset(100,200, thinline, black)
-
+chimmney= RectangleAsset(70, 170, thinline, black)
 
 Sprite(House,(500,400))
 Sprite(polygon,(500,400))
@@ -52,6 +52,7 @@ Sprite(window, (550, 550))
 Sprite(window, (1050, 550))
 Sprite(door, (800, 680))
 Sprite(ellipse,(850,705))
+Sprite(chimmney, (600, 200))
 
 
 # add your code here /\  /\  /\
