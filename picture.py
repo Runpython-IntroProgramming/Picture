@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <Jett>
-Credit: <None>
+Author: Jett
+Credit: None
 
 Assignment:
 
@@ -28,7 +28,6 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
-# Three primary colors with no transparency (alpha = 1.0)
 red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
@@ -59,7 +58,6 @@ Sprite(door, (800, 680))
 Sprite(ellipse,(850,705))
 Sprite(chimmney, (600, 200))
 Sprite(Sun, (80, 80))
-Sprite(Earth,(-20, 830))
 Sprite(Earth,(-20, 830))
 
 # add your code here /\  /\  /\
