@@ -38,6 +38,7 @@ white = Color(0xFFFFFF, 1.0)
 yellow=Color(0xFFFF00, 1.0)
 
 thinline = LineStyle(1, black)
+
 House = RectangleAsset(700, 700, thinline, brown)
 Swindow=CircleAsset(70, thinline, white)
 window= RectangleAsset(100,100, thinline, white)
@@ -59,6 +60,8 @@ Sprite(ellipse,(850,705))
 Sprite(chimmney, (600, 200))
 Sprite(Sun, (80, 80))
 Sprite(Earth,(-20, 830))
+Sprite(Earth,(-20, 830))
+
 # add your code here /\  /\  /\
 
 
