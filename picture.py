@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <Brendan>
-Credit: <Ethan Adner>
+Author: Brendan
+Credit: Ethan Adner
 
 Assignment:
 
