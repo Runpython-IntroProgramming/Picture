@@ -43,7 +43,8 @@ rectangle2 = RectangleAsset(600, 30, thinline, red)
 rectangle3 = RectangleAsset(200, 210, thinline, blue)
 rectangle4 = RectangleAsset(20, 800, thinline, red)
 circle = CircleAsset(20, thinline, black)
-polygon = PolygonAsset([(200, 130) , (225, 180) , (270, 180) , (225, 220) , (235, 260) , (250, 240) , (165, 260) , (130, 180) ,  (175, 180) , (200, 130)], thinline, white)
+polygon = PolygonAsset([(200, 130) , (220, 180) , (270, 180) , (225, 215) , (245, 260) , (200, 240) , (155, 260) , (175, 215) , (130, 180) ,  (180, 180) , (200, 130)], thinline, white)
+ellipse = EllipseAsset(20, 300, thinline, black)
 
 # Creating sprites
 Sprite(rectangle, (300, 100))
@@ -55,6 +56,7 @@ Sprite(rectangle2, (100, 450))
 Sprite(rectangle3,(100,100))
 Sprite(circle, (95, 80))
 Sprite(polygon, (0, 0))
+Sprite(ellipse, (100, 400))
 
 # add your code here /\  /\  /\
 
