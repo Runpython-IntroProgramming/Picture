@@ -1,3 +1,9 @@
+"""
+picture.py
+Author: Daniel
+Credit: Brendan
+"""
+
 from ggame import App
 myapp = App()
 myapp.run()
