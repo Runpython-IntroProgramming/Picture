@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: smeds1
+Credit: None
 
 Assignment:
 
@@ -26,10 +26,9 @@ for detailed information on ggame.
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
-# add your code here \/  \/  \/
-
-
-# add your code here /\  /\  /\
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = color(0x0000ff, 1.0)
 
 
 myapp = App()
