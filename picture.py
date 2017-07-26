@@ -39,8 +39,6 @@ Sprite(rectangle)
 # And another
 Sprite(rectangle, (200, 50))
 
-# add your code here /\  /\  /\
-
 
 myapp = App()
 myapp.run()
