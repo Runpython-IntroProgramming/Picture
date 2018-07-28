@@ -54,6 +54,11 @@ Sprite(eyes, (210, 170))
 Sprite(mouth, (190, 210))
 Sprite(haircurl, (150, 126))
 
+
+
+
+
+
 # add your code here /\  /\  /\
 
 
