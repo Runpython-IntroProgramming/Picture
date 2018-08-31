@@ -38,6 +38,12 @@ noline=LineStyle(0, nocol)
 darline=LineStyle(2, dargreen)
 palline=LineStyle(1, palyellow)
 
+Base=RectangleAsset(1000, 1000, noline, palyellow)
+Hill1=EllipseAsset(300, 20, noline, dargreen)
+Hill2=EllipseAsset(200, 75, noline, dargreen)
+Hill3=EllipseAsset (500, 200, noline, palgreen)
+
+
 # add your code here /\  /\  /\
 
 
