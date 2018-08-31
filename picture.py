@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Christopher Lee
+Credit: none
 
 Assignment:
 
@@ -27,6 +27,21 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+#Colors
+red = Color(0xff0000, 1.0)
+green = Color(0xff000, 1.0)
+blue = Color(0x0000ff, 1.0)
+
+#Line
+line = LineStyle(1,red)
+#Asset
+rectangle = RectangleAsset(20, 20, line, red)
+circle = CircleAsset(10, line, green)
+
+#Sprite
+Sprite(rectangle)
+Sprite(circle)
+Sprite(circle)
 
 
 # add your code here /\  /\  /\
