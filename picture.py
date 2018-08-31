@@ -45,7 +45,7 @@ Hill2=EllipseAsset(200, 75, noline, dargreen)
 Hill3=EllipseAsset (550, 200, noline, palgreen)
 Cloud_s=CircleAsset(57, noline, cloudy)
 Cloud_l=CircleAsset(189, noline, cloudy)
-House=PolygonAsset([(0,5), (3,0), (6,5), (6,6), (8,6), (8, 12), (0,12)], noline, brown)
+House=PolygonAsset([(0,25), (15,10), (30,25), (26,25), (26,30), (40,30), (40, 55), (4,55), (4,25)], noline, brown)
 
 Sprite(Base)
 Sprite(Hill1, (80, 400))
@@ -55,6 +55,14 @@ Sprite(Hill3, (-100,440))
 Sprite(Cloud_l, (70,-75))
 Sprite(Cloud_l, (900, -88))
 Sprite(Cloud_l, (750, -190))
+Sprite(Cloud_s, (35, 80))
+Sprite(Cloud_s, (300, 50))
+Sprite(Cloud_s, (359, 30))
+Sprite(Cloud_s, (600, 120))
+Sprite(Cloud_s, (807, 10))
+Sprite(Cloud_s, (10, 101))
+Sprite(Cloud_s, (150, 111))
+Sprite(House, (100,100))
 
 # add your code here /\  /\  /\
 
