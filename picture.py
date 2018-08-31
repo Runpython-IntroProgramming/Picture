@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Rachel Matthew
-Credit: <list sources used, if any>
+Credit: none
 
 Assignment:
 
