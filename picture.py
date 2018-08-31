@@ -1,6 +1,6 @@
 """
 picture.py
-Author: <your name here>
+Author: Rachel Matthew
 Credit: <list sources used, if any>
 
 Assignment:
@@ -28,6 +28,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+palgreen=Color(0x64FE9E, 1.0)
 
 # add your code here /\  /\  /\
 
