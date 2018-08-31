@@ -29,6 +29,14 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # add your code here \/  \/  \/
 
 palgreen=Color(0x64FE9E, 1.0)
+dargreen=Color(0x133B11, 1.0)
+palyellow=Color(0xE4FE9E, 1.0)
+cloudy=Color(0xA1A1AA, 0.3)
+nocol=Color(0x000000, 0.0)
+
+noline=LineStyle(0, nocol)
+darline=LineStyle(2, dargreen)
+palline=LineStyle(1, palyellow)
 
 # add your code here /\  /\  /\
 
