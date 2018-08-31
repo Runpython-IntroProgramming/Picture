@@ -39,13 +39,22 @@ noline=LineStyle(0, nocol)
 darline=LineStyle(2, dargreen)
 palline=LineStyle(1, palyellow)
 
-Base=RectangleAsset(1000, 1000, noline, palyellow)
-Hill1=EllipseAsset(300, 20, noline, dargreen)
+Base=RectangleAsset(1500, 1000, noline, palyellow)
+Hill1=EllipseAsset(300, 150, noline, dargreen)
 Hill2=EllipseAsset(200, 75, noline, dargreen)
-Hill3=EllipseAsset (500, 200, noline, palgreen)
+Hill3=EllipseAsset (550, 200, noline, palgreen)
 Cloud_s=CircleAsset(57, noline, cloudy)
 Cloud_l=CircleAsset(189, noline, cloudy)
 House=PolygonAsset([(0,5), (3,0), (6,5), (6,6), (8,6), (8, 12), (0,12)], noline, brown)
+
+Sprite(Base)
+Sprite(Hill1, (80, 400))
+Sprite(Hill1, (750, 480))
+Sprite(Hill2, (-50, 400))
+Sprite(Hill3, (-100,440))
+Sprite(Cloud_l, (70,-75))
+Sprite(Cloud_l, (900, -88))
+Sprite(Cloud_l, (750, -190))
 
 # add your code here /\  /\  /\
 
