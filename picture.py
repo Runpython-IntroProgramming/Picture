@@ -33,6 +33,7 @@ dargreen=Color(0x133B11, 1.0)
 palyellow=Color(0xE4FE9E, 1.0)
 cloudy=Color(0xA1A1AA, 0.3)
 nocol=Color(0x000000, 0.0)
+brown=Color(0xA65711, 1.0)
 
 noline=LineStyle(0, nocol)
 darline=LineStyle(2, dargreen)
@@ -42,7 +43,9 @@ Base=RectangleAsset(1000, 1000, noline, palyellow)
 Hill1=EllipseAsset(300, 20, noline, dargreen)
 Hill2=EllipseAsset(200, 75, noline, dargreen)
 Hill3=EllipseAsset (500, 200, noline, palgreen)
-
+Cloud_s=CircleAsset(57, noline, cloudy)
+Cloud_l=CircleAsset(189, noline, cloudy)
+House=PolygonAsset([(0,5), (3,0), (6,5), (6,6), (8,6), (8, 12), (0,12)], noline, brown)
 
 # add your code here /\  /\  /\
 
