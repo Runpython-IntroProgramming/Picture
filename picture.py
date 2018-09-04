@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Emma Tysinger
-Credit: <list sources used, if any>
+Credit: none
 
 Assignment:
 
