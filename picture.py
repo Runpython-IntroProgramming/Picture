@@ -1,7 +1,8 @@
 """
 picture.py
 Author: Christopher Lee
-Credit: none
+Credit: https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Displaying-Graphics
+
 
 Assignment:
 
