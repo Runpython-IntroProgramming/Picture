@@ -51,8 +51,8 @@ Sprite(circleblue)
 Sprite(ellipse)
 Sprite(poly, (100, 100))
 Sprite(circle, (150, 150))
-Sprite(ellipse, (50, 50))
-
+Sprite(ellipse, (150, 150))
+Sprite(rectangleblue, (100, 150))
 
 # add your code here /\  /\  /\
 
