@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Nick Lee
+Credit: https://html-color-codes.info/ for HTML color codes
 
 Assignment:
 
@@ -27,7 +27,12 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
-
+red = Color(0xff0000, 0.7)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
+brown = Color(0xB45F04, 1.0)
+tree = Color(0x04B404, 1.0)
 
 # add your code here /\  /\  /\
 
