@@ -41,7 +41,7 @@ rectanglebig = RectangleAsset(100, 100, line, green)
 rectangleblue = RectangleAsset(100, 100, line, blue)
 circle = CircleAsset(10, line, green)
 circleblue = CircleAsset(50, line, blue)
-ellipse = EllipseAsset(35, 35, line, red)
+ellipse = EllipseAsset(35, 35, line, green)
 poly = PolygonAsset([(100,100), (50,75), (75,75), (100,100)], line, blue)
 #Sprite
 Sprite(rectangle)
