@@ -3,7 +3,7 @@ picture.py
 Author: Emma Dunbar
 Credit: none
 
-Assignment:
+Assignment: picture
 
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
@@ -27,6 +27,21 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+red=Color(0xff0000,1.0)
+green=Color(0x00ff00,1.0)
+blue=Color(0x0000ff,1.0)
+black=Color(0x000000,1.0)
+yellow=Color(0xffff00,1.0)
+
+tline=LineStyle(1, black)
+
+sun=CircleAsset(50,tline,yellow)
+house=RectangleAsset(80,80,tline,blue)
+roof=PolygonAsset(3,80,50,tline,red)
+
+Sprite(sun,(100,60))
+Sprite(house,(60,300))
+Sprite(roof,(60,220))
 
 
 # add your code here /\  /\  /\
