@@ -1,6 +1,6 @@
 """
 picture.py
-Author: <your name here>
+Author: Patrick Daley
 Credit: <list sources used, if any>
 
 Assignment:
@@ -27,8 +27,12 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+from ggame import App, Color, LineStyle, Sprite
+black = Color(0x000000, 1.0)
+thinline = LineStyle(1, black)
+rectangle = RectangleAsset(100, 100, thinline, black)
 
-
+Sprite(rectangle)
 # add your code here /\  /\  /\
 
 
