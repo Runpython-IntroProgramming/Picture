@@ -49,6 +49,10 @@ Sprite(rectanglebig, (300, 300))
 Sprite(rectanglebig, (100, 300))
 Sprite(rectanglebig, (0, 300))
 Sprite(rectanglebig, (200, 300))
+Sprite(rectanglebig, (400, 300))
+Sprite(rectanglebig, (500, 300))
+Sprite(rectanglebig, (600, 300))
+Sprite(rectangle, (300, 200))
 # add your code here /\  /\  /\
 
 
