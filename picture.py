@@ -33,16 +33,22 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 brown = Color(0xB45F04, 1.0)
 tree = Color(0x04B404, 1.0)
+sky = Color(0x2EFEF7, 1.0)
 
 thinline = LineStyle (1,black)
 
 
-
-treeleaves = EllipseAsset(70, 50, thinline, tree)
+background = RectangleAsset(1500, 600, thinline, sky)
+hill = EllipseAsset(600, 100, thinline, tree)
+treeleaves = CircleAsset(50, thinline, tree)
 treetrunk = RectangleAsset(30, 100, thinline, brown)
 
+
+
+Sprite(background, (-1, -1))
+Sprite(hill, (-300, 400))
 Sprite(treetrunk, (200, 350))
-Sprite(treeleaves, (145, 300))
+Sprite(treeleaves, (165, 300))
 
 # add your code here /\  /\  /\
 
