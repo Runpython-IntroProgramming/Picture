@@ -44,13 +44,13 @@ circle = CircleAsset(50, line, yellow)
 circleblue = CircleAsset(50, line, blue)
 ellipse = EllipseAsset(35, 35, line, green)
 poly = PolygonAsset([(0,300), (0,400), (700, 400), (700, 300)], linegreen, green)
-tri = PolygonAsset([(0,100), (50, 0), (100, 100), ], line, blue
+tri = PolygonAsset([(0,100), (50, 0), (100, 100)], line, blue)
 #Sprite
 
 Sprite(rectangle, (300, 200)) #house
 Sprite(circle) #Sun
 Sprite(poly, (0, 300)) #Land
-Sprite(tri)
+Sprite(tri, (300, 100))
 # add your code here /\  /\  /\
 
 
