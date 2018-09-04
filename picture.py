@@ -41,7 +41,7 @@ roof=PolygonAsset([(0,0),(40,-100),(80,0)],tline,red)
 
 Sprite(sun,(600,60))
 Sprite(house,(60,300))
-Sprite(roof,(60,220))
+Sprite(roof,(60,200))
 
 
 # add your code here /\  /\  /\
