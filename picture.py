@@ -34,6 +34,7 @@ black = Color(0x000000, 1.0)
 brown = Color(0xB45F04, 1.0)
 tree = Color(0x04B404, 1.0)
 sky = Color(0x2EFEF7, 1.0)
+yellow = Color(0xF7FE2E, 1.0)
 
 thinline = LineStyle (1,black)
 
@@ -42,7 +43,7 @@ background = RectangleAsset(1700, 600, thinline, sky)
 hill = EllipseAsset(600, 100, thinline, tree)
 treeleaves = CircleAsset(50, thinline, tree)
 treetrunk = RectangleAsset(30, 100, thinline, brown)
-sun = PolygonAsset([(0, 30), (0, 60), (30, 90), (60, 90), (90, 60), (90, 30), (60, 0)])
+sun = PolygonAsset([(0, 30), (0, 60), (30, 90), (60, 90), (90, 60), (90, 30), (60, 0), (30, 0)], thinline, yellow)
 
 
 
@@ -52,7 +53,9 @@ Sprite(hill, (-300, 380))
 Sprite(hill, (-100, 430))
 Sprite(treetrunk, (200, 350))
 Sprite(treeleaves, (165, 300))
-
+Sprite(treetrunk, (500, 300))
+Sprite(treeleaves, (465, 250))
+Sprite(sun, (100, 100))
 # add your code here /\  /\  /\
 
 
