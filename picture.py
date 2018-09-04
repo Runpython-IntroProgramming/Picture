@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Noah Pikielny
+Credit: 
 
 Assignment:
 
@@ -27,10 +27,21 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
+yellow = Color(0xffff00, 1.0)
 
+thinLine = LineStyle(1, black)
 
+house = RectangleAsset(300, 300, thinLine, blue)
+roof = PolygonAsset([(0,0), (150,-150), (300,0)], thinLine, red)
+ground = RectangleAsset(1070, 5, thinLine, green)
 # add your code here /\  /\  /\
-
+Sprite(roof, (300,300 - 150))
+Sprite(house, (300, 300))
+Sprite(ground, (0,601))
 
 myapp = App()
 myapp.run()
