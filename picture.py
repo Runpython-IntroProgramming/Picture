@@ -42,6 +42,7 @@ background = RectangleAsset(1700, 600, thinline, sky)
 hill = EllipseAsset(600, 100, thinline, tree)
 treeleaves = CircleAsset(50, thinline, tree)
 treetrunk = RectangleAsset(30, 100, thinline, brown)
+sun = PolygonAsset([(0, 30), (0, 60), (30, 90), (60, 90), (90, 60), (90, 30), (60, 0)])
 
 
 
