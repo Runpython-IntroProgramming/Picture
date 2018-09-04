@@ -49,6 +49,9 @@ poly = PolygonAsset([(0,300), (0,400), (2000, 400), (2000, 300)], linegreen, gre
 dirt = PolygonAsset([(0, 300), (0, 2000), (2000, 2000), (2000, 300)], linebrown, brown)
 tri = PolygonAsset([(0,100), (50, 0), (100, 100)], line, orange)
 window = RectangleAsset(25, 25, line, white)
+fish = EllipseAsset(15, 10, line, orange)
+tail = PolygonAsset([(0,0), (5, 10), (5, -10)], line, orange)
+eye = CircleAsset(2, line, black)
 #Sprite
 Sprite(poly, (0, 300)) #Land
 Sprite(circle) #Sun
@@ -66,6 +69,9 @@ Sprite(window, (510, 250))
 Sprite(window,(565, 250))
 #
 Sprite(ellipse, (500, 500))
+Sprite(fish, (600, 600))
+Sprite(tail, (630, 600))
+Sprite(eye, (605, 605))
 # add your code here /\  /\  /\
 
 
