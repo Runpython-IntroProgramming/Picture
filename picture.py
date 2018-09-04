@@ -38,10 +38,12 @@ thinline = LineStyle(1, black)
 thickline = LineStyle(5, black)
 noline = LineStyle(1, clear)
 
-base = RectangleAsset(60, 100, thinline, brown)
-leaf = PolygonAsset( 
+base = RectangleAsset(40, 50, thinline, brown)
+leaf = PolygonAsset([(0,0), (100,-75), (200,0), (0,0)], noline, green)
+leaf2 = PolygonAsset([(0,0), (150,-100), (300,0), (0,0)], noline, green)
+apple = CircleAsset(10, thinline, red)
 
-
+Sprite(apple)
 
 # add your code here /\  /\  /\
 
