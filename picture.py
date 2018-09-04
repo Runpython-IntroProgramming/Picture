@@ -34,6 +34,16 @@ black = Color(0x000000, 1.0)
 brown = Color(0xB45F04, 1.0)
 tree = Color(0x04B404, 1.0)
 
+thinline = LineStyle (1,black)
+
+
+
+treeleaves = EllipseAsset(70, 50, thinline, tree)
+treetrunk = RectangleAsset(30, 100, thinline, brown)
+
+Sprite(treetrunk, (200, 350))
+Sprite(treeleaves, (145, 300))
+
 # add your code here /\  /\  /\
 
 
