@@ -35,11 +35,11 @@ yellow=Color(0xffff00,1.0)
 
 tline=LineStyle(1, black)
 
-sun=CircleAsset(50,tline,yellow)
+sun=CircleAsset(20,tline,yellow)
 house=RectangleAsset(80,80,tline,blue)
-roof=PolygonAsset(3,80,50,tline,red)
+roof=PolygonAsset([(0,0),(40,-100),(80,0)],tline,red)
 
-Sprite(sun,(100,60))
+Sprite(sun,(600,60))
 Sprite(house,(60,300))
 Sprite(roof,(60,220))
 
