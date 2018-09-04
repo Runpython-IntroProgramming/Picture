@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Meg
-Credit: None
+Credit: Picture tutorial, http://brythonserver.github.io/ggame/
 
 Assignment:
 
@@ -27,7 +27,21 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+#from tutorial
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
 
+line = LineStyle(1, black)
+
+trunk = RectangleAsset(10, 40, line, black)
+CircleAsset
+EllipseAsset
+polygon = PolygonAsset([(10,0), (0,50), (50,0), (10,0)], line, green)
+
+Sprite(trunk, (200, 50))
+Sprite(polygon, (200, 50))
 
 # add your code here /\  /\  /\
 
