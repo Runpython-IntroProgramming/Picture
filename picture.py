@@ -41,6 +41,14 @@ thinline = LineStyle(1, black)
 rect = RectangleAsset(400,5, thinline, black)
 Sprite(rect, (20,300))
 
+thinline = LineStyle(1, black)
+rect = RectangleAsset(5,265, thinline, black)
+Sprite(rect, (20,40))
+
+thinline = LineStyle(1, black)
+rect = RectangleAsset(5,265, thinline, black)
+Sprite(rect, (415,40))
+
 # add your code here /\  /\  /\
 
 
