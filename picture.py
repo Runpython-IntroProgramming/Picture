@@ -3,7 +3,7 @@ picture.py
 Author: Nick Lee
 Credit: https://html-color-codes.info/ for HTML color codes
 
-Assignment:
+Assignment: Picture
 
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
