@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Emma Dunbar
-Credit: none
+Credit: I used wikipedia to find more hexadecimal codes
 
 Assignment: picture
 
