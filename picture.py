@@ -51,6 +51,7 @@ Sprite(rectangle, (300, 200)) #house
 Sprite(circle) #Sun
 Sprite(poly, (0, 300)) #Land
 Sprite(tri, (300, 100))
+Sprite(ellipse, (350, 150))
 # add your code here /\  /\  /\
 
 
