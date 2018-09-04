@@ -44,7 +44,7 @@ door=RectangleAsset(10,20,thinline,brown)
 pigbody=EllipseAsset(15,10,thinline,pink)
 pighead=CircleAsset(6,thinline,pink)
 pigleg=RectangleAsset(2,12,thinline,pink)
-grass=RectangleAsset(150,30,thinline2,green)
+grass=RectangleAsset(150,15,thinline2,green)
 
 Sprite(barn,(100,50))
 Sprite(sun)
@@ -56,7 +56,7 @@ Sprite(pigleg,(43,98))
 Sprite(pigleg,(50,98))
 Sprite(pigleg,(56,98))
 Sprite(pigleg,(64,98))
-Sprite(grass
+Sprite(grass,(0,110))
 
 print("Welcome to the farm!")
 
