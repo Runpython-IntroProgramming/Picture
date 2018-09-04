@@ -35,27 +35,20 @@ blue = Color(0x0000ff, 1.0)
 
 #Line
 line = LineStyle(1,red)
+linegreen = LineStyle(1, green)
 #Asset
 rectangle = RectangleAsset(100, 100, line, red)
-rectanglebig = RectangleAsset(100, 100, line, green)
+rectanglebig = RectangleAsset(100, 100, linegreen, green)
 rectangleblue = RectangleAsset(100, 100, line, blue)
 circle = CircleAsset(10, line, green)
 circleblue = CircleAsset(50, line, blue)
 ellipse = EllipseAsset(35, 35, line, green)
-poly = PolygonAsset([(100,100), (50,75), (75,75), (100,100)], line, blue)
+poly = PolygonAsset([(100,100), (50,150), (100, 100), (200,200)], line, blue)
 #Sprite
-Sprite(rectangle)
-Sprite(rectangle, (100, 100))
-Sprite(rectanglebig, (100, 0))
-Sprite(rectangleblue, (0, 100))
-Sprite(circleblue)
-Sprite(ellipse)
-Sprite(poly, (100, 100))
-Sprite(circle, (150, 150))
-Sprite(ellipse, (150, 150))
-Sprite(rectangleblue, (100, 150))
-Sprite(rectangle, (300, 300))
-
+Sprite(rectanglebig, (300, 300))
+Sprite(rectanglebig, (100, 300))
+Sprite(rectanglebig, (0, 300))
+Sprite(rectanglebig, (200, 300))
 # add your code here /\  /\  /\
 
 
