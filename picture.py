@@ -32,7 +32,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 red = Color(0xff0000, 1.0)
 green = Color(0xff000, 1.0)
 blue = Color(0x0000ff, 1.0)
-
+yellow = Color(0xffff00, 1.0)
 #Line
 line = LineStyle(1,red)
 linegreen = LineStyle(1, green)
@@ -40,19 +40,17 @@ linegreen = LineStyle(1, green)
 rectangle = RectangleAsset(100, 100, line, red)
 rectanglebig = RectangleAsset(100, 100, linegreen, green)
 rectangleblue = RectangleAsset(100, 100, line, blue)
-circle = CircleAsset(10, line, green)
+circle = CircleAsset(50, line, yellow)
 circleblue = CircleAsset(50, line, blue)
 ellipse = EllipseAsset(35, 35, line, green)
-poly = PolygonAsset([(100,100), (50,150), (100, 100), (200,200)], line, blue)
+poly = PolygonAsset([(0,300), (0,400), (700, 400), (700, 300)], linegreen, green)
+tri = PolygonAsset([(0,100), (50, 0), (100, 100), ], line, blue
 #Sprite
-Sprite(rectanglebig, (300, 300))
-Sprite(rectanglebig, (100, 300))
-Sprite(rectanglebig, (0, 300))
-Sprite(rectanglebig, (200, 300))
-Sprite(rectanglebig, (400, 300))
-Sprite(rectanglebig, (500, 300))
-Sprite(rectanglebig, (600, 300))
-Sprite(rectangle, (300, 200))
+
+Sprite(rectangle, (300, 200)) #house
+Sprite(circle) #Sun
+Sprite(poly, (0, 300)) #Land
+Sprite(tri)
 # add your code here /\  /\  /\
 
 
