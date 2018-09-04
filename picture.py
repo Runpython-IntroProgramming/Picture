@@ -30,8 +30,8 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 from ggame import App, Color, LineStyle, Sprite
 black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
-rectangle = RectangleAsset(100, 100, thinline, black)
-
+rectangle = RectangleAsset(500, 10, thinline, black)
+Sprite(rectangle, (250, 250))
 Sprite(rectangle)
 # add your code here /\  /\  /\
 
