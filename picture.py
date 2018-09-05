@@ -32,7 +32,7 @@ face = Color(0xFFD39B, 1.0)
 white = Color(0xF0F8FF, 1.0)
 eyes = Color(0x458B74, 1.0)
 black = Color(0x000000, 1.0)
-
+pink = Color(0xFF1493, 1.0)
 thinline = LineStyle(1, black)
 ellipse = EllipseAsset(64,80, thinline, face)
 Sprite(ellipse,(64,80))
@@ -63,7 +63,14 @@ Sprite(mouth,(125,190))
 nose = RectangleAsset(20,12, thinline, face)
 Sprite(nose,(122,168))
 
+hair = RectangleAsset(100,25, thinline, pink)
+Sprite(hair,(78,80))
 
+hair = RectangleAsset(75,25, thinline, pink)
+Sprite(hair,(90,56))
+
+hair = RectangleAsset(50,25, thinline, pink)
+Sprite(hair,(102,32))
 # add your code here /\  /\  /\
 
 
