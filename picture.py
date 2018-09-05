@@ -51,6 +51,19 @@ Sprite(pupil1,(148,138))
 pupil1 = CircleAsset(8, thinline, eyes)
 Sprite(pupil1,(98,138))
 
+pupil2 = CircleAsset(3, thinline, black)
+Sprite(pupil2,(103,143))
+
+pupil2 = CircleAsset(3, thinline, black)
+Sprite(pupil2,(153,143))
+
+mouth = CircleAsset(13, thinline, black)
+Sprite(mouth,(125,190))
+
+nose = RectangleAsset(20,12, thinline, face)
+Sprite(nose,(122,168))
+
+
 # add your code here /\  /\  /\
 
 
