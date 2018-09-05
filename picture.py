@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Ella Edmonds
-Credit: Your Tutorial
+Credit: Your Tutorial and this link that was on it: http://brythonserver.github.io/ggame/#ggame.Color
 
 Assignment:
 
