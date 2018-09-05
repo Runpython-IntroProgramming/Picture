@@ -69,24 +69,24 @@ thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (65,45))
 
-blue = Color(0x0000ff, .6)
+blue = Color(0x0000ff, .7)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (105,45))
 
-blue = Color(0x0000ff, .4)
+blue = Color(0x0000ff, .6)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (145,45))
 
-blue = Color(0x0000ff, .2)
+blue = Color(0x0000ff, .5)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (185,45))
  
  #row two
  
-blue = Color(0x0000ff, .9)
+blue = Color(0x0000ff, .8)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (45,75))
@@ -106,24 +106,24 @@ thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (165,75))
 
-blue = Color(0x0000ff, .3)
+blue = Color(0x0000ff, .4)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(12.5,30, thinline, blue)
 Sprite(rect, (205,75))
 
 #row three
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .8)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (25,105))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .7)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (65,105))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .6)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (105,105))
@@ -133,19 +133,19 @@ thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (145,105))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .4)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (185,105))
 
 #row four
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .7)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (45,135))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .6)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (85,135))
@@ -155,19 +155,19 @@ thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (125,135))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .4)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,30, thinline, blue)
 Sprite(rect, (165,135))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .3)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(12.5,30, thinline, blue)
 Sprite(rect, (205,135))
 
 #row 5
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .6)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (25,165))
@@ -177,22 +177,103 @@ thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (65,165))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .4)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (105,165))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .3)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (145,165))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .2)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (185,165))
 
 #red square
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (146, 177))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (85.5, 177))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (26, 177))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (146, 201))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (85.5, 201))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (26, 201))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (146, 226))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (85.5, 226))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (26, 226))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (146, 251))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (85.5, 251))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (26, 251))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (146, 276))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (85.5, 276))
+
+thinline = LineStyle(1, red)
+ellipse = EllipseAsset(35, 10, thinline, red)
+Sprite(ellipse, (26, 276))
+
+#green square
+
+green = Color(0x00ff00, .7)
+thinline = LineStyle(1, green)
+polygon = PolygonAsset([(0, 0),(190,0),(95,125)], thinline, green)
+Sprite(polygon, (223.5,175))
+
+green = Color(0x00ff00, .3)
+thinline = LineStyle(1, green)
+polygon = PolygonAsset([(0, 0),(0,125),(95,125)], thinline, green)
+Sprite(polygon, (223.5,175))
+
+green = Color(0x00ff00, .3)
+thinline = LineStyle(1, green)
+polygon = PolygonAsset([(0, 0),(95,-125),(95,0)], thinline, green)
+Sprite(polygon, (318.5,175))
+
+#purple
+
+
 
 
 
