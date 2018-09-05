@@ -30,7 +30,6 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # Create a displayed object at 100,100 using an image asset
 Sprite(ImageAsset("Small-mariogood2.png"), (100,100))
-# Create the app, with a 500x500 pixel stage
 app = App(100,100)  
 # Run the app
 app.run()
