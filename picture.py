@@ -62,7 +62,7 @@ Sprite(tree3, (650,350))
 Sprite(tree4, (700,350))
 Sprite(doorknob, (508,390))
 Sprite(sun, (700,35))
-
+"this is the best house ever!!"
 
 # add your code here /\  /\  /\
 
