@@ -34,7 +34,7 @@ black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(100,100, thinline, red)
-triangle = TriangleAsset(100,100, thinline, blue)
+triangle = PolygonAsset(100,100, thinline, blue)
 
 Sprite(rectangle,(400,300))
 Sprite(triangle,(400, 100))
