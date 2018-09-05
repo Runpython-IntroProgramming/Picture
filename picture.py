@@ -271,63 +271,63 @@ thinline = LineStyle(1, green)
 polygon = PolygonAsset([(0, 0),(95,-125),(95,0)], thinline, green)
 Sprite(polygon, (318.5,175))
 
-#purple
+#rawinbow
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xbfffff, .6)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (225,47))
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xffbffb, .8)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (273,47))
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xfbffbb, 1)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (321,47))
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xbbffbb, .8)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (369,47))
 
 #row three
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xffbbfb, .7)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (225,124))
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xfbbfbb, .6)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (273,124))
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xbbbfbb, .4)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (321,124))
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xbbfbff, .9)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (369,124))
 
 #row two
 
-purple = Color(0xff3bb, .4)
+purple = Color(0xbfbbff, .3)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (249,85.5))
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xbbffff, .6)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (297,85.5))
 
-purple = Color(0xff33bb, .4)
+purple = Color(0xbbbfff, .5)
 thinline = LineStyle(1, purple)
 circ = CircleAsset(22, thinline, purple)
 Sprite(circ, (345,85.5))
