@@ -45,7 +45,8 @@ second = PolygonAsset([(25,0), (0,70), (50,70), (25,0)], line, green)
 first = PolygonAsset([(25,0), (0,50), (50,50), (25,0)], line, green)
 star = PolygonAsset([(25,0), (15,25), (40,10), (10,10), (35,25), (25,0)], line, yellow)
 pres = RectangleAsset(30, 30, line, red)
-rib = RectangleAsset(5
+rib = RectangleAsset(10, 30, line, blue)
+rib2 = RectangleAsset(30, 10, line, blue)
 
 Sprite(trunk, (220, 130))
 Sprite(third, (200, 50))
@@ -58,6 +59,8 @@ Sprite(orn1, (225, 125))
 Sprite(base, (185, 160))
 Sprite(star, (210, 40))
 Sprite(pres, (235, 140))
+Sprite(rib, (245, 140))
+Sprite(rib2, (235, 150))
 
 
 # add your code here /\  /\  /\
