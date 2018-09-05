@@ -39,6 +39,7 @@ rectangle2 = RectangleAsset(50,100, thinline, black)
 window1 = RectangleAsset(40,90, thinline, red)
 window2 = RectangleAsset(40,90, thinline, red)
 thing1 = EllipseAsset(40,40, thinline, green)
+thing2 = CircleAsset(25, thinline, black)
 
 
 Sprite(rectangle,(400,200))
@@ -47,6 +48,7 @@ Sprite(rectangle2,(500,350))
 Sprite(window1,(430,210))
 Sprite(window2,(570,210))
 Sprite(thing1,(480,210))
+Sprite(thing2,(500,140))
 
 # add your code here /\  /\  /\
 
