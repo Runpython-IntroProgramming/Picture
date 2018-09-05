@@ -29,12 +29,12 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # add your code here \/  \/  \/
 from ggame import App, Color, LineStyle, Sprite
 black = Color(0x000000, 1.0)
-brown = COlor(0x1654242, 1.0
+brown = Color(0x8B4513, 1.0)
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(500, 500, thinline, black)
 Sprite(rectangle, (250, 250))
 
-triangle = PolygonAsset([(-250, 250), (0,0), (250, 250)], thinline, black)
+triangle = PolygonAsset([(-250, 250), (0,0), (250, 250)], thinline, brown)
 Sprite( triangle, (250, 0))
 #poly = PolygonAsset([(250, 250), (100, 100), (100, 250)], thinline, black)
 #Sprite(poly, (250,250))
