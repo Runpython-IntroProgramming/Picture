@@ -27,8 +27,7 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
-mintgreen = Color(0x00C957, 1.0) 
-
+clear = Color(0xBFBFBF, 1.0) 
 brown = Color(0xCD5B45, 1.0)
 black = Color(0x000000, 1.0)
 drkgreen= Color(0x006400, 1.0)
@@ -39,8 +38,8 @@ thinline = LineStyle(1, brown)
 rectangle = RectangleAsset(250,250, thinline, houseclr)
 triangle = PolygonAsset([(200,0), (325,-100),  (450,0)], thinline, black)
 door = RectangleAsset(50,100, thinline, brown)
-window1 = RectangleAsset(60,60, thinline, mintgreen)
-window2 = RectangleAsset(60,60, thinline, mintgreen)
+window1 = RectangleAsset(60,60, thinline, clear)
+window2 = RectangleAsset(60,60, thinline, clear)
 circlewindow = CircleAsset(25, thinline, brown)
 tree1 = PolygonAsset([(100,0), (150,-100),  (200,0)], thinline, drkgreen)
 tree2 = PolygonAsset([(100,0), (150,-100),  (200,0)], thinline, drkgreen)
