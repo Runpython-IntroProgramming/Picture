@@ -43,7 +43,7 @@ thinline = LineStyle(1, black)
 # background
 ground_snow = RectangleAsset(1500, 275, thinline, blue)
 
-#the snowman
+#the snowman body 
 base = CircleAsset (80, thinline, light_blue)
 middle = CircleAsset (50, thinline, light_blue)
 head = CircleAsset (40, thinline, light_blue)
@@ -51,16 +51,11 @@ nose = PolygonAsset([(0,0), (0,15), (30,12)], thinline, orange)
 eyes = CircleAsset (5, thinline, black)
 arm_left = PolygonAsset([(0,0), (15,5), (100,90), (100,100)], thinline, black)
 arm_right = PolygonAsset([(210,0), (195,5), (100,90), (100,100)], thinline, black)
+
+#accessories 
 hat_base = RectangleAsset(80, 20, thinline, black)
 hat_top = EllipseAsset(25, 28, thinline, black)
 buttons = CircleAsset(5, thinline, black)
-
-
-
-
-
-
-
 
 # display
 Sprite (ground_snow, (0,400))
@@ -77,9 +72,6 @@ Sprite (hat_top, (405,4))
 Sprite (buttons, (425,200))
 Sprite (buttons, (425,180))
 Sprite (buttons, (425,160))
-
-
-
 
 
 # add your code here /\  /\  /\
