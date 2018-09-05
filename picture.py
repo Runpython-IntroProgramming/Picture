@@ -273,8 +273,64 @@ Sprite(polygon, (318.5,175))
 
 #purple
 
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (225,47))
 
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (273,47))
 
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (321,47))
+
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (369,47))
+
+#row three
+
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (225,124))
+
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (273,124))
+
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (321,124))
+
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (369,124))
+
+#row two
+
+purple = Color(0xff3bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (249,85.5))
+
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (297,85.5))
+
+purple = Color(0xff33bb, .4)
+thinline = LineStyle(1, purple)
+circ = CircleAsset(22, thinline, purple)
+Sprite(circ, (345,85.5))
 
 
 # add your code here /\  /\  /\
