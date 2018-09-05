@@ -31,15 +31,15 @@ from ggame import App, Color, LineStyle, Sprite
 black = Color(0x000000, 1.0)
 brown = Color(0x8B4513, 1.0)
 thinline = LineStyle(1, black)
-rectangle = RectangleAsset(500, 500, thinline, black)
+rectangle = RectangleAsset(500, 500, thinline, brown)
 Sprite(rectangle, (250, 250))
 
 triangle = PolygonAsset([(-250, 250), (0,0), (250, 250)], thinline, brown)
 Sprite( triangle, (250, 0))
 #poly = PolygonAsset([(250, 250), (100, 100), (100, 250)], thinline, black)
 #Sprite(poly, (250,250))
-#circle =  CircleAsset(200, thinline, black)
-#Sprite(circle, (200, 250))
+circle =  CircleAsset(50, thinline, black)
+Sprite(circle, (475, 350))
 
 # add your code here /\  /\  /\
 
