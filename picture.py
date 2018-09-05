@@ -39,7 +39,7 @@ Sprite( triangle, (250, 0))
 #poly = PolygonAsset([(250, 250), (100, 100), (100, 250)], thinline, black)
 #Sprite(poly, (250,250))
 circle =  CircleAsset(50, thinline, black)
-Sprite(circle, (475, 350))
+Sprite(circle, (450, 30))
 
 # add your code here /\  /\  /\
 
