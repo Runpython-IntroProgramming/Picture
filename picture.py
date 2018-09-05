@@ -28,8 +28,9 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
-blue = Color(808080, 1.0)
-green = Color(53868, 1.0)
+face = Color(0xFFD39B, 1.0)
+white = Color(0xF0F8FF, 1.0)
+
 thinline = LineStyle(4, blue)
 ellipse = EllipseAsset(80, 40, thinline, green)
 Sprite(ellipse)
