@@ -33,11 +33,20 @@ blue = Color(0x000ff, 1.0)
 black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
-rectangle = RectangleAsset(100,100, thinline, red)
-triangle = PolygonAsset([(200,50), (200,30),  (150,40)], thinline, blue)
+rectangle = RectangleAsset(250,250, thinline, red)
+triangle = PolygonAsset([(200,0), (325,-100),  (450,0)], thinline, blue)
+rectangle2 = RectangleAsset(50,100, thinline, black)
+window1 = RectangleAsset(40,90, thinline, red)
+window2 = RectangleAsset(40,90, thinline, red)
+thing1 = EllipseAsset(40,40, thinline, green)
 
-Sprite(rectangle,(400,300))
-Sprite(triangle,(400,300))
+
+Sprite(rectangle,(400,200))
+Sprite(triangle,(400,100))
+Sprite(rectangle2,(500,350))
+Sprite(window1,(430,210))
+Sprite(window2,(570,210))
+Sprite(thing1,(480,210))
 
 # add your code here /\  /\  /\
 
