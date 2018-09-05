@@ -43,6 +43,7 @@ window1 = RectangleAsset(60,60, thinline, mintgreen)
 window2 = RectangleAsset(60,60, thinline, mintgreen)
 circlewindow = CircleAsset(25, thinline, brown)
 tree1 = PolygonAsset([(100,0), (150,-100),  (200,0)], thinline, drkgreen)
+tree2 = PolygonAsset([(100,0), (150,-100),  (200,0)], thinline, drkgreen)
 
 
 Sprite(rectangle,(400,200))
@@ -50,9 +51,9 @@ Sprite(triangle,(400,100))
 Sprite(rectangle2,(500,350))
 Sprite(window1,(430,210))
 Sprite(window2,(580,210))
-
 Sprite(circlewindow,(500,140))
 Sprite(tree1,(300,350))
+Sprite(tree2,(650,350))
 
 # add your code here /\  /\  /\
 
