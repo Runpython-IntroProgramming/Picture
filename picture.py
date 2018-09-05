@@ -33,9 +33,9 @@ blue = Color(0x000ff, 1.0)
 black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
-rectangle = RectangleAsset(60,60, thinline, blue)
+rectangle = RectangleAsset(100,100, thinline, red)
 
-Sprite(rectangle)
+Sprite(rectangle,(400,300))
 
 
 # add your code here /\  /\  /\
