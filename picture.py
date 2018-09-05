@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Eric Goodney
+Credit: Peers
 
 Assignment:
 
@@ -34,9 +34,10 @@ black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(100,100, thinline, red)
+triangle = TriangleAsset(100,100, thin line, blue)
 
 Sprite(rectangle,(400,300))
-
+Sprite(triangle,(400, 100))
 
 # add your code here /\  /\  /\
 
