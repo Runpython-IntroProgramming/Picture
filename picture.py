@@ -34,8 +34,23 @@ eyes = Color(0x458B74, 1.0)
 black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
-ellipse = EllipseAsset(50,80, thinline, face)
-Sprite(ellipse,(50,80))
+ellipse = EllipseAsset(64,80, thinline, face)
+Sprite(ellipse,(64,80))
+
+
+eye1 = CircleAsset(16, thinline, white)
+Sprite(eye1,(90,130))
+
+
+eye2 = CircleAsset(16, thinline, white)
+Sprite(eye2,(140,130))
+
+pupil1 = CircleAsset(8, thinline, eyes)
+Sprite(pupil1,(148,138))
+
+pupil1 = CircleAsset(8, thinline, eyes)
+Sprite(pupil1,(98,138))
+
 # add your code here /\  /\  /\
 
 
