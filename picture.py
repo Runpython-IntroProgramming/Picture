@@ -66,7 +66,7 @@ tree2 = PolygonAsset([(350, 55), (310, 150), (400, 150)], thinline, treegreen)
 Sprite(tree2, (390, 252))
 
 stump2 = RectangleAsset(18, 22, thinline, brown)
-Sprite(stump2, (423, 350))
+Sprite(stump2, (423, 349))
 
 # add your code here /\  /\  /\
 
