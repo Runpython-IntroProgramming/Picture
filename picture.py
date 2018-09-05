@@ -33,12 +33,13 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(50, 20, thinline, blue)
 Sprite(rectangle)
+rectangle = RectangleAsset(10, 5, thinline, green)
+Sprite(rectangle)
 # add your code here \/  \/  \/
 
-#Sprite(CircleAsset("Small-mariogood2.png")
-#app = App(500,500)
+
 Sprite(ImageAsset("Small-mariogood2.png"), (400,200))
-app = App(500,500)  
+app = App(1000,1000)  
 app.run()
 
 
