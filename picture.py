@@ -28,15 +28,15 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
-# Create a displayed object at 100,100 using an image asset
-Sprite(ImageAsset("Small-mariogood2.png"), (100,100))
-app = App(100,100)  
-# Run the app
+#Sprite(CircleAsset("Small-mariogood2.png")
+#app = App(500,500)
+Sprite(ImageAsset("Small-mariogood2.png"), (400,200))
+app = App(500,500)  
 app.run()
 
 
 # add your code here /\  /\  /\
 
 
-#myapp = App()
-#myapp.run()
+myapp = App()
+myapp.run()
