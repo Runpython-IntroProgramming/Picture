@@ -27,6 +27,7 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+
 clear = Color(0xBFBFBF, 1.0) 
 brown = Color(0xCD5B45, 1.0)
 black = Color(0x000000, 1.0)
@@ -61,6 +62,7 @@ Sprite(tree3,(650,350))
 Sprite(tree4,(700,350))
 Sprite(doorknob,(508,390))
 Sprite(sun, (700,35))
+
 # add your code here /\  /\  /\
 
 myapp = App()
