@@ -30,10 +30,12 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 face = Color(0xFFD39B, 1.0)
 white = Color(0xF0F8FF, 1.0)
+eyes = Color(0x458B74, 1.0)
+black = Color(0x000000, 1.0)
 
-thinline = LineStyle(4, blue)
-ellipse = EllipseAsset(80, 40, thinline, green)
-Sprite(ellipse)
+thinline = LineStyle(1, black)
+ellipse = EllipseAsset(50,80, thinline, face)
+Sprite(ellipse,(50,80))
 # add your code here /\  /\  /\
 
 
