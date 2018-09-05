@@ -167,27 +167,27 @@ Sprite(rect, (205,135))
 
 #row 5
 
-blue = Color(0x0000ff, .6)
+blue = Color(0x0000ff, .7)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (25,165))
 
-blue = Color(0x0000ff, .5)
+blue = Color(0x0000ff, .6)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (65,165))
 
-blue = Color(0x0000ff, .4)
+blue = Color(0x0000ff, .5)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (105,165))
 
-blue = Color(0x0000ff, .3)
+blue = Color(0x0000ff, .4)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (145,165))
 
-blue = Color(0x0000ff, .2)
+blue = Color(0x0000ff, .3)
 thinline = LineStyle(3, blue)
 rect = RectangleAsset(20,5, thinline, blue)
 Sprite(rect, (185,165))
