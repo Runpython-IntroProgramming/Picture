@@ -43,7 +43,9 @@ Sprite((pipe1), (350, 180))
 pipe2 = EllipseAsset(25, 10, thickgreen, black)
 Sprite((pipe2), (337.5, 170))
 block = RectangleAsset(15, 15, thinbrown, brown)
-Sprite((block), (100, 100))
+Sprite((block), (200, 100))
+Sprite((block), (230, 100))
+Sprite((block), (215, 100))
 #goomba = 
 # add your code here \/  \/  \/
 
