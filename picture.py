@@ -29,12 +29,12 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # add your code here \/  \/  \/
 
 # colors
-skin = Color(0x4BADC1)
-white = Color(0xffffff)
-gill = Color(0x44CA83)
+skin = Color(0x4BADC1,1.0)
+white = Color(0xffffff,1.0)
+gill = Color(0x44CA83,1.0)
 #mouth
-tongue = Color(0x16A085)
-black = Color(0x000000)
+tongue = Color(0x16A085,1.0)
+black = Color(0x000000,1.0)
 #Lines
 thinline = LineStyle(1, black)
 #Head
