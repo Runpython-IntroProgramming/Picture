@@ -56,8 +56,9 @@ Sprite((geyes), (226.5, 80))
 gleg = RectangleAsset(1, 10, thinline, black)
 Sprite((gleg), (222.5, 90))
 Sprite((gleg), (227.5, 90))
+#its ugly but its supposed to be a goomba
 # add your code here \/  \/  \/
-
+#no
 
 Sprite(ImageAsset("Small-mariogood5.png"), (100,200))
 app = App(500,500)  
