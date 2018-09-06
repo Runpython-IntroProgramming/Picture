@@ -37,7 +37,7 @@ Sprite((rectangle), (100, 100))
 
 
 Sprite(ImageAsset("Small-mariogood3.png"), (400,200))
-app = App(1000,1000)  
+app = App(500,500)  
 app.run()
 
 
