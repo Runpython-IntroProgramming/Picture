@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Patrick Daley
-Credit: <list sources used, if any>
+Credit: I used some resources to get the brown color and to get the yellow color.
 
 Assignment:
 
