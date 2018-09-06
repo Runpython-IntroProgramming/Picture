@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Pierre Mayo
-Credit: <list sources used, if any>
+Credit: I did this by myself.
 
 Assignment:
 
