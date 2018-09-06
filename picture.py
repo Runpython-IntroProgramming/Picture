@@ -48,7 +48,7 @@ rpupil = CircleAsset(5,5,thinline,black)
 #Mouth
 left = EllipseAsset(50,20,thinline,black)
 right = EllipseAsset(50,20,thinline,black)
-mouthTongue = EllipseAsset(,thinline,tongue)
+mouthTongue = EllipseAsset(30,10,thinline,tongue)
 gills1 = RectangleAsset(30,10,thinline, gill)
 gills2 = RectangleAsset(30,10,thinline,gill)
 gills3 = RectangleAsset(30,10,thinline,gill)
