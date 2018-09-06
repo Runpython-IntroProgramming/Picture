@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Eamon
-Credit: Github
+Credit: Github, Nintendo Wikia - Fandom (mario image)
 
 Assignment:
 
@@ -32,6 +32,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 brown = Color(0x654321, 1.0)
 thinline = LineStyle(1, black)
+thinbrown = LineStyle(1, brown)
 medline = LineStyle(2, black)
 thickgreen = LineStyle(7, green)
 ground = RectangleAsset(500, 20, thinline, brown)
@@ -40,6 +41,9 @@ pipe1 = RectangleAsset(30, 50, thinline, green)
 Sprite((pipe1), (350, 180))
 pipe2 = EllipseAsset(25, 10, thickgreen, black)
 Sprite((pipe2), (337.5, 170))
+block = RectangleAsset(15, 15, thinbrown, brown)
+Sprite((block), (100, 100))
+#goomba = 
 # add your code here \/  \/  \/
 
 
