@@ -30,11 +30,10 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
-brown = color(0xA52A2A, 1.0)
 thinline = LineStyle(1, black)
 medline = LineStyle(2, black)
-rectangle = RectangleAsset(50, 20, thinline, brown)
-Sprite((rectangle), (400, 220))
+rectangle = RectangleAsset(500, 20, thinline, black)
+Sprite((rectangle), (0, 220))
 # add your code here \/  \/  \/
 
 
