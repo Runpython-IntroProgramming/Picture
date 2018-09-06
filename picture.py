@@ -54,7 +54,7 @@ gills2 = RectangleAsset(30,10,thinline,gill)
 gills3 = RectangleAsset(30,10,thinline,gill)
 gills4 = RectangleAsset(30,10,thinline,gill)
 #Sprites
-Sprite(gills1, 100, 50)
+Sprite(gills1)
 
 # add your code here /\  /\  /\
 
