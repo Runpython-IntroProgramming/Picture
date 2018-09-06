@@ -52,9 +52,11 @@ gills1 = RectangleAsset(30,10,thinline, gill)
 gills2 = RectangleAsset(30,10,thinline,gill)
 gills3 = RectangleAsset(30,10,thinline,gill)
 gills4 = RectangleAsset(30,10,thinline,gill)
+
+
 #Sprites
 #Head base
-Sprite(skull)
+Sprite(skull,(200,50))
 Sprite(jaw)
 #Mouth
 
