@@ -38,8 +38,8 @@ rectangle = RectangleAsset(500, 20, thinline, brown)
 Sprite((rectangle), (0, 220))
 pipe1 = RectangleAsset(30, 50, thinline, green)
 Sprite((pipe1), (350, 180))
-pipe2 = EllipseAsset(30, 20, thickgreen, black)
-Sprite((pipe2), (343, 150))
+pipe2 = EllipseAsset(25, 10, thickgreen, black)
+Sprite((pipe2), (337.5, 170))
 # add your code here \/  \/  \/
 
 
