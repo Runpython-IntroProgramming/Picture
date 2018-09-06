@@ -36,7 +36,7 @@ gill = Color(0x44CA83)
 tongue = Color(0x16A085)
 black = Color(0x000000)
 #Lines
-thinLine = LineStyle(1, black)
+thinline = LineStyle(1, black)
 #Head
 skull = CircleAsset()
 jaw = RectangleAsset()
