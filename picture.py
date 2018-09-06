@@ -34,19 +34,26 @@ black = Color(0x000000, 1.0)
 
 #line
 thinline=LineStyle(1, black)
-#rectangle representation
+
+#house
 rectangle=RectangleAsset (250, 250, thinline, black)
-#rectangle 
 Sprite(rectangle,(350, 150))
 
+#grass
 rectangle2=RectangleAsset (1010, 200, thinline, green)
 Sprite(rectangle2, (0, 400))
 
+#door
 rectangle3=RectangleAsset (100, 100, thinline, red)
 Sprite(rectangle3, (400, 300))
 
-ellipse=EllipseAsset (20, 20, thinline, blue)
-Sprite(ellipse, (425, 325))
+#doorknob
+ellipse=EllipseAsset (5, 10, thinline, blue)
+Sprite(ellipse, (425, 350))
+
+#roof
+triangle=PolygonAsset([(1,100),(200,1),(400, 100)], thinline, black)
+Sprite(triangle, (275,75))
 
 
 
