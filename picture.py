@@ -36,7 +36,7 @@ Sprite((rectangle), (100, 100))
 # add your code here \/  \/  \/
 
 
-Sprite(ImageAsset("Small-mariogood2.png"), (400,200))
+Sprite(ImageAsset("Small-mariogood3.png"), (400,200))
 app = App(1000,1000)  
 app.run()
 
