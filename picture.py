@@ -50,7 +50,7 @@ Sprite((block), (230, 100))
 Sprite((block), (215, 100))
 goomba = PolygonAsset([(0, 0), (9, -15), (18, 0), (0,0)], thinbrown, brown)
 Sprite((goomba), (215, 75))
-#geyes = CircleAsset(
+geyes = CircleAsset(30, thickwhite, black)
 # add your code here \/  \/  \/
 
 
