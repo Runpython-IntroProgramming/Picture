@@ -26,6 +26,7 @@ for detailed information on ggame.
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset, ImageAsset
 
+white = Color(0x000000, 1.0)
 red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
@@ -35,6 +36,7 @@ thinline = LineStyle(1, black)
 thinbrown = LineStyle(1, brown)
 medline = LineStyle(2, black)
 thickgreen = LineStyle(7, green)
+thickwhite = LineStyle(7, white)
 thingreen = LineStyle(1, green)
 ground = RectangleAsset(500, 20, thinline, brown)
 Sprite((ground), (0, 220))
@@ -48,6 +50,7 @@ Sprite((block), (230, 100))
 Sprite((block), (215, 100))
 goomba = PolygonAsset([(0, 0), (9, -15), (18, 0), (0,0)], thinbrown, brown)
 Sprite((goomba), (215, 75))
+geyes = CircleAsset(
 # add your code here \/  \/  \/
 
 
