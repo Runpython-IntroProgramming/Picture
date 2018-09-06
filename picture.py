@@ -31,7 +31,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # colors
 skin = Color(0x4BADC1)
 white = Color(0xffffff)
-gill = Color(ox44CA83)
+gill = Color(0x44CA83)
 #mouth
 tongue = Color(0x16A085)
 black = Color(0x000000)
@@ -54,7 +54,7 @@ gills2 = RectangleAsset(30,10,thinline,gill)
 gills3 = RectangleAsset(30,10,thinline,gill)
 gills4 = RectangleAsset(30,10,thinline,gill)
 #Sprites
-Sprite(gills1)
+Sprite(gills1,200, 50)
 
 # add your code here /\  /\  /\
 
