@@ -47,6 +47,7 @@ Sprite((block), (200, 100))
 Sprite((block), (230, 100))
 Sprite((block), (215, 100))
 goomba = PolygonAsset([(100, 100), (100, 200), (200, 200), (100, 100)], thinline, red)
+Sprite((goomba), (50, 50))
 # add your code here \/  \/  \/
 
 
