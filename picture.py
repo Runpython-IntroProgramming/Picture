@@ -50,9 +50,9 @@ Sprite((block), (230, 100))
 Sprite((block), (215, 100))
 goomba = PolygonAsset([(0, 0), (10, -15), (20, 0), (0,0)], thinbrown, brown)
 Sprite((goomba), (215, 75))
-geyes = CircleAsset(2, thinwhite, black)
-Sprite((geyes), (210, 75))
-Sprite((geyes), (220, 75))
+geyes = CircleAsset(1, thinwhite, black)
+Sprite((geyes), (222.5, 80))
+Sprite((geyes), (226.5, 80))
 
 # add your code here \/  \/  \/
 
