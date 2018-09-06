@@ -42,8 +42,12 @@ Sprite(rectangle,(350, 150))
 rectangle2=RectangleAsset (1010, 200, thinline, green)
 Sprite(rectangle2, (0, 400))
 
+rectangle3=RectangleAsset (100, 100, thinline, red)
+Sprite(rectangle3, (400, 300))
+
 ellipse=EllipseAsset (20, 20, thinline, blue)
-Sprite(ellipse, (500, 100))
+Sprite(ellipse, (425, 325))
+
 
 
 
