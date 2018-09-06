@@ -86,9 +86,6 @@ Sprite(Leg, (83,280))
 Sprite(Leg, (125,280))
 Sprite(Shoe,(80,365))
 Sprite(Shoe,(123,365))
-
-
-
 # add your code here /\  /\  /\
 
 
