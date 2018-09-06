@@ -47,7 +47,7 @@ Sprite((block), (100, 100))
 # add your code here \/  \/  \/
 
 
-Sprite(ImageAsset("Small-mariogood4.png"), (200,200))
+Sprite(ImageAsset("Small-mariogood4.png"), (150,150))
 app = App(500,500)  
 app.run()
 
