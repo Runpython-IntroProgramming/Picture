@@ -56,7 +56,7 @@ Sprite((geyes), (226.5, 80))
 gleg = RectangleAsset(1, 10, thinline, black)
 Sprite((gleg), (222.5, 90))
 Sprite((gleg), (227.5, 90))
-#its ugly but its supposed to be a goomba
+#its ugly but its supposed to be a goomba, mario and a pipe
 # add your code here \/  \/  \/
 #no
 
