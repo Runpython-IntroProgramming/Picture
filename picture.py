@@ -33,12 +33,13 @@ black = Color(0x000000, 1.0)
 brown = Color(0x654321, 1.0)
 thinline = LineStyle(1, black)
 medline = LineStyle(2, black)
+thickgreen = LineStyle(7, green)
 rectangle = RectangleAsset(500, 20, thinline, brown)
 Sprite((rectangle), (0, 220))
 pipe1 = RectangleAsset(30, 50, thinline, green)
 Sprite((pipe1), (350, 180))
-pipe2 = EllipseAsset(60, 20, thinline, green)
-Sprite((pipe2), (350, 150))
+pipe2 = EllipseAsset(60, 20, thickgreen, black)
+Sprite((pipe2), (320, 150))
 # add your code here \/  \/  \/
 
 
