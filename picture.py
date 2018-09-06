@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Olivia Simon
+Credit: I used the how to ue ggame links; and https://htmlcolorcodes.com/ to find the color codes.
 
 Assignment:
 
@@ -28,6 +28,33 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+# colors
+skin = Color(0x4BADC1)
+white = Color(0xffffff)
+gill = Color(ox44CA83)
+#mouth
+tongue = Color(0x16A085)
+black = Color(0x000000)
+#Lines
+thinLine = LineStyle(1, black)
+#Head
+skull = CircleAsset()
+jaw = RectangleAsset()
+#Eyes
+leye = CircleAsset(,thinline,white)
+reye = CircleAsset(,thinline,white)
+lpupil = CircleAsset(,thinline, black)
+rpupil = CircleAsset(,thinline,black)
+#Mouth
+left = EllipseAsset(,thinline,black)
+right = EllipseAsset(,thinline,black)
+mouthTongue = EllipseAsset(,thinline,tongue)
+gills1 = RectangleAsset(30,10,thinline, gill)
+gills2 = RectangleAsset(30,10,thinline,gill)
+gills3 = RectangleAsset(30,10,thinline,gill)
+gills4 = RectangleAsset(30,10,thinline,gill)
+#Sprites
+Sprite(gills1)
 
 # add your code here /\  /\  /\
 
