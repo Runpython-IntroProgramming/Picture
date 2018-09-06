@@ -54,8 +54,8 @@ geyes = CircleAsset(1, thinwhite, black)
 Sprite((geyes), (222.5, 80))
 Sprite((geyes), (226.5, 80))
 gleg = RectangleAsset(1, 10, thinline, black)
-Sprite((gleg), (212.5, 95))
-Sprite((gleg), (217.5, 95))
+Sprite((gleg), (222.5, 90))
+Sprite((gleg), (227.5, 90))
 # add your code here \/  \/  \/
 
 
