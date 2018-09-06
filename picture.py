@@ -37,8 +37,8 @@ black = Color(0x000000,1.0)
 #Lines
 thinline = LineStyle(1, black)
 #Head pieces
-skull = CircleAsset(50,thinline,skin)
-jaw = RectangleAsset(60,80,thinline,skin)
+skull = CircleAsset(48,thinline,skin)
+jaw = RectangleAsset(80,70,thinline,skin)
 #Eye pieces
 leye = CircleAsset(20,thinline,white)
 reye = CircleAsset(20,thinline,white)
@@ -56,8 +56,8 @@ gills4 = RectangleAsset(30,10,thinline,gill)
 
 #Sprites
 #Head base
-Sprite(skull,(200,50))
-Sprite(jaw, (220, 85))
+Sprite(skull,(202,50))
+Sprite(jaw, (218, 90))
 #Mouth
 
 #Facial Features
