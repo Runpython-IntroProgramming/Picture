@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Claire Adner
+Credit: none
 
 Assignment:
 
@@ -72,6 +72,7 @@ Sprite (hat_top, (405,4))
 Sprite (buttons, (425,200))
 Sprite (buttons, (425,180))
 Sprite (buttons, (425,160))
+
 
 # add your code here /\  /\  /\
 
