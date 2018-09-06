@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Claire
-Credit:???
+Credit:none
 
 Assignment:
 
