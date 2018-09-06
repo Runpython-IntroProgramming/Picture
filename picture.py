@@ -34,6 +34,7 @@ Red = Color(0xff0000, 1.0)
 Black = Color(0x000000, 1.0)
 Gold = Color(0xFFB90F, 1.0)
 Brown = Color(0x9C661F, 1.0)
+Green = Color(0x458B00, 1.0)
 
 thinline = LineStyle(1, Black)
 thickline = LineStyle(2,Black)
@@ -50,6 +51,10 @@ Arm=RectangleAsset(30,100, thinline, Tan)
 Sleve=RectangleAsset(36,40, thickline, DarkBlue)
 Leg=RectangleAsset(35,110, thickline, Brown)
 Shoe=CircleAsset(20, thickline, Black)
+Ground=RectangleAsset(1450,350,thickline, Green)
+Ball=CircleAsset(40,thickline, Red)
+TreeTrunk=PolygonAsset([(500,420),(600,420),(590,250),(595,200),(500,200),(510,250)],thickline,Brown)
+TreeLeaves=CircleAsset(140,thickline,Green)
 
 
 Sprite(Head, (80,80))
@@ -86,6 +91,10 @@ Sprite(Leg, (83,280))
 Sprite(Leg, (125,280))
 Sprite(Shoe,(80,365))
 Sprite(Shoe,(123,365))
+Sprite(Ground, (0,385))
+Sprite(Ball, (200,305))
+Sprite(TreeTrunk, (500,165))
+Sprite(TreeLeaves, (410,-100))
 # add your code here /\  /\  /\
 
 
