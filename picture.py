@@ -31,7 +31,9 @@ from ggame import App, Color, LineStyle, Sprite
 black = Color(0x000000, 1.0)
 brown = Color(0x8B4513, 1.0)
 black1 = Color(0x000000, 0.2)
+yellow = Color(0xFFFF00, 1.0)
 thinline = LineStyle(1, black)
+
 #House bottom
 rectangle = RectangleAsset(500, 500, thinline, brown)
 Sprite(rectangle, (250, 250))
@@ -64,8 +66,15 @@ doorhandle = CircleAsset(5, thinline, brown)
 Sprite( doorhandle, (510, 480))
 
 #Window Circle
-circle =  CircleAsset(50, thinline, black)
-Sprite(circle, (450, 30))
+circle =  CircleAsset(50, thinline, yellow)
+Sprite(circle, (275, 30))
+
+#Clouds
+cloud = EllipseAsset(50, 30, thinline, black1)
+Sprite(cloud, (100, 50))
+
+cloud2 = EllipseAsset(50, 30, thinline, black1)
+Sprite(cloud2, (700, 50))
 
 # add your code here /\  /\  /\
 
