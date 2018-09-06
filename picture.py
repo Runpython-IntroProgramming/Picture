@@ -53,7 +53,7 @@ Sprite((goomba), (215, 75))
 geyes = CircleAsset(1, thinwhite, black)
 Sprite((geyes), (222.5, 80))
 Sprite((geyes), (226.5, 80))
-gleg = RectangleAsset(1, 5, thinline, black)
+gleg = RectangleAsset(1, 10, thinline, black)
 Sprite((gleg), (212.5, 95))
 Sprite((gleg), (217.5, 95))
 # add your code here \/  \/  \/
