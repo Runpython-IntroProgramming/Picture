@@ -32,13 +32,12 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 skin = Color(0x4BADC1,1.0)
 white = Color(0xffffff,1.0)
 gill = Color(0x44CA83,1.0)
-#mouth pieces
 tongue = Color(0x16A085,1.0)
 black = Color(0x000000,1.0)
 #Lines
 thinline = LineStyle(1, black)
 #Head pieces
-skull = CircleAsset(30,thinline,skin)
+skull = CircleAsset(50,thinline,skin)
 jaw = RectangleAsset(60,80,thinline,skin)
 #Eye pieces
 leye = CircleAsset(20,thinline,white)
