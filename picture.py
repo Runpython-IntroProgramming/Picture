@@ -39,7 +39,7 @@ black = Color(0x000000,1.0)
 thinline = LineStyle(1, black)
 #Head pieces
 skull = CircleAsset(30,thinline,skin)
-jaw = RectangleAsset(80,60,thinline,skin)
+jaw = RectangleAsset(60,80,thinline,skin)
 #Eye pieces
 leye = CircleAsset(20,thinline,white)
 reye = CircleAsset(20,thinline,white)
