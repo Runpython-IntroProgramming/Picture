@@ -32,6 +32,22 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 
+#line
+thinline=LineStyle(1, black)
+#rectangle representation
+rectangle=RectangleAsset (250, 250, thinline, black)
+#rectangle 
+Sprite(rectangle,(350, 150))
+
+rectangle2=RectangleAsset (1010, 200, thinline, green)
+Sprite(rectangle2, (0, 400))
+
+ellipse=EllipseAsset (20, 20, thinline, blue)
+Sprite(ellipse, (500, 100))
+
+
+
+
 
 
 
