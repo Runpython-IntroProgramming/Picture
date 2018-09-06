@@ -38,13 +38,13 @@ black = Color(0x000000,1.0)
 #Lines
 thinline = LineStyle(1, black)
 #Head
-skull = CircleAsset()
-jaw = RectangleAsset()
+skull = CircleAsset(30,thinline,skin)
+jaw = RectangleAsset(80,60,thinline,skin)
 #Eyes
-leye = CircleAsset(20,20,thinline,white)
-reye = CircleAsset(20,20,thinline,white)
-lpupil = CircleAsset(5,5,thinline, black)
-rpupil = CircleAsset(5,5,thinline,black)
+leye = CircleAsset(20,thinline,white)
+reye = CircleAsset(20,thinline,white)
+lpupil = CircleAsset(5,thinline, black)
+rpupil = CircleAsset(5,thinline,black)
 #Mouth
 left = EllipseAsset(50,20,thinline,black)
 right = EllipseAsset(50,20,thinline,black)
