@@ -35,6 +35,7 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+window = Color(0xdee5ef, 1.0)
 
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
@@ -42,10 +43,14 @@ thinline = LineStyle(1, black)
 rectangle = RectangleAsset(300, 200, thinline, blue)
 chimney = RectangleAsset(50, 70, thinline, red)
 door = RectangleAsset(40, 60, thinline, black)
+window1 = CircleAsset(40, 60, thinline, window)
+window2 = CircleAsset(40, 60, thinline, window)
 # Now display a rectangle
 Sprite(rectangle, (300,180))
 Sprite(chimney, (350,110))
 Sprite(door, (450, 320))
+Sprite(window1, (480, 200))
+Sprite(window2, (340, 200))
 
 myapp = App()
 myapp.run()
