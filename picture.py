@@ -60,8 +60,8 @@ Sprite(pupil2,(153,143))
 mouth = CircleAsset(13, thinline, black)
 Sprite(mouth,(119,190))
 
-nose = RectangleAsset(20,12, thinline, face)
-Sprite(nose,(122,168))
+nose = PolygonAsset([(24,12),(24,30),(50,30)], thinline, face)
+Sprite(nose,(122,160))
 
 hair = RectangleAsset(100,25, thinline, pink)
 Sprite(hair,(78,80))
