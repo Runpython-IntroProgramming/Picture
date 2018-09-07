@@ -32,12 +32,19 @@ red = Color(0xff0000, 1.0)
 blue = Color(0x0000ff, 1.0)
 green = Color(0x00ff00, 1.0)
 black = Color(0x000000, 1.0)
+cyan = Color(0x00EEEE, 1.0)
+purple = Color(0x9A32CD, 1.0)
 
+thickline = LineStyle(5, black)
+thinline = LineStyle(1, black)
 line = LineStyle(3, black)
 
-rectangle = RectangleAsset(100, 50, line, blue)
+rectangle = RectangleAsset(1000, 500, line, blue)
+circle = CircleAsset(100, line, green)
 
 Sprite(rectangle)
+Sprite(circle)
+
 
 
 
