@@ -32,6 +32,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 skin = Color(0x4BADC1,1.0)
 white = Color(0xffffff,1.0)
 gill = Color(0x44CA83,1.0)
+bubble = Color(0x44CA83,0.5)
 tongue = Color(0x16A085,1.0)
 black = Color(0x000000,1.0)
 clear = Color(0x000000,0.0)
@@ -57,6 +58,11 @@ gill1 = RectangleAsset(10,2,thinnline, gill)
 gill2 = RectangleAsset(10,2,thinnline,gill)
 gill3 = RectangleAsset(10,2,thinnline,gill)
 gill4 = RectangleAsset(10,2,thinnline,gill)
+#Other
+bubble1 = CircleAsset(15,clearline,bubble)
+bubble2 = CircleAsset(10,clearline,bubble)
+bubble3 = CircleAsset(25,clearline,bubble)
+bubble4 = CircleAsset(10,clearline,bubble)
 
 
 #Sprites
@@ -74,14 +80,16 @@ Sprite(gill1,(222,151))
 Sprite(gill2,(222,154))
 Sprite(gill3,(222,157))
 Sprite(gill4,(222,160))
-
 #Eyes
 Sprite(leye, (230,80))
 Sprite(reye, (280,80))
 Sprite(lpupil,(245,92))
 Sprite(rpupil,(295,92))
-
-
+#Bubbles
+Sprite(bubble1,(295,55))
+Sprite(bubble2,(275,96))
+Sprite(bubble3,(320,80))
+Sprite(bubble4,(280,110))
 # add your code here /\  /\  /\
 
 
