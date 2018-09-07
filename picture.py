@@ -37,12 +37,13 @@ black = Color(0x000000,1.0)
 clear = Color(0x000000,0.0)
 #Lines
 thinline = LineStyle(1, black)
+thinnline = LineStyle(.5,black)
 clearline = LineStyle(1,clear)
 #Head pieces
 skull = CircleAsset(58,clearline,skin)
 jaw = RectangleAsset(95,75,clearline,skin)
-lEar = PolygonAsset(((0,0),(0,30),(20,15),(0,0)),clearline,tongue)
-rEar = PolygonAsset(((0,20),(20,5),(20,35),(0,20)),clearline,tongue)
+lEar = PolygonAsset(((0,0),(0,30),(20,15),(0,0)),thinline,tongue)
+rEar = PolygonAsset(((0,20),(20,5),(20,35),(0,20)),thinline,tongue)
 #Eye pieces
 leye = CircleAsset(17,thinline,white)
 reye = CircleAsset(17,thinline,white)
@@ -52,30 +53,34 @@ rpupil = CircleAsset(5,thinline,black)
 left = EllipseAsset(25,13,thinline,black)
 right = EllipseAsset(22,12,thinline,black)
 mouthTongue = EllipseAsset(32,8,clearline,tongue)
-gills1 = RectangleAsset(30,10,thinline, gill)
-gills2 = RectangleAsset(30,10,thinline,gill)
-gills3 = RectangleAsset(30,10,thinline,gill)
-gills4 = RectangleAsset(30,10,thinline,gill)
+gill1 = RectangleAsset(10,2,thinnline, gill)
+gill2 = RectangleAsset(10,2,thinnline,gill)
+gill3 = RectangleAsset(10,2,thinnline,gill)
+gill4 = RectangleAsset(10,2,thinnline,gill)
 
 
 #Sprites
 #Head base
+Sprite(rEar,(306,102))
 Sprite(skull,(202,50))
 Sprite(jaw, (221,94))
+Sprite(lEar,(210,100))
 #Mouth
 Sprite(left,(233,128))
 Sprite(right,(265,130))
 Sprite(mouthTongue,(239,142))
 #Facial Features
+Sprite(gill1,(222,151))
+Sprite(gill2,(222,154))
+Sprite(gill3,(222,157))
+Sprite(gill4,(222,160))
+
+#Eyes
 Sprite(leye, (230,80))
 Sprite(reye, (280,80))
 Sprite(lpupil,(245,92))
 Sprite(rpupil,(295,92))
-Sprite(lEar,(210,100))
-Sprite(rEar,(306,102))
 
-
-Sprite(gills1)
 
 # add your code here /\  /\  /\
 
