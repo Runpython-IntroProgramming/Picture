@@ -32,16 +32,20 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 tan = Color(0xffbb33, .3)
-darkertan = Color(0xffbb33, .4)
+darkertan = Color(0xffbb33, .26)
 hazel = Color(0xbbaa44, 1.0)
+pink = Color(0xbb0000,0.5)
 
 thinline = LineStyle(1,black) 
-lessline = LineStyle(.5, black) 
+lessline = LineStyle(.01, black) 
 
 head = EllipseAsset(150,200, thinline, tan) 
 eyeball = CircleAsset(10, thinline, hazel) 
 pupil = CircleAsset(3, thinline, black)
 nose = PolygonAsset([(50,120), (40,225), (60,225), (50,120)], lessline, darkertan)
+
+lip = EllipseAsset(40, 10, thinline, pink) 
+lipline = EllipseAsset(
 
 Sprite(head, (300,50))
 
@@ -51,7 +55,10 @@ Sprite(pupil, (380, 207))
 Sprite(eyeball, (502, 200))
 Sprite(pupil, (509, 207))
 
-Sprite(nose, (350,400))
+Sprite(nose, (440,220))
+
+#Lips
+Sprite(lip, (411, 360))
 
 
 
