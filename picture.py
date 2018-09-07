@@ -34,14 +34,19 @@ black = Color(0x000000, 1.0)
 yellow = Color(0xffff00,1.0)
 lightblue = Color(0X00ffff,1.0)
 darkgreen = Color(0x006400, 1.0)
+darkblue = Color(0x483D8B, 1.0)
 
 
 #line
 thinline=LineStyle(1, black)
 
-#sky
-rectangle4=RectangleAsset (1010, 1000, thinline, lightblue)
+#sky day
+rectangle4=RectangleAsset (500, 1000, thinline, lightblue)
 Sprite(rectangle4, (0, 0))
+
+#sky night
+rectangle6=RectangleAsset (550, 1000, thinline, darkblue)
+Sprite(rectangle6, (500, 0))
 
 #house
 rectangle=RectangleAsset (250, 250, thinline, black)
@@ -52,7 +57,7 @@ rectangle2=RectangleAsset (500, 300, thinline, green)
 Sprite(rectangle2, (0, 400))
 
 #grass night
-rectangle5=RectangleAsset (510, 300, thinline, darkgreen)
+rectangle5=RectangleAsset (550, 350, thinline, darkgreen)
 Sprite(rectangle5, (500, 400))
 
 #door
