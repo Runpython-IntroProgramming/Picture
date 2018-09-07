@@ -49,7 +49,7 @@ rpupil = CircleAsset(5,thinline,black)
 #Mouth pieces
 left = EllipseAsset(25,13,thinline,black)
 right = EllipseAsset(22,12,thinline,black)
-mouthTongue = EllipseAsset(30,10,thinline,tongue)
+mouthTongue = EllipseAsset(25,10,thinline,tongue)
 gills1 = RectangleAsset(30,10,thinline, gill)
 gills2 = RectangleAsset(30,10,thinline,gill)
 gills3 = RectangleAsset(30,10,thinline,gill)
@@ -59,15 +59,16 @@ gills4 = RectangleAsset(30,10,thinline,gill)
 #Sprites
 #Head base
 Sprite(skull,(202,50))
-Sprite(jaw, (227,94))
+Sprite(jaw, (226,94))
 #Mouth
-Sprite(left,(233,123))
-Sprite(right,(265,127))
+Sprite(left,(233,128))
+Sprite(right,(265,130))
+Sprite(mouthTongue,(248,136))
 #Facial Features
 Sprite(leye, (230,80))
 Sprite(reye, (280,80))
-Sprite(lpupil,(230,80))
-Sprite(rpupil,(280,80))
+Sprite(lpupil,(245,92))
+Sprite(rpupil,(295,92))
 
 
 Sprite(gills1)
