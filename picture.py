@@ -61,11 +61,10 @@ gills4 = RectangleAsset(30,10,thinline,gill)
 Sprite(skull,(202,50))
 Sprite(jaw, (227,94))
 #Mouth
-Sprite(left,(233,124))
+Sprite(left,(233,123))
 Sprite(right,(265,127))
-
 #Facial Features
-Sprite(leye, (2300,80))
+Sprite(leye, (230,80))
 Sprite(reye, (280,80))
 Sprite(lpupil,(230,80))
 Sprite(rpupil,(280,80))
