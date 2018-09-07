@@ -34,19 +34,21 @@ white = Color(0xffffff,1.0)
 gill = Color(0x44CA83,1.0)
 tongue = Color(0x16A085,1.0)
 black = Color(0x000000,1.0)
+clear = Color(0x000000,0.0)
 #Lines
 thinline = LineStyle(1, black)
+clearline = LineStyle(1,clear)
 #Head pieces
-skull = CircleAsset(58,thinline,skin)
-jaw = RectangleAsset(90,75,thinline,skin)
+skull = CircleAsset(58,clearline,skin)
+jaw = RectangleAsset(90,75,clearline,skin)
 #Eye pieces
 leye = CircleAsset(17,thinline,white)
 reye = CircleAsset(17,thinline,white)
 lpupil = CircleAsset(5,thinline, black)
 rpupil = CircleAsset(5,thinline,black)
 #Mouth pieces
-left = EllipseAsset(50,20,thinline,black)
-right = EllipseAsset(50,20,thinline,black)
+left = EllipseAsset(25,13,thinline,black)
+right = EllipseAsset(22,12,thinline,black)
 mouthTongue = EllipseAsset(30,10,thinline,tongue)
 gills1 = RectangleAsset(30,10,thinline, gill)
 gills2 = RectangleAsset(30,10,thinline,gill)
@@ -57,12 +59,18 @@ gills4 = RectangleAsset(30,10,thinline,gill)
 #Sprites
 #Head base
 Sprite(skull,(202,50))
-Sprite(jaw, (227, 94))
+Sprite(jaw, (227,94))
 #Mouth
+Sprite(left,(233,124))
+Sprite(right,(265,127))
 
 #Facial Features
-Sprite(leye, (230,80))
+Sprite(leye, (2300,80))
 Sprite(reye, (280,80))
+Sprite(lpupil,(230,80))
+Sprite(rpupil,(280,80))
+
+
 Sprite(gills1)
 
 # add your code here /\  /\  /\
