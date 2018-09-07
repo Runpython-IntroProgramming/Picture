@@ -40,7 +40,8 @@ thinline = LineStyle(1, black)
 clearline = LineStyle(1,clear)
 #Head pieces
 skull = CircleAsset(58,clearline,skin)
-jaw = RectangleAsset(90,75,clearline,skin)
+jaw = RectangleAsset(95,75,clearline,skin)
+lear = PolygonAsset(((0,0),(0,30),(20,25),(0,0)),clearline,tongue)
 #Eye pieces
 leye = CircleAsset(17,thinline,white)
 reye = CircleAsset(17,thinline,white)
@@ -59,7 +60,7 @@ gills4 = RectangleAsset(30,10,thinline,gill)
 #Sprites
 #Head base
 Sprite(skull,(202,50))
-Sprite(jaw, (226,94))
+Sprite(jaw, (221,94))
 #Mouth
 Sprite(left,(233,128))
 Sprite(right,(265,130))
@@ -69,6 +70,7 @@ Sprite(leye, (230,80))
 Sprite(reye, (280,80))
 Sprite(lpupil,(245,92))
 Sprite(rpupil,(295,92))
+Sprite(lear,(200,80))
 
 
 Sprite(gills1)
