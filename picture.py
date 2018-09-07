@@ -39,11 +39,12 @@ thickline = LineStyle(5, black)
 thinline = LineStyle(1, black)
 line = LineStyle(3, black)
 
-rectangle = RectangleAsset(1000, 500, line, blue)
-circle = CircleAsset(100, line, green)
+rectangle = RectangleAsset(500, 500, line, blue)
+circle = CircleAsset(100, line, purple)
+
 
 Sprite(rectangle)
-Sprite(circle)
+Sprite(circle, (150,150))
 
 
 
