@@ -38,13 +38,17 @@ black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
 
-rectangle1 = RectangleAsset(330, 130, thinline, blue)
-circle1 = CircleAsset(100, thinline, red)
-ellipse1 = EllipseAsset(100, 200, thinline, red)
 
-Sprite(rectangle1, (270,170))
-Sprite(circle1, (50, 70))
-Sprite (ellipse1, (100, 100))
+circle1 = CircleAsset(75, thinline, red)
+circle2 = CircleAsset(75, thinline, green)
+circle3 = CircleAsset(75, thinline, blue)
+circle4 = CircleAsset(75, thinline, black)
+
+Sprite(circle1, (35, 35))
+Sprite(circle2, (400, 35))
+Sprite(circle3, (400, 290))
+Sprite(circle4, (35, 290))
+
 
 # add your code here /\  /\  /\
 
