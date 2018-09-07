@@ -41,7 +41,8 @@ clearline = LineStyle(1,clear)
 #Head pieces
 skull = CircleAsset(58,clearline,skin)
 jaw = RectangleAsset(95,75,clearline,skin)
-lear = PolygonAsset(((0,0),(0,30),(20,15),(0,0)),clearline,tongue)
+lEar = PolygonAsset(((0,0),(0,30),(20,15),(0,0)),clearline,tongue)
+rEar = PolygonAsset(((0,20),(20,5),(20,35),(0,20)),clearline,tongue)
 #Eye pieces
 leye = CircleAsset(17,thinline,white)
 reye = CircleAsset(17,thinline,white)
@@ -50,7 +51,7 @@ rpupil = CircleAsset(5,thinline,black)
 #Mouth pieces
 left = EllipseAsset(25,13,thinline,black)
 right = EllipseAsset(22,12,thinline,black)
-mouthTongue = EllipseAsset(25,10,thinline,tongue)
+mouthTongue = EllipseAsset(32,8,clearline,tongue)
 gills1 = RectangleAsset(30,10,thinline, gill)
 gills2 = RectangleAsset(30,10,thinline,gill)
 gills3 = RectangleAsset(30,10,thinline,gill)
@@ -64,13 +65,14 @@ Sprite(jaw, (221,94))
 #Mouth
 Sprite(left,(233,128))
 Sprite(right,(265,130))
-Sprite(mouthTongue,(248,136))
+Sprite(mouthTongue,(239,142))
 #Facial Features
 Sprite(leye, (230,80))
 Sprite(reye, (280,80))
 Sprite(lpupil,(245,92))
 Sprite(rpupil,(295,92))
-Sprite(lear,(210,100))
+Sprite(lEar,(210,100))
+Sprite(rEar,(306,102))
 
 
 Sprite(gills1)
