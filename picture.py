@@ -26,15 +26,21 @@ for detailed information on ggame.
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
-# 4 colors, no transparency
+# colors, no transparency
 red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 yellow = Color(0xffff00,1.0)
+lightblue = Color(0X00ffff,1.0)
 
 #line
 thinline=LineStyle(1, black)
+
+#sky
+#grass
+rectangle4=RectangleAsset (1010, 200, thinline, lightblue)
+Sprite(rectangle4, (0, 0))
 
 #house
 rectangle=RectangleAsset (250, 250, thinline, black)
