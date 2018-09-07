@@ -28,7 +28,16 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+red = Color(0xff0000, 1.0)
+blue = Color(0x0000ff, 1.0)
+green = Color(0x00ff00, 1.0)
+black = Color(0x000000, 1.0)
 
+line = LineStyle(3, black)
+
+rectangle = RectangleAsset(100, 50, line, blue)
+
+Sprite(rectangle)
 
 
 
