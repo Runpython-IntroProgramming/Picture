@@ -41,9 +41,11 @@ thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
 rectangle = RectangleAsset(300, 200, thinline, blue)
 chimney = RectangleAsset(50, 70, thinline, red)
+door = RectangleAsset(40, 60, thinline, black)
 # Now display a rectangle
 Sprite(rectangle, (300,180))
 Sprite(chimney, (350,110))
+Sprite(door, (450, 320))
 
 myapp = App()
 myapp.run()
