@@ -87,9 +87,9 @@ Sprite(lpupil,(245,92))
 Sprite(rpupil,(295,92))
 #Bubbles
 Sprite(bubble1,(295,55))
-Sprite(bubble2,(275,96))
+Sprite(bubble2,(270,96))
 Sprite(bubble3,(320,80))
-Sprite(bubble4,(280,110))
+Sprite(bubble4,(290,110))
 # add your code here /\  /\  /\
 
 
