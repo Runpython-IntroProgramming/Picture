@@ -40,8 +40,9 @@ window = Color(0xdee5ef, 1.0)
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
-rectangle = RectangleAsset(300, 200, thinline, blue)
-chimney = RectangleAsset(50, 70, thinline, red)
+rectangle = RectangleAsset(300, 200, thinline, red)
+chimney = RectangleAsset(50, 70, thinline, black)
+chimney = RectangleAsset(50, 70, thinline, black)
 door = RectangleAsset(40, 60, thinline, black)
 window1 = CircleAsset(40, thinline, window)
 window2 = CircleAsset(40, thinline, window)
