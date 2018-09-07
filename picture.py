@@ -1,7 +1,7 @@
 """
 picture.py
 Author: johari
-Credit: 
+Credit:http://brythonserver.github.io/ggame/#ggame.Color, megsnyder
 
 Assignment:
 
@@ -31,9 +31,29 @@ red = Color(0xff0000, 0.5)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+tan = Color(0xffbb33, .3)
+darkertan = Color(0xffbb33, .4)
+hazel = Color(0xbbaa44, 1.0)
 
-thinline = 
-head = EllipseAsset(
+thinline = LineStyle(1,black) 
+lessline = LineStyle(.5, black) 
+
+head = EllipseAsset(150,200, thinline, tan) 
+eyeball = CircleAsset(10, thinline, hazel) 
+pupil = CircleAsset(3, thinline, black)
+nose = PolygonAsset([(50,120), (40,225), (60,225), (50,120)], lessline, darkertan)
+
+Sprite(head, (300,50))
+
+#Eyes
+Sprite(eyeball, (373, 200)) 
+Sprite(pupil, (380, 207))
+Sprite(eyeball, (502, 200))
+Sprite(pupil, (509, 207))
+
+Sprite(nose, (350,400))
+
+
 
 # add your code here /\  /\  /\
 
