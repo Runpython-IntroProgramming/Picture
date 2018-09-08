@@ -36,6 +36,7 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 grey = Color(0xCDC0B0, 1.0)
+turq = Color(0x00EEEE, 1.0)
 
 thinline = LineStyle(1, black)
 
@@ -43,6 +44,8 @@ head = RectangleAsset(120, 100, thinline, grey)
 neck = RectangleAsset(40, 28, thinline, grey)
 body = RectangleAsset(200, 200, thinline, grey)
 leg1 = RectangleAsset(45, 90, thinline, grey)
+leg2 = RectangleAsset(45, 90, thinline, grey
+
 
 Sprite(head, (432, 100))
 Sprite(neck, (470, 200))
