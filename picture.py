@@ -36,7 +36,7 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 grey = Color(0xCDC0B0, 1.0)
-turq = Color(0x00EEEE, 1.0)
+firebrick1 = Color(0xFF3030, 1.0)
 
 thinline = LineStyle(1, black)
 
@@ -45,10 +45,11 @@ neck = RectangleAsset(40, 28, thinline, grey)
 body = RectangleAsset(200, 200, thinline, grey)
 leg1 = RectangleAsset(45, 90, thinline, grey)
 leg2 = RectangleAsset(45, 90, thinline, grey)
-eye1 = CircleAsset(15, thinline, turq)
-eye2 = CircleAsset(15, thinline, turq)
-shoulder1 = CircleAsset(20, thinline, black)
-shoulder2 = CircleAsset(20, thinline, black)
+eye1 = CircleAsset(15, thinline, firebrick1)
+eye2 = CircleAsset(15, thinline, firebrick1)
+shoulder1 = CircleAsset(20, thinline, grey)
+shoulder2 = CircleAsset(20, thinline, grey)
+arm1 = RectangleAsset(100, 40, thinline, grey)
 
 
 
@@ -59,7 +60,9 @@ Sprite(leg1, (400, 428))
 Sprite(leg2, (555, 428))
 Sprite(eye1, (440, 115))
 Sprite(eye2, (510, 115))
-Sprite
+Sprite(arm1, (570, 228))
+Sprite(shoulder1, (580, 228))
+Sprite(shoulder2, (380, 228))
 
 # add your code here /\  /\  /\
 
