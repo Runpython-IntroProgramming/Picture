@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Jackson Lake
-Credit: Schoology tutorial
+Credit: HHS page Github Tutorial
 
 Assignment:
 
@@ -87,8 +87,6 @@ Sprite(wave2, (465, 43))
 Sprite(wave3, (447, 26))
 Sprite(emblem, (465, 260))
 Sprite(design, (480, 275))
-
-
 
 
 # add your code here /\  /\  /\
