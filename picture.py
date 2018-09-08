@@ -40,7 +40,7 @@ grey = Color(0xCDC0B0, 1.0)
 thinline = LineStyle(1, black)
 
 head = RectangleAsset(120, 100, thinline, grey)
-
+neck = RectangleAsset(40, 70, thinline, grey)
 
 Sprite(head, (432, 100))
 
