@@ -40,11 +40,13 @@ grey = Color(0xCDC0B0, 1.0)
 thinline = LineStyle(1, black)
 
 head = RectangleAsset(120, 100, thinline, grey)
-neck = RectangleAsset(40, 70, thinline, grey)
+neck = RectangleAsset(40, 28, thinline, grey)
+body = RectangleAsset(200, 200, thinline, grey)
+leg1 = RectangleAsset(
 
 Sprite(head, (432, 100))
-
-
+Sprite(neck, (470, 200))
+Sprite(body, (400, 228))
 
 # add your code here /\  /\  /\
 
