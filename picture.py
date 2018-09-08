@@ -45,12 +45,21 @@ neck = RectangleAsset(40, 28, thinline, grey)
 body = RectangleAsset(200, 200, thinline, grey)
 leg1 = RectangleAsset(45, 90, thinline, grey)
 leg2 = RectangleAsset(45, 90, thinline, grey)
+eye1 = CircleAsset(15, thinline, turq)
+eye2 = CircleAsset(15, thinline, turq)
+shoulder1 = CircleAsset(20, thinline, black)
+shoulder2 = CircleAsset(20, thinline, black)
+
 
 
 Sprite(head, (432, 100))
 Sprite(neck, (470, 200))
 Sprite(body, (400, 228))
 Sprite(leg1, (400, 428))
+Sprite(leg2, (555, 428))
+Sprite(eye1, (440, 115))
+Sprite(eye2, (510, 115))
+Sprite
 
 # add your code here /\  /\  /\
 
