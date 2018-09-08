@@ -39,7 +39,10 @@ grey = Color(0xCDC0B0, 1.0)
 
 thinline = LineStyle(1, black)
 
-head = RectangleAsset(180, 150, Thinline, grey)
+head = RectangleAsset(120, 100, thinline, grey)
+
+
+Sprite(head, (432, 100))
 
 
 
