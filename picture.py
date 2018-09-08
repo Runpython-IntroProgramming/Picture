@@ -44,7 +44,7 @@ head = RectangleAsset(120, 100, thinline, grey)
 neck = RectangleAsset(40, 28, thinline, grey)
 body = RectangleAsset(200, 200, thinline, grey)
 leg1 = RectangleAsset(45, 90, thinline, grey)
-leg2 = RectangleAsset(45, 90, thinline, grey
+leg2 = RectangleAsset(45, 90, thinline, grey)
 
 
 Sprite(head, (432, 100))
