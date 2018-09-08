@@ -35,19 +35,12 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
+grey = Color(0xCDC0B0, 1.0)
 
 thinline = LineStyle(1, black)
 
+head = RectangleAsset(180, 150, Thinline, grey)
 
-circle1 = CircleAsset(75, thinline, red)
-circle2 = CircleAsset(75, thinline, green)
-circle3 = CircleAsset(75, thinline, blue)
-circle4 = CircleAsset(75, thinline, black)
-
-Sprite(circle1, (35, 35))
-Sprite(circle2, (400, 35))
-Sprite(circle3, (400, 290))
-Sprite(circle4, (35, 290))
 
 
 # add your code here /\  /\  /\
