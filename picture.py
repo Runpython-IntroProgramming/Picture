@@ -43,6 +43,7 @@ fade1 = Color(0xff0000, 0.6)
 fade2 = Color(0xff0000, 0.4)
 fade3 = Color(0xff0000, 0.2)
 white = Color(0xF8F8FF, 1.0)
+violet = Color(0xd147c5, 1.0)
 
 thinline = LineStyle(1, black)
 thinner = LineStyle(.4, red)
@@ -65,7 +66,7 @@ wave1 = CircleAsset(10, thinner, fade1)
 wave2 = CircleAsset(25, thinner, fade2)
 wave3 = CircleAsset(42, thinner, fade3)
 emblem = CircleAsset(37, thinline)
-design = PolygonAsset([(0,0), (75,75), (50,100), (0,0)], thinline, purple)
+design = PolygonAsset([(0,0), (20, 50), (40,0)], thinline, violet)
 
 Sprite(antenna, (485, 65))
 Sprite(head, (432, 100))
@@ -85,7 +86,7 @@ Sprite(wave1, (480, 60))
 Sprite(wave2, (465, 43))
 Sprite(wave3, (447, 26))
 Sprite(emblem, (465, 260))
-Sprite(design, (465, 260))
+Sprite(design, (480, 275))
 
 
 
