@@ -37,6 +37,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 eye = Color(0xdee5ef, 1.0)
 sand = Color(0xefe49b, 1.0)
+meadow = Color(0x8ed334, 1.0)
 
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
@@ -51,7 +52,7 @@ nose = PolygonAsset([(0,0), (15,30), (30,0)])
 earball1 = EllipseAsset(30, 40, thinline, red)
 earball2 = EllipseAsset(30, 40, thinline, red)
 body = RectangleAsset(100, 200, thinline, sand)
-background = RectangleAsset(2000, 2000, thinline, blue)
+background = RectangleAsset(2000, 2000, thinline, meadow)
 # Now display a rectangle
 Sprite(background, (0,0))
 Sprite(face, (300,180))
