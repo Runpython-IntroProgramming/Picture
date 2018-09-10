@@ -35,6 +35,7 @@ tan = Color(0xffbb33, .3)
 darkertan = Color(0xffbb33, .26)
 hazel = Color(0xbbaa44, 1.0)
 pink = Color(0xbb0000,0.5)
+brown = Color(0x997733, .5)
 
 thinline = LineStyle(1,black) 
 lessline = LineStyle(.01, black) 
@@ -45,7 +46,14 @@ pupil = CircleAsset(3, thinline, black)
 nose = PolygonAsset([(50,120), (40,225), (60,225), (50,120)], lessline, darkertan)
 
 lip = EllipseAsset(40, 10, thinline, pink) 
-lipline = EllipseAsset(
+lipline = RectangleAsset(80, 2, lessline, black)
+
+hairright = PolygonAsset([(100,220), (120,525), (290,525), (150,220)], thinline, brown)
+hairleft = PolygonAsset([(150,220), (150,525), (0,525), (100,220)], thinline, brown)
+
+#Hair
+Sprite(hairright, (500, 50))
+Sprite(hairleft, (250,50))
 
 Sprite(head, (300,50))
 
@@ -59,9 +67,11 @@ Sprite(nose, (440,220))
 
 #Lips
 Sprite(lip, (411, 360))
+Sprite(lipline, (411,370))
 
-
-
+#Hair
+Sprite(hairright, (500, 50))
+Sprite(hairleft, (250,50))
 # add your code here /\  /\  /\
 
 
