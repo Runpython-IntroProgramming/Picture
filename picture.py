@@ -32,8 +32,12 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
-rectangle = RectangleAsset(500, 200, thinline, blue)
-Sprite(rectangle, (100, 0)
+#house
+rectangle = RectangleAsset(500, 200, thinline, red)
+Sprite(rectangle, (100, 200))
+#roof
+triangle=PolygonAsset([(300,50),(550,200),(50,200)], thinline, green)
+Sprite(triangle, (100, 50))
 
 # add your code here /\  /\  /\
 
