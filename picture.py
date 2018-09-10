@@ -44,7 +44,7 @@ circle = CircleAsset(100, thickline, purple)
 circle2 = CircleAsset(50, thinline, red)
 ellipse = EllipseAsset(40, 80, line, cyan)
 ellipse2 = EllipseAsset(80, 40, line, cyan)
-polygon = PolygonAsset([(300,200), (300,320), (500,200), (200,20)], thinline, red)
+polygon = PolygonAsset([(200,200), (200,300), (300,200), (200,200)], thinline, red)
 
 Sprite(rectangle)
 Sprite(circle, (150,150))
