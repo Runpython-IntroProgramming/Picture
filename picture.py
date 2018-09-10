@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <Kyle Rozzi>
-Credit: <list sources used, if any>
+Author: Kyle Rozzi
+Credit: None required
 
 Assignment:
 
