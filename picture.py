@@ -63,6 +63,7 @@ bubble1 = CircleAsset(15,clearline,bubble)
 bubble2 = CircleAsset(10,clearline,bubble)
 bubble3 = CircleAsset(25,clearline,bubble)
 bubble4 = CircleAsset(10,clearline,bubble)
+bubble5 = CircleAsset(10,clearline,bubble)
 
 
 #Sprites
@@ -90,6 +91,7 @@ Sprite(bubble1,(295,55))
 Sprite(bubble2,(270,96))
 Sprite(bubble3,(320,80))
 Sprite(bubble4,(290,110))
+Sprite(bubble5,(328,40))
 # add your code here /\  /\  /\
 
 
