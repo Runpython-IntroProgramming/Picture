@@ -38,6 +38,7 @@ black = Color(0x000000, 1.0)
 eye = Color(0xdee5ef, 1.0)
 sand = Color(0xefe49b, 1.0)
 meadow = Color(0x8ed334, 1.0)
+orange = Color(0xe59e19, 1.0)
 
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
@@ -49,8 +50,8 @@ mouth = RectangleAsset(130, 30, thinline, black)
 eye1 = CircleAsset(40, thinline, eye)
 eye2 = CircleAsset(40, thinline, eye)
 nose = PolygonAsset([(0,0), (15,30), (30,0)])
-earball1 = EllipseAsset(30, 40, thinline, red)
-earball2 = EllipseAsset(30, 40, thinline, red)
+earball1 = EllipseAsset(30, 40, thinline, orange)
+earball2 = EllipseAsset(30, 40, thinline, orange)
 body = RectangleAsset(100, 200, thinline, sand)
 background = RectangleAsset(2000, 2000, thinline, meadow)
 # Now display a rectangle
