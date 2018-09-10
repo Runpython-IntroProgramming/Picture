@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Kyle Rozzi
+Credit: None required
 
 Assignment:
 
@@ -28,7 +28,49 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 
+face = Color(0xFFD39B, 1.0)
+white = Color(0xF0F8FF, 1.0)
+eyes = Color(0x458B74, 1.0)
+black = Color(0x000000, 1.0)
+pink = Color(0xFF1493, 1.0)
+thinline = LineStyle(1, black)
+ellipse = EllipseAsset(64,80, thinline, face)
+Sprite(ellipse,(64,80))
 
+
+eye1 = CircleAsset(16, thinline, white)
+Sprite(eye1,(90,130))
+
+
+eye2 = CircleAsset(16, thinline, white)
+Sprite(eye2,(140,130))
+
+pupil1 = CircleAsset(8, thinline, eyes)
+Sprite(pupil1,(148,138))
+
+pupil1 = CircleAsset(8, thinline, eyes)
+Sprite(pupil1,(98,138))
+
+pupil2 = CircleAsset(3, thinline, black)
+Sprite(pupil2,(103,143))
+
+pupil2 = CircleAsset(3, thinline, black)
+Sprite(pupil2,(153,143))
+
+mouth = CircleAsset(13, thinline, black)
+Sprite(mouth,(119,190))
+
+nose = PolygonAsset([(24,12),(24,30),(50,30)], thinline, face)
+Sprite(nose,(122,160))
+
+hair = RectangleAsset(100,25, thinline, pink)
+Sprite(hair,(78,80))
+
+hair = RectangleAsset(75,25, thinline, pink)
+Sprite(hair,(90,56))
+
+hair = RectangleAsset(50,25, thinline, pink)
+Sprite(hair,(102,32))
 # add your code here /\  /\  /\
 
 
