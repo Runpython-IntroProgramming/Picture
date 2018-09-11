@@ -1,9 +1,9 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Jordan Gottlieb
+Credit: None
 
-Assignment:
+Assignment: Picture
 
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
