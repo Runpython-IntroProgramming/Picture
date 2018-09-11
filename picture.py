@@ -41,10 +41,10 @@ line = LineStyle(3, black)
 
 rectangle = RectangleAsset(500, 500, line, blue)
 circle = CircleAsset(100, thickline, purple)
-circle2 = CircleAsset(50, thinline, red)
+circle2 = CircleAsset(50, thinline, green)
 ellipse = EllipseAsset(40, 80, line, cyan)
 ellipse2 = EllipseAsset(80, 40, line, cyan)
-polygon = PolygonAsset([(200,200), (200,300), (300,200), (200,200)], thinline, red)
+polygon = PolygonAsset([(50,200), (50,100), (150,200), (150,100)], thinline, red)
 
 Sprite(rectangle)
 Sprite(circle, (150,150))
@@ -53,7 +53,7 @@ Sprite(ellipse, (210,50))
 Sprite(ellipse, (210, 300))
 Sprite(ellipse2, (50, 215))
 Sprite(ellipse2, (300, 215))
-Sprite(polygon, (200,200))
+Sprite(polygon, (203,200))
 
 
 
