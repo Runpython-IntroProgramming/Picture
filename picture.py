@@ -1,83 +1,63 @@
 """
-picture.py
+sinecosine.py
 Author: Patrick Daley
-Credit: I used some resources to get the brown color and to get the yellow color.
+Credit: <list sources used, if any>
 
 Assignment:
 
-Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
+In this assignment you must use *list comprehensions* to generate sprites that show the behavior
+of certain mathematical functions: sine and cosine. 
 
-Use at least:
-1. Three different Color objects.
-2. Ten different Sprite objects.
-3. One (or more) RectangleAsset objects.
-4. One (or more) CircleAsset objects.
-5. One (or more) EllipseAsset objects.
-6. One (or more) PolygonAsset objects.
+The sine and cosine functions are provided in the Python math library. These functions are used
+to relate *angles* to *rectangular* (x,y) coordinate systems and can be very useful in computer
+game design.
+
+Unlike the last assignment using ggame`, this one will not provide any "skeleton" code to fill
+in. You should use your submission for the Picture assignment 
+(https://github.com/HHS-IntroProgramming/Picture) as a reference for starting this assignment. 
 
 See:
+https://github.com/HHS-IntroProgramming/Sine-Cosine/blob/master/README.md
+for a detailed list of requirements for this assignment.
+
 https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Displaying-Graphics
 for general information on how to use ggame.
 
-See:
+https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Programmed-Graphics
+for general information on using list comprehensions to generate graphics.
+
 http://brythonserver.github.io/ggame/
 for detailed information on ggame.
+"""
+from ggame import App, Color, LineStyle, Sprite
+from ggame import CircleAsset
+from math import sin, cos, radians
+
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
+
+import math
+thinline = LineStyle(1, black)
+sincircle = CircleAsset(5, thinline, red)
+xcoordinates = range(0, 360, 10)
+sprites = [Sprite(sincircle, ((x), 100*sin(x*10) + 100)) for x in xcoordinates]
+
+import math
+thinline = LineStyle(1, black)
+coscircle = CircleAsset(5, thinline, blue)
+
+sprites = [Sprite(coscircle, ((x), 100*cos(x*10) + 100)) for x in xcoordinates]
 
 """
-from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
-
-# add your code here \/  \/  \/
-from ggame import App, Color, LineStyle, Sprite
-black = Color(0x000000, 1.0)
-brown = Color(0x8B4513, 1.0)
-black1 = Color(0x000000, 0.2)
-yellow = Color(0xFFFF00, 1.0)
 thinline = LineStyle(1, black)
+mycircle = CircleAsset(5, thinline, blue)
+xcoordinates = range(150, 500, 20)
 
-#House bottom
-rectangle = RectangleAsset(500, 500, thinline, brown)
-Sprite(rectangle, (250, 250))
-#House top
-triangle = PolygonAsset([(-250, 250), (0,0), (250, 250)], thinline, brown)
-Sprite( triangle, (250, 0))
-
-#Windows Top
-window = RectangleAsset(50, 75, thinline, black1)
-Sprite( window, (295, 300))
-
-window2 = RectangleAsset(50, 75, thinline, black1)
-Sprite( window2, (475, 300))
-
-window3 = RectangleAsset(50, 75, thinline, black1)
-Sprite( window3, (655, 300))
-
-#Windows bottom
-window4 = RectangleAsset(50, 75, thinline, black1)
-Sprite( window4, (295, 425))
-
-window5 = RectangleAsset(50, 75, thinline, black1)
-Sprite( window5, (655, 425))
-
-#Door
-door = RectangleAsset(50, 125, thinline, black)
-Sprite( door, (475, 425))
-
-doorhandle = CircleAsset(5, thinline, brown)
-Sprite( doorhandle, (510, 480))
-
-#Window Circle
-circle =  CircleAsset(50, thinline, yellow)
-Sprite(circle, (275, 30))
-
-#Clouds
-cloud = EllipseAsset(50, 30, thinline, black1)
-Sprite(cloud, (100, 50))
-
-cloud2 = EllipseAsset(50, 30, thinline, black1)
-Sprite(cloud2, (700, 50))
-
-# add your code here /\  /\  /\
-
+# Generate a list of sprites that form a line!
+sprites = [Sprite(mycircle, (x, x*0.5 + 100)) for x in xcoordinates]
+"""
 
 myapp = App()
 myapp.run()
