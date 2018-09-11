@@ -1,9 +1,9 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Jordan Gottlieb
+Credit: None
 
-Assignment:
+Assignment: Picture
 
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
@@ -27,8 +27,41 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
-
-
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
+thinline = LineStyle(1, black)
+#sky
+rectangle2=RectangleAsset(1000,1000, thinline, blue)
+Sprite(rectangle2)
+#Grass
+rectangle3=RectangleAsset(1000,500,thinline,green)
+Sprite(rectangle3,(0,300))
+#house
+rectangle = RectangleAsset(500, 200, thinline, red)
+Sprite(rectangle, (100, 200))
+#roof
+triangle=PolygonAsset([(300,50),(550,200),(50,200)], thinline, green)
+Sprite(triangle, (100, 50))
+#window
+circle=CircleAsset(30,thinline,black)
+Sprite(circle,(200,280))
+#window2
+ellipse=EllipseAsset(30,30,thinline,black)
+Sprite(ellipse,(450,280))
+#door
+rectangle4=RectangleAsset(50,100,thinline,black)
+Sprite(rectangle4,(330,300))
+#wall
+wall=PolygonAsset([(200,500),(550,400),(550,200),(200,300)], thinline, red)
+Sprite(wall,(600,100))
+#roof
+roof2=PolygonAsset([(0,50),(250,200),(600,100),(400,0),(230,0)], thinline, green)
+Sprite(roof2,(350,0))
+#window top
+windowtop=EllipseAsset(50,30,thinline,black)
+Sprite(windowtop,(300,120))
 # add your code here /\  /\  /\
 
 
