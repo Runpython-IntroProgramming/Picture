@@ -48,7 +48,7 @@ Sprite(triangle, (100, 50))
 circle=CircleAsset(30,thinline,black)
 Sprite(circle,(200,280))
 #window2
-ellipse=EllipseAsset(25,35,thinline,black)
+ellipse=EllipseAsset(30,30,thinline,black)
 Sprite(ellipse,(450,280))
 #door
 rectangle4=RectangleAsset(50,100,thinline,black)
@@ -59,6 +59,9 @@ Sprite(wall,(600,100))
 #roof
 roof2=PolygonAsset([(0,50),(250,200),(600,100),(400,0),(230,0)], thinline, green)
 Sprite(roof2,(350,0))
+#window top
+windowtop=EllipseAsset(50,30,thinline,black)
+Sprite(windowtop,(300,120))
 # add your code here /\  /\  /\
 
 
