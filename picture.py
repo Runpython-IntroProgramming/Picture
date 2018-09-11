@@ -32,13 +32,33 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
+#sky
+rectangle2=RectangleAsset(1000,1000, thinline, blue)
+Sprite(rectangle2)
+#Grass
+rectangle3=RectangleAsset(1000,500,thinline,green)
+Sprite(rectangle3,(0,300))
 #house
 rectangle = RectangleAsset(500, 200, thinline, red)
 Sprite(rectangle, (100, 200))
 #roof
 triangle=PolygonAsset([(300,50),(550,200),(50,200)], thinline, green)
 Sprite(triangle, (100, 50))
-
+#window
+circle=CircleAsset(30,thinline,black)
+Sprite(circle,(200,280))
+#window2
+ellipse=EllipseAsset(25,35,thinline,black)
+Sprite(ellipse,(450,280))
+#door
+rectangle4=RectangleAsset(50,100,thinline,black)
+Sprite(rectangle4,(330,300))
+#wall
+wall=PolygonAsset([(200,500),(550,400),(550,200),(200,300)], thinline, red)
+Sprite(wall,(600,100))
+#roof
+roof2=PolygonAsset([(200,300),(550,200),(550,100),(100,0)], thinline, green)
+Sprite(roof2,(300,100))
 # add your code here /\  /\  /\
 
 
