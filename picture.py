@@ -57,8 +57,8 @@ Sprite(rectangle4,(330,300))
 wall=PolygonAsset([(200,500),(550,400),(550,200),(200,300)], thinline, red)
 Sprite(wall,(600,100))
 #roof
-roof2=PolygonAsset([(200,300),(550,200),(550,100),(100,0)], thinline, green)
-Sprite(roof2,(300,100))
+roof2=PolygonAsset([(0,50),(250,200),(600,100),(400,0),(230,0)], thinline, green)
+Sprite(roof2,(350,0))
 # add your code here /\  /\  /\
 
 
