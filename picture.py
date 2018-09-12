@@ -28,6 +28,7 @@ for general information on using list comprehensions to generate graphics.
 http://brythonserver.github.io/ggame/
 for detailed information on ggame.
 """
+
 from ggame import App, Color, LineStyle, Sprite, CircleAsset
 from math import sin, cos, radians
 import math
@@ -49,7 +50,6 @@ sprites = [Sprite(coscircle, ((x), 100+100*cos(radians(x)))) for x in xcoordinat
 thinline = LineStyle(1, black)
 purplecircle = CircleAsset(5, thinline, purple)
 sprites = [Sprite(purplecircle, ((100+100*cos(radians(x)), 400+100*sin(radians(x))))) for x in xcoordinates]
-
 
 
 myapp = App()
