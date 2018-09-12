@@ -1,8 +1,7 @@
 """
 sinecosine.py
 Author: Patrick Daley
-Credit: <list sources used, if any>
-
+https://www.webucator.com/blog/2015/03/python-color-constants-module/
 Assignment:
 
 In this assignment you must use *list comprehensions* to generate sprites that show the behavior
@@ -29,29 +28,28 @@ for general information on using list comprehensions to generate graphics.
 http://brythonserver.github.io/ggame/
 for detailed information on ggame.
 """
-from ggame import App, Color, LineStyle, Sprite
-from ggame import CircleAsset
+from ggame import App, Color, LineStyle, Sprite, CircleAsset
 from math import sin, cos, radians
+import math
 
 red = Color(0xff0000, 1.0)
-green = Color(0x00ff00, 1.0)
+purpsie = Color(0x68228B, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
-"Sine Graph"
-import math
+
 thinline = LineStyle(1, black)
 sincircle = CircleAsset(5, thinline, red)
 xcoordinates = range(0, 360, 10)
-#(100+100*sin(radians(x)))
-sprites = [Sprite(sincircle, ((x), 100+100*sin((x*10)))) for x in xcoordinates]
+sprites = [Sprite(sincircle, ((x), 100+100*sin(radians(x)))) for x in xcoordinates]
 
-
-
-"Cosine Graph"
-import math
 thinline = LineStyle(1, black)
 coscircle = CircleAsset(5, thinline, blue)
-sprites = [Sprite(coscircle, ((x), 100*cos(x*10) + 100)) for x in xcoordinates]
+sprites = [Sprite(coscircle, ((x), 100+100*cos(radians(x)))) for x in xcoordinates]
+
+thinline = LineStyle(1, black)
+purpcirc = CircleAsset(5, thinline, purpsie)
+sprites = [Sprite(purpcirc, ((100+100*cos(radians(x)), 400+100*sin(radians(x))))) for x in xcoordinates]
+
 
 
 myapp = App()
