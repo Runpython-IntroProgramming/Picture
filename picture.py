@@ -1,7 +1,7 @@
 """
 sinecosine.py
 Author: Patrick Daley
-https://www.webucator.com/blog/2015/03/python-color-constants-module/
+Credit: A friend helped me with understanding the math part. Purple color source: https://www.webucator.com/blog/2015/03/python-color-constants-module/
 Assignment:
 
 In this assignment you must use *list comprehensions* to generate sprites that show the behavior
@@ -33,7 +33,7 @@ from math import sin, cos, radians
 import math
 
 red = Color(0xff0000, 1.0)
-purpsie = Color(0x68228B, 1.0)
+purple = Color(0x68228B, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 
@@ -47,8 +47,8 @@ coscircle = CircleAsset(5, thinline, blue)
 sprites = [Sprite(coscircle, ((x), 100+100*cos(radians(x)))) for x in xcoordinates]
 
 thinline = LineStyle(1, black)
-purpcirc = CircleAsset(5, thinline, purpsie)
-sprites = [Sprite(purpcirc, ((100+100*cos(radians(x)), 400+100*sin(radians(x))))) for x in xcoordinates]
+purplecircle = CircleAsset(5, thinline, purple)
+sprites = [Sprite(purplecircle, ((100+100*cos(radians(x)), 400+100*sin(radians(x))))) for x in xcoordinates]
 
 
 
