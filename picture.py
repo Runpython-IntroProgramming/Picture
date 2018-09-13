@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: <Joseph Goff>
+Credit: <None>
 
 Assignment:
 
@@ -139,7 +139,7 @@ Sprite(backglass2, (415, 245))
 Sprite(backglass2, (420, 240)) 
 Sprite(backglass2, (425, 235)) 
 
-steeringwheel = EllipseAsset(8, 19, thickline, green)
+steeringwheel = EllipseAsset(8, 19, thickline, red)
 Sprite(steeringwheel, (617, 260))
 
 Sprite(windshield2, (650, 295)) 
