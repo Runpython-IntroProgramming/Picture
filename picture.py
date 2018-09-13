@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <Joseph Goff>
-Credit: <None>
+Author: Joseph Goff
+Credit: None
 
 Assignment:
 
