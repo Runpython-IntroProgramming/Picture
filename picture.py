@@ -49,6 +49,7 @@ Sprite(nosebridge, (292,290))
 Sprite(nose, (280,335))
 Sprite(mouth, (280, 400))
 Sprite(eyebrow, (220,230))
+Sprite (eyebrow, (340,230))
 
 
 # add your code here /\  /\  /\
