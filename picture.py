@@ -26,9 +26,10 @@ for detailed information on ggame.
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
-black= Color((0x000000, 1.0)
-thinline=LineStyle(1, black)
-face=EllipseAsset(30, 40, thinline, Color(0xffe0bd,1.0)
+black= Color(0x000000, 1.0)
+peach= Color(0xffe0bd, 1.0)
+thinline = LineStyle(1, black)
+face=EllipseAsset(30, 40, thinline, peach)
 Sprite(face)
 
 
