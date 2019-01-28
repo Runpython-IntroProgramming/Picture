@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Andrew Enelow
-Credit: <list sources used, if any>
+Credit: stack overflow
 
 Assignment:
 
@@ -37,13 +37,17 @@ rectangle = RectangleAsset(50, 20, thinline, blue)
 
 circle = CircleAsset(50, thinline, green)
 
-ellipse= EllipseAsset(50, 20, thinline, red)
+ellipse = EllipseAsset(50, 20, thinline, red)
+
+polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
 
 Sprite(rectangle, (200, 50))
 
 Sprite(circle, (400, 50))
 
 Sprite(ellipse, (200, 100))
+
+Sprite(polygon, (400, 100))
 
 myapp = App()
 myapp.run()
