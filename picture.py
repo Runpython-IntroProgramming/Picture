@@ -35,7 +35,7 @@ blue = Color(0x00ffff, 1.0)
 wahh = Color(0xffb6c1, 1.0)
 thinline = LineStyle(1, black)
 noline = LineStyle(0, white)
-
+print("BEHOLD, Waluigi!")
 eyeshadow = EllipseAsset(25, 15, thinline, blue)
 eye = EllipseAsset(25, 15, thinline, white)
 face = EllipseAsset(100, 100, noline, wah)
