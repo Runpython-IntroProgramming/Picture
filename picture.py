@@ -33,15 +33,17 @@ white = Color(0xffffff, 1.0)
 black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 
-rectangle = RectangleAsset(50, 20, thinline, purple)
+eye = EllipseAsset(20, 35, thinline, white)
 face = EllipseAsset(100, 100, thinline, wah)
+rectangle = RectangleAsset(50, 20, thinline, purple)
 hat = EllipseAsset(100, 70, thinline, purple)
 triangle = PolygonAsset([(100,100), (50, 60), (200,70)], thinline, wah)
 
 Sprite(face, (289, 120))
 Sprite(rectangle, (200, 60))
 Sprite(hat, (290, 100))
-Sprite(triangle, (300, 300))
+Sprite(eye, (290, 120))
+Sprite(eye, (300, 300))
 
 
 # add your code here /\  /\  /\
