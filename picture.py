@@ -43,7 +43,7 @@ circle = CircleAsset(100,thinlineblue,cornflowerblue)
 smalltriangle = PolygonAsset([(725,600), (775,600), (750, 600+ 25*sqrt(3))],thinlineblack, black)
 whiteeye = CircleAsset(32,thinlinewhite,white)
 pupil = CircleAsset(12,thinlineblack,black)
-
+whisker = RectangleAsset(100,7,thinlineblack,black)
 #print
 s=Sprite(triangle, (120,120))
 s.scale=0.8
@@ -54,6 +54,18 @@ Sprite(whiteeye, (225,200))
 Sprite(whiteeye, (350,200))
 Sprite(pupil, (230, 220))
 Sprite(pupil, (355, 220))
+w=Sprite(whisker, (370, 330))
+w.rotation=.3
+W=Sprite(whisker, (370, 335))
+W.rotation=0
+m=Sprite(whisker, (370, 340))
+m.rotation=-.3
+r=Sprite(whisker, (168, 298))
+r.rotation=-.3
+k=Sprite(whisker, (168, 303))
+k.rotation=0
+l=Sprite(whisker, (168, 308))
+l.rotation=.3
 
 #s.rotation=inradians
 # add your code here /\  /\  /\
