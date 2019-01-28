@@ -44,6 +44,7 @@ hat = EllipseAsset(100, 70, thinline, purple)
 nose = EllipseAsset(20, 40, thinline, wahh)
 chin = PolygonAsset([(-45, 60), (-70, 0), (70, 0), (45, 60)], noline, wah)
 www = PolygonAsset([(-10, 70), (-45, 0), (-45, -50), (-40, -50), (-40, 0), (40, 0), (40, -50), (45, -50), (45, 0), (10, 70)], noline, wah)
+dot = CircleAsset(7, thinline, black)
 
 Sprite(chin, (316, 290))
 Sprite(face, (289, 120))
@@ -54,7 +55,8 @@ Sprite(eye, (420, 225))
 Sprite(hat, (290, 100))
 Sprite(www, (342, 345))
 Sprite(nose, (367, 235))
-
+Sprite(dot, (325, 230))
+Sprite(dot, (435, 230))
 
 
 
