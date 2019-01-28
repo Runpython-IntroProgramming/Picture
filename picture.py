@@ -46,7 +46,7 @@ s=Sprite(triangle, (120,120))
 s.scale=0.8
 Sprite(circle, (60,45))
 Sprite(circle, (380,45))
-
+#s.rotation=inradians
 # add your code here /\  /\  /\
 
 
