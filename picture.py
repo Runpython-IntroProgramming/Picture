@@ -27,8 +27,27 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+black = Color(0x000000, 1.0)
+flesh = Color (0xeac086, 1.0)
 
+thinline = LineStyle(1, flesh)
+line = LineStyle(1, black)
 
+background = RectangleAsset(2000, 2000, line, red)
+lineobject = RectangleAsset(2, 50, line, black)
+rectangle = RectangleAsset(150, 350, thinline, flesh)
+ellipse = EllipseAsset(75, 75, thinline, flesh)
+circle = CircleAsset(100, line, flesh)
+
+Sprite(background)
+Sprite(ellipse, (300, 30))
+Sprite(rectangle, (300, 100))
+Sprite(circle, (225, 350))
+Sprite(circle, (325, 350))
+Sprite(lineobject, (370, 30))
 # add your code here /\  /\  /\
 
 
