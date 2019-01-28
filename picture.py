@@ -60,11 +60,11 @@ W=Sprite(whisker, (370, 335))
 W.rotation=0
 m=Sprite(whisker, (370, 340))
 m.rotation=-.3
-r=Sprite(whisker, (168, 298))
+r=Sprite(whisker, (174, 301))
 r.rotation=-.3
-k=Sprite(whisker, (168, 303))
+k=Sprite(whisker, (170, 335))
 k.rotation=0
-l=Sprite(whisker, (168, 308))
+l=Sprite(whisker, (174, 368))
 l.rotation=.3
 
 #s.rotation=inradians
