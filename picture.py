@@ -38,8 +38,8 @@ face = EllipseAsset(100, 100, thinline, wah)
 hat = EllipseAsset(100, 70, thinline, purple)
 triangle = PolygonAsset([(100,100), (50, 60), (200,70)], thinline, wah)
 
+Sprite(face, (289, 120))
 Sprite(rectangle, (200, 60))
-Sprite(face, (200, 50))
 Sprite(hat, (290, 100))
 Sprite(triangle, (300, 300))
 
