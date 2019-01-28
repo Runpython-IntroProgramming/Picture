@@ -39,7 +39,7 @@ thinlineblue = LineStyle(1, cornflowerblue)
 thinlinewhite = LineStyle(1, white)
 thinlineblack = LineStyle(1, black)
 thinlinegold = LineStyle(1, gold)
-thinlinegolder = LineStyle(1, golder)
+thinlinegolder = LineStyle(1, golder) #I played around to get this one
 
 #Defining Shapes
 triangle = PolygonAsset([(500,500), (1000,500), (750, 500+ 250*sqrt(3))],thinlineblue, cornflowerblue)
