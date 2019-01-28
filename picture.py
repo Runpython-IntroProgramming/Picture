@@ -49,7 +49,8 @@ whiteeye = CircleAsset(32,thinlinewhite,white)
 pupil = CircleAsset(12,thinlineblack,black)
 whisker = RectangleAsset(100,7,thinlineblack,black)
 cheese = RectangleAsset(180, 70, thinlinegold, gold)
-
+cheesetop = PolygonAsset([(650,245), (830, 245), (780, 205), (650, 245)], thinlinegolder, golder)
+cheesehole = EllipseAsset(
 #print
     #head
 s=Sprite(triangle, (120,120))
@@ -78,7 +79,8 @@ k.rotation=0
 l=Sprite(whisker, (174, 368))
 l.rotation=.3
     #cheese
-c=Sprite(cheese, (640, 215))
+c=Sprite(cheese, (650, 245))
+Sprite(cheesetop, (650, 205))
 
 #s.rotation=inradians
 # add your code here /\  /\  /\
