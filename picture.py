@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: waSclthu11
+Credit: The tutorial and the ggame core API (tells you how to use everything).
 
 Assignment:
 
@@ -32,23 +32,30 @@ purple= Color(0xce27d3, 1.0)
 white = Color(0xffffff, 1.0)
 black = Color(0x000000, 1.0)
 blue = Color(0x00ffff, 1.0)
+wahh = Color(0xffb6c1, 1.0)
 thinline = LineStyle(1, black)
+noline = LineStyle(0, white)
 
 eyeshadow = EllipseAsset(25, 15, thinline, blue)
 eye = EllipseAsset(25, 15, thinline, white)
-face = EllipseAsset(100, 100, thinline, wah)
+face = EllipseAsset(100, 100, noline, wah)
 rectangle = RectangleAsset(50, 20, thinline, purple)
 hat = EllipseAsset(100, 70, thinline, purple)
-nose = PolygonAsset([(0, 0), (30, -50), (-100, -200)], thinline, wah)
+nose = EllipseAsset(20, 40, thinline, wahh)
+chin = PolygonAsset([(-45, 60), (-70, 0), (70, 0), (45, 60)], noline, wah)
+www = PolygonAsset([(-10, 70), (-45, 0), (-45, -50), (-40, -50), (-40, 0), (40, 0), (40, -50), (45, -50), (45, 0), (10, 70)], noline, wah)
 
+Sprite(chin, (316, 290))
 Sprite(face, (289, 120))
 Sprite(eyeshadow, (305, 230))
 Sprite(eyeshadow, (420, 230))
 Sprite(eye, (305, 225))
 Sprite(eye, (420, 225))
 Sprite(hat, (290, 100))
-Sprite(rectangle, (200, 60))
-Sprite(nose, (290, 200))
+Sprite(www, (342, 345))
+Sprite(nose, (367, 235))
+
+
 
 
 
