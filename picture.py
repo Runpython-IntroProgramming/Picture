@@ -38,6 +38,8 @@ golder = Color(0xFFC900, 1.0)
 thinlineblue = LineStyle(1, cornflowerblue) 
 thinlinewhite = LineStyle(1, white)
 thinlineblack = LineStyle(1, black)
+thinlinegold = LineStyle(1, gold)
+thinlinegolder = LineStyle(1, golder)
 
 #Defining Shapes
 triangle = PolygonAsset([(500,500), (1000,500), (750, 500+ 250*sqrt(3))],thinlineblue, cornflowerblue)
@@ -46,6 +48,8 @@ smalltriangle = PolygonAsset([(725,600), (775,600), (750, 600+ 25*sqrt(3))],thin
 whiteeye = CircleAsset(32,thinlinewhite,white)
 pupil = CircleAsset(12,thinlineblack,black)
 whisker = RectangleAsset(100,7,thinlineblack,black)
+cheese = RectangleAsset(180, 70, thinlinegold, gold)
+
 #print
     #head
 s=Sprite(triangle, (120,120))
@@ -73,6 +77,8 @@ k=Sprite(whisker, (170, 335))
 k.rotation=0
 l=Sprite(whisker, (174, 368))
 l.rotation=.3
+    #cheese
+c=Sprite(cheese, (640, 215))
 
 #s.rotation=inradians
 # add your code here /\  /\  /\
