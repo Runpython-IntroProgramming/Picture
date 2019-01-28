@@ -34,13 +34,13 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 
 rectangle = RectangleAsset(50, 20, thinline, purple)
-square = RectangleAsset(100, 100, thinline, purple)
-ellipse = EllipseAsset(200, 50, thinline, purple)
+face = EllipseAsset(100, 100, thinline, purple)
+hat = EllipseAsset(100, 70, thinline, purple)
 triangle = PolygonAsset([(100,100), (50, 60), (200,70)], thinline, wah)
 
 Sprite(rectangle, (200, 60))
-Sprite(square, (210, 50))
-Sprite(ellipse, (290, 400))
+Sprite(face, (210, 50))
+Sprite(hat, (290, 100))
 Sprite(triangle, (300, 300))
 
 
