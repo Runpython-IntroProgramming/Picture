@@ -41,7 +41,7 @@ thinlineblack = LineStyle(1, black)
 triangle = PolygonAsset([(500,500), (1000,500), (750, 500+ 250*sqrt(3))],thinlineblue, cornflowerblue)
 circle = CircleAsset(100,thinlineblue,cornflowerblue)
 smalltriangle = PolygonAsset([(725,600), (775,600), (750, 600+ 25*sqrt(3))],thinlineblack, black)
-whiteeye = CircleAsset(40,thinlinewhite,white)
+whiteeye = CircleAsset(32,thinlinewhite,white)
 
 #print
 s=Sprite(triangle, (120,120))
@@ -49,7 +49,8 @@ s.scale=0.8
 Sprite(circle, (60,45))
 Sprite(circle, (380,45))
 Sprite(smalltriangle, (294.5,420))
-Sprite(whiteeye, (200,175))
+Sprite(whiteeye, (225,200))
+Sprite(whiteeye, (350,200))
 #s.rotation=inradians
 # add your code here /\  /\  /\
 
