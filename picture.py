@@ -89,6 +89,7 @@ Sprite(alsocheesehole, (717, 255))
 Sprite(alsocheesehole, (680, 295))
 Sprite(alsoalsocheesehole, (785, 292))
 Sprite(alsocheesehole, (800, 265))
+Sprite(alsoalsocheesehole, (766, 256))
 #s.rotation=inradians
 # add your code here /\  /\  /\
 
