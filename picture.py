@@ -27,15 +27,15 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
-wah = Color(0xedcc9b, 1.0)
+purple = Color(0xedcc9b, 1.0)
 green = Color(0xce27d3, 0.5)
-blue = Color(0x0000ff, 1.0)
+white = Color(0xffffff, 1.0)
 black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 
-rectangle = RectangleAsset(50, 20, thinline, wah)
+rectangle = RectangleAsset(50, 20, thinline, purple)
 square = RectangleAsset(100, 100, thinline, green)
-ellipse = EllipseAsset(200, 50, thinline, blue)
+ellipse = EllipseAsset(200, 50, thinline, purple)
 triangle = PolygonAsset([(100,100), (50, 60), (200,70)], thinline, green)
 
 Sprite(rectangle, (200, 60))
