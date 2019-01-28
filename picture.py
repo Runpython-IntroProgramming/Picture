@@ -1,18 +1,18 @@
 """
 picture.py
 Author: emBrileg08
-Credit: NA
+Credit: www.colorhexa.com for the color hexadecimals
 
 Assignment:
 
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
 Use at least:
-1. Three different Color objects.
-2. Ten different Sprite objects.
+1. Three different Color objects. I have 2
+2. Ten different Sprite objects. I have 1
 3. One (or more) RectangleAsset objects.
 4. One (or more) CircleAsset objects.
-5. One (or more) EllipseAsset objects.
+5. One (or more) EllipseAsset objects. I have 1
 6. One (or more) PolygonAsset objects.
 
 See:
@@ -28,9 +28,14 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 black= Color(0x000000, 1.0)
 peach= Color(0xffe0bd, 1.0)
+brown= Color(0x654321, 1.0)
 thinline = LineStyle(1, black)
+
 face=EllipseAsset(120, 160, thinline, peach)
+pupil=CircleAsset(30, thinline, brown)
+
 Sprite(face, (160,160))
+Sprite(pupil, (200,250))
 
 
 
