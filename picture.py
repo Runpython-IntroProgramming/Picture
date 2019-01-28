@@ -9,11 +9,11 @@ Use the ggame library to "paint" a graphical picture of something (e.g. a house,
 
 Use at least:
 1. Three different Color objects. Done
-2. Ten different Sprite objects. 3/10
+2. Ten different Sprite objects. 5/10
 3. One (or more) RectangleAsset objects.
 4. One (or more) CircleAsset objects. Done
 5. One (or more) EllipseAsset objects. Done
-6. One (or more) PolygonAsset objects.
+6. One (or more) PolygonAsset objects.Done
 
 See:
 https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Displaying-Graphics
@@ -31,14 +31,17 @@ peach= Color(0xffe0bd, 1.0)
 brown= Color(0x654321, 1.0)
 thinline = LineStyle(1, black)
 
-face=EllipseAsset(135, 160, thinline, peach)
+face=EllipseAsset(136, 160, thinline, peach)
 pupil=CircleAsset(10, thinline, brown)
-something=PolygonAsset(10,thinline,brown)
+nosebridge=PolygonAsset([(0,0),(0,45)], thinline,black)
+nose=EllipseAsset(20,15,thinline, peach)
 
 Sprite(face, (160,160))
 Sprite(pupil, (220,260))
 Sprite(pupil, (350, 260))
-Sprite(something (10,10))
+Sprite(nosebridge, (304,290))
+Sprite(nosebridge, (292,290))
+Sprite(nose, (280,335))
 
 
 # add your code here /\  /\  /\
