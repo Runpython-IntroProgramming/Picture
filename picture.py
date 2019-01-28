@@ -31,6 +31,8 @@ from math import sqrt
 cornflowerblue = Color(0x6495ED, 1.0)
 black = Color(0x000000, 1.0)
 white = Color(0xFFFFFF, 1.0)
+gold = Color(0xFFD700, 1.0)
+golder = Color(0xFFC900, 1.0)
 
 #defining line
 thinlineblue = LineStyle(1, cornflowerblue) 
@@ -39,21 +41,26 @@ thinlineblack = LineStyle(1, black)
 
 #Defining Shapes
 triangle = PolygonAsset([(500,500), (1000,500), (750, 500+ 250*sqrt(3))],thinlineblue, cornflowerblue)
-circle = CircleAsset(100,thinlineblue,cornflowerblue)
+circle = CircleAsset(100,thinlineblue, cornflowerblue)
 smalltriangle = PolygonAsset([(725,600), (775,600), (750, 600+ 25*sqrt(3))],thinlineblack, black)
 whiteeye = CircleAsset(32,thinlinewhite,white)
 pupil = CircleAsset(12,thinlineblack,black)
 whisker = RectangleAsset(100,7,thinlineblack,black)
 #print
+    #head
 s=Sprite(triangle, (120,120))
 s.scale=0.8
+    #ears
 Sprite(circle, (60,45))
 Sprite(circle, (380,45))
+    #nose
 Sprite(smalltriangle, (294.5,420))
+    #eyes
 Sprite(whiteeye, (225,200))
 Sprite(whiteeye, (350,200))
 Sprite(pupil, (255, 220))
 Sprite(pupil, (380, 220))
+    #whiskers
 w=Sprite(whisker, (370, 330))
 w.rotation=.3
 W=Sprite(whisker, (370, 335))
