@@ -51,7 +51,8 @@ whisker = RectangleAsset(100,7,thinlineblack,black)
 cheese = RectangleAsset(180, 70, thinlinegold, gold)
 cheesetop = PolygonAsset([(650,245), (830, 245), (780, 205), (650, 245)], thinlinegolder, golder)
 cheesehole = EllipseAsset(17,10, thinlinegolder, golder)
-alsocheesehole =
+alsocheesehole = EllipseAsset(9,6, thinlinegolder, golder)
+alsoalsocheesehole = EllipseAsset(11,8, thinlinegolder, golder)
 #print
     #head
 s=Sprite(triangle, (120,120))
@@ -83,8 +84,11 @@ l.rotation=.3
 c=Sprite(cheese, (650, 245))
 Sprite(cheesetop, (650, 205))
 Sprite(cheesehole, (663, 260))
-Sprite(cheesehole, (750, 270))
-
+Sprite(cheesehole, (730, 280))
+Sprite(alsocheesehole, (717, 255))
+Sprite(alsocheesehole, (680, 295))
+Sprite(alsoalsocheesehole, (785, 292))
+Sprite(alsocheesehole, (800, 265))
 #s.rotation=inradians
 # add your code here /\  /\  /\
 
