@@ -29,8 +29,8 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 black= Color(0x000000, 1.0)
 peach= Color(0xffe0bd, 1.0)
 thinline = LineStyle(1, black)
-face=EllipseAsset(30, 40, thinline, peach)
-Sprite(face, (30,30))
+face=EllipseAsset(120, 160, thinline, peach)
+Sprite(face, (160,160))
 
 
 
