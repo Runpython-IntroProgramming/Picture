@@ -8,11 +8,11 @@ Assignment:
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
 Use at least:
-1. Three different Color objects. I have 2
-2. Ten different Sprite objects. I have 1
+1. Three different Color objects. Done
+2. Ten different Sprite objects. 3/10
 3. One (or more) RectangleAsset objects.
-4. One (or more) CircleAsset objects.
-5. One (or more) EllipseAsset objects. I have 1
+4. One (or more) CircleAsset objects. Done
+5. One (or more) EllipseAsset objects. Done
 6. One (or more) PolygonAsset objects.
 
 See:
@@ -31,12 +31,14 @@ peach= Color(0xffe0bd, 1.0)
 brown= Color(0x654321, 1.0)
 thinline = LineStyle(1, black)
 
-face=EllipseAsset(120, 160, thinline, peach)
-pupil=CircleAsset(30, thinline, brown)
+face=EllipseAsset(135, 160, thinline, peach)
+pupil=CircleAsset(10, thinline, brown)
+something=PolygonAsset(10,thinline,brown)
 
 Sprite(face, (160,160))
-Sprite(pupil, (200,250))
-
+Sprite(pupil, (220,260))
+Sprite(pupil, (350, 260))
+Sprite(something (10,10))
 
 
 # add your code here /\  /\  /\
