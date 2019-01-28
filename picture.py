@@ -28,7 +28,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 from math import sqrt
 # add your code here \/  \/  \/
 #defining colors
-cornflowerblue = Color(0x6495ED, 0.9)
+cornflowerblue = Color(0x6495ED, 1.0)
 black = Color(0x000000, 1.0)
 white = Color(0xFFFFFF, 1.0)
 
@@ -39,12 +39,13 @@ thinlineblack = LineStyle(1, black)
 
 #Defining Shapes
 triangle = PolygonAsset([(500,500), (1000,500), (750, 500+ 250*sqrt(3))],thinlineblue, cornflowerblue)
-
+circle = CircleAsset(100,thinlineblue,cornflowerblue)
 
 #print
-Sprite(triangle, (120,120))
-
-
+s=Sprite(triangle, (120,120))
+s.scale=0.8
+Sprite(circle, (60,45))
+Sprite(circle, (380,45))
 
 # add your code here /\  /\  /\
 
