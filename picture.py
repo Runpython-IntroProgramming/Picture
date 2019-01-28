@@ -36,21 +36,17 @@ mouthline= LineStyle (4, red)
 
 face=EllipseAsset(136, 160, thinline, peach)
 pupil=CircleAsset(10, thinline, brown)
-nosebridge1=PolygonAsset([(0,0),(0,30),(-10,45)], thinline,black)
-nosebridge2=PolygonAsset([(0,0),(0,30),(10,45)], thinline,black)
-nose=EllipseAsset(20,15,thinline, peach)
 mouth=CircleAsset(20,mouthline,mouthred)
 eyebrow=RectangleAsset(30,2,thinline,brown)
+nose=PolygonAsset([(0,0),(10,10),(-10,10),(0,0)],thinline,peach)
 
 Sprite(face, (160,160))
 Sprite(pupil, (220,260))
 Sprite(pupil, (350, 260))
-Sprite(nosebridge1, (304,290))
-Sprite(nosebridge2, (292,290))
-Sprite(nose, (280,335))
 Sprite(mouth, (280, 400))
 Sprite(eyebrow, (220,230))
 Sprite (eyebrow, (340,230))
+Sprite(nose,(290,320))
 
 
 # add your code here /\  /\  /\
