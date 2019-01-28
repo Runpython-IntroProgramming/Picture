@@ -40,9 +40,11 @@ face = EllipseAsset(100, 100, thinline, wah)
 rectangle = RectangleAsset(50, 20, thinline, purple)
 hat = EllipseAsset(100, 70, thinline, purple)
 triangle = PolygonAsset([(100,100), (50, 60), (200,70)], thinline, wah)
+nose = 
 
 Sprite(face, (289, 120))
 Sprite(eyeshadow, (305, 230))
+Sprite(eyeshadow, (420, 230))
 Sprite(eye, (305, 225))
 Sprite(eye, (420, 225))
 Sprite(hat, (290, 100))
