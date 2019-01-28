@@ -25,9 +25,25 @@ for detailed information on ggame.
 
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
-
+from math import sqrt
 # add your code here \/  \/  \/
 #defining colors
+cornflowerblue = Color(0x6495ED, 0.9)
+black = Color(0x000000, 1.0)
+white = Color(0xFFFFFF, 1.0)
+
+#defining line
+thinlineblue = LineStyle(1, cornflowerblue) 
+thinlinewhite = LineStyle(1, white)
+thinlineblack = LineStyle(1, black)
+
+#Defining Shapes
+triangle = PolygonAsset([(500,500), (1000,500), (750, 500+ 250*sqrt(3))],thinlineblue, cornflowerblue)
+
+
+#print
+Sprite(triangle, (120,120))
+
 
 
 # add your code here /\  /\  /\
