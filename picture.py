@@ -40,14 +40,14 @@ thinlineblack = LineStyle(1, black)
 #Defining Shapes
 triangle = PolygonAsset([(500,500), (1000,500), (750, 500+ 250*sqrt(3))],thinlineblue, cornflowerblue)
 circle = CircleAsset(100,thinlineblue,cornflowerblue)
-smalltriangle = PolygonAsset([(725,600), (775,600), (750, 500+ 25*sqrt(3))],thinlineblack, black)
+smalltriangle = PolygonAsset([(725,600), (775,600), (750, 600+ 25*sqrt(3))],thinlineblack, black)
 
 #print
 s=Sprite(triangle, (120,120))
 s.scale=0.8
 Sprite(circle, (60,45))
 Sprite(circle, (380,45))
-Sprite(smalltriangle, (120,120))
+Sprite(smalltriangle, (294.5,420))
 #s.rotation=inradians
 # add your code here /\  /\  /\
 
