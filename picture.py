@@ -33,6 +33,8 @@ black = Color(0x000000, 1.0)
 yellow = Color(0xFFFF00, 1.0)
 skyblue = Color(0x87CEEB, 1.0)
 grey = Color(0x696969, 1.0)
+brick = Color(0xA52A2A, 1.0)
+khaki = Color(0xF0E68C, 1.0)
 
 thinline = LineStyle(1, black)
 
@@ -44,11 +46,13 @@ grass = RectangleAsset(1500, 100, thinline, green)
 
 roof = PolygonAsset([(0,100), (200,0), (400,100), (0,100)], thinline, grey)
 
-brick = RectangleAsset(300, 300, thinline, red)
+house = RectangleAsset(300, 300, thinline, khaki)
 
 pond = EllipseAsset(50, 20, thinline, blue)
 
 polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
+
+chim = RectangleAsset(50, 100, thinline, brick)
 
 Sprite(sky, (0, 0))
 
@@ -56,7 +60,9 @@ Sprite(sun, (50, 50))
 
 Sprite(grass, (0, 500))
 
-Sprite(brick, (500, 200))
+Sprite(house, (500, 200))
+
+Sprite(chim, (800, 100))
 
 Sprite(roof, (450, 100))
 
