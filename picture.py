@@ -1,6 +1,6 @@
 """
 picture.py
-Author: Kyle
+Author: kyDoleuc04
 Credit: none
 
 Assignment:
