@@ -1,6 +1,6 @@
 """
 picture.py
-Author: Macy Curtis
+Author: maCucyrt07
 Credit: Kyle, Mr. Dennison
 
 Assignment:
