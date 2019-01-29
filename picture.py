@@ -80,7 +80,7 @@ Sprite(window, (620, 350))
 
 Sprite(window, (655, 350))
 
-Sprite(knob, (680, 450))
+Sprite(knob, (680, 425))
 
 myapp = App()
 myapp.width = 1600
