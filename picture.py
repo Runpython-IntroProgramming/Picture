@@ -56,7 +56,7 @@ chim = RectangleAsset(50, 125, thinline, brick)
 
 door = RectangleAsset(100, 175, thinline, brick)
 
-window = RectangleAsset(25, 50, thinline, brick)
+window = RectangleAsset(25, 50, thinline, black)
 
 Sprite(sky, (0, 0))
 
@@ -74,7 +74,9 @@ Sprite(pond, (850, 525))
 
 Sprite(door, (600, 325))
 
-Sprite(window, (615, 350))
+Sprite(window, (620, 350))
+
+Sprite(window, (655, 350))
 
 myapp = App()
 myapp.width = 1600
