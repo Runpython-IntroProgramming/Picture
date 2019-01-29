@@ -54,6 +54,6 @@ Sprite(grass, (0, 500))
 
 
 myapp = App()
-app.width = 1600
-app.height = 900
+myapp.width = 1600
+myapp.height = 900
 myapp.run()
