@@ -31,36 +31,23 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 yellow = Color(0xFFFF00, 1.0)
+skyblue = Color(0x87CEEB, 1.0)
 
 thinline = LineStyle(1, black)
 
-rectangle = RectangleAsset(50, 20, thinline, blue)
+sky = RectangleAsset(1500, 500, thinline, skyblue)
 
-circle = CircleAsset(50, thinline, green)
+sun = CircleAsset(50, thinline, yellow)
 
 ellipse = EllipseAsset(50, 20, thinline, red)
 
 polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
 
-Sprite(rectangle, (200, 50))
+Sprite(sky, (0, 0))
 
-Sprite(circle, (400, 50))
+Sprite(sun, (50, 50))
 
-Sprite(ellipse, (200, 100))
 
-Sprite(polygon, (400, 100))
-
-Sprite(rectangle, (300, 50))
-
-Sprite(rectangle, (400, 50))
-
-Sprite(rectangle, (500, 50))
-
-Sprite(rectangle, (600, 50))
-
-Sprite(rectangle, (700, 50))
-
-Sprite(rectangle, (800, 50))
 
 myapp = App()
 myapp.run()
