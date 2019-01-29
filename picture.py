@@ -42,7 +42,7 @@ sun = CircleAsset(50, thinline, yellow)
 
 grass = RectangleAsset(1500, 100, thinline, green)
 
-roof = PolygonAsset([(0,100), (200,0), (400,100), (0,100)], thinline, red)
+roof = PolygonAsset([(0,100), (200,0), (400,100), (0,100)], thinline, grey)
 
 brick = RectangleAsset(300, 300, thinline, red)
 
@@ -58,7 +58,7 @@ Sprite(grass, (0, 500))
 
 Sprite(brick, (500, 200))
 
-Sprite(roof, (500, 100))
+Sprite(roof, (450, 100))
 
 myapp = App()
 myapp.width = 1600
