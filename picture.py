@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Andrew Enelow
-Credit: stack overflow, brython server, trinket.io
+Credit: stack overflow, brython server, trinket.io, Alec
 
 Assignment:
 
@@ -46,7 +46,7 @@ roof = PolygonAsset([(0,100), (200,0), (400,100), (0,100)], thinline, grey)
 
 brick = RectangleAsset(300, 300, thinline, red)
 
-ellipse = EllipseAsset(50, 20, thinline, red)
+pond = EllipseAsset(50, 20, thinline, blue)
 
 polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
 
@@ -59,6 +59,8 @@ Sprite(grass, (0, 500))
 Sprite(brick, (500, 200))
 
 Sprite(roof, (450, 100))
+
+Sprite(pond, (800, 600))
 
 myapp = App()
 myapp.width = 1600
