@@ -52,7 +52,7 @@ pond = EllipseAsset(50, 20, thinline, blue)
 
 polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
 
-chim = RectangleAsset(50, 100, thinline, brick)
+chim = RectangleAsset(50, 150, thinline, brick)
 
 Sprite(sky, (0, 0))
 
@@ -62,7 +62,7 @@ Sprite(grass, (0, 500))
 
 Sprite(house, (500, 200))
 
-Sprite(chim, (725, 50))
+Sprite(chim, (725, 100))
 
 Sprite(roof, (450, 100))
 
