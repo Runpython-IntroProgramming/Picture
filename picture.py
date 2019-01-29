@@ -54,7 +54,9 @@ polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
 
 chim = RectangleAsset(50, 125, thinline, brick)
 
-door = RectangleAsset(100, 175, thinline, grey)
+door = RectangleAsset(100, 175, thinline, brick)
+
+window = RectangleAsset(25, 50, thinline, brick)
 
 Sprite(sky, (0, 0))
 
@@ -71,6 +73,8 @@ Sprite(roof, (450, 100))
 Sprite(pond, (850, 525))
 
 Sprite(door, (600, 325))
+
+Sprite(window, (615, 350))
 
 myapp = App()
 myapp.width = 1600
