@@ -41,6 +41,8 @@ sun = CircleAsset(50, thinline, yellow)
 
 grass = RectangleAsset(1500, 100, thinline, green)
 
+brick = RectangleAsset(300, 300, thinline, red)
+
 ellipse = EllipseAsset(50, 20, thinline, red)
 
 polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
@@ -51,7 +53,7 @@ Sprite(sun, (50, 50))
 
 Sprite(grass, (0, 500))
 
-
+Sprite(brick, (200, 200)
 
 myapp = App()
 myapp.width = 1600
