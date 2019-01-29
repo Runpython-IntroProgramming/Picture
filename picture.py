@@ -53,7 +53,7 @@ Sprite(sun, (50, 50))
 
 Sprite(grass, (0, 500))
 
-Sprite(brick, (200, 200)
+Sprite(brick, (200, 200))
 
 myapp = App()
 myapp.width = 1600
