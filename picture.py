@@ -39,6 +39,8 @@ sky = RectangleAsset(1500, 500, thinline, skyblue)
 
 sun = CircleAsset(50, thinline, yellow)
 
+grass = RectangleAsset(1500, 100, thinline, green)
+
 ellipse = EllipseAsset(50, 20, thinline, red)
 
 polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
@@ -46,6 +48,8 @@ polygon = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
 Sprite(sky, (0, 0))
 
 Sprite(sun, (50, 50))
+
+Sprite(grass, (0, 500)
 
 
 
