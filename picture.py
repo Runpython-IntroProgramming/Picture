@@ -1,7 +1,7 @@
 """
 picture.py
 Author: maBottnn14
-Credit: none
+Credit: COlors: https://trinket.io/docs/colors
 
 Assignment:
 
