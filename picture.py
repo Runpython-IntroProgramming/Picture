@@ -32,6 +32,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 yellow = Color(0xFFFF00, 1.0)
 skyblue = Color(0x87CEEB, 1.0)
+grey = Color(0x696969, 1.0)
 
 thinline = LineStyle(1, black)
 
@@ -40,6 +41,8 @@ sky = RectangleAsset(1500, 500, thinline, skyblue)
 sun = CircleAsset(50, thinline, yellow)
 
 grass = RectangleAsset(1500, 100, thinline, green)
+
+roof = PolygonAsset([(0,75), (150,0), (300,75), (0,75)], thinline, red)
 
 brick = RectangleAsset(300, 300, thinline, red)
 
@@ -53,7 +56,9 @@ Sprite(sun, (50, 50))
 
 Sprite(grass, (0, 500))
 
-Sprite(brick, (200, 200))
+Sprite(brick, (500, 200))
+
+Sprite(roof, (500, 200))
 
 myapp = App()
 myapp.width = 1600
