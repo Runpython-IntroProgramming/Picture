@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Andrew Enelow
-Credit: stack overflow
+Credit: stack overflow, brython server
 
 Assignment:
 
