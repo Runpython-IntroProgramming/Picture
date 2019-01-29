@@ -49,7 +49,7 @@ Sprite(sky, (0, 0))
 
 Sprite(sun, (50, 50))
 
-Sprite(grass, (0, 500)
+Sprite(grass, (0, 500))
 
 
 
