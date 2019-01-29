@@ -35,6 +35,7 @@ green = Color(0x50C878,1.0)
 yellow = Color(0xffff00,1.0)
 white = Color(0xffffff,1.0)
 darkgreen = Color(0x006400, 1.0)
+red = Color(0xFF0000, 1.0)
 
 thinline = LineStyle(1,black)
 rayline = LineStyle(4,yellow)
@@ -60,6 +61,9 @@ treetrunk = RectangleAsset(50,150,thinline,brown)
 leaves = EllipseAsset(80,100,treeline,darkgreen)
 leaves1 = EllipseAsset(80,100,treeline,darkgreen)
 leaves2 = EllipseAsset(80,100,treeline,darkgreen)
+shirt = RectangleAsset(40,60,thinline,red)
+shirtsleeve = PolygonAsset(((0,0),(10,10),(20,-5),(20,-30),(0,0)),thinline,red)
+shirtsleeve1 = PolygonAsset(((0,0),(-10,10),(-20,-5),(-20,-30),(0,0)),thinline,red)
 
 Sprite(background)
 Sprite(house_wall,(350,250))
@@ -80,6 +84,9 @@ Sprite(treetrunk, (120,300))
 Sprite(leaves, (105,150))
 Sprite(leaves1, (25,150))
 Sprite(leaves2, (65,70))
+Sprite(shirt, (750,310))
+Sprite(shirtsleeve,(730,310))
+Sprite(shirtsleeve1,(790,310))
 
 # add your code here /\  /\  /\
 
