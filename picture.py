@@ -24,7 +24,7 @@ http://brythonserver.github.io/ggame/
 for detailed information on ggame.
 
 """
-from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
+from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset, TextAsset
 
 # add your code here \/  \/  \/
 wah = Color(0xedcc9b, 1.0)
@@ -46,6 +46,9 @@ chin = PolygonAsset([(-45, 60), (-70, 0), (70, 0), (45, 60)], noline, wah)
 www = PolygonAsset([(-10, 70), (-45, 0), (-45, -50), (-40, -50), (-40, 0), (40, 0), (40, -50), (45, -50), (45, 0), (10, 70)], noline, wah)
 dot = CircleAsset(7, thinline, black)
 stache = PolygonAsset([(-100, 0), (-50, 10), (0, 0), (50, 10), (100, 0), (50, 30), (0, 10), (-50, 30), (-100, 0)])
+logo = CircleAsset(35, noline, white)
+A = TextAsset("L", style="bold 40pt Arial", width=250, fill=Color(0x1122FF, 1.0))
+
 
 Sprite(chin, (316, 290))
 Sprite(face, (289, 120))
@@ -59,6 +62,8 @@ Sprite(nose, (367, 235))
 Sprite(dot, (325, 230))
 Sprite(dot, (435, 230))
 Sprite(stache, (285, 330))
+Sprite(logo, (353, 150))
+Sprite(A, (353, 150))
 
 
 
