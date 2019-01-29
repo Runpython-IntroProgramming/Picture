@@ -25,6 +25,7 @@ for detailed information on ggame.
 
 """
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset, TextAsset
+app = App()
 
 # add your code here \/  \/  \/
 wah = Color(0xedcc9b, 1.0)
