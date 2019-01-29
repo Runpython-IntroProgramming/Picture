@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Andrew Enelow
-Credit: stack overflow, brython server, trinket.io, Alec
+Credit: stack overflow, brython server, trinket.io, [Alec, Matt (Not for code)]
 
 Assignment:
 
@@ -62,7 +62,7 @@ Sprite(grass, (0, 500))
 
 Sprite(house, (500, 200))
 
-Sprite(chim, (800, 100))
+Sprite(chim, (725, 150))
 
 Sprite(roof, (450, 100))
 
