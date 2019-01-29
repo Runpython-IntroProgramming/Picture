@@ -49,5 +49,17 @@ Sprite(ellipse, (200, 100))
 
 Sprite(polygon, (400, 100))
 
+Sprite(rectangle, (300, 50))
+
+Sprite(rectangle, (400, 50))
+
+Sprite(rectangle, (500, 50))
+
+Sprite(rectangle, (600, 50))
+
+Sprite(rectangle, (700, 50))
+
+Sprite(rectangle, (800, 50))
+
 myapp = App()
 myapp.run()
