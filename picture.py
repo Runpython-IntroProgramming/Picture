@@ -62,7 +62,7 @@ Sprite(grass, (0, 500))
 
 Sprite(house, (500, 200))
 
-Sprite(chim, (725, 100))
+Sprite(chim, (725, 50))
 
 Sprite(roof, (450, 100))
 
