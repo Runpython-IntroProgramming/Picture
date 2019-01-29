@@ -58,6 +58,8 @@ door = RectangleAsset(100, 175, thinline, brick)
 
 window = RectangleAsset(25, 50, thinline, black)
 
+knob = CircleAsset(5, thinline, khaki)
+
 Sprite(sky, (0, 0))
 
 Sprite(sun, (50, 50))
@@ -77,6 +79,8 @@ Sprite(door, (600, 325))
 Sprite(window, (620, 350))
 
 Sprite(window, (655, 350))
+
+Sprite(knob, (680, 450))
 
 myapp = App()
 myapp.width = 1600
