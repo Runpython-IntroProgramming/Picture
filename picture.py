@@ -58,7 +58,7 @@ Sprite(www, (342, 345))
 Sprite(nose, (367, 235))
 Sprite(dot, (325, 230))
 Sprite(dot, (435, 230))
-Sprite(stache, (350, 340))
+Sprite(stache, (285, 330))
 
 
 
