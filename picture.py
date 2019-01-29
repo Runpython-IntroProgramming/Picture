@@ -60,7 +60,7 @@ Sprite(brick, (500, 200))
 
 Sprite(roof, (450, 100))
 
-Sprite(pond, (800, 600))
+Sprite(pond, (600, 400))
 
 myapp = App()
 myapp.width = 1600
