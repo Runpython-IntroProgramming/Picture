@@ -24,9 +24,48 @@ http://brythonserver.github.io/ggame/
 for detailed information on ggame.
 
 """
-from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
+from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset, LineAsset
 
 # add your code here \/  \/  \/
+light_blue = Color(0x00bfff,1.0)
+brownishred = Color(0xa52a2a,1.0)
+black = Color(0x000000,1.0)
+brown = Color(0x593C1F,1.0)
+green = Color(0x50C878,1.0)
+yellow = Color(0xffff00,1.0)
+white = Color(0xffffff,1.0)
+
+thinline = LineStyle(1,black)
+rayline = LineStyle(4,yellow)
+thickerline = LineStyle(5,black)
+
+background = RectangleAsset(1000,500, thinline, light_blue)
+house_wall = RectangleAsset(300,200, thinline, brownishred)
+grass = RectangleAsset(1000,50, thinline, green)
+roof = PolygonAsset(((-170,100),(0,-100),(170,100),(-170,100)), thinline, brown)
+sun = CircleAsset(50,thinline, yellow)
+sunray = LineAsset(70,0,rayline)
+sunray1 = LineAsset(70,-20,rayline)
+sunray2 = LineAsset(70,-40,rayline)
+sunray3 = LineAsset(40,-70,rayline)
+sunray4 = LineAsset(0,-80,rayline)
+window = RectangleAsset(80,100,thickerline,white)
+door = RectangleAsset(80,150,thinline,brown)
+doorknob = CircleAsset(7,thinline,black)
+
+Sprite(background)
+Sprite(house_wall,(350,250))
+Sprite(grass, (0,450))
+Sprite(roof,(330,50))
+Sprite(sun, (850,20))
+Sprite(sunray, (770,30))
+Sprite(sunray1, (760,70))
+Sprite(sunray2, (760,100))
+Sprite(sunray3, (820,120))
+Sprite(sunray4, (900,130))
+Sprite(window, (380,300))
+Sprite(door, (540,300))
+Sprite(doorknob, (600,370))
 
 
 # add your code here /\  /\  /\
