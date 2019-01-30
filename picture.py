@@ -29,7 +29,8 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 # add your code here \/  \/  \/
 lightblue = Color(0xBFEFFF,0.8)
 brown = Color(0x8B4726, 0.9)
-grey = Color(0xCDC9C9, 1.0)
+grey = Color(0x8B8989, 1.0)
+lightgrey = Color(0x969696, 1.0)
 black = Color(0x000000, 0.5)
 
 thinline = LineStyle(1, grey)
@@ -40,7 +41,7 @@ pebbles = RectangleAsset(900, 45, thinline, brown)
 castle = RectangleAsset(350, 190, thinline, grey)
 castletop = PolygonAsset([(40,60), (80,-45), (120,60)],thinline, grey)
 castletop2 = PolygonAsset([(40,60), (62.5,-30), (85,60)],thinline, grey)
-tower = RectangleAsset(80, 100, thinline, black)
+tower = RectangleAsset(80, 100, thinline, lightgrey)
 centertower = RectangleAsset(150, 140, thinline, grey)
 centertower1 = RectangleAsset(45, 50, thinline, grey)
 ridge = RectangleAsset(10, 25, thinline, lightblue)
