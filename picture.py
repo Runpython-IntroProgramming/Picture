@@ -28,16 +28,17 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 lightblue = Color(0xBFEFFF,1.0)
-brown = Color(0x8B4726, 1.0)
+brown = Color(0x5D3909, 1.0)
+tan = Color(0xFFE4B5, 1.0)
 grey = Color(0x8B8989, 1.0)
 red = Color(0xCD2626, 1.0)
 black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, grey)
-thinline1 = LineStyle(1, black)
+thinline1 = LineStyle(1, brown)
 
 tank = RectangleAsset(900,600, thinline, lightblue)
-pebbles = RectangleAsset(900, 45, thinline, brown)
+pebbles = RectangleAsset(900, 45, thinline, tan)
 castle = RectangleAsset(350, 190, thinline, grey)
 castletop = PolygonAsset([(40,60), (80,-45), (120,60)],thinline, red)
 castletop1 = PolygonAsset([(40,60), (62.5,-30), (85,60)],thinline, red)
@@ -46,8 +47,8 @@ centertower1 = RectangleAsset(45, 50, thinline, grey)
 tower = RectangleAsset(80, 100, thinline, grey)
 ridge = RectangleAsset(10, 25, thinline, lightblue)
 ridge1 = RectangleAsset(8, 20, thinline, lightblue)
-windows = RectangleAsset(130, 130, thinline, black)
-windows2 = EllipseAsset(60, 80, thinline1, black)
+windows = RectangleAsset(130, 130, thinline, brown)
+windows2 = EllipseAsset(63, 80, thinline1, brown)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -70,7 +71,7 @@ Sprite(ridge1, (760,280))
 Sprite(ridge1, (780,280))
 Sprite(ridge1, (800,280))
 Sprite(windows, (710,540))
-Sprite(windows2, (714,505))
+Sprite(windows2, (711,505))
 
 # add your code here /\  /\  /\
 
