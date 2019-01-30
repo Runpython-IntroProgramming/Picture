@@ -33,12 +33,14 @@ grey = Color(0xCDC9C9, 1.0)
 black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, brown)
+thinline1 = LineStyle(1,grey)
 
 tank = RectangleAsset(900,600, thinline, lightblue)
 pebbles = RectangleAsset(900, 45, thinline, brown)
 castle = RectangleAsset(350, 190, thinline, grey)
 castletop = PolygonAsset([(40,60), (80,-45), (120,60)],thinline, grey)
 tower = RectangleAsset(80, 100, thinline, grey)
+centertower = RectangleAsset(100, 100, thinline, grey)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -47,6 +49,7 @@ Sprite(tower, (600,390))
 Sprite(castletop, (600,285))
 Sprite(tower, (870,390))
 Sprite(castletop, (870,285))
+Sprite(centertower, (750,365))
 
 # add your code here /\  /\  /\
 
