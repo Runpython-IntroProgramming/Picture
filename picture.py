@@ -44,6 +44,7 @@ tower = RectangleAsset(80, 100, thinline, grey)
 centertower = RectangleAsset(150, 140, thinline, grey)
 centertower2 = RectangleAsset(45, 50, thinline, grey)
 ridge = RectangleAsset(10, 25, thinline, lightblue)
+ridge1 = RectangleAsset(8, 20, thinline, lightblue)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -61,7 +62,7 @@ Sprite(ridge, (738,350))
 Sprite(ridge, (768,350))
 Sprite(ridge, (798,350))
 Sprite(ridge, (828,350))
-
+Sprite(ridge1, (745,280))
 
 
 # add your code here /\  /\  /\
