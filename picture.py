@@ -63,6 +63,9 @@ Sprite(ridge, (768,350))
 Sprite(ridge, (798,350))
 Sprite(ridge, (828,350))
 Sprite(ridge1, (740,280))
+Sprite(ridge1, (760,280))
+Sprite(ridge1, (780,280))
+Sprite(ridge1, (800,280))
 
 
 # add your code here /\  /\  /\
