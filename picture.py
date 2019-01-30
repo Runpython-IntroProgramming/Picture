@@ -36,6 +36,7 @@ black = Color(0x000000, 0.7)
 
 thinline = LineStyle(1, grey)
 thinline1 = LineStyle(1, brown)
+thinline2 = LineStyle(1, black)
 
 tank = RectangleAsset(900,600, thinline, lightblue)
 pebbles = RectangleAsset(900, 45, thinline, tan)
@@ -51,6 +52,8 @@ windows = RectangleAsset(130, 130, thinline, brown)
 windows1 = RectangleAsset(40, 50, thinline, black)
 windows2 = EllipseAsset(63, 80, thinline1, brown)
 windows3 = RectangleAsset(20, 30, thinline1, black)
+line = PolygonAsset([(40,60), (40,-105), (40,60)],thinline2, black)
+doorknob = EllipseAsset(8, 8, thinline1, black)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -77,6 +80,8 @@ Sprite(windows1, (620,410))
 Sprite(windows1, (890,410))
 Sprite(windows2, (711,505))
 Sprite(windows3, (762.5,238))
+Sprite(line, (773,505))
+
 
 # add your code here /\  /\  /\
 
