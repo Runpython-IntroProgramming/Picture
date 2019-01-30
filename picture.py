@@ -56,12 +56,13 @@ Sprite(centertower, (700,350))
 Sprite(tower, (735,280))
 Sprite(castletop2, (750,140))
 Sprite(centertower2, (750,230))
-Sprite(ridge, (710,340))
-Sprite(ridge, (750,230))
-Sprite(ridge, (750,230))
-Sprite(ridge, (750,230))
-Sprite(ridge, (750,230))
-Sprite(ridge, (750,230))
+Sprite(ridge, (708,350))
+Sprite(ridge, (738,350))
+Sprite(ridge, (768,350))
+Sprite(ridge, (798,350))
+Sprite(ridge, (828,350))
+
+
 
 # add your code here /\  /\  /\
 
