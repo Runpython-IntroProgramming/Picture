@@ -27,7 +27,7 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
-lightblue = Color(0xBFEFFF,1.0)
+lightblue = Color(0x7ec0ee,1.0)
 brown = Color(0x5D3909, 1.0)
 tan = Color(0xFFE4B5, 1.0)
 grey = Color(0x8B8989, 1.0)
