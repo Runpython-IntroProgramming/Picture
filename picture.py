@@ -58,8 +58,9 @@ windows3 = RectangleAsset(20, 30, thinline1, black)
 line = PolygonAsset([(40,60), (40,-105), (40,60)],thinline2, black)
 doorknob = EllipseAsset(8, 8, thinline1, black)
 plant = RectangleAsset(10, 250, thinline3, green)
+plant1 = RectangleAsset(5, 110, thinline3, green)
 leaves = EllipseAsset(8, 20, thinline3, green)
-
+leaves1 = RectangleAsset(2, 30, thinline3, green)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -114,7 +115,15 @@ a = Sprite(leaves, (185,630))
 a.rotation = 3.9
 a = Sprite(leaves, (185,655))
 a.rotation = 2.2
-
+Sprite(plant1, (280,556))
+b = Sprite(leaves1, (282,630))
+b.rotation = 3.9
+b = Sprite(leaves1, (282,655))
+b.rotation = 2.2
+b = Sprite(leaves1, (282,590))
+b.rotation = 3.9
+b = Sprite(leaves1, (282,615))
+b.rotation = 2.2
 # add your code here /\  /\  /\
 
 
