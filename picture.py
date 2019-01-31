@@ -41,6 +41,8 @@ darkorange1 = Color(0xD07702, 0)
 blue = Color(0x0631F1, 1.0)
 white = Color(0xFFFFFF, 1.0)
 yellow = Color(0xFCE604, 1.0)
+lightblue1 = Color(0xAAF3FF, 1.0)
+black2 = Color(0x000000, 0.3)
 
 thinline = LineStyle(1, grey)
 thinline1 = LineStyle(1, brown)
@@ -48,6 +50,7 @@ thinline2 = LineStyle(1, black1)
 thinline3 = LineStyle(1, green)
 thinline4 = LineStyle(1, darkorange)
 thinline5 = LineStyle(1, darkorange1)
+thinline6 = LineStyle(1, black2)
 
 tank = RectangleAsset(900,600, thinline2, lightblue)
 pebbles = RectangleAsset(900, 45, thinline2, tan)
@@ -79,6 +82,9 @@ eye = EllipseAsset(3,3, thinline5, black)
 eye1 = EllipseAsset(7,7, thinline5, white)
 stripe = PolygonAsset([(50,50), (55.5,90), (60,40)],thinline5, yellow)
 tail3 = PolygonAsset([(40,40), (60,30), (60,50)],thinline5, yellow)
+bubble = EllipseAsset(7,7, thinline6, lightblue1)
+bubble1 = EllipseAsset(5,5, thinline6, lightblue1)
+bubble2 = EllipseAsset(4,4, thinline6, lightblue1)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -167,7 +173,9 @@ h = Sprite(tail3, (369.5,378.5))
 h.rotation = 3.1
 Sprite(eye1, (455,350))
 Sprite(eye, (461,355))
-
+Sprite(bubble, (190,170))
+Sprite(bubble1, (180,150))
+Sprite(bubble2, (195,125))
 # add your code here /\  /\  /\
 
 
