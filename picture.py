@@ -175,7 +175,7 @@ g.rotation = 3.1
 h = Sprite(tail3, (369.5,378.5))
 h.rotation = 3.1
 Sprite(eye1, (455,350))
-Sprite(eye, (461,355))
+Sprite(eye, (461,354))
 Sprite(bubble, (190,162.5))
 Sprite(bubble1, (180,140))
 Sprite(bubble2, (195,122))
