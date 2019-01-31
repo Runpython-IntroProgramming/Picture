@@ -38,6 +38,9 @@ green = Color(0x228B22, 1.0)
 orange = Color(0xF5920F, 1.0)
 darkorange = Color(0xD07702, 1.0)
 darkorange1 = Color(0xD07702, 0)
+blue = Color(0x0285D0, 1.0)
+
+
 thinline = LineStyle(1, grey)
 thinline1 = LineStyle(1, brown)
 thinline2 = LineStyle(1, black1)
