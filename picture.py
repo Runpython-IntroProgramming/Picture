@@ -124,6 +124,8 @@ b = Sprite(leaves1, (282,590))
 b.rotation = 3.9
 b = Sprite(leaves1, (282,615))
 b.rotation = 2.2
+b = Sprite(leaves1, (282,575))
+b.rotation = 2.2
 # add your code here /\  /\  /\
 
 
