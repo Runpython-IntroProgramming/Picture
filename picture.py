@@ -75,8 +75,8 @@ fins = EllipseAsset(15,7, thinline4, darkorange)
 fish2 = RectangleAsset(80, 80, thinline3, green)
 tail2 = PolygonAsset([(40,40), (70,20), (70,60)],thinline4, blue)
 line1 = PolygonAsset([(40,60), (40,12), (40,60)],thinline2, black)
-eye = EllipseAsset(2,2, thinline5, black)
-eye1 = EllipseAsset(5,5, thinline5, white)
+eye = EllipseAsset(2,2, thinline5, white)
+eye1 = EllipseAsset(5,5, thinline5, black)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -157,7 +157,7 @@ f = Sprite(tail2, (380,389))
 f.rotation = 3.12
 Sprite(line1, (215,202))
 Sprite(eye1, (200,213))
-Sprite(eye, (201.5,216))
+Sprite(eye, (202,215))
 
 
 
