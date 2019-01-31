@@ -40,7 +40,7 @@ darkorange = Color(0xD07702, 1.0)
 darkorange1 = Color(0xD07702, 0)
 blue = Color(0x0631F1, 1.0)
 white = Color(0xFFFFFF, 1.0)
-
+yellow = Color(0xFCE604, 1.0)
 
 thinline = LineStyle(1, grey)
 thinline1 = LineStyle(1, brown)
@@ -77,6 +77,7 @@ tail2 = PolygonAsset([(40,40), (70,20), (70,60)],thinline5, blue)
 line1 = PolygonAsset([(40,60), (40,12), (40,60)],thinline2, black)
 eye = EllipseAsset(3,3, thinline5, black)
 eye1 = EllipseAsset(7,7, thinline5, white)
+stripe = PolygonAsset([(50,50), (20,90), (4,40)],thinline5, yellow)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -158,6 +159,7 @@ f.rotation = 3.12
 Sprite(line1, (215.5,202))
 Sprite(eye1, (198,213))
 Sprite(eye, (200.5,215))
+Sprite(stripe, (406,336))
 
 
 
