@@ -67,7 +67,7 @@ leaves1 = RectangleAsset(2, 30, thinline3, green)
 fish = EllipseAsset(45, 27, thinline4, orange)
 tail = PolygonAsset([(40,40), (70,20), (70,60)],thinline4, darkorange)
 fins = PolygonAsset([(40,40), (60,30), (60,50)],thinline4, darkorange)
-
+fish2 = RectangleAsset(80, 80, thinline3, green)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -136,6 +136,7 @@ b.rotation = 2.2
 Sprite(fish, (190,200))
 Sprite(tail, (278,204))
 Sprite(fins, (235,215))
+Sprite(fish2, (235,215))
 
 # add your code here /\  /\  /\
 
