@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Rain
-Credit: <list sources used, if any>
+Credit: https://htmlcolorcodes.com/, https://www.color-hex.com/color-names.html 
 
 Assignment:
 
@@ -28,22 +28,22 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 # add your code here \/  \/  \/
 lightblue = Color(0x24D0FE,1.0)
+lightblue1 = Color(0xAAF3FF, 1.0)
+blue = Color(0x0631F1, 1.0)
 brown = Color(0x5D3909, 1.0)
 tan = Color(0xFFE4B5, 1.0)
 grey = Color(0x8B8989, 1.0)
 red = Color(0xCD2626, 1.0)
 black = Color(0x000000, 0.7)
 black1 = Color(0x000000, 0.7)
+black2 = Color(0x000000, 0.3)
 green = Color(0x12B402, 1.0)
 green1 = Color(0x169709, 0.2)
 orange = Color(0xF5920F, 1.0)
 darkorange = Color(0xD07702, 1.0)
 darkorange1 = Color(0xD07702, 0)
-blue = Color(0x0631F1, 1.0)
 white = Color(0xFFFFFF, 1.0)
 yellow = Color(0xFCE604, 1.0)
-lightblue1 = Color(0xAAF3FF, 1.0)
-black2 = Color(0x000000, 0.3)
 
 thinline = LineStyle(1, grey)
 thinline1 = LineStyle(1, brown)
@@ -80,14 +80,14 @@ fins = EllipseAsset(15,7, thinline4, darkorange)
 fish2 = RectangleAsset(80, 80, thinline5, blue)
 tail2 = PolygonAsset([(40,40), (70,20), (70,60)],thinline5, blue)
 line1 = PolygonAsset([(40,60), (40,12), (40,60)],thinline2, black)
-eye = EllipseAsset(3,3, thinline5, black)
-eye1 = EllipseAsset(7,7, thinline5, white)
+eye = CircleAsset(3, thinline5, black)
+eye1 = CircleAsset(7, thinline5, white)
 stripe = PolygonAsset([(50,50), (55.5,90), (60,40)],thinline5, yellow)
 tail3 = PolygonAsset([(40,40), (60,30), (60,50)],thinline5, yellow)
-bubble = EllipseAsset(7,7, thinline6, lightblue1)
-bubble1 = EllipseAsset(5,5, thinline6, lightblue1)
-bubble2 = EllipseAsset(4,4, thinline6, lightblue1)
-bubble3 = EllipseAsset(3,3, thinline6, lightblue1)
+bubble = CircleAsset(7, thinline6, lightblue1)
+bubble1 = CircleAsset(5, thinline6, lightblue1)
+bubble2 = CircleAsset(4, thinline6, lightblue1)
+bubble3 = CircleAsset(3, thinline6, lightblue1)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
