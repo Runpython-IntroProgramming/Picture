@@ -33,16 +33,15 @@ tan = Color(0xFFE4B5, 1.0)
 grey = Color(0x8B8989, 1.0)
 red = Color(0xCD2626, 1.0)
 black = Color(0x000000, 0.7)
+black1 = Color(0x000000, 0.7)
 green = Color(0x228B22, 1.0)
-
 thinline = LineStyle(1, grey)
 thinline1 = LineStyle(1, brown)
-thinline2 = LineStyle(1, black)
+thinline2 = LineStyle(1, black1)
 thinline3 = LineStyle(1, green)
-thickline = LineStyle(2, black)
 
 
-tank = RectangleAsset(900,600, thickline, lightblue)
+tank = RectangleAsset(900,600, thinline2, lightblue)
 pebbles = RectangleAsset(900, 45, thinline2, tan)
 castle = RectangleAsset(350, 190, thinline, grey)
 castletop = PolygonAsset([(40,60), (80,-45), (120,60)],thinline, red)
@@ -58,7 +57,7 @@ windows2 = EllipseAsset(63, 80, thinline1, brown)
 windows3 = RectangleAsset(20, 30, thinline1, black)
 line = PolygonAsset([(40,60), (40,-105), (40,60)],thinline2, black)
 doorknob = EllipseAsset(8, 8, thinline1, black)
-plant = RectangleAsset(10, 280, thinline3, green)
+plant = RectangleAsset(10, 250, thinline3, green)
 leaves = EllipseAsset(8, 20, thinline3, green)
 
 
@@ -88,8 +87,33 @@ Sprite(windows1, (890,410))
 Sprite(windows2, (711,505))
 Sprite(windows3, (762.5,238))
 Sprite(line, (773,505))
-Sprite(plant, (175,386))
-Sprite(leaves, (175,370))
+Sprite(plant, (175,417))
+a = Sprite(leaves, (186,445))
+a.rotation = 2.2
+a = Sprite(leaves, (185,445))
+a.rotation = 3.9
+a = Sprite(leaves, (185,475))
+a.rotation = 2.2
+a = Sprite(leaves, (185,485))
+a.rotation = 3.9
+a = Sprite(leaves, (185,510))
+a.rotation = 2.2
+a = Sprite(leaves, (185,520))
+a.rotation = 3.9
+a = Sprite(leaves, (185,545))
+a.rotation = 2.2
+a = Sprite(leaves, (185,555))
+a.rotation = 3.9
+a = Sprite(leaves, (185,580))
+a.rotation = 2.2
+a = Sprite(leaves, (185,590))
+a.rotation = 3.9
+a = Sprite(leaves, (185,615))
+a.rotation = 2.2
+a = Sprite(leaves, (185,625))
+a.rotation = 3.9
+a = Sprite(leaves, (185,650))
+a.rotation = 2.2
 
 # add your code here /\  /\  /\
 
