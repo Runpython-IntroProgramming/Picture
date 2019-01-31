@@ -61,6 +61,7 @@ plant = RectangleAsset(10, 250, thinline3, green)
 plant1 = RectangleAsset(5, 110, thinline3, green)
 leaves = EllipseAsset(8, 20, thinline3, green)
 leaves1 = RectangleAsset(2, 30, thinline3, green)
+fish = EllipseAsset(45, 25, thinline3, green)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -126,6 +127,7 @@ b = Sprite(leaves1, (282,615))
 b.rotation = 2.2
 b = Sprite(leaves1, (282,575))
 b.rotation = 2.2
+Sprite(fish, (190,200))
 # add your code here /\  /\  /\
 
 
