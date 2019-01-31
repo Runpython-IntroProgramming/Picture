@@ -85,6 +85,7 @@ tail3 = PolygonAsset([(40,40), (60,30), (60,50)],thinline5, yellow)
 bubble = EllipseAsset(7,7, thinline6, lightblue1)
 bubble1 = EllipseAsset(5,5, thinline6, lightblue1)
 bubble2 = EllipseAsset(4,4, thinline6, lightblue1)
+bubble3 = EllipseAsset(3,3, thinline6, lightblue1)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -173,9 +174,14 @@ h = Sprite(tail3, (369.5,378.5))
 h.rotation = 3.1
 Sprite(eye1, (455,350))
 Sprite(eye, (461,355))
-Sprite(bubble, (190,170))
-Sprite(bubble1, (180,150))
-Sprite(bubble2, (195,125))
+Sprite(bubble, (190,162.5))
+Sprite(bubble1, (180,140))
+Sprite(bubble2, (195,120))
+Sprite(bubble3, (180,190))
+Sprite(bubble, (480,330))
+Sprite(bubble1, (470,300))
+Sprite(bubble2, (485,280))
+Sprite(bubble3, (475,260))
 # add your code here /\  /\  /\
 
 
