@@ -65,9 +65,11 @@ plant1 = RectangleAsset(5, 110, thinline3, green)
 leaves = EllipseAsset(8, 20, thinline3, green)
 leaves1 = RectangleAsset(2, 30, thinline3, green)
 fish = EllipseAsset(45, 27, thinline4, orange)
-tail = PolygonAsset([(40,40), (70,20), (70,60)],thinline4, darkorange)
-fins = PolygonAsset([(40,40), (60,30), (60,50)],thinline4, darkorange)
+tail = EllipseAsset(20,10, thinline4, darkorange)
+fins = EllipseAsset(15,7, thinline4, darkorange)
 fish2 = RectangleAsset(80, 80, thinline3, green)
+tail2 = PolygonAsset([(40,40), (70,20), (70,60)],thinline4, darkorange)
+line1 = PolygonAsset([(40,60), (40,12), (40,60)],thinline2, black)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -134,10 +136,19 @@ b.rotation = 2.2
 b = Sprite(leaves1, (282,575))
 b.rotation = 2.2
 Sprite(fish, (190,200))
-Sprite(tail, (278,204))
-Sprite(fins, (235,215))
-c = Sprite(fish2, (260,395))
-c.rotation = 2.35
+c = Sprite(tail, (272,215))
+c.rotation = 0.4
+c = Sprite(tail, (310.5,252))
+c.rotation = 2.75
+d = Sprite(fins, (225,218))
+d.rotation = 0.3
+d = Sprite(fins, (255,243))
+d.rotation = 2.8
+e = Sprite(fish2, (435,425))
+e.rotation = 2.35
+f = Sprite(tail2, (380,389))
+f.rotation = 3.12
+Sprite(line1, (215,202))
 
 
 # add your code here /\  /\  /\
