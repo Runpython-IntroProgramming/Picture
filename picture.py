@@ -136,7 +136,9 @@ b.rotation = 2.2
 Sprite(fish, (190,200))
 Sprite(tail, (278,204))
 Sprite(fins, (235,215))
-Sprite(fish2, (235,215))
+c = Sprite(fish2, (260,395))
+c.rotation = 2.35
+
 
 # add your code here /\  /\  /\
 
