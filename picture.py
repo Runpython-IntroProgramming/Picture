@@ -38,7 +38,7 @@ green = Color(0x228B22, 1.0)
 orange = Color(0xF5920F, 1.0)
 darkorange = Color(0xD07702, 1.0)
 darkorange1 = Color(0xD07702, 0)
-blue = Color(0x0285D0, 1.0)
+blue = Color(0x0631F1, 1.0)
 white = Color(0xFFFFFF, 1.0)
 
 
@@ -72,11 +72,11 @@ leaves1 = RectangleAsset(2, 30, thinline3, green)
 fish = EllipseAsset(45, 27, thinline4, orange)
 tail = EllipseAsset(20,10, thinline4, darkorange)
 fins = EllipseAsset(15,7, thinline4, darkorange)
-fish2 = RectangleAsset(80, 80, thinline3, green)
-tail2 = PolygonAsset([(40,40), (70,20), (70,60)],thinline4, blue)
+fish2 = RectangleAsset(80, 80, thinline5, blue)
+tail2 = PolygonAsset([(40,40), (70,20), (70,60)],thinline5, blue)
 line1 = PolygonAsset([(40,60), (40,12), (40,60)],thinline2, black)
-eye = EllipseAsset(2,2, thinline5, white)
-eye1 = EllipseAsset(5,5, thinline5, black)
+eye = EllipseAsset(3,3, thinline5, black)
+eye1 = EllipseAsset(7,7, thinline5, white)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -155,9 +155,9 @@ e = Sprite(fish2, (435,425))
 e.rotation = 2.35
 f = Sprite(tail2, (380,389))
 f.rotation = 3.12
-Sprite(line1, (215,202))
-Sprite(eye1, (200,213))
-Sprite(eye, (202,215))
+Sprite(line1, (215.5,202))
+Sprite(eye1, (198,213))
+Sprite(eye, (200.5,215))
 
 
 
