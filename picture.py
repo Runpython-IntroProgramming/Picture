@@ -78,6 +78,7 @@ line1 = PolygonAsset([(40,60), (40,12), (40,60)],thinline2, black)
 eye = EllipseAsset(3,3, thinline5, black)
 eye1 = EllipseAsset(7,7, thinline5, white)
 stripe = PolygonAsset([(50,50), (55.5,90), (60,40)],thinline5, yellow)
+tail3 = PolygonAsset([(40,40), (60,30), (60,50)],thinline5, yellow)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -160,8 +161,12 @@ Sprite(line1, (215.5,202))
 Sprite(eye1, (198,213))
 Sprite(eye, (200.5,215))
 Sprite(stripe, (406,328.5))
-
-
+g = Sprite(stripe, (455,416.5))
+g.rotation = 3.1
+h = Sprite(tail3, (369.5,378.5))
+h.rotation = 3.1
+Sprite(eye1, (455,350))
+Sprite(eye, (461,355))
 
 # add your code here /\  /\  /\
 
