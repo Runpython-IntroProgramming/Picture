@@ -35,11 +35,13 @@ red = Color(0xCD2626, 1.0)
 black = Color(0x000000, 0.7)
 black1 = Color(0x000000, 0.7)
 green = Color(0x228B22, 1.0)
+orange = Color(0xF5920F, 1.0)
+darkorange = Color(0xD07702, 1.0)
 thinline = LineStyle(1, grey)
 thinline1 = LineStyle(1, brown)
 thinline2 = LineStyle(1, black1)
 thinline3 = LineStyle(1, green)
-
+thinline4 = LineStyle(1, darkorange)
 
 tank = RectangleAsset(900,600, thinline2, lightblue)
 pebbles = RectangleAsset(900, 45, thinline2, tan)
@@ -61,7 +63,8 @@ plant = RectangleAsset(10, 250, thinline3, green)
 plant1 = RectangleAsset(5, 110, thinline3, green)
 leaves = EllipseAsset(8, 20, thinline3, green)
 leaves1 = RectangleAsset(2, 30, thinline3, green)
-fish = EllipseAsset(45, 25, thinline3, green)
+fish = EllipseAsset(45, 25, thinline4, orange)
+fins = PolygonAsset([(40,40), (75,15), (75,65)],thinline4, darkorange)
 
 Sprite(tank, (100,110))
 Sprite(pebbles, (100,665))
@@ -128,6 +131,7 @@ b.rotation = 2.2
 b = Sprite(leaves1, (282,575))
 b.rotation = 2.2
 Sprite(fish, (190,200))
+Sprite(fins, (278,198))
 # add your code here /\  /\  /\
 
 
