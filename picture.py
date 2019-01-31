@@ -88,31 +88,31 @@ Sprite(windows2, (711,505))
 Sprite(windows3, (762.5,238))
 Sprite(line, (773,505))
 Sprite(plant, (175,417))
-a = Sprite(leaves, (186,445))
+a = Sprite(leaves, (186,448))
 a.rotation = 2.2
-a = Sprite(leaves, (185,445))
+a = Sprite(leaves, (185,450))
 a.rotation = 3.9
-a = Sprite(leaves, (185,475))
+a = Sprite(leaves, (185,480))
 a.rotation = 2.2
-a = Sprite(leaves, (185,485))
+a = Sprite(leaves, (185,490))
 a.rotation = 3.9
-a = Sprite(leaves, (185,510))
+a = Sprite(leaves, (185,515))
 a.rotation = 2.2
-a = Sprite(leaves, (185,520))
+a = Sprite(leaves, (185,525))
 a.rotation = 3.9
-a = Sprite(leaves, (185,545))
+a = Sprite(leaves, (185,550))
 a.rotation = 2.2
-a = Sprite(leaves, (185,555))
+a = Sprite(leaves, (185,560))
 a.rotation = 3.9
-a = Sprite(leaves, (185,580))
+a = Sprite(leaves, (185,585))
 a.rotation = 2.2
-a = Sprite(leaves, (185,590))
+a = Sprite(leaves, (185,595))
 a.rotation = 3.9
-a = Sprite(leaves, (185,615))
+a = Sprite(leaves, (185,620))
 a.rotation = 2.2
-a = Sprite(leaves, (185,625))
+a = Sprite(leaves, (185,630))
 a.rotation = 3.9
-a = Sprite(leaves, (185,650))
+a = Sprite(leaves, (185,655))
 a.rotation = 2.2
 
 # add your code here /\  /\  /\
